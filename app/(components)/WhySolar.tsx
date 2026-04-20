@@ -7,7 +7,7 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 gsap.registerPlugin(ScrollTrigger);
 
-import CustomButton from "./atoms/CustomButton";
+import CustomButton from "../../components/atoms/CustomButton";
 
 interface FeatureCardProps {
   icon: React.ReactNode;
@@ -33,7 +33,7 @@ const FeatureCard = ({ icon, title, description, index }: FeatureCardProps) => {
           trigger: cardRef.current,
           start: "top 85%",
         },
-      }
+      },
     );
   }, [index]);
 
@@ -46,9 +46,7 @@ const FeatureCard = ({ icon, title, description, index }: FeatureCardProps) => {
         {icon}
       </div>
       <h3 className="text-xl font-bold text-gray-900 mb-3">{title}</h3>
-      <p className="text-gray-600 leading-relaxed text-sm">
-        {description}
-      </p>
+      <p className="text-gray-600 leading-relaxed text-sm">{description}</p>
     </div>
   );
 };
@@ -70,7 +68,7 @@ export default function WhySolar() {
           trigger: textContentRef.current,
           start: "top 80%",
         },
-      }
+      },
     );
   }, []);
 
@@ -78,30 +76,36 @@ export default function WhySolar() {
     {
       icon: <Zap className="w-6 h-6" />,
       title: "Save on Electricity Bills",
-      description: "Reduce your monthly energy costs significantly with solar power generation.",
+      description:
+        "Reduce your monthly energy costs significantly with solar power generation.",
     },
     {
       icon: <Leaf className="w-6 h-6" />,
       title: "Eco-Friendly Energy",
-      description: "Clean, renewable power that reduces carbon emissions and protects our planet.",
+      description:
+        "Clean, renewable power that reduces carbon emissions and protects our planet.",
     },
     {
       icon: <ShieldCheck className="w-6 h-6" />,
       title: "Reliable & Independent",
-      description: "Enjoy less dependence on the grid and a more stable, independent power supply.",
+      description:
+        "Enjoy less dependence on the grid and a more stable, independent power supply.",
     },
     {
       icon: <Settings className="w-6 h-6" />,
       title: "Low Maintenance",
-      description: "Long-lasting systems designed for durability with minimal upkeep required.",
+      description:
+        "Long-lasting systems designed for durability with minimal upkeep required.",
     },
   ];
 
   return (
-    <section ref={sectionRef} className="py-20 px-6 bg-green-50/50 overflow-hidden">
+    <section
+      ref={sectionRef}
+      className="py-20 px-6 bg-[#fefefe] overflow-hidden"
+    >
       <div className="max-w-7xl mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-24 items-center">
-          
           {/* Left Side: Content */}
           <div ref={textContentRef} className="max-w-xl">
             <span className="inline-flex items-center px-4 py-1.5 rounded-full bg-yellow-100 text-yellow-800 text-sm font-semibold mb-6">
@@ -111,17 +115,14 @@ export default function WhySolar() {
               Why Switch to <span className="text-[#16A34A]">Solar?</span>
             </h2>
             <p className="text-lg text-gray-600 leading-relaxed mb-10">
-              Transform the way you power your life. Solar energy isn&apos;t just about saving money; 
-              it&apos;s about building a sustainable future while gaining total energy independence.
+              Transform the way you power your life. Solar energy isn&apos;t
+              just about saving money; it&apos;s about building a sustainable
+              future while gaining total energy independence.
             </p>
-            
+
             <div className="flex flex-col sm:flex-row gap-4">
-              <CustomButton variant="primary">
-                Get a Quote
-              </CustomButton>
-              <CustomButton variant="secondary">
-                Learn More
-              </CustomButton>
+              <CustomButton variant="black">Get a Quote</CustomButton>
+              <CustomButton variant="black">Learn More</CustomButton>
             </div>
           </div>
 
@@ -137,10 +138,8 @@ export default function WhySolar() {
               />
             ))}
           </div>
-
         </div>
       </div>
     </section>
   );
 }
-
