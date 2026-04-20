@@ -4,7 +4,7 @@ import React, { useEffect, useRef } from "react";
 import { ChevronsDown } from "lucide-react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import CustomButton from "./atoms/CustomButton";
+import CustomButton from "../../components/atoms/CustomButton";
 
 gsap.registerPlugin(ScrollTrigger);
 
