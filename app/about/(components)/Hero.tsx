@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function Hero() {
   return (
     <main
-      className="h-screen text-gray-900 flex flex-col bg-cover bg-center"
+      className="h-screen text-gray-900 flex justify-center items-center flex-col bg-cover bg-center"
       style={{
         backgroundImage: "url('/images/about-hero.webp')",
       }}
@@ -15,10 +15,9 @@ export default function Hero() {
         </h1>
 
         <p className="mt-4 text-gray-600 max-w-2xl mx-auto text-sm md:text-base">
-          Fuji Solar delivers end-to-end solar energy solutions, from rooftop
-          installations to large-scale industrial systems. Our focus is on quality,
-          efficiency, and long-term performance—helping you reduce energy costs and move
-          towards sustainable power.
+          Fuji Solar provides complete solar solutions—from rooftop to industrial
+          systems-focused on quality, efficiency, and long-term performance to reduce
+          costs and support sustainable energy.
         </p>
 
         <div className="mt-6">
@@ -34,11 +33,9 @@ export default function Hero() {
         </div>
       </section>
 
-      <section className="flex-1 min-h-0">
+      {/* <section className="flex-1 min-h-0">
         <div className="relative h-full bg-cover bg-center rounded-t-[40px] overflow-hidden">
           <div className="absolute inset-0 bg-linear-to-t from-black/60 to-transparent" />
-
-          {/* Cards */}
           <div className="absolute bottom-6 w-full px-6 flex flex-col md:flex-row gap-4 justify-center">
             <Card
               title="Rooftop Solar Solutions"
@@ -54,22 +51,22 @@ export default function Hero() {
             />
           </div>
         </div>
-      </section>
+      </section> */}
     </main>
   );
 }
 
-type CardProps = {
-  title: string;
-  desc: string;
-};
+// type CardProps = {
+//   title: string;
+//   desc: string;
+// };
 
-function Card({ title, desc }: CardProps) {
-  return (
-    <div className="backdrop-blur-md bg-white/20 border border-white/30 text-white rounded-2xl p-5 w-full md:w-72 shadow-lg">
-      <h3 className="font-semibold text-lg">{title}</h3>
-      <p className="text-sm mt-2 text-white/90">{desc}</p>
-      <button className="mt-3 text-sm underline hover:text-orange-300">Learn More</button>
-    </div>
-  );
-}
+// function Card({ title, desc }: CardProps) {
+//   return (
+//     <div className="backdrop-blur-md bg-white/20 border border-white/30 text-white rounded-2xl p-5 w-full md:w-72 shadow-lg">
+//       <h3 className="font-semibold text-lg">{title}</h3>
+//       <p className="text-sm mt-2 text-white/90">{desc}</p>
+//       {/* <button className="mt-3 text-sm underline hover:text-orange-300">Learn More</button> */}
+//     </div>
+//   );
+// }
