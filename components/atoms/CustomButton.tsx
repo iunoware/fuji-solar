@@ -1,7 +1,7 @@
 import React from "react";
 
 interface CustomButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
-  variant?: "primary" | "secondary" | "black";
+  variant?: "primary" | "secondary" | "black" | "outline";
   children: React.ReactNode;
 }
 
@@ -19,12 +19,14 @@ const CustomButton: React.FC<CustomButtonProps> = ({
     secondary:
       "bg-white/10 text-white border border-white/40 hover:border-white/80 hover:bg-white/20 backdrop-blur-sm",
     black:
-      "bg-black text-white hover:border-1 transition-all hover:bg-white hover:text-black shadow-sm ",
+      "bg-black text-white border-1 border-transparent hover:border-1 hover:border-black transition-all hover:bg-white hover:text-black shadow-sm ",
+    outline:
+      "bg-white text-black border-1 border-black hover:bg-black transition-all hover:text-white shadow-sm ",
   };
 
   return (
     <button
-      className={`${baseStyles} ${variants[variant]} ${className} `}
+      className={`${baseStyles} ${variants[variant]}  ${className} `}
       {...props}
     >
       {children}

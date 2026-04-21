@@ -112,7 +112,7 @@ export default function WhySolar() {
               ☀️ Why Solar
             </span>
             <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 leading-[1.1] mb-8">
-              Why Switch to <span className="text-[#16A34A]">Solar?</span>
+              Why Switch to <span className="text-brand-red">Solar?</span>
             </h2>
             <p className="text-lg text-gray-600 leading-relaxed mb-10">
               Transform the way you power your life. Solar energy isn&apos;t
@@ -122,7 +122,7 @@ export default function WhySolar() {
 
             <div className="flex flex-col sm:flex-row gap-4">
               <CustomButton variant="black">Get a Quote</CustomButton>
-              <CustomButton variant="black">Learn More</CustomButton>
+              <CustomButton variant="outline">Learn More</CustomButton>
             </div>
           </div>
 

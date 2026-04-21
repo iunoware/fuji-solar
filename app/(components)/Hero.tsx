@@ -102,7 +102,7 @@ export default function RenewableEnergyHero() {
           <div className="lg:col-span-6 -translate-y-15">
             <h1
               ref={heroTextRef}
-              className="text-5xl md:text-6xl lg:text-7xl text-white font-light leading-[1.1] tracking-tight mb-8 opacity-0"
+              className="text-5xl md:text-6xl lg:text-7xl text-white font-medium leading-[1.1] tracking-tight mb-8 opacity-0"
             >
               Switch to Solar.
               <span className="block mt-2">Save More Every Month.</span>
