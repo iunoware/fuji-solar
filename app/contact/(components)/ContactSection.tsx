@@ -1,14 +1,7 @@
 "use client";
 
 import React, { useState, useEffect, useRef } from "react";
-import { 
-  MapPin, 
-  Phone, 
-  Mail, 
-  MessageCircle,
-  CheckCircle2,
-  Clock
-} from "lucide-react";
+import { MapPin, Phone, Mail, MessageCircle, CheckCircle2, Clock } from "lucide-react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
@@ -20,9 +13,10 @@ const ContactSection = () => {
     phone: "",
     email: "",
     location: "",
-    message: ""
+    message: "",
   });
   const [isSubmitted, setIsSubmitted] = useState(false);
+  const [error, setError] = useState<string>("");
   const sectionRef = useRef<HTMLElement>(null);
   const formRef = useRef<HTMLDivElement>(null);
   const infoRef = useRef<HTMLDivElement>(null);
@@ -42,7 +36,7 @@ const ContactSection = () => {
             trigger: sectionRef.current,
             start: "top 75%",
           },
-        }
+        },
       );
 
       // Info entrance
@@ -58,80 +52,144 @@ const ContactSection = () => {
             trigger: sectionRef.current,
             start: "top 75%",
           },
-        }
+        },
       );
     }, sectionRef);
 
     return () => ctx.revert();
   }, []);
 
-  const handleSubmit = (e: React.FormEvent) => {
+  function inputCheck(e: React.MouseEvent<HTMLButtonElement>) {
     e.preventDefault();
-    // Simulate API call
-    console.log("Form submitted:", formData);
-    setIsSubmitted(true);
-    setTimeout(() => setIsSubmitted(false), 5000);
-  };
+
+    const phoneRegex = /^[0-9]{10}$/;
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+    if (!formData.name.trim()) return setError("Enter your name");
+    if (!phoneRegex.test(formData.phone)) return setError("Enter valid phone number");
+    if (!emailRegex.test(formData.email)) return setError("Enter a valid email address");
+    if (!formData.location.trim()) return setError("Enter your location");
+    if (!formData.message.trim()) return setError("Enter a message");
+
+    setError("");
+
+    window.open(whatsappLink(), "_blank");
+
+    clearInput();
+  }
+
+  function whatsappLink() {
+    if (
+      !formData.name ||
+      !formData.phone ||
+      !formData.location ||
+      !formData.email ||
+      !formData.message
+    )
+      return;
+    // return `https://wa.me/919842076979?text=Hi%20Redinn%20Travels!%0A%0AI’m%20interested%20in%20booking%20a%20trip%20and%20here%20are%20my%20details:%0A%0AName: ${formData.name.trim()}%0AEmail: ${formData.email.trim()}%0APhone: ${formData.phone.trim()}%0AMessage: ${formData.message.trim()}`;
+    return `https://wa.me/919842076979?text=${encodeURIComponent(
+      `Hi Fuji Solar! \n\nI'm interested in your solar services. Here are my details:\n\nName: ${formData.name.trim()}\nPhone: ${formData.phone.trim()}\nEmail: ${formData.email.trim()}\nMessage: ${formData.message.trim()}`,
+    )}`;
+  }
+
+  function clearInput() {
+    setFormData({
+      name: "",
+      phone: "",
+      email: "",
+      location: "",
+      message: "",
+    });
+  }
 
   return (
     <section ref={sectionRef} className="py-24 px-6 bg-white overflow-hidden">
       <div className="max-w-7xl mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-16 items-start">
-          
           {/* Left Side: Contact Form */}
           <div ref={formRef} className="relative group">
             <div className="bg-white p-8 md:p-10 rounded-[2.5rem] shadow-2xl shadow-gray-100 border border-gray-100 relative z-10">
               <h2 className="text-2xl font-bold text-gray-900 mb-8">Send a Message</h2>
-              
+
               {!isSubmitted ? (
-                <form onSubmit={handleSubmit} className="space-y-4">
+                <form
+                  // onSubmit={handleSubmit}
+                  className="space-y-4"
+                >
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                    {/* name */}
                     <input
                       type="text"
                       placeholder="Your Name *"
                       required
-                      className="w-full border border-gray-200 rounded-2xl px-5 py-4 text-sm focus:outline-none focus:ring-2 focus:ring-green-500/20 focus:border-green-500 transition-all"
+                      className="w-full border placeholder-gray-700 text-gray-900 border-gray-200 rounded-2xl px-5 py-4 text-sm focus:outline-none focus:ring-2 focus:ring-green-500/20 focus:border-green-500 transition-all"
                       value={formData.name}
-                      onChange={(e) => setFormData({...formData, name: e.target.value})}
+                      onChange={(e) => setFormData({ ...formData, name: e.target.value })}
                     />
+
+                    {/* number */}
                     <input
                       type="tel"
+                      pattern="[0-9]{10}"
                       placeholder="Phone Number *"
                       required
-                      className="w-full border border-gray-200 rounded-2xl px-5 py-4 text-sm focus:outline-none focus:ring-2 focus:ring-green-500/20 focus:border-green-500 transition-all"
+                      className="w-full border placeholder-gray-700 text-gray-900 border-gray-200 rounded-2xl px-5 py-4 text-sm focus:outline-none focus:ring-2 focus:ring-green-500/20 focus:border-green-500 transition-all"
                       value={formData.phone}
-                      onChange={(e) => setFormData({...formData, phone: e.target.value})}
+                      onChange={(e) =>
+                        setFormData({ ...formData, phone: e.target.value })
+                      }
                     />
                   </div>
-                  
+
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                    {/* email */}
                     <input
                       type="email"
                       placeholder="Email Address"
-                      className="w-full border border-gray-200 rounded-2xl px-5 py-4 text-sm focus:outline-none focus:ring-2 focus:ring-green-500/20 focus:border-green-500 transition-all"
+                      className="w-full border placeholder-gray-700 text-gray-900 border-gray-200 rounded-2xl px-5 py-4 text-sm focus:outline-none focus:ring-2 focus:ring-green-500/20 focus:border-green-500 transition-all"
                       value={formData.email}
-                      onChange={(e) => setFormData({...formData, email: e.target.value})}
+                      onChange={(e) =>
+                        setFormData({ ...formData, email: e.target.value })
+                      }
                     />
+                    {/* location */}
                     <input
                       type="text"
                       placeholder="Location"
-                      className="w-full border border-gray-200 rounded-2xl px-5 py-4 text-sm focus:outline-none focus:ring-2 focus:ring-green-500/20 focus:border-green-500 transition-all"
+                      className="w-full border placeholder-gray-700 text-gray-900 border-gray-200 rounded-2xl px-5 py-4 text-sm focus:outline-none focus:ring-2 focus:ring-green-500/20 focus:border-green-500 transition-all"
                       value={formData.location}
-                      onChange={(e) => setFormData({...formData, location: e.target.value})}
+                      onChange={(e) =>
+                        setFormData({ ...formData, location: e.target.value })
+                      }
                     />
                   </div>
 
+                  {/* message box */}
                   <textarea
                     rows={4}
                     placeholder="Tell us about your requirements..."
-                    className="w-full border border-gray-200 rounded-2xl px-5 py-4 text-sm focus:outline-none focus:ring-2 focus:ring-green-500/20 focus:border-green-500 transition-all resize-none"
+                    className="w-full border placeholder-gray-700 text-gray-900 border-gray-200 rounded-2xl px-5 py-4 text-sm focus:outline-none focus:ring-2 focus:ring-green-500/20 focus:border-green-500 transition-all resize-none"
                     value={formData.message}
-                    onChange={(e) => setFormData({...formData, message: e.target.value})}
+                    onChange={(e) =>
+                      setFormData({ ...formData, message: e.target.value })
+                    }
                   />
 
+                  {/* error */}
+                  <div>
+                    <h3
+                      id="errorMessage"
+                      className="text-center text-red-600 font-semibold text-lg cinzel"
+                    >
+                      {error}
+                    </h3>
+                  </div>
+
                   <button
-                    type="submit"
-                    className="w-full bg-brand-red text-white py-5 rounded-2xl font-bold text-lg hover:bg-[#C0392B] transition-all duration-300 hover:scale-[1.02] active:scale-[0.98] shadow-xl shadow-brand-red/20 mb-4"
+                    rel="noopener noreferrer"
+                    onClick={inputCheck}
+                    className="w-full bg-brand-red text-white py-3 rounded-2xl font-bold text-lg hover:opacity-90 transition-all duration-300 active:scale-[0.98] shadow-xl shadow-brand-red/20 mb-4"
                   >
                     Get Free Consultation
                   </button>
@@ -147,8 +205,10 @@ const ContactSection = () => {
                     <CheckCircle2 size={40} />
                   </div>
                   <h3 className="text-2xl font-bold text-gray-900 mb-2">Message Sent!</h3>
-                  <p className="text-gray-500">Thank you for reaching out. We&apos;ll be in touch soon.</p>
-                  <button 
+                  <p className="text-gray-500">
+                    Thank you for reaching out. We&apos;ll be in touch soon.
+                  </p>
+                  <button
                     onClick={() => setIsSubmitted(false)}
                     className="mt-8 text-brand-red font-bold hover:underline"
                   >
@@ -158,50 +218,55 @@ const ContactSection = () => {
               )}
             </div>
             {/* Background Blob */}
-            <div className="absolute -bottom-6 -left-6 w-32 h-32 bg-green-50 rounded-full blur-2xl -z-0" />
+            <div className="absolute -bottom-6 -left-6 w-32 h-32 bg-green-50 rounded-full blur-2xl z-0" />
           </div>
 
           {/* Right Side: Contact Info */}
           <div ref={infoRef} className="space-y-12 lg:pt-10">
             <div className="space-y-4">
-              <h3 className="text-3xl font-bold text-gray-900 leading-tight">Get in Touch</h3>
+              <h3 className="text-3xl font-bold text-gray-900 leading-tight">
+                Get in Touch
+              </h3>
               <p className="text-lg text-gray-500 max-w-sm leading-relaxed">
-                We&apos;re here to help you with your solar journey. Reach out to us anytime.
+                We&apos;re here to help you with your solar journey. Reach out to us
+                anytime.
               </p>
             </div>
 
             {/* Contact Items */}
             <div className="space-y-8">
-              <div className="flex items-start gap-5">
-                <div className="w-12 h-12 rounded-xl bg-green-50 flex items-center justify-center text-[#16A34A] shrink-0">
+              <div className="flex items-start gap-5 group">
+                <div className="w-12 h-12 rounded-xl bg-green-50 flex items-center justify-center text-[#16A34A] shrink-0 group-hover:scale-110 transition-all duration-200">
                   <MapPin size={24} />
                 </div>
                 <div>
                   <h4 className="font-bold text-gray-900 mb-1">Our Office</h4>
                   <p className="text-sm text-gray-500 leading-relaxed">
-                    Apex Tower, 4th Floor, <br />
-                    Business District, Chennai 600001
+                    #10/1028, Seethakathi 3rd Cross street,
+                    <br /> Mugappair East, Chennai - 600 037
                   </p>
                 </div>
               </div>
 
-              <a href="tel:+919876543210" className="flex items-start gap-5 group">
+              <a href="tel:+919842076979" className="flex items-start gap-5 group">
                 <div className="w-12 h-12 rounded-xl bg-orange-50 flex items-center justify-center text-brand-red shrink-0 transition-transform group-hover:scale-110">
                   <Phone size={24} />
                 </div>
                 <div>
                   <h4 className="font-bold text-gray-900 mb-1">Call Us</h4>
-                  <p className="text-sm text-gray-500 group-hover:text-brand-red transition-colors">+91 98765 43210</p>
+                  <p className="text-sm text-gray-500 group-hover:text-brand-red transition-colors">
+                    +91 98765 43210
+                  </p>
                 </div>
               </a>
 
-              <a 
-                href="https://wa.me/919876543210" 
-                target="_blank" 
-                rel="noopener noreferrer" 
-                className="flex items-start gap-5 group p-4 rounded-2xl bg-green-50 border border-green-100 transition-all hover:shadow-lg hover:-translate-y-1"
+              <a
+                href="https://wa.me/919842076979"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-start gap-5 group p-4 rounded-2xl bg-green-50 border border-green-100 transition-all"
               >
-                <div className="w-12 h-12 rounded-xl bg-[#25D366] flex items-center justify-center text-white shrink-0">
+                <div className="w-12 h-12 rounded-xl bg-[#25D366] flex items-center justify-center text-white shrink-0 group-hover:scale-110 transition-all duration-200">
                   <MessageCircle size={24} />
                 </div>
                 <div>
@@ -209,8 +274,10 @@ const ContactSection = () => {
                     WhatsApp Chat
                     <span className="w-2 h-2 rounded-full bg-[#16A34A] animate-pulse" />
                   </h4>
-                  <p className="text-sm text-gray-700 font-medium">+91 98765 43210</p>
-                  <p className="text-[10px] text-green-600 font-bold uppercase tracking-widest mt-1">Chat Available Now</p>
+                  <p className="text-sm text-gray-700 font-medium">+91 98420 76979</p>
+                  <p className="text-[10px] text-green-600 font-bold uppercase tracking-widest mt-1">
+                    Chat Available Now
+                  </p>
                 </div>
               </a>
 
@@ -220,15 +287,15 @@ const ContactSection = () => {
                 </div>
                 <div>
                   <h4 className="font-bold text-gray-900 mb-1">Email Us</h4>
-                  <p className="text-sm text-gray-500">support@fujisolar.com</p>
+                  <p className="text-sm text-gray-500">info@fujisolar.com</p>
                 </div>
               </div>
             </div>
 
             {/* Quick Actions */}
             <div className="pt-4 flex flex-wrap gap-4">
-              <a 
-                href="tel:+919876543210"
+              <a
+                href="tel:+919842076979"
                 className="inline-flex py-4 px-8 bg-gray-900 text-white rounded-full font-bold text-sm tracking-wide hover:bg-brand-red transition-all duration-300 shadow-xl shadow-gray-200"
               >
                 Call Now
@@ -239,7 +306,6 @@ const ContactSection = () => {
               </p>
             </div>
           </div>
-
         </div>
       </div>
     </section>
