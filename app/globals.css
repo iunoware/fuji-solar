@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
+  --background: #fefefe;
   --foreground: #171717;
   --brand-red: #ff6900;
   --brand-yellow: #d8dc48;
@@ -10,7 +10,7 @@
 @theme inline {
   --color-brand-red: #ff6900;
   --color-brand-yellow: #d8dc48;
-  --color-background: var(--background);
+  --color-background: #fefefe;
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans), Inter, sans-serif;
   --font-mono: var(--font-geist-mono);

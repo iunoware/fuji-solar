@@ -69,7 +69,7 @@ export default function RenewableEnergyHero() {
       {/* Background Video */}
       <div
         ref={videoContainerRef}
-        className="absolute w-full h-full top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 -z-10 overflow-hidden"
+        className="absolute w-full h-full top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 overflow-hidden"
       >
         <video
           className="w-full h-full object-cover object-center"

@@ -216,7 +216,7 @@ export default function WhatWeOffer() {
                 ref={(el) => {
                   cardsRef.current[index] = el;
                 }}
-                className="group relative w-[280px] sm:w-85 lg:w-95 h-[400px] sm:h-120 lg:h-130 rounded-3xl overflow-hidden shrink-0 opacity-0"
+                className="group relative w-70 sm:w-85 lg:w-95 h-100 sm:h-120 lg:h-130 rounded-3xl overflow-hidden shrink-0 opacity-0"
               >
                 {/* Background Image */}
                 <div className="absolute inset-0 w-full h-full">

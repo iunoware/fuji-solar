@@ -136,7 +136,7 @@ const HowItWorks = () => {
                   </div>
 
                   {/* Content */}
-                  <div className="max-w-[240px]">
+                  <div className="max-w-60">
                     <h3 className="text-xl font-bold text-gray-900 mb-3 transition-colors duration-300 group-hover:text-brand-red">
                       {step.title}
                     </h3>
