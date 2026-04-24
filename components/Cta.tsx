@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Cta() {
   return (
-    <section className="w-full flex justify-center items-center py-10">
+    <section className="w-full flex justify-center items-center py-10 bg-[#fefefe]">
       <div className="p-5 w-full max-w-screen-2xl">
         <div className="relative h-90 w-full rounded-2xl overflow-hidden">
           {/* Background Image */}

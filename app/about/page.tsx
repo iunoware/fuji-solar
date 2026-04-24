@@ -1,5 +1,6 @@
 import Hero from "./(components)/Hero";
 import WhoWeAre from "./(components)/WhoWeAre";
+import Founder from "./(components)/Founder";
 import BentoGrid from "./(components)/BentoGrid";
 import WhyFujiSolar from "./(components)/WhyFujiSolar";
 import Achievements from "./(components)/Achievements";
@@ -10,6 +11,7 @@ export default function About() {
     <section className="bg-[#fefefe]">
       <Hero />
       <WhoWeAre />
+      <Founder />
       <BentoGrid />
       <WhyFujiSolar />
       <Achievements />

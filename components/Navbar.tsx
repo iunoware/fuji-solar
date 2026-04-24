@@ -24,7 +24,7 @@ export default function Navbar() {
   const navLinks = [
     { name: "Home", href: "/" },
     { name: "About", href: "/about" },
-    { name: "Services", href: "/services" },
+    { name: "Services", href: "/solar-products" },
     { name: "Contact", href: "/contact" },
   ];
 
@@ -33,8 +33,8 @@ export default function Navbar() {
       <div
         className={`fixed w-[94%] sm:w-[96%] md:w-[97.5%] z-50 m-3 rounded-full transition-all duration-700 ${
           isScrolled
-            ? "sm:w-[70%] md:w-[70%] lg:w-[70%] bg-white/70 backdrop-blur-md py-3 shadow-[0_1px_30px_rgba(0,0,0,0.2),inset_0_1px_rgba(255,255,255,0.3),inset_0_-1px_rgba(255,255,255,0.3)]"
-            : "bg-transparent py-4"
+            ? "sm:w-[70%] md:w-[70%] lg:w-[70%] bg-black/60 backdrop-blur-md py-3 shadow-[0_1px_30px_rgba(0,0,0,0.2),inset_0_1px_rgba(255,255,255,0.3),inset_0_-1px_rgba(255,255,255,0.3)]"
+            : "bg-black/60 py-4"
         }`}
       >
         <div className=" px-6 flex justify-between items-center">
@@ -52,7 +52,7 @@ export default function Navbar() {
               } w-auto transition-all duration-700`}
             />
           </Link> */}
-          <h2 className="text-black text-xl">Fuji Solar</h2>
+          <h2 className="text-gray-200 text-xl">Fuji Solar</h2>
 
           {/* Desktop Menu */}
           <div className="hidden md:flex h-7 mt-1.5 overflow-hidden items-center space-x-8">
@@ -60,7 +60,8 @@ export default function Navbar() {
               <Link
                 key={link.name}
                 href={link.href}
-                className="text-gray-900 text-lg flex flex-col translate-y-2 hover:-translate-y-5 duration-400 transition-all font-medium"
+                className="text-gray-200 text-lg flex flex-col translate-y-2 hover:-translate-y-5 duration-400 transition-all font-medium"
+                // className={`${isScrolled ? "text-gray-200" : "text-gray-900"}  text-lg flex flex-col translate-y-2 hover:-translate-y-5 duration-400 transition-all font-medium`}
               >
                 <span>{link.name}</span>
                 <span>{link.name}</span>
@@ -78,14 +79,14 @@ export default function Navbar() {
             {isOpen ? (
               <X
                 size={28}
-                className={`text-gray-700 text-lg transition-all duration-500 ${
+                className={`text-gray-200 text-lg transition-all duration-500 ${
                   isScrolled ? "opacity-100" : "opacity-0"
                 }`}
               />
             ) : (
               <Menu
                 size={28}
-                className={`text-gray-700 text-lg transition-all duration-700 ${
+                className={`text-gray-200 text-lg transition-all duration-700 ${
                   isScrolled ? "opacity-100" : "opacity-0"
                 }`}
               />
@@ -100,7 +101,7 @@ export default function Navbar() {
         <div
           className={`${
             isOpen ? "translate-y-0" : "-translate-y-80"
-          } transition-all duration-400 md:hidden absolute top-22 left-0 w-full rounded-3xl bg-white/70 text-gray-900 backdrop-blur-md shadow-[0_1px_30px_rgba(0,0,0,0.2),inset_0_1px_rgba(255,255,255,0.3),inset_0_-1px_rgba(255,255,255,0.3)] py-6 px-6 flex flex-col space-y-4`}
+          } transition-all duration-400 md:hidden absolute top-22 left-0 w-full rounded-3xl bg-black/60 text-gray-200 backdrop-blur-md shadow-[0_1px_30px_rgba(0,0,0,0.2),inset_0_1px_rgba(255,255,255,0.3),inset_0_-1px_rgba(255,255,255,0.3)] py-6 px-6 flex flex-col space-y-4`}
         >
           {navLinks.map((link) => (
             <a
