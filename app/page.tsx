@@ -6,11 +6,13 @@ import HowItWorks from "./(components)/HowItWorks";
 import SolarCalculator from "./(components)/SolarCalculator";
 import Testimonial from "./(components)/Testimonial";
 import Cta from "@/components/Cta";
+import SolarPanel from "./(components)/SolarPanel";
 
 export default function Home() {
   return (
-    <div className="overflow-x-clip">
+    <div className="overflow-x-clip bg-background ">
       <Hero />
+      <SolarPanel />
       <WhySolar />
       <WhyUs />
       <WhatWeOffer />

@@ -120,6 +120,56 @@ export default function WhySolar() {
               future while gaining total energy independence.
             </p>
 
+            {/* <div>
+              <iframe
+                width="640"
+                height="480"
+                src="https://sketchfab.com/playlists/embed?collection=195b4d46c57d4a4688ec263aeac4a2be&autostart=0"
+                title="jjj"
+                frameBorder="0"
+                allowFullScreen
+                mozAllowFullScreen={true}
+                webkitAllowFullScreen={true}
+                allow="autoplay; fullscreen; xr-spatial-tracking"
+              ></iframe>
+
+              <p
+                style={{
+                  fontFamily: "sans-serif",
+                  fontSize: "13px",
+                  margin: "5px",
+                  color: "#4A4A4A",
+                }}
+              >
+                <a
+                  href="https://sketchfab.com/js1iiii/collections/jjj-195b4d46c57d4a4688ec263aeac4a2be"
+                  target="_blank"
+                  rel="nofollow"
+                  style={{ fontWeight: "bold", color: "#1CAAD9" }}
+                >
+                  jjj
+                </a>{" "}
+                by{" "}
+                <a
+                  href="https://sketchfab.com/js1iiii"
+                  target="_blank"
+                  rel="nofollow"
+                  style={{ fontWeight: "bold", color: "#1CAAD9" }}
+                >
+                  js1iiii
+                </a>{" "}
+                on{" "}
+                <a
+                  href="https://sketchfab.com"
+                  target="_blank"
+                  rel="nofollow"
+                  style={{ fontWeight: "bold", color: "#1CAAD9" }}
+                >
+                  Sketchfab
+                </a>
+              </p>
+            </div> */}
+
             <div className="flex flex-col sm:flex-row gap-4">
               <CustomButton variant="black">Get a Quote</CustomButton>
               <CustomButton variant="outline">Learn More</CustomButton>
