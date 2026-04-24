@@ -235,7 +235,7 @@ export default function WhyChooseUs() {
   );
 
   return (
-    <section ref={sectionRef} className="bg-[#fefefe] py-20 px-4 md:px-10">
+    <section ref={sectionRef} className="bg-background py-20 px-4 md:px-10">
       {/* Heading */}
       <div ref={headingRef} className="text-center mb-12 opacity-0">
         {/* <p className="text-xs font-mono tracking-[0.4em] text-red-500 uppercase mb-3">

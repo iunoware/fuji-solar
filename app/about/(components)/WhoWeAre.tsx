@@ -150,7 +150,7 @@ export default function WhoWeAre() {
     <section
       ref={sectionRef}
       // className="relative w-full h-screen max-h-screen overflow-hidden bg-[#fefefe] flex items-center"
-      className="relative w-full min-h-screen md:h-screen md:max-h-screen overflow-hidden bg-[#fefefe] flex items-center"
+      className="relative w-full min-h-screen md:h-screen md:max-h-screen overflow-hidden bg-background py-10 flex items-center"
     >
       {/* Subtle dot grid background */}
       <div
