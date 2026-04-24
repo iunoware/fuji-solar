@@ -74,11 +74,7 @@ export default function Hero() {
   );
 
   return (
-    <section
-      ref={sectionRef}
-      className="relative w-full overflow-hidden"
-      style={{ backgroundColor: "#fefefe" }}
-    >
+    <section ref={sectionRef} className="relative w-full overflow-hidden bg-background">
       {/* Subtle background texture */}
       <div
         className="absolute inset-0 pointer-events-none"
@@ -89,22 +85,12 @@ export default function Hero() {
       />
 
       {/* Decorative sun arc — top right */}
-      <div
-        className="absolute -top-24 -right-24 w-105 h-105 rounded-full pointer-events-none"
-        style={{
-          border: "1.5px solid rgba(234,179,8,0.13)",
-        }}
-      />
-      <div
-        className="absolute -top-10 -right-10 w-65 h-65 rounded-full pointer-events-none"
-        style={{
-          border: "1.5px solid rgba(234,179,8,0.09)",
-        }}
-      />
+      <div className="absolute -top-24 -right-24 w-105 h-105 rounded-full pointer-events-none border border-amber-100" />
+      <div className="absolute -top-10 -right-10 w-65 h-65 rounded-full pointer-events-none border border-amber-100" />
 
       {/* Thin horizontal rule at the very top */}
       <div
-        className="w-full h-0.75"
+        className="w-full h-0.75 "
         style={{
           background:
             "linear-gradient(to right, transparent, #eab308 30%, #f59e0b 70%, transparent)",
@@ -116,70 +102,22 @@ export default function Hero() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           {/* left — text content */}
           <div>
-            {/* Badge */}
-            {/* <div ref={badgeRef} className="inline-flex items-center gap-2 mb-6">
-              <span
-                className="w-2 h-2 rounded-full"
-                style={{ backgroundColor: "#eab308" }}
-              />
-              <span
-                className="text-xs font-semibold uppercase tracking-[0.2em]"
-                style={{
-                  fontFamily: "'DM Mono', 'Courier New', monospace",
-                  color: "#a16207",
-                }}
-              >
-                What We Offer
-              </span>
-            </div> */}
-
-            {/* Tagline */}
-            {/* <p
-              ref={taglineRef}
-              className="text-sm font-medium mb-3"
-              style={{
-                fontFamily: "'DM Mono', monospace",
-                color: "#78716c",
-                letterSpacing: "0.05em",
-              }}
-            >
-              43 Years of Solar Excellence
-            </p> */}
-
             {/* Main heading */}
             <h1
               ref={headingRef}
-              className="text-5xl md:text-6xl font-bold leading-[1.05] mb-6"
-              style={{
-                // fontFamily: "'Playfair Display', 'Georgia', serif",
-                color: "#1c1917",
-                letterSpacing: "-0.02em",
-              }}
+              className="text-5xl md:text-6xl font-bold leading-[1.05] mb-6 text-gray-900"
             >
               Solar Solutions,{" "}
-              <span
-                // style={{
-                //   color: "#eab308",
-                //   display: "inline-block",
-                // }}
-                className="text-brand-red inline-block"
-              >
-                Built to Last.
-              </span>
+              <span className="text-brand-red inline-block">Built to Last.</span>
             </h1>
 
             {/* Sub-description */}
             <p
               ref={subRef}
-              className="text-base md:text-lg leading-relaxed mb-10"
-              style={{
-                // fontFamily: "'Lato', sans-serif",
-                color: "#57534e",
-                maxWidth: "480px",
-              }}
+              className="text-base md:text-lg leading-relaxed mb-10 text-gray-700"
             >
               From residential rooftops to large industrial installations, Fuji Solar
-              delivers clean, reliable energy systems tailored to every need — engineered
+              delivers clean, reliable energy systems tailored to every need - engineered
               with four decades of precision and trust.
             </p>
 
@@ -214,12 +152,7 @@ export default function Hero() {
           {/* RIGHT — visual panel */}
           <div className="relative hidden lg:flex items-center justify-center">
             {/* Outer ring */}
-            <div
-              className="absolute w-95 h-95 rounded-full"
-              style={{
-                border: "1px dashed rgba(234,179,8,0.25)",
-              }}
-            />
+            <div className="absolute w-95 h-95 rounded-full border-dashed border-2 border-amber-200" />
 
             {/* Inner glow card */}
             <div
@@ -256,24 +189,10 @@ export default function Hero() {
                 ))}
               </svg>
 
-              <p
-                className="text-sm font-semibold uppercase tracking-widest"
-                style={{
-                  fontFamily: "'DM Mono', monospace",
-                  color: "#92400e",
-                }}
-              >
+              <p className="text-sm font-semibold uppercase tracking-widest font-mono text-black">
                 Fuji Solar
               </p>
-              <p
-                className="text-xs mt-1"
-                style={{
-                  fontFamily: "'Lato', sans-serif",
-                  color: "#a16207",
-                }}
-              >
-                Powering Tomorrow
-              </p>
+              <p className="text-xs mt-1 text-gray-800">Powering Tomorrow</p>
             </div>
 
             {/* Floating service chips */}
@@ -290,14 +209,9 @@ export default function Hero() {
               return (
                 <div
                   key={chip.label}
-                  className="absolute px-3 py-1.5 rounded-full text-xs font-semibold whitespace-nowrap"
+                  className="absolute px-3 py-1.5 rounded-full text-xs shadow-sm text-gray-700 font-semibold whitespace-nowrap font-mono bg-background border border-gray-300"
                   style={{
-                    fontFamily: "'DM Mono', monospace",
                     transform: `translate(${x}px, ${y}px)`,
-                    background: "#fefefe",
-                    border: "1px solid rgba(234,179,8,0.35)",
-                    color: "#78716c",
-                    boxShadow: "0 2px 12px rgba(0,0,0,0.06)",
                   }}
                 >
                   {chip.label}

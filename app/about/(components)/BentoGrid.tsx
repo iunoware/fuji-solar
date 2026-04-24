@@ -16,7 +16,7 @@ const bottomImages = [
 
 export default function BentoGrid() {
   return (
-    <main className="bg-white p-4 md:p-6">
+    <main className="bg-white p-4 md:p-6 py-10">
       <div className="grid grid-cols-1 md:grid-cols-3 gap-3 md:h-[90vh]">
         {/* left column */}
         <div className="md:col-span-1 grid md:grid-rows-2 gap-3 md:h-full">

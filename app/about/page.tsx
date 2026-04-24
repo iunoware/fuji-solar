@@ -1,6 +1,7 @@
 import Hero from "./(components)/Hero";
 import WhoWeAre from "./(components)/WhoWeAre";
 import Founder from "./(components)/Founder";
+import Mission from "./(components)/Mission";
 import BentoGrid from "./(components)/BentoGrid";
 import WhyFujiSolar from "./(components)/WhyFujiSolar";
 import Achievements from "./(components)/Achievements";
@@ -8,10 +9,11 @@ import Cta from "@/components/Cta";
 
 export default function About() {
   return (
-    <section className="bg-[#fefefe]">
+    <section className="bg-background overflow-x-clip">
       <Hero />
       <WhoWeAre />
       <Founder />
+      <Mission />
       <BentoGrid />
       <WhyFujiSolar />
       <Achievements />
