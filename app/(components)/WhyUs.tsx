@@ -112,7 +112,7 @@ const WhyUs = () => {
                 Redefining Solar with <span className="text-brand-red">Excellence</span>
               </h2>
               <p className="text-lg text-gray-600 leading-relaxed max-w-lg">
-                We combine engineering expertise, quality, and customer-first service to deliver reliable solar solutions that stand the test of time.
+                As the best solar panel installation in Madurai, we combine engineering expertise and quality to deliver reliable solar solutions that stand the test of time.
               </p>
             </div>
 

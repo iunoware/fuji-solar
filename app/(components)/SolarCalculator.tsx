@@ -38,7 +38,7 @@ const SolarCalculator = () => {
   return (
     <section className="py-24 px-6 bg-[#F1F5F4]">
       <div className="max-w-7xl mx-auto">
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-start">
           {/* Left Side: Content */}
           <div className="lg:col-span-7 space-y-8">
             <div>
@@ -50,9 +50,8 @@ const SolarCalculator = () => {
                 <span className="text-brand-red">Solar Savings</span>
               </h2>
               <p className="text-lg text-gray-600 leading-relaxed">
-                Estimate how much you can save on your electricity bills by
-                switching to solar energy. Our tool provides a quick projection
-                based on your current usage.
+                Estimate your solar system price Tamil Nadu and see how much you can save 
+                on your electricity bills by switching to clean energy today.
               </p>
             </div>
 
@@ -94,22 +93,40 @@ const SolarCalculator = () => {
                       ₹{bill.toLocaleString()}
                     </span>
                   </div>
-                  <input
-                    type="range"
-                    min="500"
-                    max="50000"
-                    step="500"
-                    value={bill}
-                    onChange={(e) => setBill(parseInt(e.target.value))}
-                    className="w-full h-2 bg-gray-100 rounded-lg appearance-none cursor-pointer accent-brand-red"
-                  />
+
+                  {/* Helper Text */}
+                  <div className="flex items-center gap-2">
+                    <div className="flex items-center gap-1 text-xs text-gray-500">
+                      <span className="animate-pulse">←</span>
+                      <span className="font-medium">
+                        Drag slider to adjust your bill
+                      </span>
+                      <span className="animate-pulse">→</span>
+                    </div>
+                  </div>
+
+                  {/* Range Input with Progress Fill */}
+                  <div className="relative">
+                    <input
+                      type="range"
+                      min="500"
+                      max="50000"
+                      step="500"
+                      value={bill}
+                      onChange={(e) => setBill(parseInt(e.target.value))}
+                      className="w-full h-2 bg-gray-100 rounded-lg appearance-none cursor-pointer range-slider"
+                      style={{
+                        background: `linear-gradient(to right, #E74C3C 0%, #E74C3C ${((bill - 500) / (50000 - 500)) * 100}%, #E5E7EB ${((bill - 500) / (50000 - 500)) * 100}%, #E5E7EB 100%)`,
+                      }}
+                    />
+                  </div>
+
                   <div className="flex justify-between text-xs text-gray-400 font-medium pt-1">
                     <span>₹500</span>
                     <span>₹25,000</span>
                     <span>₹50,000+</span>
                   </div>
                 </div>
-
                 {/* Property Type Dropdown */}
                 <div className="space-y-2">
                   <label className="text-sm font-bold text-gray-900 uppercase tracking-wider">

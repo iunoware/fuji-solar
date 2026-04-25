@@ -31,6 +31,7 @@ function Cloud({ position, speed, scale, opacity }: CloudProps) {
         transparent
         opacity={opacity}
         scale={scale}
+        // alt="Clouds"
       />
     </group>
   );
@@ -39,10 +40,10 @@ function Cloud({ position, speed, scale, opacity }: CloudProps) {
 export function Clouds() {
   const clouds = [
     {
-      position: [-2, 1, -1] as [number, number, number],
+      position: [-4, 1, -1] as [number, number, number],
       speed: 0.2,
       scale: 3,
-      opacity: 0.9,
+      opacity: 0.6,
     },
     {
       position: [2, -1, -2] as [number, number, number],

@@ -77,7 +77,7 @@ export default function WhySolar() {
       icon: <Zap className="w-6 h-6" />,
       title: "Save on Electricity Bills",
       description:
-        "Reduce your monthly energy costs significantly with solar power generation.",
+        "Significantly lower your solar panel installation cost Tamil Nadu while reducing monthly energy expenses.",
     },
     {
       icon: <Leaf className="w-6 h-6" />,
