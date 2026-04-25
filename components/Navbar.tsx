@@ -27,6 +27,7 @@ export default function Navbar() {
     { name: "Home", href: "/" },
     { name: "About", href: "/about" },
     { name: "Services", href: "/solar-products" },
+    { name: "Installation Process", href: "/installation-process" },
     { name: "Contact", href: "/contact" },
   ];
 
