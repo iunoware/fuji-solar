@@ -22,7 +22,8 @@ export default function Cta() {
           <div className="absolute inset-0 flex flex-col justify-center px-8 max-w-lg">
             <h2 className="text-5xl font-bold text-white mb-3">Ready to Go Solar?</h2>
             <p className="text-gray-100 text-sm leading-relaxed mb-6">
-              Discover affordable solar solutions for homes in Tamil Nadu and make the switch to clean energy today. Our experts are here to guide you.
+              Discover affordable solar solutions for homes in Tamil Nadu and make the
+              switch to clean energy today. Our experts are here to guide you.
             </p>
 
             <Link
@@ -30,7 +31,7 @@ export default function Cta() {
               className="flex items-center gap-2 bg-white/70 backdrop-blur-lg text-gray-800 text-sm font-medium px-5 py-2.5 rounded-full w-fit hover:bg-gray-100/90 group transition-colors"
             >
               Get a Free Consultation
-              <span className="bg-red-600 translate-x-2 -rotate-30 group-hover:rotate-0 transition-all duration-200 text-white rounded-full w-8 h-8 flex items-center justify-center text-xs">
+              <span className="bg-brand-red translate-x-2 -rotate-30 group-hover:rotate-0 transition-all duration-200 text-white rounded-full w-8 h-8 flex items-center justify-center text-xs">
                 ➜
               </span>
             </Link>

@@ -40,274 +40,129 @@ export default function Mission() {
   const wrapperRef = useRef<HTMLDivElement>(null);
   const activeIndexRef = useRef<number>(0);
 
-  // useEffect(() => {
-  //   const ctx = gsap.context(() => {
-  //     const wrapper = wrapperRef.current;
-  //     if (!wrapper) return;
-
-  //     requestAnimationFrame(() => {
-  //       requestAnimationFrame(() => {
-  //         const vh = window.innerHeight;
-  //         const totalScroll = vh * SCROLL_PER_STEP * (items.length - 1);
-
-  //         // ── Set initial DOM state ──
-  //         items.forEach((item, i) => {
-  //           const contentEl = wrapper.querySelector(`#content-${item.id}`) as HTMLElement;
-  //           const underline = wrapper.querySelector(
-  //             `#underline-${item.id}`,
-  //           ) as HTMLElement;
-  //           const label = wrapper.querySelector(`#label-${item.id}`) as HTMLElement;
-  //           const counter = wrapper.querySelector(`#counter-${item.id}`) as HTMLElement;
-
-  //           if (i === 0) {
-  //             gsap.set(contentEl, { opacity: 1, y: 0, pointerEvents: "auto" });
-  //             gsap.set(underline, { scaleX: 1, opacity: 1 });
-  //             gsap.set(label, { color: "#1c1917" });
-  //             gsap.set(counter, { color: "#eab308" });
-  //           } else {
-  //             gsap.set(contentEl, { opacity: 0, y: 30, pointerEvents: "none" });
-  //             gsap.set(underline, { scaleX: 0, opacity: 0 });
-  //             gsap.set(label, { color: "#d4cdc7" });
-  //             gsap.set(counter, { color: "#e8e2db" });
-  //           }
-  //         });
-
-  //         activeIndexRef.current = 0;
-
-  //         // ── Single ScrollTrigger with onUpdate driving everything ──
-  //         ScrollTrigger.create({
-  //           trigger: wrapper,
-  //           start: "top top",
-  //           end: `+=${totalScroll}`,
-  //           pin: true,
-  //           pinSpacing: true,
-  //           anticipatePin: 1,
-  //           invalidateOnRefresh: true,
-  //           onUpdate: (self) => {
-  //             const rawIndex = self.progress * items.length;
-  //             const newIndex = Math.min(Math.floor(rawIndex), items.length - 1);
-
-  //             if (newIndex === activeIndexRef.current) return;
-
-  //             const prevIndex = activeIndexRef.current;
-  //             activeIndexRef.current = newIndex;
-  //             const goingForward = newIndex > prevIndex;
-
-  //             // ── Left labels ──
-  //             items.forEach((item, i) => {
-  //               const underline = wrapper.querySelector(
-  //                 `#underline-${item.id}`,
-  //               ) as HTMLElement;
-  //               const label = wrapper.querySelector(`#label-${item.id}`) as HTMLElement;
-  //               const counter = wrapper.querySelector(
-  //                 `#counter-${item.id}`,
-  //               ) as HTMLElement;
-
-  //               if (i === newIndex) {
-  //                 gsap.to(underline, {
-  //                   scaleX: 1,
-  //                   opacity: 1,
-  //                   duration: 0.45,
-  //                   ease: "power3.out",
-  //                 });
-  //                 gsap.to(label, { color: "#1c1917", duration: 0.35 });
-  //                 gsap.to(counter, { color: "#eab308", duration: 0.35 });
-  //               } else {
-  //                 gsap.to(underline, {
-  //                   scaleX: 0,
-  //                   opacity: 0,
-  //                   duration: 0.35,
-  //                   ease: "power2.in",
-  //                 });
-  //                 gsap.to(label, { color: "#d4cdc7", duration: 0.35 });
-  //                 gsap.to(counter, { color: "#e8e2db", duration: 0.35 });
-  //               }
-  //             });
-
-  //             // ── Right content swap ──
-  //             const prevEl = wrapper.querySelector(
-  //               `#content-${items[prevIndex].id}`,
-  //             ) as HTMLElement;
-  //             const nextEl = wrapper.querySelector(
-  //               `#content-${items[newIndex].id}`,
-  //             ) as HTMLElement;
-
-  //             gsap.killTweensOf(prevEl);
-  //             gsap.to(prevEl, {
-  //               opacity: 0,
-  //               y: goingForward ? -28 : 28,
-  //               duration: 0.38,
-  //               ease: "power2.in",
-  //               onComplete: () => {
-  //                 prevEl.style.pointerEvents = "none";
-  //               },
-  //             });
-
-  //             gsap.killTweensOf(nextEl);
-  //             gsap.fromTo(
-  //               nextEl,
-  //               { opacity: 0, y: goingForward ? 32 : -32 },
-  //               {
-  //                 opacity: 1,
-  //                 y: 0,
-  //                 duration: 0.52,
-  //                 ease: "power3.out",
-  //                 delay: 0.22,
-  //                 onStart: () => {
-  //                   nextEl.style.pointerEvents = "auto";
-  //                 },
-  //               },
-  //             );
-  //           },
-  //         });
-
-  //         // ── Entrance animation ──
-  //         gsap.from(".mvg-left-col > *", {
-  //           opacity: 0,
-  //           y: 28,
-  //           duration: 0.7,
-  //           stagger: 0.12,
-  //           ease: "power3.out",
-  //           scrollTrigger: { trigger: wrapper, start: "top 82%" },
-  //         });
-  //       });
-  //     });
-  //   }, wrapperRef);
-
-  //   return () => ctx.revert();
-  // }, []);
-
   useGSAP(
     () => {
       const wrapper = wrapperRef.current;
       if (!wrapper) return;
 
-      requestAnimationFrame(() => {
-        requestAnimationFrame(() => {
-          const vh = window.innerHeight;
-          const totalScroll = vh * SCROLL_PER_STEP * (items.length - 1);
+      const vh = window.innerHeight;
+      const totalScroll = vh * SCROLL_PER_STEP * (items.length - 1);
 
-          // ── Set initial DOM state ──
+      // ── Set initial DOM state ──
+      items.forEach((item, i) => {
+        const contentEl = wrapper.querySelector(`#content-${item.id}`) as HTMLElement;
+        const underline = wrapper.querySelector(`#underline-${item.id}`) as HTMLElement;
+        const label = wrapper.querySelector(`#label-${item.id}`) as HTMLElement;
+        const counter = wrapper.querySelector(`#counter-${item.id}`) as HTMLElement;
+
+        if (i === 0) {
+          gsap.set(contentEl, { opacity: 1, y: 0, pointerEvents: "auto" });
+          gsap.set(underline, { scaleX: 1, opacity: 1 });
+          gsap.set(label, { color: "#1c1917" });
+          gsap.set(counter, { color: "#eab308" });
+        } else {
+          gsap.set(contentEl, { opacity: 0, y: 30, pointerEvents: "none" });
+          gsap.set(underline, { scaleX: 0, opacity: 0 });
+          gsap.set(label, { color: "#d4cdc7" });
+          gsap.set(counter, { color: "#e8e2db" });
+        }
+      });
+
+      activeIndexRef.current = 0;
+
+      // ── Single ScrollTrigger with onUpdate driving everything ──
+      ScrollTrigger.create({
+        trigger: wrapper,
+        start: "top top",
+        end: `+=${totalScroll}`,
+        pin: true,
+        pinSpacing: true,
+        anticipatePin: 1,
+        invalidateOnRefresh: true,
+        onUpdate: (self) => {
+          const rawIndex = self.progress * items.length;
+          const newIndex = Math.min(Math.floor(rawIndex), items.length - 1);
+
+          if (newIndex === activeIndexRef.current) return;
+
+          const prevIndex = activeIndexRef.current;
+          activeIndexRef.current = newIndex;
+          const goingForward = newIndex > prevIndex;
+
+          // ── Left labels ──
           items.forEach((item, i) => {
-            const contentEl = wrapper.querySelector(`#content-${item.id}`) as HTMLElement;
             const underline = wrapper.querySelector(
               `#underline-${item.id}`,
             ) as HTMLElement;
             const label = wrapper.querySelector(`#label-${item.id}`) as HTMLElement;
             const counter = wrapper.querySelector(`#counter-${item.id}`) as HTMLElement;
 
-            if (i === 0) {
-              gsap.set(contentEl, { opacity: 1, y: 0, pointerEvents: "auto" });
-              gsap.set(underline, { scaleX: 1, opacity: 1 });
-              gsap.set(label, { color: "#1c1917" });
-              gsap.set(counter, { color: "#eab308" });
+            if (i === newIndex) {
+              gsap.to(underline, {
+                scaleX: 1,
+                opacity: 1,
+                duration: 0.45,
+                ease: "power3.out",
+              });
+              gsap.to(label, { color: "#1c1917", duration: 0.35 });
+              gsap.to(counter, { color: "#eab308", duration: 0.35 });
             } else {
-              gsap.set(contentEl, { opacity: 0, y: 30, pointerEvents: "none" });
-              gsap.set(underline, { scaleX: 0, opacity: 0 });
-              gsap.set(label, { color: "#d4cdc7" });
-              gsap.set(counter, { color: "#e8e2db" });
+              gsap.to(underline, {
+                scaleX: 0,
+                opacity: 0,
+                duration: 0.35,
+                ease: "power2.in",
+              });
+              gsap.to(label, { color: "#d4cdc7", duration: 0.35 });
+              gsap.to(counter, { color: "#e8e2db", duration: 0.35 });
             }
           });
 
-          activeIndexRef.current = 0;
+          // ── Right content swap ──
+          const prevEl = wrapper.querySelector(
+            `#content-${items[prevIndex].id}`,
+          ) as HTMLElement;
+          const nextEl = wrapper.querySelector(
+            `#content-${items[newIndex].id}`,
+          ) as HTMLElement;
 
-          // ── Single ScrollTrigger with onUpdate driving everything ──
-          ScrollTrigger.create({
-            trigger: wrapper,
-            start: "top top",
-            end: `+=${totalScroll}`,
-            pin: true,
-            pinSpacing: true,
-            anticipatePin: 1,
-            invalidateOnRefresh: true,
-            onUpdate: (self) => {
-              const rawIndex = self.progress * items.length;
-              const newIndex = Math.min(Math.floor(rawIndex), items.length - 1);
-
-              if (newIndex === activeIndexRef.current) return;
-
-              const prevIndex = activeIndexRef.current;
-              activeIndexRef.current = newIndex;
-              const goingForward = newIndex > prevIndex;
-
-              // ── Left labels ──
-              items.forEach((item, i) => {
-                const underline = wrapper.querySelector(
-                  `#underline-${item.id}`,
-                ) as HTMLElement;
-                const label = wrapper.querySelector(`#label-${item.id}`) as HTMLElement;
-                const counter = wrapper.querySelector(
-                  `#counter-${item.id}`,
-                ) as HTMLElement;
-
-                if (i === newIndex) {
-                  gsap.to(underline, {
-                    scaleX: 1,
-                    opacity: 1,
-                    duration: 0.45,
-                    ease: "power3.out",
-                  });
-                  gsap.to(label, { color: "#1c1917", duration: 0.35 });
-                  gsap.to(counter, { color: "#eab308", duration: 0.35 });
-                } else {
-                  gsap.to(underline, {
-                    scaleX: 0,
-                    opacity: 0,
-                    duration: 0.35,
-                    ease: "power2.in",
-                  });
-                  gsap.to(label, { color: "#d4cdc7", duration: 0.35 });
-                  gsap.to(counter, { color: "#e8e2db", duration: 0.35 });
-                }
-              });
-
-              // ── Right content swap ──
-              const prevEl = wrapper.querySelector(
-                `#content-${items[prevIndex].id}`,
-              ) as HTMLElement;
-              const nextEl = wrapper.querySelector(
-                `#content-${items[newIndex].id}`,
-              ) as HTMLElement;
-
-              gsap.killTweensOf(prevEl);
-              gsap.to(prevEl, {
-                opacity: 0,
-                y: goingForward ? -28 : 28,
-                duration: 0.38,
-                ease: "power2.in",
-                onComplete: () => {
-                  prevEl.style.pointerEvents = "none";
-                },
-              });
-
-              gsap.killTweensOf(nextEl);
-              gsap.fromTo(
-                nextEl,
-                { opacity: 0, y: goingForward ? 32 : -32 },
-                {
-                  opacity: 1,
-                  y: 0,
-                  duration: 0.52,
-                  ease: "power3.out",
-                  delay: 0.22,
-                  onStart: () => {
-                    nextEl.style.pointerEvents = "auto";
-                  },
-                },
-              );
+          gsap.killTweensOf(prevEl);
+          gsap.to(prevEl, {
+            opacity: 0,
+            y: goingForward ? -28 : 28,
+            duration: 0.38,
+            ease: "power2.in",
+            onComplete: () => {
+              prevEl.style.pointerEvents = "none";
             },
           });
 
-          // ── Entrance animation ──
-          gsap.from(".mvg-left-col > *", {
-            opacity: 0,
-            y: 28,
-            duration: 0.7,
-            stagger: 0.12,
-            ease: "power3.out",
-            scrollTrigger: { trigger: wrapper, start: "top 82%" },
-          });
-        });
+          gsap.killTweensOf(nextEl);
+          gsap.fromTo(
+            nextEl,
+            { opacity: 0, y: goingForward ? 32 : -32 },
+            {
+              opacity: 1,
+              y: 0,
+              duration: 0.52,
+              ease: "power3.out",
+              delay: 0.22,
+              onStart: () => {
+                nextEl.style.pointerEvents = "auto";
+              },
+            },
+          );
+        },
+      });
+
+      // ── Entrance animation ──
+      gsap.from(".mvg-left-col > *", {
+        opacity: 0,
+        y: 28,
+        duration: 0.7,
+        stagger: 0.12,
+        ease: "power3.out",
+        scrollTrigger: { trigger: wrapper, start: "top 82%" },
       });
     },
     { scope: wrapperRef },
@@ -319,7 +174,7 @@ export default function Mission() {
       <section
         ref={wrapperRef}
         data-navbar-theme="light"
-        className="relative w-full min-h-screen hidden md:flex flex-col bg-background py-10"
+        className="relative w-full min-h-screen hidden lg:flex flex-col bg-background py-10"
       >
         {/* Top amber rule */}
         <div className="w-full h-0.75 shrink-0 bg-linear-to-r from-transparent via-[#eab308] to-transparent" />
@@ -404,7 +259,7 @@ export default function Mission() {
 
                 <div className="inline-flex items-end gap-4 px-7 py-5 rounded-2xl self-start bg-[#f9f6f1] border border-[#eab308]/20 shadow-sm">
                   <span
-                    className="text-[clamp(40px,5vw,64px)] font-black leading-none text-red-500"
+                    className="text-[clamp(40px,5vw,64px)] font-black leading-none text-brand-red"
                     style={{ letterSpacing: "-0.04em" }}
                   >
                     {item.stat.value}
@@ -421,8 +276,8 @@ export default function Mission() {
       </section>
 
       {/* mobile view section */}
-      <section className="md:hidden flex p-4 py-10 bg-background">
-        <div className="flex flex-col gap-10">
+      <section className="lg:hidden flex md:p-10 p-7 py-10 bg-background">
+        <div className="flex flex-col gap-25">
           {items.map((item, i) => (
             <div key={item.id} className="flex flex-col gap-8">
               {/* title */}
