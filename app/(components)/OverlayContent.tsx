@@ -8,7 +8,7 @@ export function OverlayContent() {
       {/* Scene 1 Intro Text */}
       <div
         id="intro-text"
-        className="absolute bottom-10 left-1/2 -translate-x-1/2 text-white text-xl font-medium tracking-widest uppercase opacity-0 transition-opacity duration-1000"
+        className="absolute bottom-10 left-1/2 -translate-x-1/2 text-black/30 text-xl font-bold tracking-widest uppercase z-100 opacity-0 transition-opacity duration-1000"
       >
         Scroll to explore
       </div>
@@ -45,12 +45,12 @@ export function OverlayContent() {
             id={label.id}
             className="flex items-center gap-4 group opacity-0 translate-x-10"
           >
-            <div className="w-12 h-[1px] bg-white/50 group-hover:bg-white transition-colors" />
+            <div className="w-12 h-px bg-blue-950 group-hover:bg-white transition-colors" />
             <div>
-              <h3 className="text-white text-xl font-bold uppercase tracking-tight">
+              <h3 className="text-blue-900 text-xl font-bold uppercase tracking-tight">
                 {label.text}
               </h3>
-              <p className="text-white/60 text-sm">{label.desc}</p>
+              <p className="text-gray-500 text-sm">{label.desc}</p>
             </div>
           </div>
         ))}
@@ -61,9 +61,9 @@ export function OverlayContent() {
         id="installation-text"
         className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-center opacity-0"
       >
-        <h2 className="text-white text-5xl md:text-7xl font-black uppercase leading-tight">
+        <h2 className="text-brand-red text-5xl md:text-7xl font-black uppercase leading-tight">
           Perfect for <br />
-          <span className="text-blue-400">Residential & Commercial</span> Use
+          <span className="text-blue-900">Residential & Commercial</span> Use
         </h2>
       </div>
     </div>

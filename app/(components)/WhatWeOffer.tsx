@@ -76,7 +76,7 @@ const services: ServiceCard[] = [
     title: "On-Grid Systems",
     category: "On-Grid",
     image: "/images/on-grid.png",
-    description: "Reduce electricity bills with grid-connected solar.",
+    description: "Reduce bills with a solar system for home with subsidy in Tamil Nadu.",
   },
   {
     id: 4,

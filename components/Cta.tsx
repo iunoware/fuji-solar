@@ -22,8 +22,7 @@ export default function Cta() {
           <div className="absolute inset-0 flex flex-col justify-center px-8 max-w-lg">
             <h2 className="text-5xl font-bold text-white mb-3">Ready to Go Solar?</h2>
             <p className="text-gray-100 text-sm leading-relaxed mb-6">
-              Make the switch to clean, cost saving energy today. Our experts are here to
-              guide you every step of the way.
+              Discover affordable solar solutions for homes in Tamil Nadu and make the switch to clean energy today. Our experts are here to guide you.
             </p>
 
             <Link

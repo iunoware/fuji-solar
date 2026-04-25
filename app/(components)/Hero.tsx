@@ -120,8 +120,8 @@ export default function RenewableEnergyHero() {
                   ref={subTextRef}
                   className="text-white/90 text-base lg:text-md leading-relaxed mb-8 pl-4"
                 >
-                  Clean, reliable, and cost-effective energy solutions for homes
-                  and businesses. Driving the future of sustainable power.
+                  Expert solar panel installation Madurai for homes and businesses. 
+                  Providing clean, reliable, and cost-effective energy solutions for sustainable power.
                 </p>
               </div>
 

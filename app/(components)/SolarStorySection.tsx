@@ -58,7 +58,7 @@ export default function SolarStorySection() {
         tl.to(
           ".background-gradient",
           {
-            background: "linear-gradient(to bottom, #0ea5e9, #60a5fa)",
+            background: "linear-gradient(to bottom, #d3efff, #ffffff)",
             duration: 1,
           },
           3.5,
@@ -114,7 +114,7 @@ export default function SolarStorySection() {
 
             <Float speed={2} rotationIntensity={0.5} floatIntensity={0.5}>
               <group ref={setModel}>
-                <SolarPanelModel scale={2.5} rotation={[0, 0, 0]} />
+                <SolarPanelModel scale={1.8} rotation={[0, 0, 0]} />
               </group>
             </Float>
 
