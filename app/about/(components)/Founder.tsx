@@ -49,7 +49,7 @@ export default function Founder() {
   );
 
   return (
-    <section ref={sectionRef} className="bg-[#fefefe] py-20 px-4 md:px-10">
+    <section ref={sectionRef} className="bg-background py-20 px-4 md:px-10">
       <div className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
         {/* ── LEFT — Founder Image ── */}
         <div ref={imageRef} className="opacity-0 relative">
