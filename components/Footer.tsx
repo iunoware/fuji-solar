@@ -1,8 +1,7 @@
 "use client";
 
-import React from "react";
 import Link from "next/link";
-import { MessageSquare, ArrowUpRight } from "lucide-react";
+import { MessageSquare, ArrowUpRight, MapPin, Phone } from "lucide-react";
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
@@ -117,15 +116,61 @@ export default function Footer() {
               <h4 className="text-sm font-bold uppercase tracking-widest text-gray-900">
                 Office
               </h4>
-              <div className="space-y-4">
-                <p className="text-gray-800 text-sm leading-relaxed">
-                  4th Floor, Apex Tower, <br />
-                  Business District, Chennai 600001
-                </p>
+              <div className="space-y-2">
+                <div className="inline-flex gap-2 group w-fit">
+                  <MapPin className="text-gray-800 group-hover:text-brand-red transition-colors" />
+                  <a
+                    href="https://maps.app.goo.gl/A9wFG5uy38CVHwUo7"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-gray-800 text-sm leading-relaxed hover:text-brand-red transition-colors"
+                  >
+                    Our Office 47, Bharathiyar 7th St, <br /> S S Colony, Madurai, Tamil
+                    Nadu 625016
+                  </a>
+                </div>
+
+                <div className="flex flex-col gap-2">
+                  <div className="inline-flex gap-2 group w-fit">
+                    <Phone
+                      className="text-gray-800 group-hover:text-brand-red transition-colors"
+                      size={20}
+                    />
+                    <a
+                      href="tel:+919842076979"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-gray-800 group-hover:text-brand-red transition-colors"
+                    >
+                      +91 9842 0769 79{" "}
+                    </a>
+                  </div>
+
+                  <div className="inline-flex gap-2 group w-fit">
+                    <Phone
+                      className="text-gray-800 group-hover:text-brand-red transition-colors"
+                      size={20}
+                    />
+                    <a
+                      href="tel:+919842105949"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-gray-800 group-hover:text-brand-red transition-colors"
+                    >
+                      +91 9842 1059 49{" "}
+                    </a>
+                  </div>
+                </div>
+
                 <div className="pt-2">
-                  <button className="flex items-center gap-3 px-6 py-3 bg-gray-900 text-white rounded-full text-sm font-bold hover:bg-brand-red transition-all duration-300 ">
+                  <a
+                    href="https://wa.me/919842076979"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center gap-3 px-6 py-3 bg-gray-900 text-white rounded-full w-fit text-sm font-bold hover:bg-brand-red transition-all duration-300 "
+                  >
                     <MessageSquare size={16} /> Quick Support
-                  </button>
+                  </a>
                 </div>
               </div>
             </div>

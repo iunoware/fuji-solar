@@ -16,19 +16,19 @@ gsap.registerPlugin(ScrollTrigger);
 
 const values = [
   {
-    icon: <Zap className="text-red-600" />,
+    icon: <Zap className="text-brand-red" />,
     title: "Reliability",
-    desc: "Built to perform in the harshest conditions, every system we install is engineered for decades of dependable output.",
+    desc: "Built to perform in the harshest conditions, we source the best solar panels for home in Madurai, engineered for decades of dependable output.",
   },
   {
-    icon: <Leaf className="text-red-600" />,
-    title: "Sustainability",
-    desc: "We believe clean energy isn't a compromise — it's the smarter, more responsible path forward for every community.",
+    icon: <Leaf className="text-brand-red" />,
+    title: "Sustainability & Strategy",
+    desc: "We provide comprehensive solar consultation services to ensure clean energy is the smartest, most responsible path forward for your community.",
   },
   {
-    icon: <Wrench className="text-red-600" />,
+    icon: <Wrench className="text-brand-red" />,
     title: "Craftsmanship",
-    desc: "Four decades of hands-on experience means we bring precision and expertise to every project, big or small.",
+    desc: "Four decades of experience means we bring expert precision to every project, along with the reliable solar panel repair Tamil Nadu demands.",
   },
 ];
 
@@ -178,16 +178,14 @@ export default function WhoWeAre() {
               className="text-3xl md:text-5xl font-bold text-gray-900 leading-tight font-sans"
               style={{ letterSpacing: "-0.02em" }}
             >
-              Harnessing the sun{" "}
-              {/* <span className="[-webkit-text-stroke:1.5px_#C8102E] text-transparent"> */}
-              <span className="text-[#C8102E]">since 1982.</span>
+              Harnessing the sun <span className="text-brand-red">since 1982.</span>
             </h2>
           </div>
 
           {/* Tagline */}
           <p
             ref={taglineRef}
-            className="text-lg text-[#C8102E] font-medium font-sans opacity-0"
+            className="text-lg text-brand-red font-medium font-sans opacity-0"
             style={{ letterSpacing: "0.01em" }}
           >
             Powering lives. Protecting the planet.
@@ -200,8 +198,9 @@ export default function WhoWeAre() {
           >
             Fuji Solar was founded on a single conviction - that clean, affordable energy
             should be accessible to everyone. Over 43 years, we&apos;ve grown from a local
-            pioneer into a trusted name across the industry, delivering solar solutions
-            that stand the test of time, weather, and scale.
+            pioneer into a trusted name, delivering premium residential and industrial
+            solar solutions Tamil Nadu trusts to stand the test of time, weather, and
+            scale.
           </p>
 
           {/* Founder quote */}
@@ -215,30 +214,6 @@ export default function WhoWeAre() {
               — Founder, Fuji Solar
             </p>
           </div>
-
-          {/* Stats row */}
-          {/* <div ref={statsRef} className="flex items-center gap-6 pt-2 opacity-0">
-            {stats.map((s, i) => (
-              <div key={i} className="flex flex-col">
-                <div>
-                  <span
-                    data-price={s.value}
-                    data-stat
-                    className="text-3xl font-bold text-gray-900 leading-none font-mono"
-                  >
-                    {s.value}
-                  </span>
-                  <span className="text-[#C8102E] text-2xl">{s.suffix}</span>
-                </div>
-
-                <div>
-                  <span className="text-gray-400 text-[10px] tracking-widest uppercase mt-1 font-sans">
-                    {s.label}
-                  </span>
-                </div>
-              </div>
-            ))}
-          </div> */}
         </div>
 
         {/* right column*/}
@@ -256,7 +231,7 @@ export default function WhoWeAre() {
                 key={v.title}
                 className="value-card group flex gap-4 p-5 rounded-xl border border-gray-100 bg-gray-50 hover:border-[#C8102E]/20 hover:bg-[#C8102E]/2 transition-colors duration-300 opacity-0"
               >
-                <div className="shrink-0 w-10 h-10 rounded-lg bg-white border border-gray-100 flex items-center justify-center shadow-sm group-hover:border-[#C8102E]/20 transition-colors duration-300">
+                <div className="shrink-0 w-10 h-10 rounded-lg bg-brand-red/10 border border-gray-100 flex items-center justify-center shadow-sm group-hover:border-[#C8102E]/20 transition-colors duration-300">
                   {v.icon}
                 </div>
                 <div className="flex flex-col gap-1">

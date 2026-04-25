@@ -494,6 +494,8 @@ const ContactSection = () => {
             <div className="pt-4 flex flex-wrap gap-4">
               <a
                 href="tel:+919842076979"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-flex py-4 px-8 bg-gray-900 text-white rounded-full font-bold text-sm tracking-wide hover:bg-brand-red transition-all duration-300 shadow-xl shadow-gray-200"
               >
                 Call Now

@@ -106,14 +106,14 @@ export default function Achievements() {
     <section ref={sectionRef} className="bg-background py-20 px-4 md:px-10">
       {/* Heading */}
       <div ref={headingRef} className="text-center mb-14 opacity-0">
-        <p className="text-xs font-mono tracking-[0.4em] text-red-500 uppercase mb-3">
+        <p className="text-xs font-mono tracking-[0.4em] text-brand-red uppercase mb-3">
           Our Legacy
         </p>
         <h2
           className="text-4xl md:text-5xl font-bold text-gray-900 font-sans"
           style={{ letterSpacing: "-0.02em" }}
         >
-          Milestones that <span className="text-red-500">matter.</span>
+          Milestones that <span className="text-brand-red">matter.</span>
         </h2>
       </div>
 
@@ -134,7 +134,7 @@ export default function Achievements() {
                 >
                   {a.stat}
                 </span>
-                <span className="text-3xl font-bold text-red-500 font-mono leading-none mb-1">
+                <span className="text-3xl font-bold text-brand-red font-mono leading-none mb-1">
                   {a.suffix}
                 </span>
               </div>
