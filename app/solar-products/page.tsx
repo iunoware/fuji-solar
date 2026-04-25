@@ -4,10 +4,10 @@ import Services from "./(components)/Services";
 
 export default function SolarProducts() {
   return (
-    <>
+    <div className="bg-background">
       <Hero />
       <SectorsWeServe />
       <Services />
-    </>
+    </div>
   );
 }
