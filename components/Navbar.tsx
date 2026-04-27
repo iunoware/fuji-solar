@@ -230,7 +230,7 @@ export default function Navbar() {
               key={link.name}
               href={link.href}
               className={`text-lg font-medium ${
-                isActive ? "text-gray-950" : "text-gray-600"
+                isActive ? "text-brand-red" : "text-gray-900"
               }`}
               onClick={() => setIsOpen(false)}
             >
