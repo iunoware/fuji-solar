@@ -42,19 +42,29 @@ export default function WhyChooseUs() {
 
   useGSAP(
     () => {
+      if (!sectionRef.current) return;
+
       const trigger = {
         trigger: sectionRef.current,
-        start: "top 75%",
+        start: "top 80%",
+        invalidateOnRefresh: true,
       };
 
       gsap.fromTo(
         headingRef.current,
         { opacity: 0, y: 24 },
-        { opacity: 1, y: 0, duration: 0.7, ease: "power3.out", scrollTrigger: trigger },
+        {
+          opacity: 1,
+          y: 0,
+          duration: 0.7,
+          ease: "power3.out",
+          scrollTrigger: trigger,
+        },
       );
 
       if (cardsRef.current) {
-        const cardEls = cardsRef.current.querySelectorAll<HTMLElement>(".why-card");
+        const cardEls =
+          cardsRef.current.querySelectorAll<HTMLElement>(".why-card");
         gsap.fromTo(
           cardEls,
           { opacity: 0, y: 40 },
@@ -74,7 +84,10 @@ export default function WhyChooseUs() {
   );
 
   return (
-    <section ref={sectionRef} className="bg-background py-20 px-4 md:px-10">
+    <section
+      ref={sectionRef}
+      className="bg-background pt-30 py-20 px-4 md:px-10"
+    >
       {/* Heading */}
       <div ref={headingRef} className="text-center mb-12 opacity-0">
         {/* <p className="text-xs font-mono tracking-[0.4em] text-red-500 uppercase mb-3">
@@ -87,9 +100,9 @@ export default function WhyChooseUs() {
           Why <span className="text-brand-red">Fuji Solar.</span>
         </h2>
         <p className="text-gray-500 text-sm mt-4 max-w-lg mx-auto font-sans leading-relaxed">
-          From the first call to the final panel - here&apos;s what makes Fuji Solar the
-          trusted choice for residential setups and any commercial solar installation
-          Tamil Nadu businesses require.
+          From the first call to the final panel - here&apos;s what makes Fuji
+          Solar the trusted choice for residential setups and any commercial
+          solar installation Tamil Nadu businesses require.
         </p>
       </div>
 

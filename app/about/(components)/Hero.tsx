@@ -14,25 +14,19 @@ export default function Hero() {
 
   useGSAP(
     () => {
+      if (!containerRef.current) return;
+
       const tl = gsap.timeline({ defaults: { ease: "power3.out" } });
 
-      tl.fromTo(
-        headingRef.current,
-        { opacity: 0, y: 40 },
-        { opacity: 1, y: 0, duration: 0.8 },
-      )
-        .fromTo(
-          paragraphRef.current,
-          { opacity: 0, y: 30 },
-          { opacity: 1, y: 0, duration: 0.7 },
-          "-=0.5",
-        )
-        .fromTo(
-          ctaRef.current,
-          { opacity: 0, y: 20 },
-          { opacity: 1, y: 0, duration: 0.6 },
-          "-=0.4",
-        );
+      // Ensure elements are at their starting positions before animating
+      gsap.set([headingRef.current, paragraphRef.current, ctaRef.current], {
+        opacity: 0,
+        y: (i) => [40, 30, 20][i],
+      });
+
+      tl.to(headingRef.current, { opacity: 1, y: 0, duration: 0.8 })
+        .to(paragraphRef.current, { opacity: 1, y: 0, duration: 0.7 }, "-=0.5")
+        .to(ctaRef.current, { opacity: 1, y: 0, duration: 0.6 }, "-=0.4");
     },
     { scope: containerRef },
   );

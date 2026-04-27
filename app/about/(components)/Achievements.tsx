@@ -35,9 +35,12 @@ export default function Achievements() {
 
   useGSAP(
     () => {
+      if (!sectionRef.current) return;
+
       const trigger = {
         trigger: sectionRef.current,
         start: "top 80%",
+        invalidateOnRefresh: true,
       };
 
       // Heading
@@ -90,7 +93,11 @@ export default function Achievements() {
             value: endValue,
             duration: 2,
             ease: "power2.out",
-            scrollTrigger: { trigger: sectionRef.current, start: "top 80%" },
+            scrollTrigger: {
+              trigger: sectionRef.current,
+              start: "top 85%",
+              invalidateOnRefresh: true,
+            },
             delay: 0.3,
             onUpdate: () => {
               el.textContent = Math.floor(obj.value).toLocaleString("en-IN");

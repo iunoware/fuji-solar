@@ -15,9 +15,12 @@ export default function Founder() {
 
   useGSAP(
     () => {
+      if (!sectionRef.current) return;
+
       const trigger = {
         trigger: sectionRef.current,
-        start: "top 75%",
+        start: "top 80%",
+        invalidateOnRefresh: true,
       };
 
       // Image slides in from left

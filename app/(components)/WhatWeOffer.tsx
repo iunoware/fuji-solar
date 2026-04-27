@@ -2,6 +2,10 @@
 
 import React, { useRef, useState, useEffect } from "react";
 import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { useGSAP } from "@gsap/react";
+
+gsap.registerPlugin(ScrollTrigger);
 
 interface ServiceCard {
   id: number;
@@ -108,20 +112,29 @@ export default function WhatWeOffer() {
   const [scrollLeft, setScrollLeft] = useState(0);
   const cardsRef = useRef<(HTMLDivElement | null)[]>([]);
 
-  useEffect(() => {
-    // Animate cards on load
-    gsap.fromTo(
-      cardsRef.current,
-      { opacity: 0, y: 30 },
-      {
-        opacity: 1,
-        y: 0,
-        duration: 0.8,
-        stagger: 0.1,
-        ease: "power3.out",
-      },
-    );
-  }, []);
+  useGSAP(
+    () => {
+      if (!cardsRef.current.length) return;
+      // Animate cards on load
+      gsap.fromTo(
+        cardsRef.current,
+        { opacity: 0, y: 30 },
+        {
+          opacity: 1,
+          y: 0,
+          duration: 0.8,
+          stagger: 0.1,
+          ease: "power3.out",
+          scrollTrigger: {
+            trigger: scrollContainerRef.current,
+            start: "top 85%",
+            invalidateOnRefresh: true,
+          },
+        },
+      );
+    },
+    { scope: scrollContainerRef },
+  );
 
   const handleMouseDown = (e: React.MouseEvent) => {
     setIsDragging(true);
