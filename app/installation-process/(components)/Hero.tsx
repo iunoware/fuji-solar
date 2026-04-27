@@ -4,6 +4,7 @@ import Link from "next/link";
 import { useRef } from "react";
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
+import { ArrowRight } from "lucide-react";
 
 export default function Hero() {
   const headingRef = useRef<HTMLHeadingElement>(null);
@@ -36,21 +37,21 @@ export default function Hero() {
     <main
       className="h-screen text-gray-900 flex justify-center items-center flex-col bg-cover bg-center"
       style={{
-        backgroundImage: "url('/images/about-hero.webp')",
+        backgroundImage: "url('/images/investment-hero-2.png')",
       }}
     >
       <section className="text-center px-6 pt-16 pb-6 shrink-0">
         <h1
           ref={headingRef}
-          className="text-3xl md:text-5xl font-semibold leading-tight max-w-4xl mx-auto opacity-0"
+          className="text-3xl md:text-5xl text-white font-semibold leading-tight max-w-4xl mx-auto opacity-0"
         >
           Our Seamless Solar <br />
-          Installation <span className="text-red-500">Process</span>.
+          Installation <span className="text-brand-red">Process</span>.
         </h1>
 
         <p
           ref={paragraphRef}
-          className="mt-4 text-gray-600 max-w-2xl mx-auto text-sm md:text-base opacity-0"
+          className="mt-4 text-gray-200 max-w-2xl mx-auto text-sm md:text-base opacity-0"
         >
           Our end-to-end solar journey ensures a simple transition to clean
           energy. From site inspection to system activation, we handle every
@@ -60,11 +61,11 @@ export default function Hero() {
         <div ref={ctaRef} className="mt-6 opacity-0">
           <Link
             href="/contact"
-            className="flex items-center gap-2 mx-auto w-fit bg-white px-6 py-3 rounded-full shadow-md hover:shadow-lg transition"
+            className="flex items-center gap-2 mx-auto group w-fit bg-white px-6 py-3 rounded-full shadow-md hover:shadow-lg transition"
           >
-            <span>Book Free Site Visit</span>
-            <span className="bg-red-500 text-white rounded-full w-6 h-6 flex items-center justify-center text-sm">
-              ↗
+            <span>Get a Free Consultation</span>
+            <span className="bg-brand-red text-white -rotate-40 group-hover:rotate-0 transition-all duration-200 rounded-full w-6 h-6 p-1 flex items-center justify-center text-sm">
+              <ArrowRight />
             </span>
           </Link>
         </div>
