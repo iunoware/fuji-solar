@@ -167,11 +167,11 @@ export default function Navbar() {
 
   return (
     <nav
-      className={`fixed w-full z-50 transition-all duration-300 bg-white/70 backdrop-blur-md shadow-sm py-2`}
+      className={`fixed w-full z-50 transition-all duration-300 bg-white/70 backdrop-blur-md shadow-sm py-1`}
     >
       <div className="container mx-auto px-6 flex justify-between items-center">
         {/* Logo */}
-        <Link href="/" className="relative h-15 w-60">
+        <Link href="/" className="relative h-15 w-50">
           <Image
             src="/images/logo.png"
             alt="Fuji Solar"
