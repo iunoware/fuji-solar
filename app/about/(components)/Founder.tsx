@@ -60,7 +60,7 @@ export default function Founder() {
           <div className="relative z-10 rounded-3xl overflow-hidden aspect-4/5 w-full">
             <Image
               src="/images/founder.webp"
-              alt="Immanuvel — Founder of Fuji Solar"
+              alt="Immanuvel - Founder of Fuji Solar"
               fill
               className="object-cover object-top"
             />
@@ -71,7 +71,7 @@ export default function Founder() {
             <div className="absolute bottom-5 left-5">
               <div className="bg-white/90 backdrop-blur-sm rounded-2xl px-4 py-3 shadow-sm">
                 <p className="text-gray-900 text-sm font-bold font-sans">Immanuvel</p>
-                <p className="text-red-500 text-[10px] font-mono tracking-widest uppercase">
+                <p className="text-brand-red text-[10px] font-mono tracking-widest uppercase">
                   Founder · Fuji Solar
                 </p>
               </div>
@@ -83,8 +83,8 @@ export default function Founder() {
         <div ref={contentRef} className="flex flex-col gap-6">
           {/* Eyebrow */}
           <div className="fade-item opacity-0 flex items-center gap-3">
-            <span className="w-6 h-px bg-red-500" />
-            <span className="text-red-500 text-[10px] font-mono tracking-[0.4em] uppercase">
+            <span className="w-6 h-px bg-brand-red" />
+            <span className="text-brand-red text-[10px] font-mono tracking-[0.4em] uppercase">
               Meet the Founder
             </span>
           </div>
@@ -103,7 +103,7 @@ export default function Founder() {
           </div>
 
           {/* Quote */}
-          <div className="fade-item opacity-0 border-l-2 border-red-500 pl-4">
+          <div className="fade-item opacity-0 border-l-2 border-brand-red pl-4">
             <p className="text-gray-700 text-base italic font-sans leading-relaxed">
               &quot;Solar isn&apos;t just our business — it&apos;s our belief. Every panel
               we install is a promise to the next generation.&quot;
@@ -131,7 +131,7 @@ export default function Founder() {
             <div className="flex flex-col">
               <span className="text-4xl font-bold text-gray-900 font-mono leading-none">
                 43
-                <span className="text-red-500 text-2xl">+</span>
+                <span className="text-brand-red text-2xl">+</span>
               </span>
               <span className="text-gray-400 text-[10px] font-mono tracking-widest uppercase mt-1">
                 Years Leading Fuji Solar

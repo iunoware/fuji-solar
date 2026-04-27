@@ -4,12 +4,12 @@ import Image from "next/image";
 const bottomImages = [
   {
     src: "/images/solar-panel-2.webp",
-    alt: "Commercial & Industrial solar installation",
+    alt: "solar energy company Tamil Nadu",
     label: "Commercial",
   },
   {
     src: "/images/solar-panel-3.webp",
-    alt: "Residential solar installation",
+    alt: "solar panel dealers Tamil Nadu",
     label: "Residential",
   },
 ];
@@ -21,9 +21,9 @@ export default function BentoGrid() {
         {/* left column */}
         <div className="md:col-span-1 grid md:grid-rows-2 gap-3 md:h-full">
           {/* Top card */}
-          <div className="bg-red-100 rounded-3xl p-6 flex flex-col justify-between">
+          <div className="bg-brand-red/20 rounded-3xl p-6 flex flex-col justify-between">
             {/* Eyebrow */}
-            <p className="text-xs font-semibold tracking-widest text-red-500 uppercase">
+            <p className="text-xs font-semibold tracking-widest text-brand-red uppercase">
               Fuji Solar
             </p>
 
@@ -31,10 +31,10 @@ export default function BentoGrid() {
             <div className="flex flex-col gap-2 my-auto py-4">
               <h1 className="text-2xl md:text-3xl font-bold leading-snug text-gray-900">
                 Solar for <br />
-                <span className="text-red-500">Every Scale.</span>
+                <span className="text-brand-red">Every Scale.</span>
               </h1>
               <p className="text-sm text-gray-500 leading-relaxed max-w-50">
-                From your rooftop to an open field — we design and install solar systems
+                From your rooftop to an open field - we design and install solar systems
                 that fit every need.
               </p>
             </div>
@@ -45,7 +45,7 @@ export default function BentoGrid() {
               className="flex items-center gap-2 bg-white/70 backdrop-blur-lg text-gray-800 text-sm font-medium px-5 py-2.5 rounded-full w-fit hover:bg-white transition-colors group"
             >
               Get a Quote
-              <span className="bg-red-500 -rotate-45 group-hover:rotate-0 transition-transform duration-200 text-white rounded-full w-7 h-7 flex items-center justify-center text-xs">
+              <span className="bg-brand-red -rotate-45 group-hover:rotate-0 transition-transform duration-200 text-white rounded-full w-7 h-7 flex items-center justify-center text-xs">
                 ➜
               </span>
             </Link>
@@ -71,7 +71,7 @@ export default function BentoGrid() {
         <div className="md:col-span-2 relative rounded-3xl overflow-hidden h-72 md:h-auto">
           <Image
             src="/images/solar-panel-1.webp"
-            alt="Utility scale solar installation in open field"
+            alt="solar power solutions Tamil Nadu"
             fill
             className="object-cover"
           />
