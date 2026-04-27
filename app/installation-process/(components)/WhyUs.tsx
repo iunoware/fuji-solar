@@ -52,23 +52,25 @@ export default function WhyUs() {
   const containerRef = useRef<HTMLDivElement>(null);
 
   useGSAP(() => {
-    // Select all cards within the container scope
-    const cards = containerRef.current?.querySelectorAll(".feature-card");
-    
-    if (cards && cards.length > 0) {
-      gsap.from(cards, {
-        opacity: 0,
-        y: 40,
+    // Using string selector with scope is more robust
+    gsap.fromTo(".feature-card", 
+      { 
+        opacity: 0, 
+        y: 40 
+      },
+      {
+        opacity: 1,
+        y: 0,
         stagger: 0.15,
         duration: 1,
         ease: "power3.out",
         scrollTrigger: {
-          trigger: containerRef.current,
-          start: "top 85%", // Trigger slightly earlier
+          trigger: ".feature-card-grid",
+          start: "top 90%",
           toggleActions: "play none none reverse",
         }
-      });
-    }
+      }
+    );
   }, { scope: containerRef });
 
   return (
@@ -86,7 +88,7 @@ export default function WhyUs() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-10">
+        <div className="feature-card-grid grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-10">
           {features.map((feature, index) => (
             <div 
               key={index}
