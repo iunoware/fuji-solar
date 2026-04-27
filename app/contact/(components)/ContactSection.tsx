@@ -22,44 +22,6 @@ const ContactSection = () => {
   const formRef = useRef<HTMLDivElement>(null);
   const infoRef = useRef<HTMLDivElement>(null);
 
-  // useEffect(() => {
-  //   const ctx = gsap.context(() => {
-  //     // Form entrance
-  //     gsap.fromTo(
-  //       formRef.current,
-  //       { opacity: 0, x: -30 },
-  //       {
-  //         opacity: 1,
-  //         x: 0,
-  //         duration: 0.8,
-  //         ease: "power3.out",
-  //         scrollTrigger: {
-  //           trigger: sectionRef.current,
-  //           start: "top 75%",
-  //         },
-  //       },
-  //     );
-
-  //     // Info entrance
-  //     gsap.fromTo(
-  //       infoRef.current,
-  //       { opacity: 0, x: 30 },
-  //       {
-  //         opacity: 1,
-  //         x: 0,
-  //         duration: 0.8,
-  //         ease: "power3.out",
-  //         scrollTrigger: {
-  //           trigger: sectionRef.current,
-  //           start: "top 75%",
-  //         },
-  //       },
-  //     );
-  //   }, sectionRef);
-
-  //   return () => ctx.revert();
-  // }, []);
-
   useGSAP(
     () => {
       gsap.fromTo(
@@ -95,44 +57,6 @@ const ContactSection = () => {
     },
     { scope: sectionRef },
   );
-
-  // useEffect(() => {
-  //   const form = formRef.current;
-  //   const info = infoRef.current;
-  //   const section = sectionRef.current;
-
-  //   if (!form || !info || !section) return;
-
-  //   // Don't use gsap.context() at all — it causes revert issues with Next.js
-  //   const anim1 = gsap.to(form, {
-  //     opacity: 1,
-  //     x: 0,
-  //     duration: 0.8,
-  //     ease: "power3.out",
-  //     scrollTrigger: {
-  //       trigger: section,
-  //       start: "top 75%",
-  //     },
-  //   });
-
-  //   const anim2 = gsap.to(info, {
-  //     opacity: 1,
-  //     x: 0,
-  //     duration: 0.8,
-  //     ease: "power3.out",
-  //     scrollTrigger: {
-  //       trigger: section,
-  //       start: "top 75%",
-  //     },
-  //   });
-
-  //   return () => {
-  //     anim1.scrollTrigger?.kill();
-  //     anim2.scrollTrigger?.kill();
-  //     anim1.kill();
-  //     anim2.kill();
-  //   };
-  // }, []);
 
   function inputCheck(e: React.MouseEvent<HTMLButtonElement>) {
     e.preventDefault();
@@ -474,7 +398,7 @@ const ContactSection = () => {
 
               <a
                 className="flex items-start gap-5 group"
-                href="https://mail.google.com/mail/?view=cm&fs=1&to=Info@fujisolar.com"
+                href="https://mail.google.com/mail/?view=cm&fs=1&to=rooftopfujisolar@gmail.com"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -484,7 +408,7 @@ const ContactSection = () => {
                 <div>
                   <h4 className="font-bold text-gray-900 mb-1">Email Us</h4>
                   <p className="text-sm text-gray-500 group-hover:text-brand-red transition-colors">
-                    info@fujisolar.com
+                    rooftopfujisolar@gmail.com
                   </p>
                 </div>
               </a>

@@ -259,7 +259,8 @@ export default function Mission() {
 
                 <div className="inline-flex items-end gap-4 px-7 py-5 rounded-2xl self-start bg-[#f9f6f1] border border-[#eab308]/20 shadow-sm">
                   <span
-                    className="text-[clamp(40px,5vw,64px)] font-black leading-none text-brand-red"
+                    // className="text-[clamp(40px,5vw,64px)] font-black leading-none text-brand-red"
+                    className="text-[clamp(28px,3.5vw,48px)] font-black leading-none text-brand-red"
                     style={{ letterSpacing: "-0.04em" }}
                   >
                     {item.stat.value}

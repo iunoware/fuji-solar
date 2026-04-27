@@ -389,7 +389,8 @@ export default function Services() {
                   <div className="flex flex-col gap-2">
                     <span
                       id={`svc-label-${service.id}`}
-                      className="text-[clamp(18px,2.5vw,32px)] font-semibold leading-none cursor-default"
+                      // className="text-[clamp(18px,2.5vw,32px)] font-semibold leading-none cursor-default"
+                      className="text-[clamp(14px,1.8vw,24px)] font-semibold leading-none cursor-default"
                       style={{
                         color: i === 0 ? "#1c1917" : "#d4cdc7",
                         letterSpacing: "-0.03em",
@@ -438,13 +439,14 @@ export default function Services() {
                 </div>
 
                 <h2
-                  className="text-[clamp(22px,3vw,40px)] font-bold leading-[1.1] mb-4 text-[#1c1917]"
+                  // className="text-[clamp(22px,3vw,40px)] font-bold leading-[1.1] mb-4 text-[#1c1917]"
+                  className="text-[clamp(16px,2vw,28px)] font-bold leading-[1.1] mb-4 text-[#1c1917]"
                   style={{ letterSpacing: "-0.025em" }}
                 >
                   {service.title}
                 </h2>
 
-                <p className="md:text-sm leading-relaxed mb-6 max-w-xl text-gray-600">
+                <p className="md:text-sm leading-relaxed mb-4 max-w-xl text-gray-600">
                   {service.description}
                 </p>
 

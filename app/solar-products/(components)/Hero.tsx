@@ -105,11 +105,19 @@ export default function Hero() {
             {/* Main heading */}
             <h1
               ref={headingRef}
-              className="text-5xl md:text-6xl font-bold leading-[1.05] mb-6 text-gray-900"
+              className="text-5xl md:text-6xl font-bold mb-6 text-gray-900"
             >
               Solar Solutions,{" "}
               <span className="text-brand-red inline-block">Built to Last.</span>
             </h1>
+
+            {/* tag line */}
+            <p
+              ref={taglineRef}
+              className="text-sm font-semibold uppercase tracking-widest font-mono text-brand-red mb-4"
+            >
+              We make your roof work for you
+            </p>
 
             {/* Sub-description */}
             <p
@@ -202,6 +210,7 @@ export default function Hero() {
               { label: "Street Light", angle: 60, r: 190 },
               { label: "On-Grid", angle: 180, r: 195 },
               { label: "Off-Grid", angle: 240, r: 190 },
+              { label: "Water Heater", angle: 120, r: 195 },
             ].map((chip) => {
               const rad = (chip.angle * Math.PI) / 180;
               const x = Math.cos(rad) * chip.r;

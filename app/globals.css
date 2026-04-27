@@ -8,7 +8,8 @@
 }
 
 @theme inline {
-  --color-brand-red: #ff6900;
+  /* --color-brand-red: #ff6900; */
+  --color-brand-red: #F91F13;
   --color-brand-yellow: #d8dc48;
   --color-background: #fefefe;
   --color-foreground: var(--foreground);
