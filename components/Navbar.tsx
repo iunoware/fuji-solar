@@ -145,7 +145,7 @@ const navLinks: NavLink[] = [
   { name: "Home", href: "/" },
   { name: "About", href: "/about" },
   { name: "Services", href: "/solar-products" },
-  { name: "Installation Process", href: "/installation-process" },
+  { name: "Installation", href: "/installation-process" },
   { name: "Contact", href: "/contact" },
 ];
 
@@ -167,7 +167,7 @@ export default function Navbar() {
 
   return (
     <nav
-      className={`fixed w-full z-50 transition-all duration-300 bg-white/70 backdrop-blur-md shadow-sm py-4`}
+      className={`fixed w-full z-50 transition-all duration-300 bg-white/70 backdrop-blur-md shadow-sm py-2`}
     >
       <div className="container mx-auto px-6 flex justify-between items-center">
         {/* Logo */}
@@ -190,10 +190,10 @@ export default function Navbar() {
                 href={link.href}
                 className={`${
                   isActive
-                    ? "text-gray-900"
+                    ? "text-brand-red"
                     : isScrolled
                       ? "text-gray-950"
-                      : "text-gray-500"
+                      : "text-gray-950"
                 } text-lg flex flex-col translate-y-2 hover:-translate-y-5 duration-300 transition-all font-medium`}
               >
                 <span>{link.name}</span>
