@@ -10,7 +10,7 @@ gsap.registerPlugin(ScrollTrigger);
 
 const cards = [
   {
-    src: "/images/solar-panel-1.webp",
+    src: "/images/best-solar-company-in-banglore.webp",
     alt: "best solar company in Tamil Nadu",
     headline: "43 Years of Expertise",
     desc: "We've been doing this since before solar was mainstream. You're in the most experienced hands in the industry.",
@@ -22,13 +22,13 @@ const cards = [
     desc: "We handle everything - from initial consultation and setup to the most reliable solar maintenance services Tamil Nadu has to offer.",
   },
   {
-    src: "/images/solar-panel-3.webp",
+    src: "/images/solar-panel-installation-cost-bangalore.webp",
     alt: "Residential solar installation",
     headline: "Tailored for You",
     desc: "No two sites are the same. Every system we build is designed specifically for your roof, your usage, and your budget.",
   },
   {
-    src: "/images/solar-panel-1.webp",
+    src: "/images/best-solar-company-in-banglore.webp",
     alt: "solar system price Tamil Nadu",
     headline: "Quality Guaranteed",
     desc: "Every installation comes backed by a warranty and components tested to perform for decades — rain, heat, or shine.",

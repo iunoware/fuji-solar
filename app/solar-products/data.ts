@@ -180,7 +180,7 @@ export const servicesData: ServiceData[] = [
     ],
 
     mainImage: "/images/hybrid.png",
-    diagramImage: "/images/hybrid-illustration.jpg",
+    diagramImage: "/images/solar-panel-dealers-madurai.jpg",
     alt: "best solar panels for home in Tamil Nadu",
   },
 
@@ -220,7 +220,7 @@ export const servicesData: ServiceData[] = [
     ],
 
     mainImage: "/images/on-grid.png",
-    diagramImage: "/images/on-grid-illustration.webp",
+    diagramImage: "/images/solar-panel-installation-cost-chennai.webp",
     alt: "rooftop solar installation for house Tamil Nadu",
   },
 
@@ -261,14 +261,15 @@ export const servicesData: ServiceData[] = [
     ],
 
     mainImage: "/images/off-grid.png",
-    diagramImage: "/images/off-grid-illustration.jpg",
+    diagramImage: "/images/solar-panel-installation-cost-madurai.jpg",
     alt: "solar power system for factories in Tamil Nadu",
   },
 
   {
     slug: "solar-water-pumps",
     title: "Solar Water Pumps",
-    description: "Solar-powered water pumping solution for agriculture and irrigation.",
+    description:
+      "Solar-powered water pumping solution for agriculture and irrigation.",
 
     fullContent:
       "Solar water pumps use energy generated from solar panels to draw water from borewells, rivers, ponds, and other sources. These systems eliminate the need for diesel or grid electricity, making them extremely cost-effective for farmers. They can operate efficiently in remote locations and support irrigation, livestock, and water supply needs. With options like submersible and surface pumps, solar water pumping systems are highly flexible and reliable.",
@@ -327,14 +328,15 @@ export const servicesData: ServiceData[] = [
       "Improves safety and visibility",
     ],
 
-    mainImage: "/images/street-lights.png",
+    mainImage: "/images/solar-system-price-madurai.webp",
     alt: "industrial solar solutions Tamil Nadu",
   },
 
   {
     slug: "solar-water-heaters",
     title: "Solar Water Heaters",
-    description: "Efficient water heating using solar energy for homes and industries.",
+    description:
+      "Efficient water heating using solar energy for homes and industries.",
 
     fullContent:
       "Solar water heaters use sunlight to heat water efficiently, reducing the need for electricity. In countries with high solar exposure, this system can significantly reduce electricity bills. Water is stored in insulated tanks to maintain temperature even at night. Backup electric heaters ensure hot water availability during cloudy days. These systems are ideal for homes, hotels, hospitals, and industries.",

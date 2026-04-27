@@ -36,7 +36,8 @@ export default function Hero() {
       ref={containerRef}
       className="h-screen text-gray-900 flex justify-center items-center flex-col bg-cover bg-center"
       style={{
-        backgroundImage: "url('/images/about-hero.webp')",
+        backgroundImage:
+          "url('/images/solar-panel-installation-tamilnadu.webp')",
       }}
     >
       <section className="text-center px-6 pt-16 pb-6 shrink-0">
@@ -52,10 +53,10 @@ export default function Hero() {
           ref={paragraphRef}
           className="mt-4 text-gray-600 max-w-2xl mx-auto text-sm md:text-base opacity-0"
         >
-          Fuji Solar provides complete solar solutions—from premium rooftop solar
-          installation Tamil Nadu relies on, to complex commercial setups. We focus on
-          quality, efficiency, and long-term performance to reduce costs and advance
-          sustainable energy.
+          Fuji Solar provides complete solar solutions—from premium rooftop
+          solar installation Tamil Nadu relies on, to complex commercial setups.
+          We focus on quality, efficiency, and long-term performance to reduce
+          costs and advance sustainable energy.
         </p>
 
         <div ref={ctaRef} className="mt-6 opacity-0">

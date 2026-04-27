@@ -37,7 +37,7 @@ const services: ServiceDetail[] = [
       "Reduces electricity bills by up to 90%",
     ],
     // image: "/images/water-pumps.png",
-    image: "/images/hybrid.png",
+    image: "/images/solar-energy-company-tamilnadu.png",
     accent: "#f05a1a",
     link: "/solar-products/hybrid-systems",
   },
@@ -89,8 +89,8 @@ const services: ServiceDetail[] = [
       "Suitable for borewells, open wells & rivers",
       "Low maintenance, long operational life",
     ],
-    // image: "/images/solar-panel-3.webp",
-    image: "/images/water-pumps.png",
+
+    image: "/images/solar-panel-repair-chennai.webp",
     accent: "#e6a817",
     link: "/solar-products/solar-water-pumps",
   },
@@ -108,7 +108,7 @@ const services: ServiceDetail[] = [
       "Ideal for roads, parks & housing colonies",
     ],
     // image: "/images/solar-panel-2.webp",
-    image: "/images/street-lights.png",
+    image: "/images/solar-system-price-madurai.webp",
     accent: "#f05a1a",
     link: "/solar-products/solar-street-lights",
   },
@@ -126,7 +126,7 @@ const services: ServiceDetail[] = [
       "Backup electric heater for cloudy days",
     ],
     // image: "/images/solar-panel-1.webp",
-    image: "/images/water-heater.png",
+    image: "/images/solar-panel-repair-madurai.png",
     accent: "#e6a817",
     link: "/solar-products/solar-water-heaters",
   },
@@ -154,7 +154,9 @@ export default function Services() {
         const underline = wrapper.querySelector(
           `#svc-underline-${service.id}`,
         ) as HTMLElement;
-        const label = wrapper.querySelector(`#svc-label-${service.id}`) as HTMLElement;
+        const label = wrapper.querySelector(
+          `#svc-label-${service.id}`,
+        ) as HTMLElement;
         const counter = wrapper.querySelector(
           `#svc-counter-${service.id}`,
         ) as HTMLElement;
@@ -290,8 +292,12 @@ export default function Services() {
       const underline = wrapper.querySelector(
         `#svc-underline-${service.id}`,
       ) as HTMLElement;
-      const label = wrapper.querySelector(`#svc-label-${service.id}`) as HTMLElement;
-      const counter = wrapper.querySelector(`#svc-counter-${service.id}`) as HTMLElement;
+      const label = wrapper.querySelector(
+        `#svc-label-${service.id}`,
+      ) as HTMLElement;
+      const counter = wrapper.querySelector(
+        `#svc-counter-${service.id}`,
+      ) as HTMLElement;
 
       if (i === newIndex) {
         gsap.to(underline, {
@@ -503,7 +509,9 @@ export default function Services() {
             <div key={service.id} className="flex flex-col gap-6">
               {/* Label row */}
               <div className="flex items-start gap-5">
-                <span className="text-xs font-bold mt-2 text-[#eab308]">0{i + 1}</span>
+                <span className="text-xs font-bold mt-2 text-[#eab308]">
+                  0{i + 1}
+                </span>
 
                 <div className="flex flex-col gap-2">
                   <span className="text-[clamp(20px,5vw,30px)] font-semibold leading-none cursor-default text-gray-900">

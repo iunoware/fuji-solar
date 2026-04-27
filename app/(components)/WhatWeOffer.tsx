@@ -65,7 +65,7 @@ const services: ServiceCard[] = [
     id: 1,
     title: "Hybrid Solar Systems",
     category: "Hybrid",
-    image: "/images/hybrid.png",
+    image: "/images/solar-energy-company-tamilnadu.png",
     description: "Grid + battery backup for uninterrupted power.",
   },
   {
@@ -80,27 +80,28 @@ const services: ServiceCard[] = [
     title: "On-Grid Systems",
     category: "On-Grid",
     image: "/images/on-grid.png",
-    description: "Reduce bills with a solar system for home with subsidy in Tamil Nadu.",
+    description:
+      "Reduce bills with a solar system for home with subsidy in Tamil Nadu.",
   },
   {
     id: 4,
     title: "Solar Water Pumps",
     category: "Water Pumps",
-    image: "/images/water-pumps.png",
+    image: "/images/solar-panel-repair-chennai.webp",
     description: "Efficient solar-powered irrigation solutions.",
   },
   {
     id: 5,
     title: "Solar Street Lights",
     category: "Street Lights",
-    image: "/images/street-lights.png",
+    image: "/images/solar-system-price-madurai.webp",
     description: "Sustainable lighting for streets and outdoor spaces.",
   },
   {
     id: 6,
     title: "Solar Water Heaters",
     category: "Water Heaters",
-    image: "/images/water-heater.png",
+    image: "/images/solar-panel-repair-madurai.png",
     description: "Reliable hot water powered by solar energy.",
   },
 ];
