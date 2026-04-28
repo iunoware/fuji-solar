@@ -8,27 +8,39 @@ import { Zap, Leaf, Wrench } from "lucide-react";
 
 gsap.registerPlugin(ScrollTrigger);
 
-// const stats = [
-//   { value: 43, suffix: "yrs", label: "In the Industry" },
-//   { value: 800, suffix: "+", label: "Clients Served" },
-//   { value: 950, suffix: "+", label: "Projects Completed" },
+// const values = [
+//   {
+//     icon: <Zap className="text-brand-red" />,
+//     title: "Reliability",
+//     desc: "Built to perform in the harshest conditions, we source the best solar panels for home in Madurai, engineered for decades of dependable output.",
+//   },
+//   {
+//     icon: <Leaf className="text-brand-red" />,
+//     title: "Sustainability & Strategy",
+//     desc: "We provide comprehensive solar consultation services to ensure clean energy is the smartest, most responsible path forward for your community.",
+//   },
+//   {
+//     icon: <Wrench className="text-brand-red" />,
+//     title: "Craftsmanship",
+//     desc: "Four decades of experience means we bring expert precision to every project, along with the reliable solar panel repair Tamil Nadu demands.",
+//   },
 // ];
 
 const values = [
   {
     icon: <Zap className="text-brand-red" />,
-    title: "Reliability",
-    desc: "Built to perform in the harshest conditions, we source the best solar panels for home in Madurai, engineered for decades of dependable output.",
+    title: "Innovation",
+    desc: "Advanced energy-efficient products built using the latest technology and continuous R&D.",
   },
   {
     icon: <Leaf className="text-brand-red" />,
-    title: "Sustainability & Strategy",
-    desc: "We provide comprehensive solar consultation services to ensure clean energy is the smartest, most responsible path forward for your community.",
+    title: "Sustainability",
+    desc: "Committed to renewable energy solutions that reduce carbon emissions and protect the future.",
   },
   {
     icon: <Wrench className="text-brand-red" />,
-    title: "Craftsmanship",
-    desc: "Four decades of experience means we bring expert precision to every project, along with the reliable solar panel repair Tamil Nadu demands.",
+    title: "Customization & Quality",
+    desc: "Every solution is tailored to your needs, delivering high performance at a reasonable cost.",
   },
 ];
 
@@ -196,19 +208,19 @@ export default function WhoWeAre() {
             ref={narrativeRef}
             className="text-gray-600 text-sm leading-relaxed max-w-md font-sans opacity-0"
           >
-            Fuji Solar was founded on a single conviction - that clean, affordable energy
-            should be accessible to everyone. Over 43 years, we&apos;ve grown from a local
-            pioneer into a trusted name, delivering premium residential and industrial
-            solar solutions Tamil Nadu trusts to stand the test of time, weather, and
-            scale.
+            Fuji Hitech ECO LAB is a leading Indian manufacturer of solar and power
+            solutions. Since 1983, we have served over 300,000 customers nationwide. We
+            offer On-Grid, Off-Grid, Hybrid, and other solar systems tailored for
+            residential, commercial, and industrial needs-delivering reliable,
+            high-quality, and cost-effective energy solutions.
           </p>
 
           {/* Founder quote */}
           <div ref={quoteRef} className="border-l-2 border-[#E8B800] pl-4 opacity-0">
             <p className="text-gray-700 text-sm italic leading-relaxed font-sans">
-              &quot;We didn&apos;t just want to sell solar panels — we wanted to change
-              how the world thinks about energy. That mission still drives every project
-              we take on.&quot;
+              &quot;At Fuji, we believe clean energy is not just a choice - it&apos;s the
+              future. Our mission is to deliver high-quality, cost-effective solutions
+              that empower generations to come.&quot;
             </p>
             <p className="text-gray-400 text-xs mt-2 tracking-widest uppercase font-mono">
               — Founder, Fuji Solar
@@ -250,7 +262,7 @@ export default function WhoWeAre() {
           <div ref={footerRef} className="mt-2 flex items-center gap-3 opacity-0">
             <span className="flex-1 h-px bg-linear-to-r from-[#C8102E]/20 to-transparent" />
             <span className="text-gray-300 text-[10px] tracking-widest uppercase font-mono">
-              Est. 1982 · Fuji Solar
+              Est. 1983 · Fuji Hitech ECO LAB
             </span>
           </div>
         </div>
