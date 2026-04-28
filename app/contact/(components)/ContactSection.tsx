@@ -277,7 +277,7 @@ const ContactSection = () => {
                 <button
                   rel="noopener noreferrer"
                   onClick={inputCheck}
-                  className="w-full bg-brand-red text-white py-3 rounded-2xl font-bold text-lg hover:opacity-90 transition-all duration-300 active:scale-[0.98] mb-4"
+                  className="w-full bg-brand-red cursor-pointer text-white py-3 rounded-2xl font-bold text-lg hover:opacity-90 transition-all duration-300 active:scale-[0.98] mb-4"
                 >
                   Get Free Consultation
                 </button>

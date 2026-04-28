@@ -7,6 +7,7 @@ import SolarCalculator from "./(components)/SolarCalculator";
 import Testimonial from "./(components)/Testimonial";
 import Cta from "@/components/Cta";
 import SolarPanel from "./(components)/SolarPanel";
+import SolarSubsidy from "./(components)/SolarSubsidy";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <SolarPanel />
       <WhySolar />
       <WhyUs />
+      <SolarSubsidy />
       <WhatWeOffer />
       <HowItWorks />
       <SolarCalculator />
