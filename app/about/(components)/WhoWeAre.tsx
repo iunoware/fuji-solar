@@ -62,31 +62,31 @@ export default function WhoWeAre() {
 
   useGSAP(
     () => {
+      if (!sectionRef.current) return;
+
       const trigger = {
         trigger: sectionRef.current,
-        start: "top 75%",
+        start: "top 80%",
+        invalidateOnRefresh: true,
       };
 
       // countdown
-      gsap.utils.toArray<HTMLElement>("[data-price]").forEach((el) => {
+      const priceElements = gsap.utils.toArray<HTMLElement>("[data-price]");
+      priceElements.forEach((el) => {
         const endValue = Number(el.dataset.price);
         const obj = { value: 0 };
 
         gsap.to(obj, {
           value: endValue,
-          duration: 5,
+          duration: 3,
           ease: "power1.inOut",
           scrollTrigger: {
             trigger: sectionRef.current,
             start: "top 85%",
-            // once: true,
           },
           onUpdate: () => {
             el.textContent = `${Math.floor(obj.value).toLocaleString("en-IN")}`;
           },
-          // onComplete: () => {
-          //   el.textContent = "₹****";
-          // },
         });
       });
 

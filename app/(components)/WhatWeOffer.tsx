@@ -2,6 +2,10 @@
 
 import React, { useRef, useState, useEffect } from "react";
 import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { useGSAP } from "@gsap/react";
+
+gsap.registerPlugin(ScrollTrigger);
 
 interface ServiceCard {
   id: number;
@@ -61,7 +65,7 @@ const services: ServiceCard[] = [
     id: 1,
     title: "Hybrid Solar Systems",
     category: "Hybrid",
-    image: "/images/hybrid.png",
+    image: "/images/solar-energy-company-tamilnadu.png",
     description: "Grid + battery backup for uninterrupted power.",
   },
   {
@@ -76,27 +80,28 @@ const services: ServiceCard[] = [
     title: "On-Grid Systems",
     category: "On-Grid",
     image: "/images/on-grid.png",
-    description: "Reduce bills with a solar system for home with subsidy in Tamil Nadu.",
+    description:
+      "Reduce bills with a solar system for home with subsidy in Tamil Nadu.",
   },
   {
     id: 4,
     title: "Solar Water Pumps",
     category: "Water Pumps",
-    image: "/images/water-pumps.png",
+    image: "/images/solar-panel-repair-chennai.webp",
     description: "Efficient solar-powered irrigation solutions.",
   },
   {
     id: 5,
     title: "Solar Street Lights",
     category: "Street Lights",
-    image: "/images/street-lights.png",
+    image: "/images/solar-system-price-madurai.webp",
     description: "Sustainable lighting for streets and outdoor spaces.",
   },
   {
     id: 6,
     title: "Solar Water Heaters",
     category: "Water Heaters",
-    image: "/images/water-heater.png",
+    image: "/images/solar-panel-repair-madurai.png",
     description: "Reliable hot water powered by solar energy.",
   },
 ];
@@ -108,20 +113,29 @@ export default function WhatWeOffer() {
   const [scrollLeft, setScrollLeft] = useState(0);
   const cardsRef = useRef<(HTMLDivElement | null)[]>([]);
 
-  useEffect(() => {
-    // Animate cards on load
-    gsap.fromTo(
-      cardsRef.current,
-      { opacity: 0, y: 30 },
-      {
-        opacity: 1,
-        y: 0,
-        duration: 0.8,
-        stagger: 0.1,
-        ease: "power3.out",
-      },
-    );
-  }, []);
+  useGSAP(
+    () => {
+      if (!cardsRef.current.length) return;
+      // Animate cards on load
+      gsap.fromTo(
+        cardsRef.current,
+        { opacity: 0, y: 30 },
+        {
+          opacity: 1,
+          y: 0,
+          duration: 0.8,
+          stagger: 0.1,
+          ease: "power3.out",
+          scrollTrigger: {
+            trigger: scrollContainerRef.current,
+            start: "top 85%",
+            invalidateOnRefresh: true,
+          },
+        },
+      );
+    },
+    { scope: scrollContainerRef },
+  );
 
   const handleMouseDown = (e: React.MouseEvent) => {
     setIsDragging(true);

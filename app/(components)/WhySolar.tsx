@@ -4,6 +4,7 @@ import React, { useEffect, useRef } from "react";
 import { Zap, Leaf, ShieldCheck, Settings } from "lucide-react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { useGSAP } from "@gsap/react";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -19,23 +20,28 @@ interface FeatureCardProps {
 const FeatureCard = ({ icon, title, description, index }: FeatureCardProps) => {
   const cardRef = useRef<HTMLDivElement>(null);
 
-  useEffect(() => {
-    gsap.fromTo(
-      cardRef.current,
-      { opacity: 0, y: 30 },
-      {
-        opacity: 1,
-        y: 0,
-        duration: 0.8,
-        delay: index * 0.1,
-        ease: "power3.out",
-        scrollTrigger: {
-          trigger: cardRef.current,
-          start: "top 85%",
+  useGSAP(
+    () => {
+      if (!cardRef.current) return;
+      gsap.fromTo(
+        cardRef.current,
+        { opacity: 0, y: 30 },
+        {
+          opacity: 1,
+          y: 0,
+          duration: 0.8,
+          delay: index * 0.1,
+          ease: "power3.out",
+          scrollTrigger: {
+            trigger: cardRef.current,
+            start: "top 85%",
+            invalidateOnRefresh: true,
+          },
         },
-      },
-    );
-  }, [index]);
+      );
+    },
+    { scope: cardRef, dependencies: [index] },
+  );
 
   return (
     <div
@@ -55,22 +61,27 @@ export default function WhySolar() {
   const sectionRef = useRef<HTMLDivElement>(null);
   const textContentRef = useRef<HTMLDivElement>(null);
 
-  useEffect(() => {
-    gsap.fromTo(
-      textContentRef.current,
-      { opacity: 0, x: -50 },
-      {
-        opacity: 1,
-        x: 0,
-        duration: 1,
-        ease: "power3.out",
-        scrollTrigger: {
-          trigger: textContentRef.current,
-          start: "top 80%",
+  useGSAP(
+    () => {
+      if (!textContentRef.current) return;
+      gsap.fromTo(
+        textContentRef.current,
+        { opacity: 0, x: -50 },
+        {
+          opacity: 1,
+          x: 0,
+          duration: 1,
+          ease: "power3.out",
+          scrollTrigger: {
+            trigger: textContentRef.current,
+            start: "top 80%",
+            invalidateOnRefresh: true,
+          },
         },
-      },
-    );
-  }, []);
+      );
+    },
+    { scope: sectionRef },
+  );
 
   const features = [
     {

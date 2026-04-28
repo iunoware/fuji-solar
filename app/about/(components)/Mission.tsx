@@ -55,6 +55,8 @@ export default function Mission() {
         const label = wrapper.querySelector(`#label-${item.id}`) as HTMLElement;
         const counter = wrapper.querySelector(`#counter-${item.id}`) as HTMLElement;
 
+        if (!contentEl || !underline || !label || !counter) return;
+
         if (i === 0) {
           gsap.set(contentEl, { opacity: 1, y: 0, pointerEvents: "auto" });
           gsap.set(underline, { scaleX: 1, opacity: 1 });
@@ -74,7 +76,7 @@ export default function Mission() {
       ScrollTrigger.create({
         trigger: wrapper,
         start: "top top",
-        end: `+=${totalScroll}`,
+        end: () => `+=${totalScroll}`,
         pin: true,
         pinSpacing: true,
         anticipatePin: 1,
@@ -96,6 +98,8 @@ export default function Mission() {
             ) as HTMLElement;
             const label = wrapper.querySelector(`#label-${item.id}`) as HTMLElement;
             const counter = wrapper.querySelector(`#counter-${item.id}`) as HTMLElement;
+
+            if (!underline || !label || !counter) return;
 
             if (i === newIndex) {
               gsap.to(underline, {
@@ -126,32 +130,36 @@ export default function Mission() {
             `#content-${items[newIndex].id}`,
           ) as HTMLElement;
 
-          gsap.killTweensOf(prevEl);
-          gsap.to(prevEl, {
-            opacity: 0,
-            y: goingForward ? -28 : 28,
-            duration: 0.38,
-            ease: "power2.in",
-            onComplete: () => {
-              prevEl.style.pointerEvents = "none";
-            },
-          });
-
-          gsap.killTweensOf(nextEl);
-          gsap.fromTo(
-            nextEl,
-            { opacity: 0, y: goingForward ? 32 : -32 },
-            {
-              opacity: 1,
-              y: 0,
-              duration: 0.52,
-              ease: "power3.out",
-              delay: 0.22,
-              onStart: () => {
-                nextEl.style.pointerEvents = "auto";
+          if (prevEl) {
+            gsap.killTweensOf(prevEl);
+            gsap.to(prevEl, {
+              opacity: 0,
+              y: goingForward ? -28 : 28,
+              duration: 0.38,
+              ease: "power2.in",
+              onComplete: () => {
+                prevEl.style.pointerEvents = "none";
               },
-            },
-          );
+            });
+          }
+
+          if (nextEl) {
+            gsap.killTweensOf(nextEl);
+            gsap.fromTo(
+              nextEl,
+              { opacity: 0, y: goingForward ? 32 : -32 },
+              {
+                opacity: 1,
+                y: 0,
+                duration: 0.52,
+                ease: "power3.out",
+                delay: 0.22,
+                onStart: () => {
+                  nextEl.style.pointerEvents = "auto";
+                },
+              },
+            );
+          }
         },
       });
 
@@ -162,7 +170,11 @@ export default function Mission() {
         duration: 0.7,
         stagger: 0.12,
         ease: "power3.out",
-        scrollTrigger: { trigger: wrapper, start: "top 82%" },
+        scrollTrigger: {
+          trigger: wrapper,
+          start: "top 82%",
+          invalidateOnRefresh: true,
+        },
       });
     },
     { scope: wrapperRef },

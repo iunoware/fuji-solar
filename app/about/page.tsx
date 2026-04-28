@@ -6,16 +6,40 @@ import Founder from "./(components)/Founder";
 import Mission from "./(components)/Mission";
 import BentoGrid from "./(components)/BentoGrid";
 import WhyFujiSolar from "./(components)/WhyFujiSolar";
+import Awards from "./(components)/Awards";
 import Achievements from "./(components)/Achievements";
 import Cta from "@/components/Cta";
 
-import { useEffect } from "react";
+import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { useGSAP } from "@gsap/react";
+
+// for pushing dljfldjlf]
+// fslfklsdjfkldsjlf
+
+// export const metadata = {
+//   title: "About Our Fuji Solar Company | Trusted Solar Experts in Tamil Nadu",
+//   description:
+//     "Learn about our fuji solar company serving Tamil Nadu. We specialize in solar panel installation, maintenance, and cost-effective solar solutions for residential, commercial, and industrial needs.",
+// };
 
 export default function About() {
-  useEffect(() => {
-    window.scrollTo(0, 0); // reset scroll position on navigation
-    ScrollTrigger.refresh();
+  useGSAP(() => {
+    // 1. Ensure plugin is registered
+    gsap.registerPlugin(ScrollTrigger);
+
+    // 2. Reset scroll position immediately on route change
+    window.scrollTo(0, 0);
+
+    // 3. Force a refresh after a small delay to allow children to mount and layout to stabilize
+    // We don't call killAll here because it would kill the triggers just created by the children
+    const timer = setTimeout(() => {
+      ScrollTrigger.refresh();
+    }, 100);
+
+    return () => {
+      clearTimeout(timer);
+    };
   }, []);
 
   return (
@@ -26,6 +50,7 @@ export default function About() {
       <Mission />
       <BentoGrid />
       <WhyFujiSolar />
+      <Awards />
       <Achievements />
       <Cta />
     </section>

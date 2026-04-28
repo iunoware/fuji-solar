@@ -19,7 +19,7 @@ const steps = [
       "Financial benefit & ROI projection",
       "Tailored system design overview",
     ],
-    image: "/images/consultation.png",
+    image: "/images/rooftop-solar-installation-tamilnadu.webp",
   },
   {
     number: "02",
@@ -31,7 +31,7 @@ const steps = [
       "Structural integrity verification",
       "Electrical system compatibility check",
     ],
-    image: "/images/site-visit.png",
+    image: "/images/best-solar-company-in-coimbatore.webp",
   },
   {
     number: "03",
@@ -43,7 +43,7 @@ const steps = [
       "Component selection (Tier-1 only)",
       "Performance simulation reports",
     ],
-    image: "/images/system-design.png",
+    image: "/images/solar-system-price-bangalore.png",
   },
   {
     number: "04",
@@ -55,7 +55,7 @@ const steps = [
       "Local utility grid-connection permits",
       "Safety & compliance documentation",
     ],
-    image: "/images/subsidy.png",
+    image: "/images/solar-system-price-chennai.webp",
   },
   {
     number: "05",
@@ -67,7 +67,7 @@ const steps = [
       "Expert panel & inverter integration",
       "Safe and concealed electrical wiring",
     ],
-    image: "/images/installation.png",
+    image: "/images/solar-power-solutions-madurai.webp",
   },
   {
     number: "06",
@@ -79,7 +79,7 @@ const steps = [
       "Smart monitoring dashboard setup",
       "Grid-sync & final power-up",
     ],
-    image: "/images/testing.png",
+    image: "/images/solar-system-price-tirchy.webp",
   },
 ];
 
