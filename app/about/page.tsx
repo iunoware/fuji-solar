@@ -14,6 +14,9 @@ import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useGSAP } from "@gsap/react";
 
+// for pushing dljfldjlf]
+// fslfklsdjfkldsjlf
+
 // export const metadata = {
 //   title: "About Our Fuji Solar Company | Trusted Solar Experts in Tamil Nadu",
 //   description:
