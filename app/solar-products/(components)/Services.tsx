@@ -28,13 +28,21 @@ const services: ServiceDetail[] = [
     label: "Hybrid Systems",
     title: "Hybrid Solar Panel Systems",
     alt: "hybrid solar system Tamil Nadu",
+    // description:
+    //   "The best of both worlds — our hybrid systems combine grid connectivity with battery backup, ensuring you're never without power. Intelligent energy management switches seamlessly between solar, battery, and grid to deliver maximum savings and zero downtime.",
+    // bullets: [
+    //   "Seamless switching between solar, battery & grid",
+    //   "Ideal for homes, offices & commercial buildings",
+    //   "Smart inverter with real-time monitoring",
+    //   "Reduces electricity bills by up to 90%",
+    // ],
     description:
-      "The best of both worlds — our hybrid systems combine grid connectivity with battery backup, ensuring you're never without power. Intelligent energy management switches seamlessly between solar, battery, and grid to deliver maximum savings and zero downtime.",
+      "Combining the strengths of on-grid and off-grid systems, our hybrid solution ensures reliable power day and night. It supplies energy for daytime use, stores excess in batteries, and exports surplus power to the grid for maximum efficiency and savings.",
     bullets: [
-      "Seamless switching between solar, battery & grid",
-      "Ideal for homes, offices & commercial buildings",
-      "Smart inverter with real-time monitoring",
-      "Reduces electricity bills by up to 90%",
+      "Combines benefits of on-grid and off-grid systems",
+      "Supplies power during the day and stores excess energy",
+      "Exports surplus energy to the grid via bi-directional meter",
+      "Uses stored battery power for uninterrupted night usage",
     ],
     // image: "/images/water-pumps.png",
     image: "/images/solar-energy-company-tamilnadu.png",
@@ -46,13 +54,21 @@ const services: ServiceDetail[] = [
     label: "On-Grid Systems",
     title: "On-Grid Solar Systems",
     alt: "on-grid solar system Tamil Nadu",
+    // description:
+    //   "Feed surplus energy back to the grid and earn credits. Ideal for areas with reliable electricity supply — dramatically reduce your monthly bills with zero battery maintenance overhead.",
+    // bullets: [
+    //   "Net metering — sell excess energy back",
+    //   "Zero battery maintenance required",
+    //   "Lower upfront installation cost",
+    //   "Eligible for government subsidies",
+    // ],
     description:
-      "Feed surplus energy back to the grid and earn credits. Ideal for areas with reliable electricity supply — dramatically reduce your monthly bills with zero battery maintenance overhead.",
+      "On-grid solar systems generate power during the day for immediate use while exporting excess energy to the grid. Ideal for spaces with high daytime consumption, they help reduce electricity bills through net metering without the need for batteries.",
     bullets: [
-      "Net metering — sell excess energy back",
-      "Zero battery maintenance required",
-      "Lower upfront installation cost",
-      "Eligible for government subsidies",
+      "Generates power during the day for direct consumption",
+      "Exports surplus energy to the grid via bi-directional meter",
+      "Best suited for offices, schools, hospitals & homes",
+      "Reduces electricity bills through net metering adjustments",
     ],
     // image: "/images/water-heater.png",
     image: "/images/on-grid.png",
@@ -81,15 +97,22 @@ const services: ServiceDetail[] = [
     label: "Water Pumps",
     title: "Solar Water Pumps",
     alt: "net metering Tamil Nadu",
+    // description:
+    //   "Reliable solar-powered pumping for agriculture, irrigation, and water supply. Eliminate diesel costs entirely and pump water even in remote fields with no electricity access.",
+    // bullets: [
+    //   "Eliminates diesel & electricity pump costs",
+    //   "AC & DC pump options available",
+    //   "Suitable for borewells, open wells & rivers",
+    //   "Low maintenance, long operational life",
+    // ],
     description:
-      "Reliable solar-powered pumping for agriculture, irrigation, and water supply. Eliminate diesel costs entirely and pump water even in remote fields with no electricity access.",
+      "A solar water pumping system acts as a self-sufficient mini power plant, capable of operating anywhere even without grid electricity. It uses a calibrated solar array matched to the pump, ensuring efficient water supply for irrigation, institutions, and residential needs.",
     bullets: [
-      "Eliminates diesel & electricity pump costs",
-      "AC & DC pump options available",
-      "Suitable for borewells, open wells & rivers",
-      "Low maintenance, long operational life",
+      "Works independently without grid power",
+      "Solar array matched precisely to pump capacity",
+      "Supports various pumps for irrigation, homes & institutions",
+      "Ideal for farms, schools, hospitals & remote locations",
     ],
-
     image: "/images/solar-panel-repair-chennai.webp",
     accent: "#e6a817",
     link: "/solar-products/solar-water-pumps",
@@ -99,13 +122,21 @@ const services: ServiceDetail[] = [
     label: "Street Lights",
     title: "Solar Street Lights",
     alt: "solar inverter installation",
+    // description:
+    //   "Autonomous, all-in-one street lighting powered entirely by the sun. Smart LED systems auto-dim at low-traffic hours, extending battery life and slashing municipal energy costs.",
+    // bullets: [
+    //   "Fully autonomous — no wiring needed",
+    //   "Smart motion & dusk-to-dawn sensors",
+    //   "Long-life lithium battery built in",
+    //   "Ideal for roads, parks & housing colonies",
+    // ],
     description:
-      "Autonomous, all-in-one street lighting powered entirely by the sun. Smart LED systems auto-dim at low-traffic hours, extending battery life and slashing municipal energy costs.",
+      "An all-in-one solar street light is a compact, hassle-free lighting solution with no cabling required. It integrates a solar panel, lithium (LiFePO4) battery, motion sensor, control system, and high-output LEDs into a single unit for efficient and reliable outdoor lighting.",
     bullets: [
-      "Fully autonomous — no wiring needed",
-      "Smart motion & dusk-to-dawn sensors",
-      "Long-life lithium battery built in",
-      "Ideal for roads, parks & housing colonies",
+      "All-in-one design with panel, battery, sensor & LEDs",
+      "No wiring required with easy installation",
+      "Built-in LiFePO4 battery for long-lasting performance",
+      "Includes motion sensor and smart control system",
     ],
     // image: "/images/solar-panel-2.webp",
     image: "/images/solar-system-price-madurai.webp",
@@ -154,9 +185,7 @@ export default function Services() {
         const underline = wrapper.querySelector(
           `#svc-underline-${service.id}`,
         ) as HTMLElement;
-        const label = wrapper.querySelector(
-          `#svc-label-${service.id}`,
-        ) as HTMLElement;
+        const label = wrapper.querySelector(`#svc-label-${service.id}`) as HTMLElement;
         const counter = wrapper.querySelector(
           `#svc-counter-${service.id}`,
         ) as HTMLElement;
@@ -292,12 +321,8 @@ export default function Services() {
       const underline = wrapper.querySelector(
         `#svc-underline-${service.id}`,
       ) as HTMLElement;
-      const label = wrapper.querySelector(
-        `#svc-label-${service.id}`,
-      ) as HTMLElement;
-      const counter = wrapper.querySelector(
-        `#svc-counter-${service.id}`,
-      ) as HTMLElement;
+      const label = wrapper.querySelector(`#svc-label-${service.id}`) as HTMLElement;
+      const counter = wrapper.querySelector(`#svc-counter-${service.id}`) as HTMLElement;
 
       if (i === newIndex) {
         gsap.to(underline, {
@@ -420,7 +445,7 @@ export default function Services() {
             </div>
 
             <p className="mt-16 text-xs uppercase tracking-widest text-gray-800">
-              Fuji Solar — Est. 1981
+              Fuji Solar — Est. 1983
             </p>
           </div>
 
@@ -446,10 +471,32 @@ export default function Services() {
 
                 <h2
                   // className="text-[clamp(22px,3vw,40px)] font-bold leading-[1.1] mb-4 text-[#1c1917]"
-                  className="text-[clamp(16px,2vw,28px)] font-bold leading-[1.1] mb-4 text-[#1c1917]"
+                  className="text-[clamp(16px,2vw,28px)] font-bold leading-[1.1] flex gap-3 items-center mb-4 text-[#1c1917]"
                   style={{ letterSpacing: "-0.025em" }}
                 >
                   {service.title}
+
+                  <Link
+                    href={service.link}
+                    className="inline-flex items-center justify-between gap-2 shadow-md bg-brand-red text-gray-50 backdrop-blur-lg text-sm font-medium px-3 py-1 rounded-full w-fit group transition-colors"
+                  >
+                    Learn More
+                    <span className="bg-gray-50 translate-x-2 shadow-lg -rotate-40 group-hover:rotate-0 transition-all duration-200 text-brand-red rounded-full w-7 h-7 p-2 flex items-center justify-center text-xs">
+                      <ArrowRight />
+                    </span>
+                  </Link>
+
+                  {/* <span className="text-sm ml-2 text-brand-red group transition-colors">
+                    <Link href={service.link}>
+                      Learn More{" "}
+                      <span>
+                        <ArrowRight
+                          className="inline -rotate-40 group-hove:translate-y-10"
+                          size={15}
+                        />
+                      </span>
+                    </Link>
+                  </span> */}
                 </h2>
 
                 <p className="md:text-sm leading-relaxed mb-4 max-w-xl text-gray-600">
@@ -474,25 +521,13 @@ export default function Services() {
 
                 {/* <Link
                   href={service.link}
-                  className="text-brand-red text-lg transition-colors flex items-center gap-1 group"
-                >
-                  Learn More{" "}
-                  <ArrowUpRight
-                    size={14}
-                    className="opacity-0 group-hover:opacity-100 transition-opacity"
-                  />
-                </Link> */}
-
-                <Link
-                  href={service.link}
                   className="flex items-center gap-2 shadow-md bg-brand-red text-gray-50 backdrop-blur-lg text-sm font-medium px-5 py-2 rounded-full w-fit group transition-colors"
                 >
                   Learn More
                   <span className="bg-gray-50 translate-x-2 shadow-lg -rotate-40 group-hover:rotate-0 transition-all duration-200 text-brand-red rounded-full w-8 h-8 p-2 flex items-center justify-center text-xs">
-                    {/* ➜ */}
                     <ArrowRight />
                   </span>
-                </Link>
+                </Link> */}
               </div>
             ))}
           </div>
@@ -509,9 +544,7 @@ export default function Services() {
             <div key={service.id} className="flex flex-col gap-6">
               {/* Label row */}
               <div className="flex items-start gap-5">
-                <span className="text-xs font-bold mt-2 text-[#eab308]">
-                  0{i + 1}
-                </span>
+                <span className="text-xs font-bold mt-2 text-[#eab308]">0{i + 1}</span>
 
                 <div className="flex flex-col gap-2">
                   <span className="text-[clamp(20px,5vw,30px)] font-semibold leading-none cursor-default text-gray-900">
@@ -536,10 +569,22 @@ export default function Services() {
               {/* Content */}
               <div className="flex flex-col gap-4">
                 <h2
-                  className="text-[clamp(20px,5vw,30px)] font-bold leading-[1.1] text-[#1c1917]"
+                  className="text-[clamp(20px,5vw,30px)] font-bold leading-[1.1] flex flex-wrap text-[#1c1917]"
                   style={{ letterSpacing: "-0.025em" }}
                 >
                   {service.title}
+
+                  <span className="text-sm ml-2 text-brand-red group transition-colors">
+                    <Link href={service.link}>
+                      Learn More{" "}
+                      <span>
+                        <ArrowRight
+                          className="inline -rotate-40 group-hove:translate-y-10"
+                          size={15}
+                        />
+                      </span>
+                    </Link>
+                  </span>
                 </h2>
 
                 <p className="text-base leading-relaxed text-gray-700">
