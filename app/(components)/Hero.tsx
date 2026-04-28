@@ -4,6 +4,7 @@ import React, { useEffect, useRef } from "react";
 import { ChevronsDown } from "lucide-react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { useGSAP } from "@gsap/react";
 import CustomButton from "../../components/atoms/CustomButton";
 
 gsap.registerPlugin(ScrollTrigger);
@@ -16,50 +17,52 @@ export default function RenewableEnergyHero() {
   const rightContentRef = useRef<HTMLDivElement>(null);
   const videoContainerRef = useRef<HTMLDivElement>(null);
 
-  useEffect(() => {
-    // Hero text animations
-    gsap.fromTo(
-      heroTextRef.current,
-      { opacity: 0, y: 50 },
-      { opacity: 1, y: 0, duration: 1.2, ease: "power3.out", delay: 0.3 },
-    );
+  useGSAP(
+    () => {
+      if (!containerRef.current) return;
 
-    gsap.fromTo(
-      subTextRef.current,
-      { opacity: 0, y: 30 },
-      { opacity: 1, y: 0, duration: 1, delay: 0.6, ease: "power3.out" },
-    );
+      // Hero text animations
+      gsap.fromTo(
+        heroTextRef.current,
+        { opacity: 0, y: 50 },
+        { opacity: 1, y: 0, duration: 1.2, ease: "power3.out", delay: 0.3 },
+      );
 
-    gsap.fromTo(
-      sideTextRef.current,
-      { opacity: 0, x: -30 },
-      { opacity: 1, x: 0, duration: 1, delay: 0.8, ease: "power3.out" },
-    );
+      gsap.fromTo(
+        subTextRef.current,
+        { opacity: 0, y: 30 },
+        { opacity: 1, y: 0, duration: 1, delay: 0.6, ease: "power3.out" },
+      );
 
-    gsap.fromTo(
-      rightContentRef.current,
-      { opacity: 0, x: 30 },
-      { opacity: 1, x: 0, duration: 1, delay: 1, ease: "power3.out" },
-    );
+      gsap.fromTo(
+        sideTextRef.current,
+        { opacity: 0, x: -30 },
+        { opacity: 1, x: 0, duration: 1, delay: 0.8, ease: "power3.out" },
+      );
 
-    // Video shrinking animation
-    gsap.to(videoContainerRef.current, {
-      width: "92%",
-      height: "92%",
-      borderRadius: "2.5rem",
-      ease: "none",
-      scrollTrigger: {
-        trigger: containerRef.current,
-        start: "top top",
-        end: "bottom top",
-        scrub: true,
-      },
-    });
+      gsap.fromTo(
+        rightContentRef.current,
+        { opacity: 0, x: 30 },
+        { opacity: 1, x: 0, duration: 1, delay: 1, ease: "power3.out" },
+      );
 
-    return () => {
-      ScrollTrigger.getAll().forEach((trigger) => trigger.kill());
-    };
-  }, []);
+      // Video shrinking animation
+      gsap.to(videoContainerRef.current, {
+        width: "92%",
+        height: "92%",
+        borderRadius: "2.5rem",
+        ease: "none",
+        scrollTrigger: {
+          trigger: containerRef.current,
+          start: "top top",
+          end: "bottom top",
+          scrub: true,
+          invalidateOnRefresh: true,
+        },
+      });
+    },
+    { scope: containerRef },
+  );
 
   return (
     <div
@@ -120,8 +123,9 @@ export default function RenewableEnergyHero() {
                   ref={subTextRef}
                   className="text-white/90 text-base lg:text-md leading-relaxed mb-8 pl-4"
                 >
-                  Expert solar panel installation Madurai for homes and businesses. 
-                  Providing clean, reliable, and cost-effective energy solutions for sustainable power.
+                  Expert solar panel installation Madurai for homes and
+                  businesses. Providing clean, reliable, and cost-effective
+                  energy solutions for sustainable power.
                 </p>
               </div>
 

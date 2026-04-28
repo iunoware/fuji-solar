@@ -37,7 +37,7 @@ export default function Hero() {
     <main
       className="h-screen text-gray-900 flex justify-center items-center flex-col bg-cover bg-center"
       style={{
-        backgroundImage: "url('/images/investment-hero-2.png')",
+        backgroundImage: "url('/images/best-solar-company-in-madurai.png')",
       }}
     >
       <section className="text-center px-6 pt-16 pb-6 shrink-0">

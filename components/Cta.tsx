@@ -8,7 +8,7 @@ export default function Cta() {
         <div className="relative h-90 w-full rounded-2xl overflow-hidden">
           {/* Background Image */}
           <Image
-            src="/images/rooftop-solar-2.webp"
+            src="/images/best-solar-company-in-chennai.webp"
             alt="Fuji Solar"
             fill
             className="object-cover"
@@ -20,10 +20,13 @@ export default function Cta() {
 
           {/* Text content */}
           <div className="absolute inset-0 flex flex-col justify-center px-8 max-w-lg">
-            <h2 className="text-5xl font-bold text-white mb-3">Ready to Go Solar?</h2>
+            <h2 className="text-5xl font-bold text-white mb-3">
+              Ready to Go Solar?
+            </h2>
             <p className="text-gray-100 text-sm leading-relaxed mb-6">
-              Discover affordable solar solutions for homes in Tamil Nadu and make the
-              switch to clean energy today. Our experts are here to guide you.
+              Discover affordable solar solutions for homes in Tamil Nadu and
+              make the switch to clean energy today. Our experts are here to
+              guide you.
             </p>
 
             <Link
