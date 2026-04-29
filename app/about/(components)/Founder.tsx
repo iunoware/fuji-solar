@@ -10,8 +10,14 @@ gsap.registerPlugin(ScrollTrigger);
 
 export default function Founder() {
   const sectionRef = useRef<HTMLDivElement>(null);
-  const imageRef = useRef<HTMLDivElement>(null);
-  const contentRef = useRef<HTMLDivElement>(null);
+
+  const headerRef = useRef<HTMLDivElement>(null);
+  const founderCardRef = useRef<HTMLDivElement>(null);
+  const founderContentRef = useRef<HTMLDivElement>(null);
+  const directorCardRef = useRef<HTMLDivElement>(null);
+  const connectorRef = useRef<HTMLDivElement>(null);
+  const connectorLineRef = useRef<SVGPathElement>(null);
+  const statsRef = useRef<HTMLDivElement>(null);
 
   useGSAP(
     () => {
@@ -23,127 +29,218 @@ export default function Founder() {
         invalidateOnRefresh: true,
       };
 
-      // Image slides in from left
-      gsap.fromTo(
-        imageRef.current,
-        { opacity: 0, x: -40 },
-        { opacity: 1, x: 0, duration: 0.8, ease: "power3.out", scrollTrigger: trigger },
+      const tl = gsap.timeline({
+        scrollTrigger: trigger,
+      });
+
+      // 1. Header fades up
+      tl.fromTo(
+        headerRef.current,
+        { opacity: 0, y: 40 },
+        { opacity: 1, y: 0, duration: 0.8, ease: "power3.out" },
       );
 
-      // Content children stagger in from right
-      if (contentRef.current) {
-        const children = contentRef.current.querySelectorAll<HTMLElement>(".fade-item");
-        gsap.fromTo(
+      // 2. Founder card reveals
+      tl.fromTo(
+        founderCardRef.current,
+        { opacity: 0, scale: 0.96, x: -40 },
+        { opacity: 1, scale: 1, x: 0, duration: 1, ease: "power3.out" },
+        "-=0.4",
+      );
+
+      // 3. Founder content stagger
+      if (founderContentRef.current) {
+        const children = founderContentRef.current.querySelectorAll(".fade-item");
+        tl.fromTo(
           children,
-          { opacity: 0, x: 30 },
-          {
-            opacity: 1,
-            x: 0,
-            duration: 0.7,
-            ease: "power3.out",
-            stagger: 0.12,
-            scrollTrigger: trigger,
-            delay: 0.2,
-          },
+          { opacity: 0, y: 20 },
+          { opacity: 1, y: 0, duration: 0.7, stagger: 0.12, ease: "power3.out" },
+          "-=0.6",
         );
+      }
+
+      // 4. Director card floats in
+      tl.fromTo(
+        directorCardRef.current,
+        { opacity: 0, x: 80 },
+        { opacity: 1, x: 0, duration: 0.9, ease: "power3.out" },
+        "-=0.8",
+      );
+
+      // 5. Connector line draws
+      if (connectorLineRef.current && connectorRef.current) {
+        const length = connectorLineRef.current.getTotalLength();
+        gsap.set(connectorLineRef.current, {
+          strokeDasharray: length,
+          strokeDashoffset: length,
+        });
+
+        tl.fromTo(
+          connectorRef.current,
+          { opacity: 0 },
+          { opacity: 1, duration: 0.3, ease: "power1.inOut" },
+          "-=0.5",
+        );
+
+        tl.to(
+          connectorLineRef.current,
+          { strokeDashoffset: 0, duration: 1, ease: "power3.out" },
+          "-=0.3",
+        );
+      }
+
+      // 6. Stats rise
+      if (statsRef.current) {
+        const stats = statsRef.current.querySelectorAll(".stat-item");
+        tl.fromTo(
+          stats,
+          { opacity: 0, y: 30 },
+          { opacity: 1, y: 0, duration: 0.8, stagger: 0.1, ease: "power3.out" },
+          "-=0.5",
+        );
+      }
+
+      // Parallax on Founder Image
+      const founderImg = founderCardRef.current?.querySelector(".founder-image");
+      if (founderImg) {
+        gsap.to(founderImg, {
+          yPercent: 8,
+          ease: "none",
+          scrollTrigger: {
+            trigger: founderCardRef.current,
+            start: "top bottom",
+            end: "bottom top",
+            scrub: true,
+          },
+        });
       }
     },
     { scope: sectionRef },
   );
 
   return (
-    <section ref={sectionRef} className="bg-background py-20 px-4 md:px-10">
-      <div className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-        {/* ── LEFT — Founder Image ── */}
-        <div ref={imageRef} className="opacity-0 relative">
-          {/* Decorative red box behind image */}
-          <div className="absolute -bottom-4 -left-4 w-full h-full rounded-3xl border-2 border-red-200 z-0" />
-
-          {/* Image container */}
-          <div className="relative z-10 rounded-3xl overflow-hidden aspect-4/5 w-full">
-            <Image
-              src="/images/founder.webp"
-              alt="Immanuvel - Founder of Fuji Solar"
-              fill
-              className="object-cover object-top"
-            />
-            {/* Subtle bottom gradient */}
-            <div className="absolute inset-0 bg-linear-to-t from-black/30 to-transparent" />
-
-            {/* Badge over image */}
-            <div className="absolute bottom-5 left-5">
-              <div className="bg-white/90 backdrop-blur-sm rounded-2xl px-4 py-3 shadow-sm">
-                <p className="text-gray-900 text-sm font-bold font-sans">Immanuvel</p>
-                <p className="text-brand-red text-[10px] font-mono tracking-widest uppercase">
-                  Founder · Fuji Solar
-                </p>
-              </div>
-            </div>
+    <section
+      ref={sectionRef}
+      className="relative min-h-300 overflow-hidden bg-white flex flex-col justify-center"
+    >
+      <div className="max-w-7xl mx-auto px-6 md:px-10 lg:px-16 relative z-10 w-full">
+        {/* header */}
+        <div
+          ref={headerRef}
+          className="flex flex-col items-center text-center mb-10 lg:mb-12 opacity-0"
+        >
+          <div className="flex items-center gap-4 mb-4">
+            <span className="w-12 h-px bg-brand-red opacity-60" />
+            <span className="text-brand-red text-sm font-mono tracking-[0.45em] uppercase font-semibold">
+              Leadership Legacy
+            </span>
+            <span className="w-12 h-px bg-brand-red opacity-60" />
           </div>
+
+          <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 tracking-tight leading-[110%] max-w-4xl mb-4">
+            Built by Vision. Carried Forward by Innovation.
+          </h2>
+
+          <p className="max-w-3xl text-gray-600 text-md leading-relaxed">
+            For over 43 years, Fuji Solar has grown through generational leadership -
+            built on Dayalu Raj Sekar’s pioneering vision and strengthened by Immanuvel’s
+            strategic direction for the future.
+          </p>
         </div>
 
-        {/* ── RIGHT — Content ── */}
-        <div ref={contentRef} className="flex flex-col gap-6">
-          {/* Eyebrow */}
-          <div className="fade-item opacity-0 flex items-center gap-3">
-            <span className="w-6 h-px bg-brand-red" />
-            <span className="text-brand-red text-[10px] font-mono tracking-[0.4em] uppercase">
-              Meet the Founder
-            </span>
-          </div>
+        <div className="flex justify-center w-full">
+          <div className="relative grid grid-cols-1 lg:grid-cols-[1fr_1fr] gap-x-8 gap-y-8 items-center w-full max-w-5xl">
+            {/* left side */}
+            <div className="flex flex-col gap-6 lg:gap-8 relative z-10 w-full max-w-lg lg:max-w-none mx-auto lg:mx-0">
+              <div
+                ref={founderCardRef}
+                className="relative w-full h-[42vh] lg:h-[52vh] max-h-135 rounded-[36px] overflow-hidden shadow-[0_20px_60px_-15px_rgba(0,0,0,0.1)] border border-white/20"
+              >
+                <div className="absolute inset-0 rounded-[36px] border border-brand-red/20 shadow-[inset_0_0_20px_rgba(239,68,68,0.05)] z-20 pointer-events-none" />
 
-          {/* Name + title */}
-          <div className="fade-item opacity-0">
-            <h2
-              className="text-4xl md:text-5xl font-bold text-gray-900 font-sans leading-tight"
-              style={{ letterSpacing: "-0.02em" }}
-            >
-              Immanuvel
-            </h2>
-            <p className="text-gray-400 text-sm font-sans mt-1">
-              Founder &amp; Managing Director
-            </p>
-          </div>
+                <Image
+                  // src="/images/off-grid.png"
+                  src="/images/off-grid-solar-system-tamil-nadu.webp"
+                  alt="Dayalu Raj Sekar - Founder of Fuji Solar"
+                  fill
+                  className="object-cover object-center"
+                  sizes="(max-width: 1024px) 100vw, 30vw"
+                />
 
-          {/* Quote */}
-          <div className="fade-item opacity-0 border-l-2 border-brand-red pl-4">
-            <p className="text-gray-700 text-base italic font-sans leading-relaxed">
-              &quot;Solar isn&apos;t just our business — it&apos;s our belief. Every panel
-              we install is a promise to the next generation.&quot;
-            </p>
-          </div>
+                <div className="absolute bottom-5 left-5 lg:bottom-8 lg:left-8 z-30">
+                  <div className="bg-white/65 backdrop-blur-sm rounded-2xl p-5 shadow-xl border border-white/50 w-64 lg:w-70">
+                    <h3 className="text-xl lg:text-2xl font-bold text-gray-900 font-sans">
+                      Dayalu Raj Sekar
+                    </h3>
+                    <p className="text-brand-red font-semibold text-xs lg:text-sm mt-1">
+                      Founder
+                    </p>
+                  </div>
+                </div>
+              </div>
 
-          {/* Bio */}
-          <div className="fade-item opacity-0 flex flex-col gap-3">
-            <p className="text-gray-500 text-sm font-sans leading-relaxed">
-              Immanuvel founded Fuji Solar in 1983 with a simple but powerful conviction —
-              that clean, affordable energy should be within reach of every household and
-              business. With a background in electrical engineering and a deep passion for
-              renewable technology, he built Fuji Solar from the ground up into one of the
-              most trusted solar brands in the region.
-            </p>
-            <p className="text-gray-500 text-sm font-sans leading-relaxed">
-              Over 43 years, he has personally overseen hundreds of installations — never
-              losing sight of the belief that doing right by the customer and doing right
-              by the planet are never in conflict.
-            </p>
-          </div>
-
-          {/* 43 years badge */}
-          <div className="fade-item opacity-0 flex items-center gap-4 pt-2">
-            <div className="flex flex-col">
-              <span className="text-4xl font-bold text-gray-900 font-mono leading-none">
-                43
-                <span className="text-brand-red text-2xl">+</span>
-              </span>
-              <span className="text-gray-400 text-[10px] font-mono tracking-widest uppercase mt-1">
-                Years Leading Fuji Solar
-              </span>
+              <div ref={founderContentRef} className="max-w-2xl px-2 lg:px-4">
+                <h3 className="fade-item text-2xl lg:text-3xl font-bold text-gray-900 mb-4">
+                  The Foundation of Fuji Solar
+                </h3>
+                <p className="fade-item text-gray-600 text-md leading-relaxed mb-6">
+                  Dayalu Raj Sekar founded Fuji Solar in 1983 with a simple but powerful
+                  conviction - that clean, affordable energy should be within reach of
+                  every household and business. Through deep technical expertise, he built
+                  Fuji Solar into one of the region&apos;s most trusted solar brands.
+                </p>
+                <div className="fade-item border-l-4 border-brand-red pl-5 py-1">
+                  <p className="text-gray-700 text-lg italic font-serif leading-relaxed">
+                    &quot;Building trust takes decades. Preserving it takes purpose.&quot;
+                  </p>
+                </div>
+              </div>
             </div>
-            <span className="w-px h-10 bg-gray-200" />
-            <p className="text-gray-400 text-xs font-sans leading-relaxed max-w-45">
-              Still hands-on. Still driven by the same mission from day one.
-            </p>
+
+            {/* right side */}
+            <div className="relative flex flex-col items-center lg:items-start z-20 w-full mt-4 lg:mt-0">
+              <div
+                ref={directorCardRef}
+                className="relative w-full max-w-100 rounded-3xl overflow-hidden shadow-[0_30px_60px_-15px_rgba(0,0,0,0.15)] lg:-ml-12 bg-white flex flex-col border border-brand-red/10"
+              >
+                <div className="relative w-full h-72 shrink-0">
+                  <Image
+                    src="/images/off-grid-solar-system-tamil-nadu.webp"
+                    alt="Immanuvel - Director & Head of Marketing"
+                    fill
+                    className="object-cover object-top"
+                    sizes="(max-width: 1024px) 100vw, 30vw"
+                  />
+
+                  <div className="absolute bottom-2 left-2 z-30">
+                    <div className="bg-white/65 backdrop-blur-sm rounded-2xl p-3 shadow-xl border border-white/50">
+                      <h3 className="text-xl font-bold text-gray-900 font-sans">
+                        Immanuvel
+                      </h3>
+                      <p className="text-brand-red font-semibold text-xs mt-1">
+                        Director & Marketing Head
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="relative  flex-1 p-5 lg:p-6 flex flex-col justify-between z-20 bg-white">
+                  <div>
+                    <p className="text-brand-red text-[9px] lg:text-[10px] font-bold uppercase tracking-widest mb-2">
+                      Director &amp; Head of Marketing
+                    </p>
+                    <h4 className="text-lg lg:text-xl font-bold text-gray-900 mb-2 lg:mb-3">
+                      Leading Fuji Solar Forward
+                    </h4>
+                    <p className="text-gray-500 text-xs lg:text-sm leading-relaxed">
+                      As Director &amp; Head of Marketing, Immanuvel drives Fuji
+                      Solar&apos;s next chapter through strategic growth, customer-first
+                      innovation, and a forward-thinking approach to renewable energy.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>

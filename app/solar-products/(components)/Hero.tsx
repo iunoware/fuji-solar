@@ -141,7 +141,7 @@ export default function Hero() {
             />
 
             {/* Stats row */}
-            <div ref={statsRef} className="flex gap-10 flex-wrap">
+            {/* <div ref={statsRef} className="flex gap-10 flex-wrap">
               {[
                 { value: "43+", label: "Years in Industry" },
                 { value: "7", label: "Core Services" },
@@ -154,7 +154,7 @@ export default function Hero() {
                   </span>
                 </div>
               ))}
-            </div>
+            </div> */}
           </div>
 
           {/* RIGHT — visual panel */}

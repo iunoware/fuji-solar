@@ -239,7 +239,7 @@ export default function Mission() {
             </div>
 
             <p className="mt-16 text-xs uppercase tracking-widest text-gray-800">
-              Fuji Solar — Est. 1981
+              Fuji Solar — Est. 1983
             </p>
           </div>
 

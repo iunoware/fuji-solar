@@ -460,7 +460,7 @@ export default function Services() {
                 }`}
               >
                 {/* Image */}
-                <div className="relative w-full h-48 mb-7 rounded-2xl overflow-hidden bg-[#f9f6f1]">
+                <div className="relative w-full h-75 mb-7 rounded-2xl overflow-hidden bg-[#f9f6f1]">
                   <Image
                     fill
                     src={service.image}
@@ -504,7 +504,7 @@ export default function Services() {
                 </p>
 
                 {/* Bullet list */}
-                <ul className="flex flex-col gap-2 mb-4">
+                {/* <ul className="flex flex-col gap-2 mb-4">
                   {service.bullets.map((bullet, bi) => (
                     <li
                       key={bi}
@@ -517,7 +517,7 @@ export default function Services() {
                       {bullet}
                     </li>
                   ))}
-                </ul>
+                </ul> */}
 
                 {/* <Link
                   href={service.link}
