@@ -144,7 +144,7 @@ interface NavLink {
 const navLinks: NavLink[] = [
   { name: "Home", href: "/" },
   { name: "About", href: "/about" },
-  { name: "Services", href: "/solar-products" },
+  { name: "Solutions", href: "/solar-products" },
   { name: "Installation", href: "/installation-process" },
   { name: "Contact", href: "/contact" },
 ];
