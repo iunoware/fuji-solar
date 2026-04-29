@@ -161,6 +161,7 @@ export default function WhoWeAre() {
   return (
     <section
       ref={sectionRef}
+      id="whoWeAre"
       // className="relative w-full h-screen max-h-screen overflow-hidden bg-[#fefefe] flex items-center"
       className="relative w-full min-h-screen md:h-screen md:max-h-screen overflow-hidden bg-background py-10 flex items-center"
     >

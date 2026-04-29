@@ -136,6 +136,8 @@
 
 "use client";
 
+import Link from "next/link";
+
 const pricingData = [
   { capacity: "2 KW", price: "₹99,000" },
   { capacity: "3 KW", price: "₹1,32,000" },
@@ -197,12 +199,18 @@ export default function SolarSubsidySection() {
           </ul>
 
           <div className="flex gap-3 flex-wrap">
-            <button className="bg-red-600 hover:bg-red-700 text-white font-bold px-6 py-3 rounded-xl transition-colors shadow-md">
+            <Link
+              href="/contact"
+              className="bg-red-600 hover:bg-red-700 text-white font-bold px-6 py-3 rounded-xl transition-colors shadow-md"
+            >
               Get Free Quote
-            </button>
-            <button className="border border-gray-300 hover:border-red-600 hover:text-red-600 text-gray-700 font-semibold px-6 py-3 rounded-xl transition-colors">
+            </Link>
+            <Link
+              href="/solar-products"
+              className="border border-gray-300 hover:border-red-600 hover:text-red-600 text-gray-700 font-semibold px-6 py-3 rounded-xl transition-colors"
+            >
               Learn More
-            </button>
+            </Link>
           </div>
         </div>
 

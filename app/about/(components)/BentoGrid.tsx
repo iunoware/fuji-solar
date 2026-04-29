@@ -3,7 +3,8 @@ import Image from "next/image";
 
 const bottomImages = [
   {
-    src: "/images/solar-panel-2.webp",
+    // src: "/images/solar-panel-2.webp",
+    src: "/images/best-solar-company-in-thirunelveli.webp",
     alt: "solar energy company Tamil Nadu",
     label: "Commercial",
   },
@@ -34,8 +35,8 @@ export default function BentoGrid() {
                 <span className="text-brand-red">Every Scale.</span>
               </h1>
               <p className="text-sm text-gray-500 leading-relaxed max-w-50">
-                From your rooftop to an open field - we design and install solar
-                systems that fit every need.
+                From your rooftop to an open field - we design and install solar systems
+                that fit every need.
               </p>
             </div>
 
@@ -54,16 +55,8 @@ export default function BentoGrid() {
           {/* Bottom two images */}
           <div className="grid grid-cols-2 gap-3 h-56 md:h-auto">
             {bottomImages.map((img) => (
-              <div
-                key={img.label}
-                className="relative rounded-2xl overflow-hidden"
-              >
-                <Image
-                  src={img.src}
-                  alt={img.alt}
-                  fill
-                  className="object-cover"
-                />
+              <div key={img.label} className="relative rounded-2xl overflow-hidden">
+                <Image src={img.src} alt={img.alt} fill className="object-cover" />
                 {/* Label badge */}
                 <div className="absolute bottom-3 left-3 right-3">
                   <span className="bg-black/50 backdrop-blur-sm text-white text-[10px] font-medium px-2.5 py-1 rounded-full">
