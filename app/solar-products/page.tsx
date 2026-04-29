@@ -1,6 +1,8 @@
 import Hero from "./(components)/Hero";
 import SectorsWeServe from "./(components)/SectorWeServe";
 import Services from "./(components)/Services";
+import Cta from "@/components/Cta";
+import Awarness from "./(components)/Awarness";
 
 export const metadata = {
   title: "Solar Services in Tamil Nadu | Installation, Maintenance & Solutions",
@@ -14,6 +16,8 @@ export default function SolarProducts() {
       <Hero />
       <SectorsWeServe />
       <Services />
+      <Awarness />
+      <Cta />
     </div>
   );
 }
