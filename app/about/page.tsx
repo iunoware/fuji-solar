@@ -1,4 +1,4 @@
-"use client";
+// "use client";
 
 import Hero from "./(components)/Hero";
 import WhoWeAre from "./(components)/WhoWeAre";
@@ -10,37 +10,30 @@ import Awards from "./(components)/Awards";
 import Achievements from "./(components)/Achievements";
 import Cta from "@/components/Cta";
 
-import gsap from "gsap";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
-import { useGSAP } from "@gsap/react";
+// import gsap from "gsap";
+// import { ScrollTrigger } from "gsap/ScrollTrigger";
+// import { useGSAP } from "@gsap/react";
 
-// for pushing dljfldjlf]
-// fslfklsdjfkldsjlf
-
-// export const metadata = {
-//   title: "About Our Fuji Solar Company | Trusted Solar Experts in Tamil Nadu",
-//   description:
-//     "Learn about our fuji solar company serving Tamil Nadu. We specialize in solar panel installation, maintenance, and cost-effective solar solutions for residential, commercial, and industrial needs.",
-// };
+export const metadata = {
+  title: "About Our Fuji Solar Company | Trusted Solar Experts in Tamil Nadu",
+  description:
+    "Learn about our fuji solar company serving Tamil Nadu. We specialize in solar panel installation, maintenance, and cost-effective solar solutions for residential, commercial, and industrial needs.",
+};
 
 export default function About() {
-  useGSAP(() => {
-    // 1. Ensure plugin is registered
-    gsap.registerPlugin(ScrollTrigger);
+  //   useGSAP(() => {
+  //     gsap.registerPlugin(ScrollTrigger);
 
-    // 2. Reset scroll position immediately on route change
-    window.scrollTo(0, 0);
+  //     window.scrollTo(0, 0);
 
-    // 3. Force a refresh after a small delay to allow children to mount and layout to stabilize
-    // We don't call killAll here because it would kill the triggers just created by the children
-    const timer = setTimeout(() => {
-      ScrollTrigger.refresh();
-    }, 100);
+  //     const timer = setTimeout(() => {
+  //       ScrollTrigger.refresh();
+  //     }, 100);
 
-    return () => {
-      clearTimeout(timer);
-    };
-  }, []);
+  //     return () => {
+  //       clearTimeout(timer);
+  //     };
+  //   }, []);
 
   return (
     <section className="bg-background overflow-x-clip">

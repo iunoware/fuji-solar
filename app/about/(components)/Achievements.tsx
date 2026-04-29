@@ -169,7 +169,7 @@ export default function Achievements() {
       <div className="mt-14 max-w-4xl mx-auto flex items-center gap-4">
         <span className="flex-1 h-px bg-gray-100" />
         <span className="text-gray-700 text-[10px] font-mono tracking-widest uppercase">
-          Est. 1982 · Fuji Solar
+          Est. 1983 · Fuji Solar
         </span>
         <span className="flex-1 h-px bg-gray-100" />
       </div>

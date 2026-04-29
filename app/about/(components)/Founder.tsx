@@ -116,7 +116,7 @@ export default function Founder() {
           {/* Bio */}
           <div className="fade-item opacity-0 flex flex-col gap-3">
             <p className="text-gray-500 text-sm font-sans leading-relaxed">
-              Immanuvel founded Fuji Solar in 1982 with a simple but powerful conviction —
+              Immanuvel founded Fuji Solar in 1983 with a simple but powerful conviction —
               that clean, affordable energy should be within reach of every household and
               business. With a background in electrical engineering and a deep passion for
               renewable technology, he built Fuji Solar from the ground up into one of the

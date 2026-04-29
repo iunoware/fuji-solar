@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect } from "react";
 import { Calculator, CheckCircle2, ArrowRight } from "lucide-react";
+import Link from "next/link";
 // import CustomButton from "../../components/atoms/CustomButton";
 
 const SolarCalculator = () => {
@@ -46,11 +47,10 @@ const SolarCalculator = () => {
                 <Calculator className="w-4 h-4" /> Solar Calculator
               </span>
               <h2 className="text-4xl md:text-5xl font-bold text-gray-900 leading-tight mb-6">
-                Calculate Your{" "}
-                <span className="text-brand-red">Solar Savings</span>
+                Calculate Your <span className="text-brand-red">Solar Savings</span>
               </h2>
               <p className="text-lg text-gray-600 leading-relaxed">
-                Estimate your solar system price Tamil Nadu and see how much you can save 
+                Estimate your solar system price Tamil Nadu and see how much you can save
                 on your electricity bills by switching to clean energy today.
               </p>
             </div>
@@ -70,8 +70,8 @@ const SolarCalculator = () => {
 
             <div className="pt-4">
               <p className="text-sm text-gray-500 italic">
-                *Estimates are based on standard solar efficiency and average
-                sunlight hours.
+                *Estimates are based on standard solar efficiency and average sunlight
+                hours.
               </p>
             </div>
           </div>
@@ -98,9 +98,7 @@ const SolarCalculator = () => {
                   <div className="flex items-center gap-2">
                     <div className="flex items-center gap-1 text-xs text-gray-500">
                       <span className="animate-pulse">←</span>
-                      <span className="font-medium">
-                        Drag slider to adjust your bill
-                      </span>
+                      <span className="font-medium">Drag slider to adjust your bill</span>
                       <span className="animate-pulse">→</span>
                     </div>
                   </div>
@@ -193,10 +191,13 @@ const SolarCalculator = () => {
                     </div>
 
                     <div className="mt-8">
-                      <button className="w-full flex items-center justify-center gap-2 text-gray-900 font-bold hover:text-brand-red transition-colors group">
+                      <Link
+                        href="/contact"
+                        className="w-full flex items-center justify-center gap-2 text-gray-900 font-bold hover:text-brand-red transition-colors group"
+                      >
                         Get a Free Consultation Based on Result
                         <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
-                      </button>
+                      </Link>
                     </div>
                   </div>
                 )}
