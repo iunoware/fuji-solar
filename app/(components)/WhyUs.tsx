@@ -1,14 +1,15 @@
 "use client";
 
 import React, { useEffect, useRef } from "react";
-import { 
-  Users, 
-  Settings, 
-  ShieldCheck, 
-  Zap, 
-  HeartHandshake, 
+import Link from "next/link";
+import {
+  Users,
+  Settings,
+  ShieldCheck,
+  Zap,
+  HeartHandshake,
   Headset,
-  ArrowRight
+  ArrowRight,
 } from "lucide-react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
@@ -19,32 +20,38 @@ const features = [
   {
     icon: <Settings className="w-6 h-6" />,
     title: "Engineering Expertise",
-    description: "Led by experienced engineering professionals ensuring technical precision in every project.",
+    description:
+      "Led by experienced engineering professionals ensuring technical precision in every project.",
   },
   {
     icon: <Users className="w-6 h-6" />,
     title: "End-to-End Solutions",
-    description: "From custom design and feasibility studies to installation and lifetime support.",
+    description:
+      "From custom design and feasibility studies to installation and lifetime support.",
   },
   {
     icon: <ShieldCheck className="w-6 h-6" />,
     title: "Trusted Quality",
-    description: "High-performance systems using Tier-1 components built to last for decades.",
+    description:
+      "High-performance systems using Tier-1 components built to last for decades.",
   },
   {
     icon: <Zap className="w-6 h-6" />,
     title: "Competitive Pricing",
-    description: "Best market value without compromising on quality or safety standards.",
+    description:
+      "Best market value without compromising on quality or safety standards.",
   },
   {
     icon: <HeartHandshake className="w-6 h-6" />,
     title: "Customer-First Approach",
-    description: "Focused on long-term relationships, transparency, and building lasting trust.",
+    description:
+      "Focused on long-term relationships, transparency, and building lasting trust.",
   },
   {
     icon: <Headset className="w-6 h-6" />,
     title: "Reliable Support",
-    description: "Dedicated after-sales service and remote monitoring you can count on 24/7.",
+    description:
+      "Dedicated after-sales service and remote monitoring you can count on 24/7.",
   },
 ];
 
@@ -68,7 +75,7 @@ const WhyUs = () => {
             trigger: sectionRef.current,
             start: "top 75%",
           },
-        }
+        },
       );
 
       // Staggered fade in features
@@ -86,7 +93,7 @@ const WhyUs = () => {
               trigger: feature,
               start: "top 85%",
             },
-          }
+          },
         );
       });
     }, sectionRef);
@@ -95,13 +102,9 @@ const WhyUs = () => {
   }, []);
 
   return (
-    <section 
-      ref={sectionRef}
-      className="py-24 px-6 bg-white overflow-hidden"
-    >
+    <section ref={sectionRef} className="py-24 px-6 bg-white overflow-hidden">
       <div className="max-w-7xl mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-24 items-start">
-          
           {/* Left Side: Content */}
           <div ref={leftContentRef} className="lg:sticky lg:top-32 space-y-8">
             <div>
@@ -109,18 +112,23 @@ const WhyUs = () => {
                 ⭐ Why Choose Us
               </span>
               <h2 className="text-4xl md:text-5xl font-bold text-gray-900 leading-[1.1] mb-6">
-                Redefining Solar with <span className="text-brand-red">Excellence</span>
+                Redefining Solar with{" "}
+                <span className="text-brand-red">Excellence</span>
               </h2>
               <p className="text-lg text-gray-600 leading-relaxed max-w-lg">
-                As the best solar panel installation in Madurai, we combine engineering expertise and quality to deliver reliable solar solutions that stand the test of time.
+                As the best solar panel installation in Madurai, we combine
+                engineering expertise and quality to deliver reliable solar
+                solutions that stand the test of time.
               </p>
             </div>
 
             <div className="pt-4">
-              <button className="flex items-center gap-2 text-gray-900 font-bold hover:text-brand-red transition-colors group">
-                Get Free Consultation
-                <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
-              </button>
+              <Link href={"/contact"}>
+                <button className="flex items-center gap-2 text-gray-900 font-bold hover:text-brand-red transition-colors group">
+                  Get Free Consultation
+                  <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
+                </button>
+              </Link>
             </div>
           </div>
 
@@ -161,7 +169,6 @@ const WhyUs = () => {
               ))}
             </div>
           </div>
-
         </div>
       </div>
     </section>
