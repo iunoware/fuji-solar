@@ -31,8 +31,8 @@ export default function BentoGrid() {
             {/* Headline + subtext */}
             <div className="flex flex-col gap-2 my-auto py-4">
               <h1 className="text-2xl md:text-3xl font-bold leading-snug text-gray-900">
-                Solar for <br />
-                <span className="text-brand-red">Every Scale.</span>
+                From Kilowatt <br />
+                <span className="text-brand-red">To Megawatt.</span>
               </h1>
               <p className="text-sm text-gray-500 leading-relaxed max-w-50">
                 From your rooftop to an open field - we design and install solar systems

@@ -80,8 +80,7 @@ const services: ServiceCard[] = [
     title: "On-Grid Systems",
     category: "On-Grid",
     image: "/images/on-grid.png",
-    description:
-      "Reduce bills with a solar system for home with subsidy in Tamil Nadu.",
+    description: "Reduce bills with a solar system for home with subsidy in Tamil Nadu.",
   },
   {
     id: 4,
@@ -163,9 +162,7 @@ export default function WhatWeOffer() {
 
   const handleTouchStart = (e: React.TouchEvent) => {
     setIsDragging(true);
-    setStartX(
-      e.touches[0].pageX - (scrollContainerRef.current?.offsetLeft || 0),
-    );
+    setStartX(e.touches[0].pageX - (scrollContainerRef.current?.offsetLeft || 0));
     setScrollLeft(scrollContainerRef.current?.scrollLeft || 0);
   };
 
@@ -175,8 +172,7 @@ export default function WhatWeOffer() {
 
   const handleTouchMove = (e: React.TouchEvent) => {
     if (!isDragging) return;
-    const x =
-      e.touches[0].pageX - (scrollContainerRef.current?.offsetLeft || 0);
+    const x = e.touches[0].pageX - (scrollContainerRef.current?.offsetLeft || 0);
     const walk = (x - startX) * 2;
     if (scrollContainerRef.current) {
       scrollContainerRef.current.scrollLeft = scrollLeft - walk;
@@ -314,12 +310,7 @@ export default function WhatWeOffer() {
 
         {/* Scroll Hint */}
         <div className="flex items-center justify-center gap-2 mt-6 text-sm text-gray-400">
-          <svg
-            className="w-5 h-5"
-            fill="none"
-            stroke="currentColor"
-            viewBox="0 0 24 24"
-          >
+          <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path
               strokeLinecap="round"
               strokeLinejoin="round"
@@ -328,12 +319,7 @@ export default function WhatWeOffer() {
             />
           </svg>
           <span>Drag to explore more</span>
-          <svg
-            className="w-5 h-5"
-            fill="none"
-            stroke="currentColor"
-            viewBox="0 0 24 24"
-          >
+          <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path
               strokeLinecap="round"
               strokeLinejoin="round"
