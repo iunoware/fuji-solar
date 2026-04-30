@@ -3,6 +3,7 @@
 import { useRef } from "react";
 import { Zap, Leaf, ShieldCheck, Settings } from "lucide-react";
 import { gsap } from "gsap";
+import Link from "next/link";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useGSAP } from "@gsap/react";
 
@@ -111,7 +112,10 @@ export default function WhySolar() {
   ];
 
   return (
-    <section ref={sectionRef} className="py-20 px-6 bg-background overflow-hidden">
+    <section
+      ref={sectionRef}
+      className="py-20 px-6 bg-background overflow-hidden"
+    >
       <div className="max-w-7xl mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-24 items-center">
           {/* Left Side: Content */}
@@ -123,9 +127,9 @@ export default function WhySolar() {
               Why Switch to <span className="text-brand-red">Solar?</span>
             </h2>
             <p className="text-lg text-gray-600 leading-relaxed mb-10">
-              Transform the way you power your life. Solar energy isn&apos;t just about
-              saving money; it&apos;s about building a sustainable future while gaining
-              total energy independence.
+              Transform the way you power your life. Solar energy isn&apos;t
+              just about saving money; it&apos;s about building a sustainable
+              future while gaining total energy independence.
             </p>
 
             {/* <div>
@@ -179,8 +183,12 @@ export default function WhySolar() {
             </div> */}
 
             <div className="flex flex-col sm:flex-row gap-4">
-              <CustomButton variant="black">Get a Quote</CustomButton>
-              <CustomButton variant="outline">Learn More</CustomButton>
+              <Link href={"/contact"}>
+                <CustomButton variant="black">Get a Quote</CustomButton>
+              </Link>
+              <Link href={"/about"}>
+                <CustomButton variant="outline">Learn More</CustomButton>
+              </Link>
             </div>
           </div>
 
