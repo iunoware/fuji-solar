@@ -28,14 +28,6 @@ const services: ServiceDetail[] = [
     label: "Hybrid Systems",
     title: "Hybrid Solar Panel Systems",
     alt: "hybrid solar system Tamil Nadu",
-    // description:
-    //   "The best of both worlds — our hybrid systems combine grid connectivity with battery backup, ensuring you're never without power. Intelligent energy management switches seamlessly between solar, battery, and grid to deliver maximum savings and zero downtime.",
-    // bullets: [
-    //   "Seamless switching between solar, battery & grid",
-    //   "Ideal for homes, offices & commercial buildings",
-    //   "Smart inverter with real-time monitoring",
-    //   "Reduces electricity bills by up to 90%",
-    // ],
     description:
       "Combining the strengths of on-grid and off-grid systems, our hybrid solution ensures reliable power day and night. It supplies energy for daytime use, stores excess in batteries, and exports surplus power to the grid for maximum efficiency and savings.",
     bullets: [
@@ -54,14 +46,6 @@ const services: ServiceDetail[] = [
     label: "On-Grid Systems",
     title: "On-Grid Solar Systems",
     alt: "on-grid solar system Tamil Nadu",
-    // description:
-    //   "Feed surplus energy back to the grid and earn credits. Ideal for areas with reliable electricity supply — dramatically reduce your monthly bills with zero battery maintenance overhead.",
-    // bullets: [
-    //   "Net metering — sell excess energy back",
-    //   "Zero battery maintenance required",
-    //   "Lower upfront installation cost",
-    //   "Eligible for government subsidies",
-    // ],
     description:
       "On-grid solar systems generate power during the day for immediate use while exporting excess energy to the grid. Ideal for spaces with high daytime consumption, they help reduce electricity bills through net metering without the need for batteries.",
     bullets: [
@@ -98,14 +82,6 @@ const services: ServiceDetail[] = [
     label: "Water Pumps",
     title: "Solar Water Pumps",
     alt: "net metering Tamil Nadu",
-    // description:
-    //   "Reliable solar-powered pumping for agriculture, irrigation, and water supply. Eliminate diesel costs entirely and pump water even in remote fields with no electricity access.",
-    // bullets: [
-    //   "Eliminates diesel & electricity pump costs",
-    //   "AC & DC pump options available",
-    //   "Suitable for borewells, open wells & rivers",
-    //   "Low maintenance, long operational life",
-    // ],
     description:
       "A solar water pumping system acts as a self-sufficient mini power plant, capable of operating anywhere even without grid electricity. It uses a calibrated solar array matched to the pump, ensuring efficient water supply for irrigation, institutions, and residential needs.",
     bullets: [
@@ -124,14 +100,6 @@ const services: ServiceDetail[] = [
     label: "Street Lights",
     title: "Solar Street Lights",
     alt: "solar inverter installation",
-    // description:
-    //   "Autonomous, all-in-one street lighting powered entirely by the sun. Smart LED systems auto-dim at low-traffic hours, extending battery life and slashing municipal energy costs.",
-    // bullets: [
-    //   "Fully autonomous — no wiring needed",
-    //   "Smart motion & dusk-to-dawn sensors",
-    //   "Long-life lithium battery built in",
-    //   "Ideal for roads, parks & housing colonies",
-    // ],
     description:
       "An all-in-one solar street light is a compact, hassle-free lighting solution with no cabling required. It integrates a solar panel, lithium (LiFePO4) battery, motion sensor, control system, and high-output LEDs into a single unit for efficient and reliable outdoor lighting.",
     bullets: [
