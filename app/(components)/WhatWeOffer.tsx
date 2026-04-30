@@ -2,6 +2,7 @@
 
 import React, { useRef, useState, useEffect } from "react";
 import { gsap } from "gsap";
+import Link from "next/link";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useGSAP } from "@gsap/react";
 
@@ -13,52 +14,8 @@ interface ServiceCard {
   category: string;
   image: string;
   description: string;
+  link: string;
 }
-
-// const services: ServiceCard[] = [
-//   {
-//     id: 1,
-//     title: "Hybrid Solar Systems",
-//     category: "Hybrid",
-//     image: "/images/Hybrid.png",
-//     description: "Best of both worlds - grid and battery backup",
-//   },
-//   {
-//     id: 2,
-//     title: "Off-Grid Solutions",
-//     category: "Off-Grid",
-//     image: "/images/Offgrid.jpg",
-//     description: "Complete energy independence for remote locations",
-//   },
-//   {
-//     id: 3,
-//     title: "On-Grid Systems",
-//     category: "On-Grid",
-//     image: "/images/Ongrid.jpg",
-//     description: "Connect to the grid and reduce your electricity bills",
-//   },
-//   {
-//     id: 4,
-//     title: "Solar Water Pumps",
-//     category: "Water Pumps",
-//     image: "/images/Solar-Agro-Pumps.jpg",
-//     description: "Efficient irrigation and water supply solutions",
-//   },
-//   {
-//     id: 5,
-//     title: "Solar Street Lights",
-//     category: "Street Lights",
-//     image: "/images/solar-lights.jpg",
-//     description: "Illuminate streets with sustainable energy",
-//   },
-//   {
-//     id: 6,
-//     title: "Solar Water Heaters",
-//     category: "Water Heaters",
-//     image: "/images/water-heater.jpg",
-//     description: "Hot water powered by the sun",
-//   },
-// ];
 
 const services: ServiceCard[] = [
   {
@@ -67,6 +24,7 @@ const services: ServiceCard[] = [
     category: "Hybrid",
     image: "/images/hybrid-solar-system-tamilnadu.webp",
     description: "Grid + battery backup for uninterrupted power.",
+    link: "/solar-products/hybrid-systems",
   },
   {
     id: 2,
@@ -74,13 +32,16 @@ const services: ServiceCard[] = [
     category: "Off-Grid",
     image: "/images/off-grid-solar-system-tamil-nadu.webp",
     description: "Complete energy independence for remote areas.",
+    link: "/solar-products/off-grid-systems",
   },
   {
     id: 3,
     title: "On-Grid Systems",
     category: "On-Grid",
     image: "/images/on-grid.png",
-    description: "Reduce bills with a solar system for home with subsidy in Tamil Nadu.",
+    description:
+      "Reduce bills with a solar system for home with subsidy in Tamil Nadu.",
+    link: "/solar-products/on-grid-systems",
   },
   {
     id: 4,
@@ -88,6 +49,7 @@ const services: ServiceCard[] = [
     category: "Water Pumps",
     image: "/images/best-solar-company-in-tirunelveli.webp",
     description: "Efficient solar-powered irrigation solutions.",
+    link: "/solar-products/solar-water-pumps",
   },
   {
     id: 5,
@@ -95,6 +57,7 @@ const services: ServiceCard[] = [
     category: "Street Lights",
     image: "/images/best-solar-company-in-tamilnadu.png",
     description: "Sustainable lighting for streets and outdoor spaces.",
+    link: "/solar-products/solar-street-lights",
   },
   {
     id: 6,
@@ -102,6 +65,7 @@ const services: ServiceCard[] = [
     category: "Water Heaters",
     image: "/images/solar-panel-repair-madurai.png",
     description: "Reliable hot water powered by solar energy.",
+    link: "/solar-products/solar-water-heaters",
   },
 ];
 
@@ -162,7 +126,9 @@ export default function WhatWeOffer() {
 
   const handleTouchStart = (e: React.TouchEvent) => {
     setIsDragging(true);
-    setStartX(e.touches[0].pageX - (scrollContainerRef.current?.offsetLeft || 0));
+    setStartX(
+      e.touches[0].pageX - (scrollContainerRef.current?.offsetLeft || 0),
+    );
     setScrollLeft(scrollContainerRef.current?.scrollLeft || 0);
   };
 
@@ -172,7 +138,8 @@ export default function WhatWeOffer() {
 
   const handleTouchMove = (e: React.TouchEvent) => {
     if (!isDragging) return;
-    const x = e.touches[0].pageX - (scrollContainerRef.current?.offsetLeft || 0);
+    const x =
+      e.touches[0].pageX - (scrollContainerRef.current?.offsetLeft || 0);
     const walk = (x - startX) * 2;
     if (scrollContainerRef.current) {
       scrollContainerRef.current.scrollLeft = scrollLeft - walk;
@@ -189,22 +156,24 @@ export default function WhatWeOffer() {
               Our <span className="text-brand-red!">solutions</span>
             </h2>
           </div>
-          <button className="hidden md:flex items-center gap-2 px-6 py-3 border border-gray-300 hover:border-gray-900 rounded-full text-sm font-medium transition-all duration-300 group">
-            <span>Discover all solutions</span>
-            <svg
-              className="w-4 h-4 group-hover:translate-x-1 transition-transform"
-              fill="none"
-              stroke="currentColor"
-              viewBox="0 0 24 24"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth={2}
-                d="M9 5l7 7-7 7"
-              />
-            </svg>
-          </button>
+          <Link href={"/solar-products"}>
+            <button className="hidden md:flex items-center gap-2 px-6 py-3 border border-gray-300 hover:border-gray-900 rounded-full text-sm font-medium transition-all duration-300 group">
+              <span className="text-gray-700">Discover all solutions</span>
+              <svg
+                className="w-4 h-4 group-hover:translate-x-1 transition-transform"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M9 5l7 7-7 7"
+                />
+              </svg>
+            </button>
+          </Link>
         </div>
 
         {/* Draggable Cards Container */}
@@ -261,24 +230,26 @@ export default function WhatWeOffer() {
                   </p>
 
                   {/* See Project Button */}
-                  <button className="inline-flex items-center gap-2 text-white text-sm font-medium group/btn opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                    <span className="border-b border-white/40 pb-1 group-hover/btn:border-white transition-colors">
-                      Learn more
-                    </span>
-                    <svg
-                      className="w-4 h-4 group-hover/btn:translate-x-1 transition-transform"
-                      fill="none"
-                      stroke="currentColor"
-                      viewBox="0 0 24 24"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth={2}
-                        d="M9 5l7 7-7 7"
-                      />
-                    </svg>
-                  </button>
+                  <Link href={service.link}>
+                    <button className="inline-flex items-center gap-2 text-white text-sm font-medium group/btn opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                      <span className="border-b border-white/40 pb-1 group-hover/btn:border-white transition-colors">
+                        Learn more
+                      </span>
+                      <svg
+                        className="w-4 h-4 group-hover/btn:translate-x-1 transition-transform"
+                        fill="none"
+                        stroke="currentColor"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth={2}
+                          d="M9 5l7 7-7 7"
+                        />
+                      </svg>
+                    </button>
+                  </Link>
                 </div>
 
                 {/* Hover Effect - Border Glow */}
@@ -310,7 +281,12 @@ export default function WhatWeOffer() {
 
         {/* Scroll Hint */}
         <div className="flex items-center justify-center gap-2 mt-6 text-sm text-gray-400">
-          <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <svg
+            className="w-5 h-5"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+          >
             <path
               strokeLinecap="round"
               strokeLinejoin="round"
@@ -319,7 +295,12 @@ export default function WhatWeOffer() {
             />
           </svg>
           <span>Drag to explore more</span>
-          <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <svg
+            className="w-5 h-5"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+          >
             <path
               strokeLinecap="round"
               strokeLinejoin="round"

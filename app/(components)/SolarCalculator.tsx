@@ -5,26 +5,45 @@ import { Calculator, CheckCircle2, ArrowRight } from "lucide-react";
 import Link from "next/link";
 // import CustomButton from "../../components/atoms/CustomButton";
 
+const solarPlans = [
+  { min: 2000, max: 3000, systemSize: 2.2, units: 600, cost: 100000, ebBill: 250 },
+  { min: 4000, max: 6000, systemSize: 3.3, units: 900, cost: 132000, ebBill: 350 },
+  { min: 7000, max: 9000, systemSize: 4, units: 1200, cost: 172000, ebBill: 450 },
+  { min: 10000, max: 12000, systemSize: 5, units: 1400, cost: 232000, ebBill: 550 },
+  { min: 13000, max: 15000, systemSize: 6, units: 1700, cost: 282000, ebBill: 650 },
+  { min: 16000, max: 18000, systemSize: 7, units: 2000, cost: 352000, ebBill: 750 },
+  { min: 19000, max: 20000, systemSize: 8, units: 2300, cost: 397000, ebBill: 850 },
+  { min: 21000, max: 23000, systemSize: 9, units: 2700, cost: 447000, ebBill: 950 },
+  { min: 24000, max: 28000, systemSize: 10, units: 3000, cost: 472000, ebBill: 1200 }
+];
+
 const SolarCalculator = () => {
-  const [bill, setBill] = useState<number>(3000);
-  const [propertyType, setPropertyType] = useState<string>("Residential");
+  const [bill, setBill] = useState<number>(2000);
+  const propertyType = "Residential";
   const [showResults, setShowResults] = useState(false);
   const [results, setResults] = useState({
     monthly: 0,
     yearly: 0,
     systemSize: 0,
+    units: 0,
+    cost: 0,
+    ebBill: 0,
   });
 
   const calculateSavings = () => {
-    // Simple logic as requested
-    const monthlySavings = bill * 0.8;
+    const billValue = Math.max(2000, Math.min(28000, Math.round(Number(bill))));
+    const plan = solarPlans.find((p) => billValue >= p.min && billValue <= p.max) || solarPlans.reduce((prev, curr) => Math.abs(curr.min - billValue) < Math.abs(prev.min - billValue) ? curr : prev);
+
+    const monthlySavings = billValue - plan.ebBill;
     const yearlySavings = monthlySavings * 12;
-    const systemSize = bill / 1000;
 
     setResults({
-      monthly: Math.round(monthlySavings),
-      yearly: Math.round(yearlySavings),
-      systemSize: parseFloat(systemSize.toFixed(1)),
+      monthly: monthlySavings,
+      yearly: yearlySavings,
+      systemSize: plan.systemSize,
+      units: plan.units,
+      cost: plan.cost,
+      ebBill: plan.ebBill,
     });
     setShowResults(true);
   };
@@ -111,22 +130,22 @@ const SolarCalculator = () => {
                   <div className="relative">
                     <input
                       type="range"
-                      min="500"
-                      max="50000"
-                      step="500"
+                      min="2000"
+                      max="28000"
+                      step="1000"
                       value={bill}
-                      onChange={(e) => setBill(parseInt(e.target.value))}
+                      onChange={(e) => setBill(Math.max(2000, Math.min(28000, Number(e.target.value))))}
                       className="w-full h-2 bg-gray-100 rounded-lg appearance-none cursor-pointer range-slider"
                       style={{
-                        background: `linear-gradient(to right, #E74C3C 0%, #E74C3C ${((bill - 500) / (50000 - 500)) * 100}%, #E5E7EB ${((bill - 500) / (50000 - 500)) * 100}%, #E5E7EB 100%)`,
+                        background: `linear-gradient(to right, #E74C3C 0%, #E74C3C ${((bill - 2000) / (28000 - 2000)) * 100}%, #E5E7EB ${((bill - 2000) / (28000 - 2000)) * 100}%, #E5E7EB 100%)`,
                       }}
                     />
                   </div>
 
                   <div className="flex justify-between text-xs text-gray-400 font-medium pt-1">
-                    <span>₹500</span>
-                    <span>₹25,000</span>
-                    <span>₹50,000+</span>
+                    <span>₹2,000</span>
+                    <span>₹13,000</span>
+                    <span>₹28,000</span>
                   </div>
                 </div>
                 {/* Property Type Dropdown */}
@@ -136,7 +155,7 @@ const SolarCalculator = () => {
                   </label>
                   <select
                     value={propertyType}
-                    onChange={(e) => setPropertyType(e.target.value)}
+                    disabled
                     className="w-full px-4 py-3 bg-gray-50 border border-gray-100 rounded-xl focus:outline-none focus:ring-2 focus:ring-brand-red/20 focus:border-brand-red transition-all appearance-none cursor-pointer text-gray-700"
                   >
                     <option value="Residential">Residential</option>
