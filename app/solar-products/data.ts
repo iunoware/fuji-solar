@@ -19,23 +19,6 @@ export const servicesData: ServiceData[] = [
     description:
       "Combines the advantages of on-grid and off-grid systems with battery backup for uninterrupted power.",
 
-    // fullContent:
-    //   "Hybrid solar systems combine the technology and advantages of both on-grid and off-grid systems. They can supply power to your building, store energy in batteries, and also export excess power to the grid. During a power outage, unlike traditional on-grid systems, hybrid systems disconnect from the grid and continue supplying power using stored battery energy. This ensures uninterrupted electricity at all times. The system intelligently manages energy by prioritizing solar usage, then battery storage, and finally exporting surplus power using a bidirectional net meter. It is one of the most efficient and flexible solar solutions available today.",
-
-    // bullets: [
-    //   "Combines grid connectivity with battery storage",
-    //   "Automatically switches during power outages",
-    //   "Exports excess solar energy to grid",
-    //   "Smart energy management system",
-    // ],
-
-    // features: [
-    //   "Bidirectional Net Meter",
-    //   "Battery Backup System",
-    //   "Smart Hybrid Inverter",
-    //   "Grid + Solar + Battery Integration",
-    // ],
-
     fullContent:
       "Hybrid solar systems combine the advantages of both on-grid and off-grid systems, offering reliable power throughout the day and night. During the day, the system generates electricity for immediate use while storing excess energy in a connected battery bank. Surplus power is exported to the grid through a bi-directional meter. At night or during outages, the system operates using stored battery energy, ensuring continuous power supply with efficient energy utilization.",
 
@@ -65,7 +48,7 @@ export const servicesData: ServiceData[] = [
       "Requires battery maintenance over time",
     ],
 
-    mainImage: "/images/hybrid.png",
+    mainImage: "/images/hybrid-solar-system-tamilnadu.webp",
     diagramImage: "/images/solar-panel-dealers-madurai.jpg",
     alt: "best solar panels for home in Tamil Nadu",
   },
@@ -146,7 +129,7 @@ export const servicesData: ServiceData[] = [
       "Requires more installation space",
     ],
 
-    mainImage: "/images/off-grid.png",
+    mainImage: "/images/off-grid-solar-system-tamil-nadu.webp",
     diagramImage: "/images/solar-panel-installation-cost-madurai.jpg",
     alt: "solar power system for factories in Tamil Nadu",
   },
@@ -155,23 +138,6 @@ export const servicesData: ServiceData[] = [
     slug: "solar-water-pumps",
     title: "Solar Water Pumps",
     description: "Solar-powered water pumping solution for agriculture and irrigation.",
-
-    // fullContent:
-    //   "Solar water pumps use energy generated from solar panels to draw water from borewells, rivers, ponds, and other sources. These systems eliminate the need for diesel or grid electricity, making them extremely cost-effective for farmers. They can operate efficiently in remote locations and support irrigation, livestock, and water supply needs. With options like submersible and surface pumps, solar water pumping systems are highly flexible and reliable.",
-
-    // bullets: [
-    //   "Works without electricity or fuel",
-    //   "Suitable for multiple water sources",
-    //   "Ideal for agriculture and irrigation",
-    //   "Low maintenance and long life",
-    // ],
-
-    // features: [
-    //   "Submersible & Surface Pump Options",
-    //   "Direct Solar Operation",
-    //   "Durable Pump Design",
-    //   "Agricultural Integration",
-    // ],
 
     fullContent:
       "A solar water pumping system functions as a mini solar power plant that can be installed anywhere, even without access to electricity. It uses a calibrated solar array matched to the pump capacity for efficient operation. These systems can run various types of water pumps for irrigation, as well as for use in homes, educational institutions, and hospitals, making them a reliable and flexible water supply solution.",
@@ -197,7 +163,7 @@ export const servicesData: ServiceData[] = [
       "Ensures water availability year-round",
     ],
 
-    mainImage: "/images/water-pumps.png",
+    mainImage: "/images/best-solar-company-in-tirunelveli.webp",
     alt: "commercial solar installation Tamil Nadu",
   },
 
@@ -230,7 +196,7 @@ export const servicesData: ServiceData[] = [
       "Improves safety and visibility",
     ],
 
-    mainImage: "/images/solar-system-price-madurai.webp",
+    mainImage: "/images/best-solar-company-in-tamilnadu.webp",
     alt: "industrial solar solutions Tamil Nadu",
   },
 

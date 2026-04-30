@@ -14,6 +14,17 @@ export async function generateStaticParams() {
   }));
 }
 
+export async function generateMetadata({ params }: ServicePageProps) {
+  const { "solar-service": slug } = await params;
+  const service = getServiceBySlug(slug);
+
+  return {
+    title: `Fuji Solar | ${service?.title ?? "Service"}`,
+    description:
+      "Explore our solar services including installation, maintenance, and consultation across Tamil Nadu. Get reliable and affordable solar solutions tailored for homes, businesses, and industries.",
+  };
+}
+
 export default async function ServiceSlug({ params }: ServicePageProps) {
   const { "solar-service": slug } = await params;
   const service = getServiceBySlug(slug);
@@ -58,7 +69,7 @@ export default async function ServiceSlug({ params }: ServicePageProps) {
         </div>
       </section>
 
-      {/* ── Content Section ── */}
+      {/* Content Section */}
       <section className="w-full max-w-7xl mx-auto px-6 md:px-12 py-20 lg:py-32">
         <div className="flex flex-col lg:flex-row gap-16 lg:gap-24">
           {/* Main Description */}

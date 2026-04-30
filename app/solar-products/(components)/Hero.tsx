@@ -10,7 +10,7 @@ export default function Hero() {
   const headingRef = useRef<HTMLHeadingElement>(null);
   const subRef = useRef<HTMLParagraphElement>(null);
   const dividerRef = useRef<HTMLDivElement>(null);
-  const statsRef = useRef<HTMLDivElement>(null);
+  // const statsRef = useRef<HTMLDivElement>(null);
   const badgeRef = useRef<HTMLDivElement>(null);
 
   useGSAP(
@@ -58,21 +58,20 @@ export default function Hero() {
             duration: 0.8,
           },
           "-=0.4",
-        )
-        .from(
-          statsRef.current!.children,
-          {
-            opacity: 0,
-            y: 30,
-            duration: 0.6,
-            stagger: 0.15,
-          },
-          "-=0.4",
         );
+      // .from(
+      //   statsRef.current!.children,
+      //   {
+      //     opacity: 0,
+      //     y: 30,
+      //     duration: 0.6,
+      //     stagger: 0.15,
+      //   },
+      //   "-=0.4",
+      // );
     },
     { scope: sectionRef },
   );
-
   return (
     <section ref={sectionRef} className="relative w-full overflow-hidden bg-background">
       {/* Subtle background texture */}

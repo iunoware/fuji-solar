@@ -1,10 +1,5 @@
 import type { Metadata } from "next";
-import {
-  Geist,
-  Geist_Mono,
-  Montserrat,
-  Libre_Baskerville,
-} from "next/font/google";
+import { Geist, Geist_Mono, Montserrat, Libre_Baskerville } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
@@ -32,7 +27,7 @@ const libreBaskerville = Libre_Baskerville({
 });
 
 export const metadata: Metadata = {
-  title: "Best Solar Panel Company in Tamil Nadu | Fuji Solar",
+  title: "Fuji Solar | Best Solar Panel Company in Tamil Nadu",
   description:
     "Looking for solar panel installation in Madurai? We provide affordable rooftop solar systems across Tamil Nadu with full support including pricing and subsidy assistance.",
   icons: [{ url: "/images/favicon.png", sizes: "32x32", type: "image/png" }],
