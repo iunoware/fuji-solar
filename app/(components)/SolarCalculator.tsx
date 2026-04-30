@@ -17,7 +17,7 @@ const SolarCalculator = () => {
 
   const calculateSavings = () => {
     // Simple logic as requested
-    const monthlySavings = bill * 0.7;
+    const monthlySavings = bill * 0.8;
     const yearlySavings = monthlySavings * 12;
     const systemSize = bill / 1000;
 
@@ -47,11 +47,13 @@ const SolarCalculator = () => {
                 <Calculator className="w-4 h-4" /> Solar Calculator
               </span>
               <h2 className="text-4xl md:text-5xl font-bold text-gray-900 leading-tight mb-6">
-                Calculate Your <span className="text-brand-red">Solar Savings</span>
+                Calculate Your{" "}
+                <span className="text-brand-red">Solar Savings</span>
               </h2>
               <p className="text-lg text-gray-600 leading-relaxed">
-                Estimate your solar system price Tamil Nadu and see how much you can save
-                on your electricity bills by switching to clean energy today.
+                Estimate your solar system price Tamil Nadu and see how much you
+                can save on your electricity bills by switching to clean energy
+                today.
               </p>
             </div>
 
@@ -70,8 +72,8 @@ const SolarCalculator = () => {
 
             <div className="pt-4">
               <p className="text-sm text-gray-500 italic">
-                *Estimates are based on standard solar efficiency and average sunlight
-                hours.
+                *Estimates are based on standard solar efficiency and average
+                sunlight hours.
               </p>
             </div>
           </div>
@@ -98,7 +100,9 @@ const SolarCalculator = () => {
                   <div className="flex items-center gap-2">
                     <div className="flex items-center gap-1 text-xs text-gray-500">
                       <span className="animate-pulse">←</span>
-                      <span className="font-medium">Drag slider to adjust your bill</span>
+                      <span className="font-medium">
+                        Drag slider to adjust your bill
+                      </span>
                       <span className="animate-pulse">→</span>
                     </div>
                   </div>
@@ -184,7 +188,7 @@ const SolarCalculator = () => {
                             </p>
                           </div>
                           <div className="bg-[#16A34A] text-white px-3 py-1 rounded-lg text-xs font-bold">
-                            ~70% OFF
+                            ~80% OFF
                           </div>
                         </div>
                       </div>

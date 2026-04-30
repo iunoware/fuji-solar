@@ -1,7 +1,14 @@
 "use client";
 
 import React, { useState, useRef } from "react";
-import { MapPin, Phone, Mail, MessageCircle, CheckCircle2, Clock } from "lucide-react";
+import {
+  MapPin,
+  Phone,
+  Mail,
+  MessageCircle,
+  CheckCircle2,
+  Clock,
+} from "lucide-react";
 import { gsap } from "gsap";
 import { useGSAP } from "@gsap/react";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
@@ -65,8 +72,10 @@ const ContactSection = () => {
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
     if (!formData.name.trim()) return setError("Enter your name");
-    if (!phoneRegex.test(formData.phone)) return setError("Enter valid phone number");
-    if (!emailRegex.test(formData.email)) return setError("Enter a valid email address");
+    if (!phoneRegex.test(formData.phone))
+      return setError("Enter valid phone number");
+    if (!emailRegex.test(formData.email))
+      return setError("Enter a valid email address");
     if (!formData.location.trim()) return setError("Enter your location");
     if (!formData.message.trim()) return setError("Enter a message");
 
@@ -109,7 +118,12 @@ const ContactSection = () => {
           {/* Left Side: Contact Form */}
           <div ref={formRef} className="relative group">
             <div className="bg-white p-8 md:p-10 rounded-[2.5rem] shadow-2xl shadow-gray-100 border border-gray-100 relative z-10">
-              <h2 className="text-2xl font-bold text-gray-900 mb-8">Send a Message</h2>
+              <div className="mb-8">
+                <h2 className="text-2xl font-bold text-gray-900 ">
+                  Send a Message
+                </h2>
+                <p className="text-md text-gray-500">for more details</p>
+              </div>
 
               {/* {!isSubmitted ? (
                 <form
@@ -223,7 +237,9 @@ const ContactSection = () => {
                     required
                     className="w-full border placeholder-gray-700 text-gray-900 border-gray-400 rounded-2xl px-5 py-4 text-sm focus:outline-none focus:ring-2 focus:ring-green-500/20 focus:border-green-500 transition-all"
                     value={formData.name}
-                    onChange={(e) => setFormData({ ...formData, name: e.target.value })}
+                    onChange={(e) =>
+                      setFormData({ ...formData, name: e.target.value })
+                    }
                   />
 
                   <input
@@ -233,7 +249,9 @@ const ContactSection = () => {
                     required
                     className="w-full border placeholder-gray-700 text-gray-900 border-gray-400 rounded-2xl px-5 py-4 text-sm focus:outline-none focus:ring-2 focus:ring-green-500/20 focus:border-green-500 transition-all"
                     value={formData.phone}
-                    onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
+                    onChange={(e) =>
+                      setFormData({ ...formData, phone: e.target.value })
+                    }
                   />
                 </div>
 
@@ -243,7 +261,9 @@ const ContactSection = () => {
                     placeholder="Email Address"
                     className="w-full border placeholder-gray-700 text-gray-900 border-gray-400 rounded-2xl px-5 py-4 text-sm focus:outline-none focus:ring-2 focus:ring-green-500/20 focus:border-green-500 transition-all"
                     value={formData.email}
-                    onChange={(e) => setFormData({ ...formData, email: e.target.value })}
+                    onChange={(e) =>
+                      setFormData({ ...formData, email: e.target.value })
+                    }
                   />
 
                   <input
@@ -262,7 +282,9 @@ const ContactSection = () => {
                   placeholder="Tell us about your requirements..."
                   className="w-full border placeholder-gray-700 text-gray-900 border-gray-400 rounded-2xl px-5 py-4 text-sm focus:outline-none focus:ring-2 focus:ring-green-500/20 focus:border-green-500 transition-all resize-none"
                   value={formData.message}
-                  onChange={(e) => setFormData({ ...formData, message: e.target.value })}
+                  onChange={(e) =>
+                    setFormData({ ...formData, message: e.target.value })
+                  }
                 />
 
                 <div>
@@ -294,7 +316,9 @@ const ContactSection = () => {
                 <div className="w-20 h-20 bg-green-50 text-green-500 rounded-full flex items-center justify-center mb-6">
                   <CheckCircle2 size={40} />
                 </div>
-                <h3 className="text-2xl font-bold text-gray-900 mb-2">Message Sent!</h3>
+                <h3 className="text-2xl font-bold text-gray-900 mb-2">
+                  Message Sent!
+                </h3>
                 <p className="text-gray-500">
                   Thank you for reaching out. We&apos;ll be in touch soon.
                 </p>
@@ -317,8 +341,8 @@ const ContactSection = () => {
                 Get in Touch
               </h3>
               <p className="text-lg text-gray-500 max-w-sm leading-relaxed">
-                We&apos;re here to help you with your solar journey. Reach out to us
-                anytime.
+                We&apos;re here to help you with your solar journey. Reach out
+                to us anytime.
               </p>
             </div>
 
@@ -369,7 +393,9 @@ const ContactSection = () => {
                   <MessageCircle size={24} className="text-green-600" />
                 </div>
                 <div>
-                  <h4 className="font-bold text-gray-900 mb-1">WhatsApp Chat</h4>
+                  <h4 className="font-bold text-gray-900 mb-1">
+                    WhatsApp Chat
+                  </h4>
                   <p className="text-sm text-gray-500 group-hover:text-brand-red transition-colors">
                     +91 98765 43210
                   </p>

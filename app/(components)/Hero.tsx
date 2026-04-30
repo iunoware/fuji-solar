@@ -67,7 +67,7 @@ export default function RenewableEnergyHero() {
   return (
     <div
       ref={containerRef}
-      className="relative w-full flex items-center justify-center min-h-screen overflow-hidden"
+      className="relative bg-[#d3efff] w-full flex items-center justify-center min-h-screen overflow-hidden"
     >
       {/* Background Video */}
       <div
@@ -105,10 +105,10 @@ export default function RenewableEnergyHero() {
           <div className="lg:col-span-6 -translate-y-15">
             <h1
               ref={heroTextRef}
-              className="text-5xl md:text-6xl lg:text-7xl text-white font-medium leading-[1.1] tracking-tight mb-8 opacity-0"
+              className="text-5xl md:text-6xl font-bold lg:text-7xl text-white leading-[1.1] tracking-tight mb-8 opacity-0"
             >
-              Switch to Solar.
-              <span className="block mt-2">Save More Every Month.</span>
+              Make your roof
+              <span className="block mt-2 text-brand-red">Earn for you.</span>
             </h1>
           </div>
 
