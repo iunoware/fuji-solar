@@ -7,8 +7,9 @@ import Mission from "./(components)/Mission";
 import BentoGrid from "./(components)/BentoGrid";
 import WhyFujiSolar from "./(components)/WhyFujiSolar";
 import Awards from "./(components)/Awards";
-import Achievements from "./(components)/Achievements";
+// import Achievements from "./(components)/Achievements";
 import Cta from "@/components/Cta";
+import OurJourney from "./(components)/OurJourney";
 
 // import gsap from "gsap";
 // import { ScrollTrigger } from "gsap/ScrollTrigger";
@@ -40,11 +41,12 @@ export default function About() {
       <Hero />
       <WhoWeAre />
       <Founder />
+      <OurJourney />
       <Mission />
       <BentoGrid />
       <WhyFujiSolar />
       <Awards />
-      <Achievements />
+      {/* <Achievements /> */}
       <Cta />
     </section>
   );

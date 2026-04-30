@@ -62,7 +62,7 @@ export function OverlayContent() {
         className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-center opacity-0"
       >
         <h2 className="text-brand-red text-5xl md:text-7xl font-black uppercase leading-tight">
-          Perfect for <br />
+          Suitable for <br />
           <span className="text-blue-900">Residential & Commercial</span> Use
         </h2>
       </div>

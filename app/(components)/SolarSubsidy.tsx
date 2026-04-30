@@ -153,7 +153,7 @@ const bullets = [
 
 export default function SolarSubsidySection() {
   return (
-    <section className="bg-amber-50 py-16 px-4 md:px-12">
+    <section className=" py-16 px-4 md:px-12">
       <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-start">
         {/* LEFT */}
         <div className="flex flex-col gap-6">
@@ -163,7 +163,8 @@ export default function SolarSubsidySection() {
 
           <div>
             <h2 className="text-4xl md:text-5xl font-extrabold text-gray-900 leading-tight">
-              Thinking of <span className="text-red-600">Installing Solar?</span>
+              Thinking of{" "}
+              <span className="text-red-600">Installing Solar?</span>
             </h2>
             <p className="mt-3 text-gray-500 text-lg font-medium">
               Save energy. Reduce costs. Earn from your rooftop.
@@ -248,11 +249,16 @@ export default function SolarSubsidySection() {
               >
                 <div className="flex items-center gap-2">
                   <span className="bg-red-100 rounded-lg p-1.5">
-                    <svg className="w-3.5 h-3.5 fill-red-600" viewBox="0 0 24 24">
+                    <svg
+                      className="w-3.5 h-3.5 fill-red-600"
+                      viewBox="0 0 24 24"
+                    >
                       <path d="M13 10V3L4 14h7v7l9-11h-7z" />
                     </svg>
                   </span>
-                  <span className="font-bold text-gray-900">{row.capacity}</span>
+                  <span className="font-bold text-gray-900">
+                    {row.capacity}
+                  </span>
                 </div>
                 <span className="text-red-600 font-extrabold text-right text-lg">
                   {row.price}
@@ -277,8 +283,12 @@ export default function SolarSubsidySection() {
                     className="flex-1 bg-gray-50 rounded-xl p-3 border border-gray-100"
                   >
                     {/* <span className="text-lg">{w.icon}</span> */}
-                    <p className="text-xs text-gray-700 font-semibold mt-1">{w.label}</p>
-                    <p className="text-base font-extrabold text-brand-red">{w.value}</p>
+                    <p className="text-xs text-gray-700 font-semibold mt-1">
+                      {w.label}
+                    </p>
+                    <p className="text-base font-extrabold text-brand-red">
+                      {w.value}
+                    </p>
                   </div>
                 ))}
               </div>
@@ -295,8 +305,8 @@ export default function SolarSubsidySection() {
               </span>
               <p className="text-sm text-gray-500 leading-relaxed">
                 Easy loan available with{" "}
-                <strong className="text-gray-700">SBI, Canara Bank</strong> &amp;{" "}
-                <strong className="text-gray-700">Indian Bank</strong>
+                <strong className="text-gray-700">SBI, Canara Bank</strong>{" "}
+                &amp; <strong className="text-gray-700">Indian Bank</strong>
               </p>
             </div>
           </div>

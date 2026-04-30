@@ -14,12 +14,12 @@ export default function Home() {
     <div className="overflow-x-clip bg-background ">
       <Hero />
       <SolarPanel />
+      <WhatWeOffer />
       <WhySolar />
+      <SolarCalculator />
       <WhyUs />
       <SolarSubsidy />
-      <WhatWeOffer />
       <HowItWorks />
-      <SolarCalculator />
       <Testimonial />
       <Cta />
     </div>

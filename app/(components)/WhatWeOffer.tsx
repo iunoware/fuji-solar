@@ -65,14 +65,14 @@ const services: ServiceCard[] = [
     id: 1,
     title: "Hybrid Solar Systems",
     category: "Hybrid",
-    image: "/images/solar-energy-company-tamilnadu.png",
+    image: "/images/hybrid-solar-system-tamilnadu.webp",
     description: "Grid + battery backup for uninterrupted power.",
   },
   {
     id: 2,
     title: "Off-Grid Solutions",
     category: "Off-Grid",
-    image: "/images/off-grid.png",
+    image: "/images/off-grid-solar-system-tamil-nadu.webp",
     description: "Complete energy independence for remote areas.",
   },
   {
@@ -87,14 +87,14 @@ const services: ServiceCard[] = [
     id: 4,
     title: "Solar Water Pumps",
     category: "Water Pumps",
-    image: "/images/solar-panel-repair-chennai.webp",
+    image: "/images/best-solar-company-in-tirunelveli.webp",
     description: "Efficient solar-powered irrigation solutions.",
   },
   {
     id: 5,
     title: "Solar Street Lights",
     category: "Street Lights",
-    image: "/images/solar-system-price-madurai.webp",
+    image: "/images/best-solar-company-in-tamilnadu.png",
     description: "Sustainable lighting for streets and outdoor spaces.",
   },
   {
@@ -184,7 +184,7 @@ export default function WhatWeOffer() {
   };
 
   return (
-    <section className="py-20 select-none lg:py-28 bg-gray-50">
+    <section className="py-20 select-none lg:py-28 ">
       <div className="max-w-350 mx-auto px-6 lg:px-12">
         {/* Header */}
         <div className="flex items-end justify-between mb-12 lg:mb-16">
