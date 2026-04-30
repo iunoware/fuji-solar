@@ -19,7 +19,7 @@ const cards = [
     src: "/images/best-solar-company-in-thirunelveli.webp",
     alt: "solar panel installation cost Tamil Nadu",
     headline: "End-to-End Service",
-    desc: "We handle everything - from initial consultation and setup to the most reliable solar maintenance services Tamil Nadu has to offer.",
+    desc: "We handle everything - from consultation and installation to reliable solar maintenance services across Tamil Nadu.",
   },
   {
     src: "/images/solar-panel-installation-cost-bangalore.webp",
@@ -28,10 +28,10 @@ const cards = [
     desc: "No two sites are the same. Every system we build is designed specifically for your roof, your usage, and your budget.",
   },
   {
-    src: "/images/best-solar-company-in-banglore.webp",
+    src: "/images/best-solar-company-in-tirunelveli.webp",
     alt: "solar system price Tamil Nadu",
     headline: "Quality Guaranteed",
-    desc: "Every installation comes backed by a warranty and components tested to perform for decades — rain, heat, or shine.",
+    desc: "Every installation comes backed by a warranty and components tested to perform for decades - rain, heat, or shine.",
   },
 ];
 
@@ -121,7 +121,7 @@ export default function WhyChooseUs() {
               className="object-cover transition-transform duration-700 group-hover:scale-105"
             />
 
-            {/* Gradient — dark at bottom */}
+            {/* Gradient - dark at bottom */}
             <div className="absolute inset-0 bg-linear-to-t from-black/85 via-black/30 to-black/10" />
 
             {/* Content bottom */}

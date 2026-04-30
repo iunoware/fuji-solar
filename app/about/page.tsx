@@ -16,26 +16,12 @@ import OurJourney from "./(components)/OurJourney";
 // import { useGSAP } from "@gsap/react";
 
 export const metadata = {
-  title: "About Our Fuji Solar Company | Trusted Solar Experts in Tamil Nadu",
+  title: "Fuji Solar | About Our Solar Energy Company in Tamil Nadu",
   description:
     "Learn about our fuji solar company serving Tamil Nadu. We specialize in solar panel installation, maintenance, and cost-effective solar solutions for residential, commercial, and industrial needs.",
 };
 
 export default function About() {
-  //   useGSAP(() => {
-  //     gsap.registerPlugin(ScrollTrigger);
-
-  //     window.scrollTo(0, 0);
-
-  //     const timer = setTimeout(() => {
-  //       ScrollTrigger.refresh();
-  //     }, 100);
-
-  //     return () => {
-  //       clearTimeout(timer);
-  //     };
-  //   }, []);
-
   return (
     <section className="bg-background overflow-x-clip">
       <Hero />

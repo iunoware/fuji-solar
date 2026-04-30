@@ -149,7 +149,7 @@ export default function Founder() {
         </div>
 
         <div className="flex justify-center w-full">
-          <div className="relative grid grid-cols-1 lg:grid-cols-[1fr_1fr] gap-x-8 gap-y-8 items-center w-full max-w-5xl">
+          <div className="relative grid grid-cols-1 lg:grid-cols-2 gap-x-8 gap-y-8 items-center w-full max-w-5xl">
             {/* left side */}
             <div className="flex flex-col gap-6 lg:gap-8 relative z-10 w-full max-w-lg lg:max-w-none mx-auto lg:mx-0">
               <div
@@ -160,7 +160,7 @@ export default function Founder() {
 
                 <Image
                   // src="/images/off-grid.png"
-                  src="/images/off-grid-solar-system-tamil-nadu.webp"
+                  src="/images/dayalu-raj-sekar.webp"
                   alt="Dayalu Raj Sekar - Founder of Fuji Solar"
                   fill
                   className="object-cover object-center"
@@ -198,14 +198,14 @@ export default function Founder() {
             </div>
 
             {/* right side */}
-            <div className="relative flex flex-col items-center lg:items-start z-20 w-full mt-4 lg:mt-0">
+            <div className="relative flex flex-col items-center lg:items-start z-20 w-full mt-4 lg:mt-0 lg:ml-20">
               <div
                 ref={directorCardRef}
                 className="relative w-full max-w-100 rounded-3xl overflow-hidden shadow-[0_30px_60px_-15px_rgba(0,0,0,0.15)] lg:-ml-12 bg-white flex flex-col border border-brand-red/10"
               >
                 <div className="relative w-full h-72 shrink-0">
                   <Image
-                    src="/images/off-grid-solar-system-tamil-nadu.webp"
+                    src="/images/immanuvel.webp"
                     alt="Immanuvel - Director & Head of Marketing"
                     fill
                     className="object-cover object-top"

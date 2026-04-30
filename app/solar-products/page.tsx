@@ -5,7 +5,8 @@ import Cta from "@/components/Cta";
 import Awarness from "./(components)/Awarness";
 
 export const metadata = {
-  title: "Solar Services in Tamil Nadu | Installation, Maintenance & Solutions",
+  title:
+    "Fuji Solar | Solar Solutions Installation, Maintenance & Solutions in TamilNadu",
   description:
     "Explore our solar services including installation, maintenance, and consultation across Tamil Nadu. Get reliable and affordable solar solutions tailored for homes, businesses, and industries.",
 };
