@@ -184,7 +184,7 @@ export default function Founder() {
                   The Foundation of Fuji Solar
                 </h3>
                 <p className="fade-item text-gray-600 text-md leading-relaxed mb-6">
-                  Dayalu Raj Sekar founded Fuji Solar in 1983 with a simple but powerful
+                  Dayalan Raj Sekar founded Fuji Solar in 1983 with a simple but powerful
                   conviction - that clean, affordable energy should be within reach of
                   every household and business. Through deep technical expertise, he built
                   Fuji Solar into one of the region&apos;s most trusted solar brands.
