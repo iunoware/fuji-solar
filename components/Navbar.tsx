@@ -143,10 +143,10 @@ interface NavLink {
 
 const navLinks: NavLink[] = [
   { name: "Home", href: "/" },
-  { name: "About", href: "/about" },
-  { name: "Solutions", href: "/solar-products" },
-  { name: "Installation", href: "/installation-process" },
-  { name: "Contact", href: "/contact" },
+  { name: "About", href: "/about/" },
+  { name: "Solutions", href: "/solar-products/" },
+  { name: "Installation", href: "/installation-process/" },
+  { name: "Contact", href: "/contact/" },
 ];
 
 export default function Navbar() {

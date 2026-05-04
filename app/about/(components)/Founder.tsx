@@ -143,7 +143,7 @@ export default function Founder() {
 
           <p className="max-w-3xl text-gray-600 text-md leading-relaxed">
             For over 43 years, Fuji Solar has grown through generational leadership -
-            built on Dayalu Raj Sekar’s pioneering vision and strengthened by Immanuvel’s
+            built on DayalanRaj Sekar’s pioneering vision and strengthened by Immanuvel’s
             strategic direction for the future.
           </p>
         </div>
@@ -161,7 +161,7 @@ export default function Founder() {
                 <Image
                   // src="/images/off-grid.png"
                   src="/images/dayalu-raj-sekar.webp"
-                  alt="Dayalu Raj Sekar - Founder of Fuji Solar"
+                  alt="Dayalan Raj Sekar - Founder of Fuji Solar"
                   fill
                   className="object-cover object-center"
                   sizes="(max-width: 1024px) 100vw, 30vw"
@@ -170,7 +170,7 @@ export default function Founder() {
                 <div className="absolute bottom-5 left-5 lg:bottom-8 lg:left-8 z-30">
                   <div className="bg-white/65 backdrop-blur-sm rounded-2xl p-5 shadow-xl border border-white/50 w-64 lg:w-70">
                     <h3 className="text-xl lg:text-2xl font-bold text-gray-900 font-sans">
-                      Dayalu Raj Sekar
+                      Dayalan Raj Sekar
                     </h3>
                     <p className="text-brand-red font-semibold text-xs lg:text-sm mt-1">
                       Founder
