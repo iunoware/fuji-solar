@@ -1,6 +1,7 @@
 import Hero from "./(components)/Hero";
 import WhySolar from "./(components)/WhySolar";
 import WhyUs from "./(components)/WhyUs";
+import Mnre from "./(components)/Mnre";
 import WhatWeOffer from "./(components)/WhatWeOffer";
 import HowItWorks from "./(components)/HowItWorks";
 import SolarCalculator from "./(components)/SolarCalculator";
@@ -16,6 +17,7 @@ export default function Home() {
       <SolarPanel />
       <WhatWeOffer />
       <WhySolar />
+      <Mnre />
       <SolarCalculator />
       <WhyUs />
       <SolarSubsidy />
