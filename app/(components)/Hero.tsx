@@ -124,7 +124,7 @@ export default function RenewableEnergyHero() {
                   ref={subTextRef}
                   className="text-white/90 text-base lg:text-md leading-relaxed mb-8 pl-4"
                 >
-                  Expert solar panel installation Madurai for homes and
+                  Expert solar system installation in Tamil Nadu for homes and
                   businesses. Providing clean, reliable, and cost-effective
                   energy solutions for sustainable power.
                 </p>

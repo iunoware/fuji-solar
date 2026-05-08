@@ -10,25 +10,28 @@ gsap.registerPlugin(ScrollTrigger);
 const testimonials = [
   {
     id: 1,
-    name: "Ravi Kumar",
+    name: "Palanivel Arumugam",
     location: "Chennai, TN",
-    quote: "Great service and smooth installation. We've already started saving on our electricity bills significantly!",
+    quote:
+      "Very nice Installer of solar system.installed before two years,so far no issue at all.Recovered 35% of investment in two years .Highly recommended Installer",
     rating: 5,
-    initials: "RK",
+    initials: "PA",
   },
   {
     id: 2,
-    name: "Ananya Mehta",
+    name: "Aditi R",
     location: "Mumbai, MH",
-    quote: "The team was professional and handle all the subsidies paper work. Highly recommend Fuji Solar.",
+    quote:
+      "Md. Ali and the team have done a phenomenal job during installation and delivery of these panels. Post installation service is also commendable with the team being prompt in receiving calls and addressing the situation...",
     rating: 5,
-    initials: "AM",
+    initials: "AR",
   },
   {
     id: 3,
     name: "Suresh Pillai",
     location: "Bangalore, KA",
-    quote: "Best investment for our home. The mobile app tracking is brilliant and the power output is as promised.",
+    quote:
+      "Best investment for our home. The mobile app tracking is brilliant and the power output is as promised.",
     rating: 5,
     initials: "SP",
   },
@@ -36,7 +39,8 @@ const testimonials = [
     id: 4,
     name: "Priya Sharma",
     location: "Delhi, NCR",
-    quote: "Switching to solar was seamless. Fuji handles everything from design to installation perfectly.",
+    quote:
+      "Switching to solar was seamless. Fuji handles everything from design to installation perfectly.",
     rating: 5,
     initials: "PS",
   },
@@ -44,7 +48,8 @@ const testimonials = [
     id: 5,
     name: "Vikram Singh",
     location: "Jaipur, RJ",
-    quote: "Professional setup and excellent customer support. Our monthly bills have dropped by over 80%.",
+    quote:
+      "Professional setup and excellent customer support. Our monthly bills have dropped by over 80%.",
     rating: 5,
     initials: "VS",
   },
@@ -73,7 +78,7 @@ const Testimonial = () => {
             trigger: sectionRef.current,
             start: "top 80%",
           },
-        }
+        },
       );
     }, sectionRef);
 
@@ -105,7 +110,7 @@ const Testimonial = () => {
   };
 
   return (
-    <section 
+    <section
       ref={sectionRef}
       className="py-24 px-6 bg-white overflow-hidden select-none"
     >
@@ -152,7 +157,10 @@ const Testimonial = () => {
                   {/* Rating */}
                   <div className="flex gap-1 mb-6">
                     {[...Array(t.rating)].map((_, i) => (
-                      <Star key={i} className="w-4 h-4 fill-yellow-400 text-yellow-400" />
+                      <Star
+                        key={i}
+                        className="w-4 h-4 fill-yellow-400 text-yellow-400"
+                      />
                     ))}
                   </div>
 
@@ -168,7 +176,7 @@ const Testimonial = () => {
                       </div>
                       <div>
                         <h4 className="font-bold text-gray-900">{t.name}</h4>
-                        <p className="text-sm text-gray-500">{t.location}</p>
+                        {/* <p className="text-sm text-gray-500">{t.location}</p> */}
                       </div>
                     </div>
                   </div>

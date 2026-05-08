@@ -35,14 +35,14 @@ export default function Mnre() {
             </p>
 
             <h2 className="text-3xl md:text-4xl font-semibold text-gray-900 leading-tight mb-5">
-              Fuji Solar is an <span className="text-brand-red">MNRE Approved</span>{" "}
-              vendor
+              Fuji Solar is an{" "}
+              <span className="text-brand-red">MNRE Approved</span> Company
             </h2>
 
             <p className="text-gray-600 leading-relaxed mb-8">
-              We provide solar installations aligned with Ministry of New and Renewable
-              Energy standards, helping homes and businesses across Tamil Nadu switch to
-              reliable clean energy.
+              We provide solar installations aligned with Ministry of New and
+              Renewable Energy standards, helping homes and businesses across
+              Tamil Nadu switch to reliable clean energy.
             </p>
 
             {/* Trust indicators */}

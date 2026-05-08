@@ -63,7 +63,7 @@ const services: ServiceCard[] = [
     id: 6,
     title: "Solar Water Heaters",
     category: "Water Heaters",
-    image: "/images/solar-panel-repair-madurai.png",
+    image: "/images/solar-panel-repair-madurai.webp",
     description: "Reliable hot water powered by solar energy.",
     link: "/solar-products/solar-water-heaters",
   },
