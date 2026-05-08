@@ -3,182 +3,182 @@
 import { useRef } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import { useGSAP } from "@gsap/react";
+// import { useGSAP } from "@gsap/react";
 
 gsap.registerPlugin(ScrollTrigger);
 
 const items = [
   {
-    id: "mission",
-    label: "Mission",
+    id: "Goal",
+    label: "Our Goal",
     eyebrow: "Why we exist",
     heading: "Energy for everyone, powered by the sun.",
     body: "For over 43 years, Fuji Solar has driven a single purpose - making clean, reliable solar energy accessible to every home, farm, and business across India. We don't just install panels. We dismantle dependency on fossil fuels, one rooftop at a time, building a future where the sun pays your electricity bill.",
-    stat: { value: "43+", note: "Years in the field" },
+    stat: { value: "43+", note: "Years of uninterrupted customer service" },
   },
-  {
-    id: "vision",
-    label: "Vision",
-    eyebrow: "Where we're headed",
-    heading: "India's most trusted name in solar - for the next 43 years.",
-    body: "We envision a country where clean energy is the first choice, not the last resort. Where Fuji Solar's name stands behind every panel on every rooftop - from remote villages to metro skylines. A future without energy insecurity, without sky-high bills, and without compromise.",
-    stat: { value: "10k+", note: "Installations nationwide" },
-  },
-  {
-    id: "goal",
-    label: "Goal",
-    eyebrow: "What we're building toward",
-    heading: "100,000 solar homes by 2030.",
-    body: "Our goal is concrete and measurable: power 100,000 Indian households with clean solar energy by 2030. Every system we install, every watt we generate, every rupee saved on a customer's bill brings us closer. This isn't aspiration - it's a deadline we're already working against.",
-    stat: { value: "2030", note: "Our target year" },
-  },
+  // {
+  //   id: "vision",
+  //   label: "Vision",
+  //   eyebrow: "Where we're headed",
+  //   heading: "India's most trusted name in solar - for the next 43 years.",
+  //   body: "We envision a country where clean energy is the first choice, not the last resort. Where Fuji Solar's name stands behind every panel on every rooftop - from remote villages to metro skylines. A future without energy insecurity, without sky-high bills, and without compromise.",
+  //   stat: { value: "10k+", note: "Installations nationwide" },
+  // },
+  // {
+  //   id: "goal",
+  //   label: "Goal",
+  //   eyebrow: "What we're building toward",
+  //   heading: "100,000 solar homes by 2030.",
+  //   body: "Our goal is concrete and measurable: power 100,000 Indian households with clean solar energy by 2030. Every system we install, every watt we generate, every rupee saved on a customer's bill brings us closer. This isn't aspiration - it's a deadline we're already working against.",
+  //   stat: { value: "2030", note: "Our target year" },
+  // },
 ];
 
-const SCROLL_PER_STEP = 0.85; // × vh per section
+// const SCROLL_PER_STEP = 0.85; // × vh per section
 
 export default function Mission() {
   const wrapperRef = useRef<HTMLDivElement>(null);
-  const activeIndexRef = useRef<number>(0);
+  // const activeIndexRef = useRef<number>(0);
 
-  useGSAP(
-    () => {
-      const wrapper = wrapperRef.current;
-      if (!wrapper) return;
+  // useGSAP(
+  //   () => {
+  //     const wrapper = wrapperRef.current;
+  //     if (!wrapper) return;
 
-      const vh = window.innerHeight;
-      const totalScroll = vh * SCROLL_PER_STEP * (items.length - 1);
+  //     const vh = window.innerHeight;
+  //     const totalScroll = vh * SCROLL_PER_STEP * (items.length - 1);
 
-      // ── Set initial DOM state ──
-      items.forEach((item, i) => {
-        const contentEl = wrapper.querySelector(`#content-${item.id}`) as HTMLElement;
-        const underline = wrapper.querySelector(`#underline-${item.id}`) as HTMLElement;
-        const label = wrapper.querySelector(`#label-${item.id}`) as HTMLElement;
-        const counter = wrapper.querySelector(`#counter-${item.id}`) as HTMLElement;
+  //     // ── Set initial DOM state ──
+  //     items.forEach((item, i) => {
+  //       const contentEl = wrapper.querySelector(`#content-${item.id}`) as HTMLElement;
+  //       const underline = wrapper.querySelector(`#underline-${item.id}`) as HTMLElement;
+  //       const label = wrapper.querySelector(`#label-${item.id}`) as HTMLElement;
+  //       const counter = wrapper.querySelector(`#counter-${item.id}`) as HTMLElement;
 
-        if (!contentEl || !underline || !label || !counter) return;
+  //       if (!contentEl || !underline || !label || !counter) return;
 
-        if (i === 0) {
-          gsap.set(contentEl, { opacity: 1, y: 0, pointerEvents: "auto" });
-          gsap.set(underline, { scaleX: 1, opacity: 1 });
-          gsap.set(label, { color: "#1c1917" });
-          gsap.set(counter, { color: "#eab308" });
-        } else {
-          gsap.set(contentEl, { opacity: 0, y: 30, pointerEvents: "none" });
-          gsap.set(underline, { scaleX: 0, opacity: 0 });
-          gsap.set(label, { color: "#d4cdc7" });
-          gsap.set(counter, { color: "#e8e2db" });
-        }
-      });
+  //       if (i === 0) {
+  //         gsap.set(contentEl, { opacity: 1, y: 0, pointerEvents: "auto" });
+  //         gsap.set(underline, { scaleX: 1, opacity: 1 });
+  //         gsap.set(label, { color: "#1c1917" });
+  //         gsap.set(counter, { color: "#eab308" });
+  //       } else {
+  //         gsap.set(contentEl, { opacity: 0, y: 30, pointerEvents: "none" });
+  //         gsap.set(underline, { scaleX: 0, opacity: 0 });
+  //         gsap.set(label, { color: "#d4cdc7" });
+  //         gsap.set(counter, { color: "#e8e2db" });
+  //       }
+  //     });
 
-      activeIndexRef.current = 0;
+  //     activeIndexRef.current = 0;
 
-      // ── Single ScrollTrigger with onUpdate driving everything ──
-      ScrollTrigger.create({
-        trigger: wrapper,
-        start: "top top",
-        end: () => `+=${totalScroll}`,
-        pin: true,
-        pinSpacing: true,
-        anticipatePin: 1,
-        invalidateOnRefresh: true,
-        onUpdate: (self) => {
-          const rawIndex = self.progress * items.length;
-          const newIndex = Math.min(Math.floor(rawIndex), items.length - 1);
+  //     // ── Single ScrollTrigger with onUpdate driving everything ──
+  //     ScrollTrigger.create({
+  //       trigger: wrapper,
+  //       start: "top top",
+  //       end: () => `+=${totalScroll}`,
+  //       pin: true,
+  //       pinSpacing: true,
+  //       anticipatePin: 1,
+  //       invalidateOnRefresh: true,
+  //       onUpdate: (self) => {
+  //         const rawIndex = self.progress * items.length;
+  //         const newIndex = Math.min(Math.floor(rawIndex), items.length - 1);
 
-          if (newIndex === activeIndexRef.current) return;
+  //         if (newIndex === activeIndexRef.current) return;
 
-          const prevIndex = activeIndexRef.current;
-          activeIndexRef.current = newIndex;
-          const goingForward = newIndex > prevIndex;
+  //         const prevIndex = activeIndexRef.current;
+  //         activeIndexRef.current = newIndex;
+  //         const goingForward = newIndex > prevIndex;
 
-          // ── Left labels ──
-          items.forEach((item, i) => {
-            const underline = wrapper.querySelector(
-              `#underline-${item.id}`,
-            ) as HTMLElement;
-            const label = wrapper.querySelector(`#label-${item.id}`) as HTMLElement;
-            const counter = wrapper.querySelector(`#counter-${item.id}`) as HTMLElement;
+  //         // ── Left labels ──
+  //         items.forEach((item, i) => {
+  //           const underline = wrapper.querySelector(
+  //             `#underline-${item.id}`,
+  //           ) as HTMLElement;
+  //           const label = wrapper.querySelector(`#label-${item.id}`) as HTMLElement;
+  //           const counter = wrapper.querySelector(`#counter-${item.id}`) as HTMLElement;
 
-            if (!underline || !label || !counter) return;
+  //           if (!underline || !label || !counter) return;
 
-            if (i === newIndex) {
-              gsap.to(underline, {
-                scaleX: 1,
-                opacity: 1,
-                duration: 0.45,
-                ease: "power3.out",
-              });
-              gsap.to(label, { color: "#1c1917", duration: 0.35 });
-              gsap.to(counter, { color: "#eab308", duration: 0.35 });
-            } else {
-              gsap.to(underline, {
-                scaleX: 0,
-                opacity: 0,
-                duration: 0.35,
-                ease: "power2.in",
-              });
-              gsap.to(label, { color: "#d4cdc7", duration: 0.35 });
-              gsap.to(counter, { color: "#e8e2db", duration: 0.35 });
-            }
-          });
+  //           if (i === newIndex) {
+  //             gsap.to(underline, {
+  //               scaleX: 1,
+  //               opacity: 1,
+  //               duration: 0.45,
+  //               ease: "power3.out",
+  //             });
+  //             gsap.to(label, { color: "#1c1917", duration: 0.35 });
+  //             gsap.to(counter, { color: "#eab308", duration: 0.35 });
+  //           } else {
+  //             gsap.to(underline, {
+  //               scaleX: 0,
+  //               opacity: 0,
+  //               duration: 0.35,
+  //               ease: "power2.in",
+  //             });
+  //             gsap.to(label, { color: "#d4cdc7", duration: 0.35 });
+  //             gsap.to(counter, { color: "#e8e2db", duration: 0.35 });
+  //           }
+  //         });
 
-          // ── Right content swap ──
-          const prevEl = wrapper.querySelector(
-            `#content-${items[prevIndex].id}`,
-          ) as HTMLElement;
-          const nextEl = wrapper.querySelector(
-            `#content-${items[newIndex].id}`,
-          ) as HTMLElement;
+  //         // ── Right content swap ──
+  //         const prevEl = wrapper.querySelector(
+  //           `#content-${items[prevIndex].id}`,
+  //         ) as HTMLElement;
+  //         const nextEl = wrapper.querySelector(
+  //           `#content-${items[newIndex].id}`,
+  //         ) as HTMLElement;
 
-          if (prevEl) {
-            gsap.killTweensOf(prevEl);
-            gsap.to(prevEl, {
-              opacity: 0,
-              y: goingForward ? -28 : 28,
-              duration: 0.38,
-              ease: "power2.in",
-              onComplete: () => {
-                prevEl.style.pointerEvents = "none";
-              },
-            });
-          }
+  //         if (prevEl) {
+  //           gsap.killTweensOf(prevEl);
+  //           gsap.to(prevEl, {
+  //             opacity: 0,
+  //             y: goingForward ? -28 : 28,
+  //             duration: 0.38,
+  //             ease: "power2.in",
+  //             onComplete: () => {
+  //               prevEl.style.pointerEvents = "none";
+  //             },
+  //           });
+  //         }
 
-          if (nextEl) {
-            gsap.killTweensOf(nextEl);
-            gsap.fromTo(
-              nextEl,
-              { opacity: 0, y: goingForward ? 32 : -32 },
-              {
-                opacity: 1,
-                y: 0,
-                duration: 0.52,
-                ease: "power3.out",
-                delay: 0.22,
-                onStart: () => {
-                  nextEl.style.pointerEvents = "auto";
-                },
-              },
-            );
-          }
-        },
-      });
+  //         if (nextEl) {
+  //           gsap.killTweensOf(nextEl);
+  //           gsap.fromTo(
+  //             nextEl,
+  //             { opacity: 0, y: goingForward ? 32 : -32 },
+  //             {
+  //               opacity: 1,
+  //               y: 0,
+  //               duration: 0.52,
+  //               ease: "power3.out",
+  //               delay: 0.22,
+  //               onStart: () => {
+  //                 nextEl.style.pointerEvents = "auto";
+  //               },
+  //             },
+  //           );
+  //         }
+  //       },
+  //     });
 
-      // ── Entrance animation ──
-      gsap.from(".mvg-left-col > *", {
-        opacity: 0,
-        y: 28,
-        duration: 0.7,
-        stagger: 0.12,
-        ease: "power3.out",
-        scrollTrigger: {
-          trigger: wrapper,
-          start: "top 82%",
-          invalidateOnRefresh: true,
-        },
-      });
-    },
-    { scope: wrapperRef },
-  );
+  //     // ── Entrance animation ──
+  //     gsap.from(".mvg-left-col > *", {
+  //       opacity: 0,
+  //       y: 28,
+  //       duration: 0.7,
+  //       stagger: 0.12,
+  //       ease: "power3.out",
+  //       scrollTrigger: {
+  //         trigger: wrapper,
+  //         start: "top 82%",
+  //         invalidateOnRefresh: true,
+  //       },
+  //     });
+  //   },
+  //   { scope: wrapperRef },
+  // );
 
   return (
     <>
@@ -197,7 +197,7 @@ export default function Mission() {
             <div className="flex items-center gap-3 mb-14">
               <span className="w-8 h-0.5 bg-[#eab308]" />
               <span className="text-xs font-semibold uppercase tracking-[0.25em] text-[#a16207]">
-                Who We Are
+                Our Purpose
               </span>
             </div>
 

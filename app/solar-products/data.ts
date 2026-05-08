@@ -229,7 +229,7 @@ export const servicesData: ServiceData[] = [
       "Long lifespan system",
     ],
 
-    mainImage: "/images/water-heater.png",
+    mainImage: "/images/solar-panel-repair-madurai.webp",
     alt: "solar panel installation Chennai",
   },
 ];

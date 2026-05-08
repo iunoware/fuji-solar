@@ -191,7 +191,7 @@ export default function WhoWeAre() {
               className="text-3xl md:text-5xl font-bold text-gray-900 leading-tight font-sans"
               style={{ letterSpacing: "-0.02em" }}
             >
-              Harnessing the sun <span className="text-brand-red">since 1983.</span>
+              Serving Customers <span className="text-brand-red">since 1983.</span>
             </h2>
           </div>
 

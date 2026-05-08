@@ -20,7 +20,7 @@ const milestones = [
     year: "Growth",
     title: "Growth & Innovation",
     description:
-      "Expanded into online and offline UPS systems, providing uninterrupted power solutions for homes and businesses.",
+      "Expanded into online and offline UPS systems, providing uninterrupted power solutions for homes and Industries.",
     icon: Battery,
   },
   {
@@ -137,10 +137,7 @@ const OurJourney = () => {
         <div className="relative">
           {/* Vertical Center Line (Desktop) */}
           <div className="absolute left-1/2 top-0 bottom-0 transform -translate-x-1/2 w-0.5 bg-gray-200 hidden md:block">
-            <div
-              ref={lineRef}
-              className="w-full h-full bg-emerald-500 origin-top"
-            />
+            <div ref={lineRef} className="w-full h-full bg-emerald-500 origin-top" />
           </div>
 
           {/* Vertical Left Line (Mobile) */}
@@ -174,9 +171,7 @@ const OurJourney = () => {
                   {/* Content Card */}
                   <div
                     className={`w-full md:w-[45%] pl-20 md:pl-0 ${
-                      isLeft
-                        ? "md:pr-14 md:text-right"
-                        : "md:pl-14 md:text-left"
+                      isLeft ? "md:pr-14 md:text-right" : "md:pl-14 md:text-left"
                     } timeline-card`}
                   >
                     {/* Mobile Year */}

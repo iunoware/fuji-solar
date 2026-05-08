@@ -127,7 +127,7 @@ const services: ServiceDetail[] = [
       "Backup electric heater for cloudy days",
     ],
     // image: "/images/solar-panel-1.webp",
-    image: "/images/solar-panel-repair-madurai.png",
+    image: "/images/solar-panel-repair-madurai.webp",
     accent: "#e6a817",
     link: "/solar-products/solar-water-heaters",
   },
