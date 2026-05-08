@@ -77,9 +77,13 @@ const Awarness = () => {
           </h2>
 
           <p className="text-lg md:text-xl text-gray-600 mb-8 leading-relaxed max-w-xl font-medium">
-            The sun provides massive energy every single day. Harnessing this{" "}
-            <span className="text-brand-red font-semibold">free energy</span> is both
+            India receives high solar radiations with an estimated 3000 hrs of sunshine
+            per year, providing immense potential for solar energy generation. Harnessing
+            this <span className="text-brand-red font-semibold">free energy</span> is both
             practical and necessary for a sustainable future.
+            {/* The sun provides massive energy every single day. Harnessing this{" "}
+            <span className="text-brand-red font-semibold">free energy</span> is both
+            practical and necessary for a sustainable future. */}
           </p>
 
           <p className="text-base text-gray-500 mb-10 leading-relaxed max-w-xl">
@@ -135,7 +139,7 @@ const Awarness = () => {
                   <span className="text-xs font-bold text-brand-red tracking-wider uppercase">
                     01
                   </span>
-                  <h4 className="text-lg font-bold text-gray-900">Solar Panels</h4>
+                  <h4 className="text-lg font-bold text-gray-900">Solar Systems</h4>
                 </div>
                 <p className="text-gray-600 text-sm leading-relaxed">
                   Capture and convert sunlight directly into electricity using the highly

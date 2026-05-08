@@ -1,14 +1,7 @@
 "use client";
 
 import React, { useState, useRef } from "react";
-import {
-  MapPin,
-  Phone,
-  Mail,
-  MessageCircle,
-  CheckCircle2,
-  Clock,
-} from "lucide-react";
+import { MapPin, Phone, Mail, MessageCircle, CheckCircle2, Clock } from "lucide-react";
 import { gsap } from "gsap";
 import { useGSAP } from "@gsap/react";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
@@ -72,10 +65,8 @@ const ContactSection = () => {
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
     if (!formData.name.trim()) return setError("Enter your name");
-    if (!phoneRegex.test(formData.phone))
-      return setError("Enter valid phone number");
-    if (!emailRegex.test(formData.email))
-      return setError("Enter a valid email address");
+    if (!phoneRegex.test(formData.phone)) return setError("Enter valid phone number");
+    if (!emailRegex.test(formData.email)) return setError("Enter a valid email address");
     if (!formData.location.trim()) return setError("Enter your location");
     if (!formData.message.trim()) return setError("Enter a message");
 
@@ -96,7 +87,12 @@ const ContactSection = () => {
     )
       return;
     // return `https://wa.me/919842076979?text=Hi%20Redinn%20Travels!%0A%0AI’m%20interested%20in%20booking%20a%20trip%20and%20here%20are%20my%20details:%0A%0AName: ${formData.name.trim()}%0AEmail: ${formData.email.trim()}%0APhone: ${formData.phone.trim()}%0AMessage: ${formData.message.trim()}`;
-    return `https://wa.me/919842076979?text=${encodeURIComponent(
+
+    // old number
+    // return `https://wa.me/919842076979?text=${encodeURIComponent(
+
+    // new number
+    return `https://wa.me/919087718185?text=${encodeURIComponent(
       `Hi Fuji Solar! \n\nI'm interested in your solar services. Here are my details:\n\nName: ${formData.name.trim()}\nPhone: ${formData.phone.trim()}\nEmail: ${formData.email.trim()}\nMessage: ${formData.message.trim()}`,
     )}`;
   }
@@ -119,111 +115,9 @@ const ContactSection = () => {
           <div ref={formRef} className="relative group">
             <div className="bg-white p-8 md:p-10 rounded-[2.5rem] shadow-2xl shadow-gray-100 border border-gray-100 relative z-10">
               <div className="mb-8">
-                <h2 className="text-2xl font-bold text-gray-900 ">
-                  Send a Message
-                </h2>
+                <h2 className="text-2xl font-bold text-gray-900 ">Send a Message</h2>
                 <p className="text-md text-gray-500">for more details</p>
               </div>
-
-              {/* {!isSubmitted ? (
-                <form
-                  // onSubmit={handleSubmit}
-                  className="space-y-4"
-                >
-                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                    <input
-                      type="text"
-                      placeholder="Your Name *"
-                      required
-                      className="w-full border placeholder-gray-700 text-gray-900 border-gray-400 rounded-2xl px-5 py-4 text-sm focus:outline-none focus:ring-2 focus:ring-green-500/20 focus:border-green-500 transition-all"
-                      value={formData.name}
-                      onChange={(e) => setFormData({ ...formData, name: e.target.value })}
-                    />
-
-                    <input
-                      type="tel"
-                      pattern="[0-9]{10}"
-                      placeholder="Phone Number *"
-                      required
-                      className="w-full border placeholder-gray-700 text-gray-900 border-gray-400 rounded-2xl px-5 py-4 text-sm focus:outline-none focus:ring-2 focus:ring-green-500/20 focus:border-green-500 transition-all"
-                      value={formData.phone}
-                      onChange={(e) =>
-                        setFormData({ ...formData, phone: e.target.value })
-                      }
-                    />
-                  </div>
-
-                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                    <input
-                      type="email"
-                      placeholder="Email Address"
-                      className="w-full border placeholder-gray-700 text-gray-900 border-gray-400 rounded-2xl px-5 py-4 text-sm focus:outline-none focus:ring-2 focus:ring-green-500/20 focus:border-green-500 transition-all"
-                      value={formData.email}
-                      onChange={(e) =>
-                        setFormData({ ...formData, email: e.target.value })
-                      }
-                    />
-
-                    <input
-                      type="text"
-                      placeholder="Location"
-                      className="w-full border placeholder-gray-700 text-gray-900 border-gray-400 rounded-2xl px-5 py-4 text-sm focus:outline-none focus:ring-2 focus:ring-green-500/20 focus:border-green-500 transition-all"
-                      value={formData.location}
-                      onChange={(e) =>
-                        setFormData({ ...formData, location: e.target.value })
-                      }
-                    />
-                  </div>
-
-                  <textarea
-                    rows={4}
-                    placeholder="Tell us about your requirements..."
-                    className="w-full border placeholder-gray-700 text-gray-900 border-gray-400 rounded-2xl px-5 py-4 text-sm focus:outline-none focus:ring-2 focus:ring-green-500/20 focus:border-green-500 transition-all resize-none"
-                    value={formData.message}
-                    onChange={(e) =>
-                      setFormData({ ...formData, message: e.target.value })
-                    }
-                  />
-
-                  <div>
-                    <h3
-                      id="errorMessage"
-                      className="text-center text-red-600 font-semibold text-lg cinzel"
-                    >
-                      {error}
-                    </h3>
-                  </div>
-
-                  <button
-                    rel="noopener noreferrer"
-                    onClick={inputCheck}
-                    className="w-full bg-brand-red text-white py-3 rounded-2xl font-bold text-lg hover:opacity-90 transition-all duration-300 active:scale-[0.98] mb-4"
-                  >
-                    Get Free Consultation
-                  </button>
-
-                  <div className="flex items-center justify-center gap-2 text-xs text-gray-400 font-medium">
-                    <Clock size={14} />
-                    Our team will contact you within 24 hours.
-                  </div>
-                </form>
-              ) : (
-                <div className="py-12 flex flex-col items-center text-center animate-fade-in">
-                  <div className="w-20 h-20 bg-green-50 text-green-500 rounded-full flex items-center justify-center mb-6">
-                    <CheckCircle2 size={40} />
-                  </div>
-                  <h3 className="text-2xl font-bold text-gray-900 mb-2">Message Sent!</h3>
-                  <p className="text-gray-500">
-                    Thank you for reaching out. We&apos;ll be in touch soon.
-                  </p>
-                  <button
-                    onClick={() => setIsSubmitted(false)}
-                    className="mt-8 text-brand-red font-bold hover:underline"
-                  >
-                    Send another message
-                  </button>
-                </div>
-              )} */}
 
               <form
                 // onSubmit={handleSubmit}
@@ -237,9 +131,7 @@ const ContactSection = () => {
                     required
                     className="w-full border placeholder-gray-700 text-gray-900 border-gray-400 rounded-2xl px-5 py-4 text-sm focus:outline-none focus:ring-2 focus:ring-green-500/20 focus:border-green-500 transition-all"
                     value={formData.name}
-                    onChange={(e) =>
-                      setFormData({ ...formData, name: e.target.value })
-                    }
+                    onChange={(e) => setFormData({ ...formData, name: e.target.value })}
                   />
 
                   <input
@@ -249,9 +141,7 @@ const ContactSection = () => {
                     required
                     className="w-full border placeholder-gray-700 text-gray-900 border-gray-400 rounded-2xl px-5 py-4 text-sm focus:outline-none focus:ring-2 focus:ring-green-500/20 focus:border-green-500 transition-all"
                     value={formData.phone}
-                    onChange={(e) =>
-                      setFormData({ ...formData, phone: e.target.value })
-                    }
+                    onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
                   />
                 </div>
 
@@ -261,9 +151,7 @@ const ContactSection = () => {
                     placeholder="Email Address"
                     className="w-full border placeholder-gray-700 text-gray-900 border-gray-400 rounded-2xl px-5 py-4 text-sm focus:outline-none focus:ring-2 focus:ring-green-500/20 focus:border-green-500 transition-all"
                     value={formData.email}
-                    onChange={(e) =>
-                      setFormData({ ...formData, email: e.target.value })
-                    }
+                    onChange={(e) => setFormData({ ...formData, email: e.target.value })}
                   />
 
                   <input
@@ -282,9 +170,7 @@ const ContactSection = () => {
                   placeholder="Tell us about your requirements..."
                   className="w-full border placeholder-gray-700 text-gray-900 border-gray-400 rounded-2xl px-5 py-4 text-sm focus:outline-none focus:ring-2 focus:ring-green-500/20 focus:border-green-500 transition-all resize-none"
                   value={formData.message}
-                  onChange={(e) =>
-                    setFormData({ ...formData, message: e.target.value })
-                  }
+                  onChange={(e) => setFormData({ ...formData, message: e.target.value })}
                 />
 
                 <div>
@@ -316,9 +202,7 @@ const ContactSection = () => {
                 <div className="w-20 h-20 bg-green-50 text-green-500 rounded-full flex items-center justify-center mb-6">
                   <CheckCircle2 size={40} />
                 </div>
-                <h3 className="text-2xl font-bold text-gray-900 mb-2">
-                  Message Sent!
-                </h3>
+                <h3 className="text-2xl font-bold text-gray-900 mb-2">Message Sent!</h3>
                 <p className="text-gray-500">
                   Thank you for reaching out. We&apos;ll be in touch soon.
                 </p>
@@ -341,90 +225,132 @@ const ContactSection = () => {
                 Get in Touch
               </h3>
               <p className="text-lg text-gray-500 max-w-sm leading-relaxed">
-                We&apos;re here to help you with your solar journey. Reach out
-                to us anytime.
+                We&apos;re here to help you with your solar journey. Reach out to us
+                anytime.
               </p>
             </div>
 
             {/* Contact Items */}
             <div className="space-y-8">
-              <a
-                href="https://maps.app.goo.gl/A9wFG5uy38CVHwUo7"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-start gap-5 group"
-              >
+              <div className="flex items-start gap-5 group">
                 <div className="w-12 h-12 rounded-xl bg-green-50 flex items-center justify-center text-[#16A34A] shrink-0 group-hover:scale-110 transition-all duration-200">
                   <MapPin size={24} />
                 </div>
-                <div>
-                  <h4 className="font-bold text-gray-900 mb-1">Our Office</h4>
-                  <p className="text-sm text-gray-500 leading-relaxed group-hover:text-brand-red transition-colors">
+                <div className="space-y-3">
+                  {/* <h4 className="font-bold text-gray-900 mb-1">Our Office</h4> */}
+                  {/* <p className="text-sm text-gray-500 leading-relaxed group-hover:text-brand-red transition-colors">
                     47, Bharathiyar 7th St, S S Colony,
                     <br /> Madurai, Tamil Nadu 625016
-                  </p>
-                </div>
-              </a>
+                  </p> */}
 
-              <a
-                href="tel:+919842076979"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-start gap-5 group"
-              >
+                  <div>
+                    <a
+                      href="https://maps.app.goo.gl/A9wFG5uy38CVHwUo7"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-gray-800 text-sm leading-relaxed hover:text-brand-red transition-colors"
+                    >
+                      <strong>Zonal Office:</strong> #47, Bharathiyar 7th St, <br />
+                      Meenakshi Nagar, <br /> S S Colony, Madurai - 625 016
+                    </a>
+                  </div>
+
+                  <div>
+                    <a
+                      href="https://maps.app.goo.gl/EGa27ejrYmRTCCkCA"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-gray-800 text-sm leading-relaxed hover:text-brand-red transition-colors"
+                    >
+                      <strong>Chennai:</strong> #10/1028,
+                      <br /> Seethakathi 3rd Cross Street, Mogappair East, Chennai - 600
+                      037
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <div className="flex items-start gap-5 group">
                 <div className="w-12 h-12 rounded-xl bg-orange-50 flex items-center justify-center text-brand-red shrink-0 transition-transform group-hover:scale-110">
                   <Phone size={24} />
                 </div>
                 <div>
                   <h4 className="font-bold text-gray-900 mb-1">Call Us</h4>
-                  <p className="text-sm text-gray-500 group-hover:text-brand-red transition-colors">
-                    +91 98765 43210
-                  </p>
-                </div>
-              </a>
+                  <div className="flex gap-3">
+                    <a
+                      href="tel:+919842076979"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-sm border border-gray-200 p-3 rounded-xl text-gray-500 hover:text-brand-red transition-colors"
+                    >
+                      +91 98420 76979
+                    </a>
 
-              <a
-                href="https://wa.me/919842076979"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-start gap-5 group"
-              >
+                    <a
+                      href="tel:+919842105949"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-sm border border-gray-200 p-3 rounded-xl text-gray-500 hover:text-brand-red transition-colors"
+                    >
+                      +91 98421 05949
+                    </a>
+
+                    <a
+                      href="tel:+919842076979"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-sm border border-gray-200 p-3 rounded-xl text-gray-500 hover:text-brand-red transition-colors"
+                    >
+                      +91 98765 43210
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <div className="flex items-start gap-5 group">
                 <div className="w-12 h-12 rounded-xl bg-green-50 flex items-center justify-center text-brand-red shrink-0 transition-transform group-hover:scale-110">
                   <MessageCircle size={24} className="text-green-600" />
                 </div>
                 <div>
-                  <h4 className="font-bold text-gray-900 mb-1">
-                    WhatsApp Chat
-                  </h4>
-                  <p className="text-sm text-gray-500 group-hover:text-brand-red transition-colors">
+                  <h4 className="font-bold text-gray-900 mb-1">WhatsApp Chat</h4>
+                  {/* <p className="text-sm text-gray-500 group-hover:text-brand-red transition-colors">
                     +91 98765 43210
-                  </p>
-                </div>
-              </a>
+                  </p> */}
 
-              {/* <a
-                href="https://wa.me/919842076979"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-start gap-5 group p-4 rounded-2xl bg-green-50 border border-green-100 transition-all"
-              >
-                <div className="w-12 h-12 rounded-xl bg-[#25D366] flex items-center justify-center text-white shrink-0 group-hover:scale-110 transition-all duration-200">
-                  <MessageCircle size={24} />
+                  <div className="flex gap-3">
+                    <a
+                      href="https://wa.me/919087718185"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-sm border border-gray-200 p-3 rounded-xl text-gray-500 hover:text-brand-red transition-colors"
+                    >
+                      +91 90877 18185
+                    </a>
+
+                    {/* <a
+                      href="https://wa.me/919842105949"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-sm border border-gray-200 p-3 rounded-xl text-gray-500 hover:text-brand-red transition-colors"
+                    >
+                      +91 98421 05949
+                    </a>
+
+                    <a
+                      href="https://wa.me/919876543210"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-sm border border-gray-200 p-3 rounded-xl  text-gray-500 hover:text-brand-red transition-colors"
+                    >
+                      +91 98765 43210
+                    </a> */}
+                  </div>
                 </div>
-                <div>
-                  <h4 className="font-bold text-gray-900 mb-1 flex items-center gap-2">
-                    WhatsApp Chat
-                  </h4>
-                  <p className="text-sm text-gray-700 font-medium">+91 98420 76979</p>
-                  <p className="text-[10px] text-green-600 font-bold uppercase tracking-widest mt-1">
-                    Chat Available Now
-                  </p>
-                </div>
-              </a> */}
+              </div>
 
               <a
                 className="flex items-start gap-5 group"
-                href="https://mail.google.com/mail/?view=cm&fs=1&to=rooftopfujisolar@gmail.com"
+                href="https://mail.google.com/mail/?view=cm&fs=1&to=info@fujisolar.in"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -434,7 +360,7 @@ const ContactSection = () => {
                 <div>
                   <h4 className="font-bold text-gray-900 mb-1">Email Us</h4>
                   <p className="text-sm text-gray-500 group-hover:text-brand-red transition-colors">
-                    rooftopfujisolar@gmail.com
+                    info@fujisolar.in
                   </p>
                 </div>
               </a>
@@ -452,7 +378,7 @@ const ContactSection = () => {
               </a>
               <p className="w-full md:w-auto flex items-center text-sm font-bold text-gray-400">
                 <span className="w-8 h-px bg-gray-100 mr-3" />
-                Trusted by 500+ customers
+                Trusted by our customers
               </p>
             </div>
           </div>

@@ -26,7 +26,7 @@ const services: ServiceDetail[] = [
   {
     id: 1,
     label: "Hybrid Systems",
-    title: "Hybrid Solar Panel Systems",
+    title: "Hybrid Solar Power Systems",
     alt: "hybrid solar system Tamil Nadu",
     description:
       "Combining the strengths of on-grid and off-grid systems, our hybrid solution ensures reliable power day and night. It supplies energy for daytime use, stores excess in batteries, and exports surplus power to the grid for maximum efficiency and savings.",
@@ -101,7 +101,7 @@ const services: ServiceDetail[] = [
     title: "Solar Street Lights",
     alt: "solar inverter installation",
     description:
-      "An all-in-one solar street light is a compact, hassle-free lighting solution with no cabling required. It integrates a solar panel, lithium (LiFePO4) battery, motion sensor, control system, and high-output LEDs into a single unit for efficient and reliable outdoor lighting.",
+      "An all-in-one solar street light is a compact, hassle-free lighting solution with no cabling required. It integrates a solar system, lithium (LiFePO4) battery, motion sensor, control system, and high-output LEDs into a single unit for efficient and reliable outdoor lighting.",
     bullets: [
       "All-in-one design with panel, battery, sensor & LEDs",
       "No wiring required with easy installation",

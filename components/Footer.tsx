@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { MessageSquare, ArrowUpRight, Phone } from "lucide-react";
+import { ArrowUpRight, Phone, MessageCircle } from "lucide-react";
 import Image from "next/image";
 
 export default function Footer() {
@@ -63,7 +63,7 @@ export default function Footer() {
 
                 {/* mail */}
                 <a
-                  href="https://mail.google.com/mail/?view=cm&fs=1&to=rooftopfujisolar@gmail.com"
+                  href="https://mail.google.com/mail/?view=cm&fs=1&to=info@fujisolar.in"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-10 h-10 rounded-full border border-black/60 flex items-center justify-center text-black/60 hover:text-brand-red hover:border-brand-red transition-all duration-300"
@@ -138,7 +138,7 @@ export default function Footer() {
                     rel="noopener noreferrer"
                     className="text-gray-800 text-sm leading-relaxed hover:text-brand-red transition-colors"
                   >
-                    <strong>Madurai:</strong> #47, Bharathiyar 7th St, <br />
+                    <strong>Zonal Office:</strong> #47, Bharathiyar 7th St, <br />
                     Meenakshi Nagar, <br /> S S Colony, Madurai - 625 016
                   </a>
                 </div>
@@ -156,39 +156,95 @@ export default function Footer() {
                   </a>
                 </div>
 
-                <div className="flex flex-col gap-3">
+                <div className="flex flex-col gap-4 mt-3">
                   <div className="inline-flex gap-2 group w-fit">
                     <Phone
                       className="text-gray-800 group-hover:text-brand-red transition-colors"
                       size={20}
                     />
-                    <a
+                    {/* <a
                       href="tel:+919842076979"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-gray-800 group-hover:text-brand-red transition-colors"
                     >
-                      +91 9842 0769 79{" "}
-                    </a>
+                      +91 98420 76979{" "}
+                    </a> */}
+                    <div className="flex flex-col gap-3">
+                      <a
+                        href="tel:+919842076979"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-gray-800 hover:text-brand-red transition-colors"
+                      >
+                        +91 98420 76979
+                      </a>
+
+                      <a
+                        href="tel:+919842105949"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-gray-800 hover:text-brand-red transition-colors-colors"
+                      >
+                        +91 98421 05949
+                      </a>
+
+                      <a
+                        href="tel:+919842076979"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-gray-800 hover:text-brand-red transition-colors"
+                      >
+                        +91 98765 43210
+                      </a>
+                    </div>
                   </div>
 
-                  <div className="inline-flex gap-2 group w-fit">
-                    <Phone
+                  <div className="inline-flex gap-2 group w-fit mt-3">
+                    <MessageCircle
                       className="text-gray-800 group-hover:text-brand-red transition-colors"
                       size={20}
                     />
-                    <a
-                      href="tel:+919842105949"
+                    {/* <a
+                      href="https:/wa.me/919087718185"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-gray-800 group-hover:text-brand-red transition-colors"
                     >
-                      +91 9842 1059 49{" "}
-                    </a>
+                      +91 90877 18185{" "}
+                    </a> */}
+                    <div className="flex flex-col gap-3">
+                      <a
+                        href="https://wa.me/919087718185"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-gray-800 hover:text-brand-red transition-colors"
+                      >
+                        +91 90877 18185
+                      </a>
+
+                      {/* <a
+                        href="https://wa.me/919842105949"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-gray-800 hover:text-brand-red transition-colors"
+                      >
+                        +91 98421 05949
+                      </a>
+
+                      <a
+                        href="https://wa.me/919876543210"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-gray-800 hover:text-brand-red transition-colors"
+                      >
+                        +91 98765 43210
+                      </a> */}
+                    </div>
                   </div>
                 </div>
 
-                <div className="pt-2">
+                {/* <div className="pt-2">
                   <a
                     href="https://wa.me/919842076979"
                     target="_blank"
@@ -197,7 +253,7 @@ export default function Footer() {
                   >
                     <MessageSquare size={16} /> Quick Support
                   </a>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
