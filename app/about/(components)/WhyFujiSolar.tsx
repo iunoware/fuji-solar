@@ -16,13 +16,13 @@ const cards = [
     desc: "We've been doing this since before solar was mainstream. You're in the most experienced hands in the industry.",
   },
   {
-    src: "/images/best-solar-company-in-thirunelveli.webp",
+    src: "/images/off-grid-solar-system-tamil-nadu.webp",
     alt: "solar panel installation cost Tamil Nadu",
     headline: "End-to-End Service",
     desc: "We handle everything - from consultation and installation to reliable solar maintenance services across Tamil Nadu.",
   },
   {
-    src: "/images/solar-panel-installation-cost-bangalore.webp",
+    src: "/images/solar-panel-repair-madurai.webp",
     alt: "Residential solar installation",
     headline: "Tailored for You",
     desc: "No two sites are the same. Every system we build is designed specifically for your roof, your usage, and your budget.",
