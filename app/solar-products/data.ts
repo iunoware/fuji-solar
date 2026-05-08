@@ -150,7 +150,7 @@ export const servicesData: ServiceData[] = [
     ],
 
     features: [
-      "Calibrated Solar Panel System",
+      "Calibrated Solar System",
       "Compatible with Various Pump Types",
       "Stand-alone Operation",
       "Multi-Application Usage",

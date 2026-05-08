@@ -24,7 +24,7 @@ const steps = [
   {
     icon: Wrench,
     title: "Installation",
-    duration: "2–3 Days",
+    duration: "2–3 Days (for <10Kw)",
     description: "Professional system setup.",
   },
   {

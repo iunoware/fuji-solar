@@ -77,7 +77,7 @@ const steps = [
       "We ensure everything is perfect before you start generating your own power.",
     points: [
       "System efficiency performance test",
-      "Smart monitoring dashboard setup",
+      "Remote monitoring using a mobile app",
       "Grid-sync & final power-up",
     ],
     image: "/images/solar-system-price-tirchy.webp",
