@@ -2,6 +2,7 @@
 
 import React, { useEffect, useRef } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import {
   Users,
   Settings,
@@ -107,10 +108,17 @@ const WhyUs = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-24 items-start">
           {/* Left Side: Content */}
           <div ref={leftContentRef} className="lg:sticky lg:top-32 space-y-8">
-            <div>
-              <span className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-green-50 text-[#16A34A] text-sm font-semibold tracking-wide mb-6">
+            <div className="">
+              <span className="inline-flex items-start gap-2 px-4 py-1.5 rounded-full bg-green-50 text-[#16A34A] text-sm font-semibold tracking-wide">
                 ⭐ Why Choose Us
               </span>
+              <Image
+                src="/images/best-solar-system-company-madurai.webp"
+                height={500}
+                width={500}
+                alt="Best Solar Panel Company"
+                className="rounded-2xl my-10"
+              />
               <h2 className="text-4xl md:text-5xl font-bold text-gray-900 leading-[1.1] mb-6">
                 Redefining Solar with{" "}
                 <span className="text-brand-red">Excellence</span>
@@ -123,11 +131,15 @@ const WhyUs = () => {
             </div>
 
             <div className="pt-4">
-              <Link href={"/contact"}>
-                <button className="flex items-center gap-2 text-gray-900 font-bold hover:text-brand-red transition-colors group">
-                  Get Free Consultation
-                  <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
-                </button>
+              <Link
+                href="/contact"
+                className="flex items-center gap-2 bg-orange-200 backdrop-blur-lg text-gray-800 text-sm font-medium px-5 py-2.5 rounded-full w-fit hover:bg-gray-100/90 group transition-colors"
+              >
+                Get Free Consultation
+                <span className="bg-brand-red translate-x-2 -rotate-30 group-hover:rotate-0 transition-all duration-200 text-white rounded-full w-8 h-8 flex items-center justify-center text-xs">
+                  {/* ➜ */}
+                  <ArrowRight size={15} />
+                </span>
               </Link>
             </div>
           </div>

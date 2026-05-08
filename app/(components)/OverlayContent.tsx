@@ -22,7 +22,7 @@ export function OverlayContent() {
           {
             id: "label-cells",
             text: "Solar Cells",
-            desc: "High-efficiency monocrystalline silicon",
+            desc: "High-efficiency Bifacial  / Topcon silicon",
           },
           {
             id: "label-glass",
@@ -63,7 +63,10 @@ export function OverlayContent() {
       >
         <h2 className="text-brand-red text-5xl md:text-7xl font-black uppercase leading-tight">
           Suitable for <br />
-          <span className="text-blue-900">Residential & Commercial</span> Use
+          <span className="text-blue-900">
+            Residential, Commercial & Industrial
+          </span>{" "}
+          Use
         </h2>
       </div>
     </div>

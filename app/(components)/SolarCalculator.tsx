@@ -6,15 +6,78 @@ import Link from "next/link";
 // import CustomButton from "../../components/atoms/CustomButton";
 
 const solarPlans = [
-  { min: 2000, max: 3000, systemSize: 2.2, units: 600, cost: 100000, ebBill: 250 },
-  { min: 4000, max: 6000, systemSize: 3.3, units: 900, cost: 132000, ebBill: 350 },
-  { min: 7000, max: 9000, systemSize: 4, units: 1200, cost: 172000, ebBill: 450 },
-  { min: 10000, max: 12000, systemSize: 5, units: 1400, cost: 232000, ebBill: 550 },
-  { min: 13000, max: 15000, systemSize: 6, units: 1700, cost: 282000, ebBill: 650 },
-  { min: 16000, max: 18000, systemSize: 7, units: 2000, cost: 352000, ebBill: 750 },
-  { min: 19000, max: 20000, systemSize: 8, units: 2300, cost: 397000, ebBill: 850 },
-  { min: 21000, max: 23000, systemSize: 9, units: 2700, cost: 447000, ebBill: 950 },
-  { min: 24000, max: 28000, systemSize: 10, units: 3000, cost: 472000, ebBill: 1200 }
+  {
+    min: 2000,
+    max: 3000,
+    systemSize: 2.2,
+    units: 600,
+    cost: 100000,
+    ebBill: 250,
+  },
+  {
+    min: 4000,
+    max: 6000,
+    systemSize: 3.3,
+    units: 900,
+    cost: 132000,
+    ebBill: 350,
+  },
+  {
+    min: 7000,
+    max: 9000,
+    systemSize: 4,
+    units: 1200,
+    cost: 172000,
+    ebBill: 450,
+  },
+  {
+    min: 10000,
+    max: 12000,
+    systemSize: 5,
+    units: 1400,
+    cost: 232000,
+    ebBill: 550,
+  },
+  {
+    min: 13000,
+    max: 15000,
+    systemSize: 6,
+    units: 1700,
+    cost: 282000,
+    ebBill: 650,
+  },
+  {
+    min: 16000,
+    max: 18000,
+    systemSize: 7,
+    units: 2000,
+    cost: 352000,
+    ebBill: 750,
+  },
+  {
+    min: 19000,
+    max: 20000,
+    systemSize: 8,
+    units: 2300,
+    cost: 397000,
+    ebBill: 850,
+  },
+  {
+    min: 21000,
+    max: 23000,
+    systemSize: 9,
+    units: 2700,
+    cost: 447000,
+    ebBill: 950,
+  },
+  {
+    min: 24000,
+    max: 28000,
+    systemSize: 10,
+    units: 3000,
+    cost: 472000,
+    ebBill: 1200,
+  },
 ];
 
 const SolarCalculator = () => {
@@ -32,7 +95,13 @@ const SolarCalculator = () => {
 
   const calculateSavings = () => {
     const billValue = Math.max(2000, Math.min(28000, Math.round(Number(bill))));
-    const plan = solarPlans.find((p) => billValue >= p.min && billValue <= p.max) || solarPlans.reduce((prev, curr) => Math.abs(curr.min - billValue) < Math.abs(prev.min - billValue) ? curr : prev);
+    const plan =
+      solarPlans.find((p) => billValue >= p.min && billValue <= p.max) ||
+      solarPlans.reduce((prev, curr) =>
+        Math.abs(curr.min - billValue) < Math.abs(prev.min - billValue)
+          ? curr
+          : prev,
+      );
 
     const monthlySavings = billValue - plan.ebBill;
     const yearlySavings = monthlySavings * 12;
@@ -56,7 +125,7 @@ const SolarCalculator = () => {
   }, [bill, propertyType]);
 
   return (
-    <section className="py-24 px-6 bg-[#F1F5F4]">
+    <section className="py-24 px-6">
       <div className="max-w-7xl mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-start">
           {/* Left Side: Content */}
@@ -134,7 +203,14 @@ const SolarCalculator = () => {
                       max="28000"
                       step="1000"
                       value={bill}
-                      onChange={(e) => setBill(Math.max(2000, Math.min(28000, Number(e.target.value))))}
+                      onChange={(e) =>
+                        setBill(
+                          Math.max(
+                            2000,
+                            Math.min(28000, Number(e.target.value)),
+                          ),
+                        )
+                      }
                       className="w-full h-2 bg-gray-100 rounded-lg appearance-none cursor-pointer range-slider"
                       style={{
                         background: `linear-gradient(to right, #E74C3C 0%, #E74C3C ${((bill - 2000) / (28000 - 2000)) * 100}%, #E5E7EB ${((bill - 2000) / (28000 - 2000)) * 100}%, #E5E7EB 100%)`,

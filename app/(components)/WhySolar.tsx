@@ -95,7 +95,7 @@ export default function WhySolar() {
       icon: <Leaf className="w-6 h-6" />,
       title: "Eco-Friendly Energy",
       description:
-        "Clean, renewable power that reduces carbon emissions and protects our planet.",
+        "Clean, renewable power that reduces Co2 emissions and protects our planet.",
     },
     {
       icon: <ShieldCheck className="w-6 h-6" />,
