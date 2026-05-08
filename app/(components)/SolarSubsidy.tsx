@@ -146,9 +146,10 @@ const pricingData = [
 
 const bullets = [
   "Subsidy credited directly to your bank account",
-  "ROI achievable in less than 5 years",
+  "ROI achievable in less than 4 years",
   "Complete service: site survey, installation, commissioning & maintenance",
-  "All EB-related works included (net meter setup)",
+  "All EB-related approvals included (net meter setup)",
+  "Pay EMI from your EB Bills savings",
 ];
 
 export default function SolarSubsidySection() {
@@ -163,8 +164,7 @@ export default function SolarSubsidySection() {
 
           <div>
             <h2 className="text-4xl md:text-5xl font-extrabold text-gray-900 leading-tight">
-              Thinking of{" "}
-              <span className="text-red-600">Installing Solar?</span>
+              Decide <span className="text-red-600">Today ?</span>
             </h2>
             <p className="mt-3 text-gray-500 text-lg font-medium">
               Save energy. Reduce costs. Earn from your rooftop.
@@ -175,7 +175,7 @@ export default function SolarSubsidySection() {
             {bullets.map((b) => (
               <li
                 key={b}
-                className="flex items-start gap-3 bg-white rounded-xl px-4 py-3 border border-gray-100 shadow-sm hover:translate-x-1 transition-transform"
+                className="flex items-center gap-3 bg-white rounded-xl px-4 py-3 border border-gray-100 shadow-sm hover:translate-x-1 transition-transform"
               >
                 <span className="mt-0.5 shrink-0 bg-red-100 text-red-600 rounded-lg p-1.5">
                   <svg
@@ -305,14 +305,16 @@ export default function SolarSubsidySection() {
               </span>
               <p className="text-sm text-gray-500 leading-relaxed">
                 Easy loan available with{" "}
-                <strong className="text-gray-700">SBI, Canara Bank</strong>{" "}
-                &amp; <strong className="text-gray-700">Indian Bank</strong>
+                <strong className="text-gray-700">
+                  with all nationalized banks
+                </strong>{" "}
+                {/* &amp; <strong className="text-gray-700">Indian Bank</strong> */}
               </p>
             </div>
           </div>
 
           {/* Trust badges */}
-          <div className="flex gap-2 justify-center flex-wrap">
+          {/* <div className="flex gap-2 justify-center flex-wrap">
             {["MNRE Approved", "ISO Certified", "5★ Rated"].map((b) => (
               <span
                 key={b}
@@ -321,7 +323,7 @@ export default function SolarSubsidySection() {
                 {b}
               </span>
             ))}
-          </div>
+          </div> */}
         </div>
       </div>
     </section>
