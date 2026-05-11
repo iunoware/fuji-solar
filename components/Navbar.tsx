@@ -146,6 +146,7 @@ const navLinks: NavLink[] = [
   { name: "About", href: "/about/" },
   { name: "Solutions", href: "/solar-products/" },
   { name: "Installation", href: "/installation-process/" },
+  { name: "blogs", href: "/blogs/" },
   { name: "Contact", href: "/contact/" },
 ];
 
