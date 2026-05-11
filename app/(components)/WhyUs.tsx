@@ -159,7 +159,7 @@ const WhyUs = () => {
                   className="relative group"
                 >
                   {/* Item Bullet for Line */}
-                  <div className="absolute -left-[33px] top-1 w-2 h-2 rounded-full bg-green-100 border-2 border-white ring-4 ring-white z-10 hidden md:block transition-colors group-hover:bg-brand-red" />
+                  <div className="absolute -left-8.25 top-1 w-2 h-2 rounded-full bg-green-100 border-2 border-white ring-4 ring-white z-10 hidden md:block transition-colors group-hover:bg-brand-red" />
 
                   <div className="flex items-start gap-5">
                     {/* Icon Container */}
