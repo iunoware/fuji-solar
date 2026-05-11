@@ -7,7 +7,7 @@ export default function Mnre() {
       <div className="max-w-6xl mx-auto rounded-xl bg-white shadow-sm border border-red-50 overflow-hidden">
         <div className="grid md:grid-cols-2 items-center">
           {/* Left */}
-          <div className="relative flex justify-center items-center bg-red-50/40 p-12 min-h-80">
+          <div className="relative flex justify-center items-center  p-12 min-h-80">
             <div className="absolute top-8 left-8">
               <span className="inline-flex items-center rounded-full bg-brand-red/10 text-brand-red text-sm font-medium px-4 py-2">
                 Government Recognized
