@@ -3,7 +3,7 @@ import BlogDetails from "./BlogDetails";
 
 export async function generateStaticParams() {
   return blogData.map((blog) => ({
-    id: blog.url,
+    blogIndividual: blog.url,
   }));
 }
 

@@ -33,6 +33,7 @@ export default function BlogDetails() {
       <div>
         <div className="w-full pt-25 lg:px-40 md:px-30 sm:px-10 px-5 h-100 md:h-125 lg:h-175 relative rounded-2xl">
           <Image
+            fill
             src={`${selectedBlog?.image}`}
             alt="Abstract representation of global digital network connectivity"
             className="w-full h-full object-cover rounded-2xl"
