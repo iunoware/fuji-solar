@@ -8,5 +8,9 @@ export async function generateStaticParams() {
 }
 
 export default function Page() {
-  return <BlogDetails />;
+  return (
+    <>
+      <BlogDetails />
+    </>
+  );
 }
