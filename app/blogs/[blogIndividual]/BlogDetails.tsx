@@ -4,6 +4,7 @@ import { useParams } from "next/navigation";
 import Image from "next/image";
 import blogData from "../blogData";
 
+// type for object
 type Block = {
   type: string;
   text?: React.ReactNode;
@@ -23,9 +24,7 @@ export default function BlogDetails() {
   if (!selectedBlog) {
     return (
       <div className="bg-background h-screen grid place-items-center">
-        <h1 className="text-center text-black py-50 text-3xl">
-          Blog not found
-        </h1>
+        <h1 className="text-center text-black py-50 text-3xl">Blog not found</h1>
       </div>
     );
   }
@@ -101,18 +100,12 @@ export default function BlogDetails() {
 
               if (block.type === "table")
                 return (
-                  <div
-                    key={i}
-                    className="overflow-x-auto w-full my-10 border rounded-xl"
-                  >
+                  <div key={i} className="overflow-x-auto w-full my-10 border rounded-xl">
                     <table className="min-w-full text-left border-collapse whitespace-nowrap">
                       <thead className="bg-blue-100">
                         <tr>
                           {block.headers?.map((header, k) => (
-                            <th
-                              key={k}
-                              className="p-4 text-lg font-semibold text-black"
-                            >
+                            <th key={k} className="p-4 text-lg font-semibold text-black">
                               {header}
                             </th>
                           ))}
