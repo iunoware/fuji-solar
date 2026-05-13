@@ -1,40 +1,80 @@
+"use client";
 import Link from "next/link";
 import Image from "next/image";
 import blogData from "./blogData";
+import { useRef } from "react";
+import gsap from "gsap";
+import { useGSAP } from "@gsap/react";
+import { ArrowRight } from "lucide-react";
 
 export default function BlogList() {
+  const headingRef = useRef<HTMLHeadingElement>(null);
+  const paragraphRef = useRef<HTMLParagraphElement>(null);
+  const ctaRef = useRef<HTMLDivElement>(null);
+
+  useGSAP(() => {
+    const tl = gsap.timeline({ defaults: { ease: "power3.out" } });
+
+    tl.fromTo(
+      headingRef.current,
+      { opacity: 0, y: 40 },
+      { opacity: 1, y: 0, duration: 0.8 },
+    )
+      .fromTo(
+        paragraphRef.current,
+        { opacity: 0, y: 30 },
+        { opacity: 1, y: 0, duration: 0.7 },
+        "-=0.5",
+      )
+      .fromTo(
+        ctaRef.current,
+        { opacity: 0, y: 20 },
+        { opacity: 1, y: 0, duration: 0.6 },
+        "-=0.4",
+      );
+  });
+
   return (
     <div className=" bg-background text-gray-900">
       {/* Hero Section */}
+      <main
+        className="h-screen text-gray-900 flex justify-center items-center flex-col bg-cover bg-center"
+        style={{
+          backgroundImage: "url('/images/blog-page.png')",
+        }}
+      >
+        <section className="text-center bg-transparent backdrop-blur-[1px] px-6 pb-6 shrink-0">
+          <h1
+            ref={headingRef}
+            className="text-3xl md:text-5xl text-brand-red font-semibold leading-tight max-w-4xl mx-auto opacity-0"
+          >
+            Blogs
+          </h1>
 
-      <section className="">
-        <div className="h-200 lg:p-10 p-3">
-          <div className="grid grid-cols-1 gap-4 lg:grid-cols-2 lg:gap-8 place-items-center h-full">
-            <div className="lg:translate-x-20 z-10 mb-20 flex flex-col gap-5 justify-center md:items-start items-center h-full order-2 lg:order-1">
-              <h1 className="text-4xl md:text-5xl font-semibold tracking-wide mb-4">
-                Fuji Solar Blogs
-              </h1>
-              <p className="max-w-3xl tracking-wide text-center md:text-start mx-auto text-lg md:text-xl text-gray-800 leading-relaxed">
-                Insights on{" "}
-                <strong>Renewable energy, solar energy and sustainable energy</strong>
-              </p>
-            </div>
-
-            <div className="order-1 lg:order-2 relative">
-              <Image
-                loading="lazy"
-                fill
-                src="/images/iunoware-blogs-hero.webp"
-                alt="it course fees in Madurai"
-                className="h-70 sm:h-90 md:h-105 lg:h-125 w-auto"
-              />
-            </div>
+          <p
+            ref={paragraphRef}
+            className="mt-4 text-gray-900 max-w-2xl mx-auto text-lg font-semibold opacity-0"
+          >
+            Welcome to the Fuji Solar blogs. Your ultimate destination for all
+            things related to sustainable energy, innovation, and the future of
+            power
+          </p>
+          <div ref={ctaRef} className="mt-6 opacity-0">
+            <Link
+              href="/contact"
+              className="flex items-center gap-2 mx-auto group w-fit bg-white px-6 py-3 rounded-full shadow-md hover:shadow-lg transition"
+            >
+              <span>Get a Free Consultation</span>
+              <span className="bg-brand-red text-white -rotate-40 group-hover:rotate-0 transition-all duration-200 rounded-full w-6 h-6 p-1 flex items-center justify-center text-sm">
+                <ArrowRight />
+              </span>
+            </Link>
           </div>
-        </div>
-      </section>
+        </section>
+      </main>
 
       {/* Blog Grid Section */}
-      <section className="w-full -translate-y-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-24">
+      <section className="w-full pt-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-24">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-10">
           {blogData.map((post) => (
             <div

@@ -146,7 +146,7 @@ const navLinks: NavLink[] = [
   { name: "About", href: "/about/" },
   { name: "Solutions", href: "/solar-products/" },
   { name: "Installation", href: "/installation-process/" },
-  { name: "blogs", href: "/blogs/" },
+  { name: "Blogs", href: "/blogs/" },
   { name: "Contact", href: "/contact/" },
 ];
 
@@ -211,9 +211,15 @@ export default function Navbar() {
           aria-label={isOpen ? "Close menu" : "Open menu"}
         >
           {isOpen ? (
-            <X size={28} className={isScrolled ? "text-gray-900" : "text-gray-700"} />
+            <X
+              size={28}
+              className={isScrolled ? "text-gray-900" : "text-gray-700"}
+            />
           ) : (
-            <Menu size={28} className={isScrolled ? "text-gray-900" : "text-gray-700"} />
+            <Menu
+              size={28}
+              className={isScrolled ? "text-gray-900" : "text-gray-700"}
+            />
           )}
         </button>
       </div>

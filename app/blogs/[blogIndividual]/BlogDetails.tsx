@@ -23,7 +23,9 @@ export default function BlogDetails() {
   if (!selectedBlog) {
     return (
       <div className="bg-background h-screen grid place-items-center">
-        <h1 className="text-center text-black py-50 text-3xl">Blog not found</h1>
+        <h1 className="text-center text-black py-50 text-3xl">
+          Blog not found
+        </h1>
       </div>
     );
   }
@@ -31,12 +33,12 @@ export default function BlogDetails() {
   return (
     <div className="bg-background">
       <div>
-        <div className="w-full pt-25 lg:px-40 md:px-30 sm:px-10 px-5 h-100 md:h-125 lg:h-175 relative rounded-2xl">
+        <div className="mt-20 mx-4 sm:mx-8 md:mx-16 lg:max-w-6xl lg:mx-auto h-64 sm:h-80 md:h-96 lg:h-125 relative rounded-2xl">
           <Image
             fill
             src={`${selectedBlog?.image}`}
             alt="Abstract representation of global digital network connectivity"
-            className="w-full h-full object-cover rounded-2xl"
+            className="w-full  h-full object-cover rounded-2xl"
           />
         </div>
 
@@ -99,36 +101,44 @@ export default function BlogDetails() {
 
               if (block.type === "table")
                 return (
-                  <table key={i} className="overflow-hidden rounded-xl border my-10">
-                    <thead className="bg-blue-100">
-                      <tr>
-                        {block.headers?.map((header, i) => (
-                          <th
-                            key={i}
-                            className="text-left p-3 text-lg font-semibold text-black"
-                          >
-                            {header}
-                          </th>
-                        ))}
-                      </tr>
-                    </thead>
-                    <tbody>
-                      {block.rows?.map((row, i) => (
-                        <tr key={i} className={`${i % 2 === 0 ? "" : "bg-blue-100"}`}>
-                          {row.map((column, j) => (
-                            <td key={j} className="p-3">
-                              {column}
-                            </td>
+                  <div
+                    key={i}
+                    className="overflow-x-auto w-full my-10 border rounded-xl"
+                  >
+                    <table className="min-w-full text-left border-collapse whitespace-nowrap">
+                      <thead className="bg-blue-100">
+                        <tr>
+                          {block.headers?.map((header, k) => (
+                            <th
+                              key={k}
+                              className="p-4 text-lg font-semibold text-black"
+                            >
+                              {header}
+                            </th>
                           ))}
                         </tr>
-                      ))}
-                    </tbody>
-                  </table>
+                      </thead>
+                      <tbody className="divide-y divide-gray-200">
+                        {block.rows?.map((row, r) => (
+                          <tr
+                            key={r}
+                            className={`${r % 2 === 0 ? "bg-white" : "bg-blue-50/50"}`}
+                          >
+                            {row.map((column, c) => (
+                              <td key={c} className="p-4 text-gray-800">
+                                {column}
+                              </td>
+                            ))}
+                          </tr>
+                        ))}
+                      </tbody>
+                    </table>
+                  </div>
                 );
 
               if (block.type === "image")
                 return (
-                  <div key={i} className="relative h-50 w-80">
+                  <div key={i} className="relative h-100 w-full">
                     <Image
                       fill
                       src={block.path ? block.path : ""}
@@ -181,32 +191,36 @@ export default function BlogDetails() {
       {/* contact section */}
       <section className="max-w-3xl mx-auto px-6 my-16 md:my-24">
         <h2 className="text-black font-semibold text-2xl mt-10">
-          Contact Iunoware Pvt Ltd - Start Your IT Career Today
+          Contact Fuji Solar - Zero your current Bill
         </h2>
 
         <ul className="mt-5 space-y-3">
-          <li className="flex gap-5 justify-start items-center">
+          <li className="flex flex-col sm:flex-row gap-1 sm:gap-5 sm:items-center">
             <div className="text-black font-semibold text-lg">Call Us: </div>
-            <div>
-              <a href="tel:/+916381268955" className="font-semibold text-black">
-                +91 63812 68955
+            <div className="flex flex-wrap items-center gap-1">
+              <a href="tel:/+919842076979" className="font-semibold text-black">
+                +91 98420 76979
               </a>{" "}
-              /
-              <a href="tel:/+919842453740" className="font-semibold text-black">
-                +91 98424 53740
+              <span>/</span>
+              <a href="tel:/+919842105949" className="font-semibold text-black">
+                +91 98421 05949
+              </a>
+              <span>/</span>
+              <a href="tel:/+919876543210" className="font-semibold text-black">
+                +91 98765 43210
               </a>
             </div>
           </li>
 
-          <li className="flex gap-5 justify-start items-center">
+          <li className="flex flex-col sm:flex-row gap-1 sm:gap-5 sm:items-center">
             <div className="text-black font-semibold text-lg">Email: </div>
             <div>
               <a
-                href="https://mail.google.com/mail/?view=cm&fs=1&to=info@iunoware.com"
+                href="https://mail.google.com/mail/?view=cm&fs=1&to=info@fujisolar.in"
                 target="_blank"
-                className="font-semibold text-black"
+                className="font-semibold text-black break-all"
               >
-                <div>info@iunoware.com</div>
+                info@fujisolar.in
               </a>
             </div>
           </li>
