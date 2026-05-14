@@ -154,16 +154,16 @@ export default function Founder() {
             <div className="flex flex-col gap-6 lg:gap-8 relative z-10 w-full max-w-lg lg:max-w-none mx-auto lg:mx-0">
               <div
                 ref={founderCardRef}
-                className="relative w-full h-[42vh] lg:h-[52vh] max-h-135 rounded-[36px] overflow-hidden shadow-[0_20px_60px_-15px_rgba(0,0,0,0.1)] border border-white/20"
+                className="relative w-full h-[60vh] lg:h-[72vh] max-h-170 rounded-[36px] overflow-hidden shadow-[0_20px_60px_-15px_rgba(0,0,0,0.1)] border border-white/20"
               >
                 <div className="absolute inset-0 rounded-[36px] border border-brand-red/20 shadow-[inset_0_0_20px_rgba(239,68,68,0.05)] z-20 pointer-events-none" />
 
                 <Image
                   // src="/images/off-grid.png"
-                  src="/images/dayalu-raj-sekar.webp"
+                  src="/images/dayal-rajesvaran.webp"
                   alt="Dayalan Raj Sekar - Founder of Fuji Solar"
                   fill
-                  className="object-cover object-center"
+                  className="object-cover object-top"
                   sizes="(max-width: 1024px) 100vw, 30vw"
                 />
 
@@ -203,7 +203,7 @@ export default function Founder() {
                 ref={directorCardRef}
                 className="relative w-full max-w-100 rounded-3xl overflow-hidden shadow-[0_30px_60px_-15px_rgba(0,0,0,0.15)] lg:-ml-12 bg-white flex flex-col border border-brand-red/10"
               >
-                <div className="relative w-full h-72 shrink-0">
+                <div className="relative w-full h-90 lg:h-105 shrink-0">
                   <Image
                     src="/images/immanuvel.webp"
                     alt="Immanuvel - Director & Head of Marketing"
