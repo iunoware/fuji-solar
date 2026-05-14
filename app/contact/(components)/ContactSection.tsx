@@ -276,7 +276,7 @@ const ContactSection = () => {
                 </div>
                 <div>
                   <h4 className="font-bold text-gray-900 mb-1">Call Us</h4>
-                  <div className="flex gap-3">
+                  <div className="flex lg:flex-row flex-col gap-3">
                     <a
                       href="tel:+919842076979"
                       target="_blank"

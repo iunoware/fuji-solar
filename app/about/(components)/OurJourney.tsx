@@ -159,7 +159,7 @@ const OurJourney = () => {
                   ref={(el) => {
                     itemRefs.current[index] = el;
                   }}
-                  className={`relative flex flex-col md:flex-row md:items-center justify-between w-full group ${
+                  className={`relative flex flex-col md:items-center justify-between w-full group ${
                     isLeft ? "md:flex-row" : "md:flex-row-reverse"
                   }`}
                 >
