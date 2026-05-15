@@ -35,9 +35,9 @@ export const metadata: Metadata = {
   icons: [{ url: "/images/favicon.png", sizes: "32x32", type: "image/png" }],
 
   // google search console verification
-  // verification: {
-  //   google: "vmhmx-eRcPVfaCkvhankHqnTxgnl91srAIks45sawVM",
-  // },
+  verification: {
+    google: "T6V1zKAoyq6kHlV5IyaMwVWp2IM9OdT08hXKEcZ6fro",
+  },
 
   // canonical tag
   metadataBase: new URL("https://www.fujisolar.in"),
