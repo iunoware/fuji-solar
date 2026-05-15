@@ -31,16 +31,14 @@ const blogData = [
         type: "paragraph",
         text: (
           <>
-            With rising electricity costs and growing awareness about
-            sustainable living, more homeowners and businesses are switching to{" "}
+            With rising electricity costs and growing awareness about sustainable living,
+            more homeowners and businesses are switching to{" "}
             <Link href="/solar-products">
               {" "}
-              <strong className="text-blue-600 font-bold">
-                solar energy solutions
-              </strong>
+              <strong className="text-blue-600 font-bold">solar energy solutions</strong>
             </Link>
-            . Solar power has become one of the most reliable and cost-effective
-            renewable energy solutions available today.
+            . Solar power has become one of the most reliable and cost-effective renewable
+            energy solutions available today.
           </>
         ),
       },
@@ -49,9 +47,9 @@ const blogData = [
         type: "paragraph",
         text: (
           <>
-            Whether for residential properties or commercial spaces, installing
-            a <strong>solar power system for home</strong> or business offers
-            long-term savings, energy independence, and environmental benefits.
+            Whether for residential properties or commercial spaces, installing a{" "}
+            <strong>solar power system for home</strong> or business offers long-term
+            savings, energy independence, and environmental benefits.
           </>
         ),
       },
@@ -66,10 +64,10 @@ const blogData = [
         type: "paragraph",
         text: (
           <>
-            One of the biggest <strong>advantages of solar panels</strong> is
-            the ability to reduce monthly electricity expenses. A properly
-            installed rooftop solar system generates electricity from sunlight,
-            helping homeowners and businesses depend less on the grid.
+            One of the biggest <strong>advantages of solar panels</strong> is the ability
+            to reduce monthly electricity expenses. A properly installed rooftop solar
+            system generates electricity from sunlight, helping homeowners and businesses
+            depend less on the grid.
           </>
         ),
       },
@@ -89,8 +87,8 @@ const blogData = [
         text: (
           <>
             For businesses with high electricity consumption,{" "}
-            <strong>commercial solar solutions Chennai</strong> can drastically
-            lower operational costs and improve profitability.
+            <strong>commercial solar solutions Chennai</strong> can drastically lower
+            operational costs and improve profitability.
           </>
         ),
       },
@@ -105,10 +103,9 @@ const blogData = [
         type: "paragraph",
         text: (
           <>
-            Solar energy is a clean and renewable energy source that helps
-            reduce carbon emissions and environmental pollution. Unlike
-            traditional power sources, solar power does not release harmful
-            gases into the atmosphere.
+            Solar energy is a clean and renewable energy source that helps reduce carbon
+            emissions and environmental pollution. Unlike traditional power sources, solar
+            power does not release harmful gases into the atmosphere.
           </>
         ),
       },
@@ -133,9 +130,9 @@ const blogData = [
         type: "paragraph",
         text: (
           <>
-            Installing a solar power system is a smart long-term investment.
-            Although the initial installation cost may seem high, the long-term
-            savings on electricity bills make solar highly cost-effective.
+            Installing a solar power system is a smart long-term investment. Although the
+            initial installation cost may seem high, the long-term savings on electricity
+            bills make solar highly cost-effective.
           </>
         ),
       },
@@ -160,9 +157,9 @@ const blogData = [
         type: "paragraph",
         text: (
           <>
-            Modern solar panels are designed for durability and require very
-            little maintenance. Most solar panel systems can last 25 years or
-            more with proper care.
+            Modern solar panels are designed for durability and require very little
+            maintenance. Most solar panel systems can last 25 years or more with proper
+            care.
           </>
         ),
       },
@@ -171,9 +168,8 @@ const blogData = [
         type: "paragraph",
         text: (
           <>
-            Routine maintenance usually includes cleaning the solar panels,
-            checking inverter performance, and ensuring panels remain free from
-            dust and debris.
+            Routine maintenance usually includes cleaning the solar panels, checking
+            inverter performance, and ensuring panels remain free from dust and debris.
           </>
         ),
       },
@@ -188,9 +184,9 @@ const blogData = [
         type: "paragraph",
         text: (
           <>
-            With increasing power demand and electricity fluctuations, many
-            people are choosing <strong>residential solar solutions</strong> for
-            better energy independence.
+            With increasing power demand and electricity fluctuations, many people are
+            choosing <strong>residential solar solutions</strong> for better energy
+            independence.
           </>
         ),
       },
@@ -221,10 +217,9 @@ const blogData = [
         type: "paragraph",
         text: (
           <>
-            Solar energy solutions are suitable for both residential and
-            commercial properties. Whether you own a house, office, factory,
-            school, or warehouse, solar systems can be customized according to
-            your electricity requirements.
+            Solar energy solutions are suitable for both residential and commercial
+            properties. Whether you own a house, office, factory, school, or warehouse,
+            solar systems can be customized according to your electricity requirements.
           </>
         ),
       },
@@ -249,9 +244,9 @@ const blogData = [
         type: "paragraph",
         text: (
           <>
-            The Indian government actively promotes solar energy adoption
-            through subsidies and supportive policies. Homeowners can benefit
-            from rooftop solar subsidies, making installation more affordable.
+            The Indian government actively promotes solar energy adoption through
+            subsidies and supportive policies. Homeowners can benefit from rooftop solar
+            subsidies, making installation more affordable.
           </>
         ),
       },
@@ -276,9 +271,9 @@ const blogData = [
         type: "paragraph",
         text: (
           <>
-            Homes and commercial buildings with solar power systems are becoming
-            more attractive to buyers and investors. Energy-efficient properties
-            often have higher market value due to lower operating costs.
+            Homes and commercial buildings with solar power systems are becoming more
+            attractive to buyers and investors. Energy-efficient properties often have
+            higher market value due to lower operating costs.
           </>
         ),
       },
@@ -337,10 +332,10 @@ const blogData = [
         text: (
           <>
             Fuji Solar provides reliable and affordable{" "}
-            <strong>solar panel installation in Chennai</strong> for
-            residential, commercial, and industrial needs. From consultation to
-            installation and maintenance, Fuji Solar helps customers switch to
-            clean and efficient energy systems with expert support.
+            <strong>solar panel installation in Chennai</strong> for residential,
+            commercial, and industrial needs. From consultation to installation and
+            maintenance, Fuji Solar helps customers switch to clean and efficient energy
+            systems with expert support.
           </>
         ),
       },
@@ -355,10 +350,10 @@ const blogData = [
         type: "paragraph",
         text: (
           <>
-            Switching to solar energy is one of the smartest investments for
-            both homes and businesses. From reducing electricity bills to
-            supporting sustainable living, the benefits of solar energy continue
-            to make it a preferred renewable energy solution across India.
+            Switching to solar energy is one of the smartest investments for both homes
+            and businesses. From reducing electricity bills to supporting sustainable
+            living, the benefits of solar energy continue to make it a preferred renewable
+            energy solution across India.
           </>
         ),
       },
@@ -367,9 +362,9 @@ const blogData = [
         type: "paragraph",
         text: (
           <>
-            If you are planning to install a solar power system for your home or
-            business, now is the perfect time to choose sustainable energy
-            solutions with Fuji Solar.
+            If you are planning to install a solar power system for your home or business,
+            now is the perfect time to choose sustainable energy solutions with Fuji
+            Solar.
           </>
         ),
       },

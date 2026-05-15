@@ -28,9 +28,19 @@ const libreBaskerville = Libre_Baskerville({
 
 export const metadata: Metadata = {
   title: "Fuji Solar | Best Solar Panel Company in Tamil Nadu",
+
   description:
     "Looking for solar panel installation in Madurai? We provide affordable rooftop solar systems across Tamil Nadu with full support including pricing and subsidy assistance.",
+
   icons: [{ url: "/images/favicon.png", sizes: "32x32", type: "image/png" }],
+
+  // google search console verification
+  // verification: {
+  //   google: "vmhmx-eRcPVfaCkvhankHqnTxgnl91srAIks45sawVM",
+  // },
+
+  // canonical tag
+  metadataBase: new URL("https://www.fujisolar.in"),
 };
 
 export default function RootLayout({
