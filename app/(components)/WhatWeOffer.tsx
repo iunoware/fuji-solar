@@ -55,7 +55,7 @@ const services: ServiceCard[] = [
     id: 5,
     title: "Solar Street Lights",
     category: "Street Lights",
-    image: "/images/best-solar-company-in-tamilnadu.png",
+    image: "/images/best-solar-company-in-tamilnadu.webp",
     description: "Sustainable lighting for streets and outdoor spaces.",
     link: "/solar-products/solar-street-lights",
   },
