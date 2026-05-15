@@ -143,8 +143,8 @@ export default function Founder() {
 
           <p className="max-w-3xl text-gray-600 text-md leading-relaxed">
             For over 43 years, Fuji Solar has grown through generational leadership -
-            built on DayalanRaj Sekar’s pioneering vision and strengthened by Immanuvel’s
-            strategic direction for the future.
+            built on D.Dayal Rajesvaran&apos;s pioneering vision and strengthened by
+            Immanuvel’s strategic direction for the future.
           </p>
         </div>
 
@@ -161,7 +161,7 @@ export default function Founder() {
                 <Image
                   // src="/images/off-grid.png"
                   src="/images/dayal-rajesvaran.webp"
-                  alt="Dayalan Raj Sekar - Founder of Fuji Solar"
+                  alt="D.Dayal Rajesvaran - Founder & CEO of Fuji Solar"
                   fill
                   className="object-cover object-top"
                   sizes="(max-width: 1024px) 100vw, 30vw"
@@ -173,7 +173,7 @@ export default function Founder() {
                       D.Dayal Rajesvaran
                     </h3>
                     <p className="text-brand-red font-semibold text-xs lg:text-sm mt-1">
-                      Founder CEO
+                      Founder & CEO
                     </p>
                   </div>
                 </div>
@@ -184,7 +184,7 @@ export default function Founder() {
                   The Foundation of Fuji Solar
                 </h3>
                 <p className="fade-item text-gray-600 text-md leading-relaxed mb-6">
-                  Dayalan Raj Sekar founded Fuji Solar in 1983 with a simple but powerful
+                  D.Dayal Rajesvaran founded Fuji Solar in 1983 with a simple but powerful
                   conviction - that clean, affordable energy should be within reach of
                   every household and business. Through deep technical expertise, he built
                   Fuji Solar into one of the region&apos;s most trusted solar brands.
