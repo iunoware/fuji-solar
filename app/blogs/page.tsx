@@ -55,9 +55,8 @@ export default function BlogList() {
             ref={paragraphRef}
             className="mt-4 text-gray-900 max-w-2xl mx-auto text-lg font-semibold opacity-0"
           >
-            Welcome to the Fuji Solar blogs. Your ultimate destination for all
-            things related to sustainable energy, innovation, and the future of
-            power
+            Welcome to the Fuji Solar blogs. Your ultimate destination for all things
+            related to sustainable energy, innovation, and the future of power
           </p>
           <div ref={ctaRef} className="mt-6 opacity-0">
             <Link
@@ -97,7 +96,7 @@ export default function BlogList() {
               {/* Content Section */}
               <div className="flex flex-col grow p-6">
                 <div className="flex items-center justify-between mb-3">
-                  <span className="text-xs font-semibold uppercase tracking-wider text-blue">
+                  <span className="text-xs font-semibold uppercase tracking-wider px-3 py-0.5 text-red-700 bg-red-100 rounded-full">
                     {post.category}
                   </span>
                   <span className="text-xs text-gray-400">{post.date}</span>
