@@ -1,7 +1,15 @@
 "use client";
 
 import React, { useState, useRef } from "react";
-import { MapPin, Phone, Mail, MessageCircle, CheckCircle2, Clock } from "lucide-react";
+import {
+  MapPin,
+  Phone,
+  Mail,
+  MessageCircleMore,
+  CheckCircle2,
+  FileText,
+  Clock,
+} from "lucide-react";
 import { gsap } from "gsap";
 import { useGSAP } from "@gsap/react";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
@@ -232,17 +240,11 @@ const ContactSection = () => {
 
             {/* Contact Items */}
             <div className="space-y-8">
-              <div className="flex items-start gap-5 group">
+              {/* <div className="flex items-start gap-5 group">
                 <div className="w-12 h-12 rounded-xl bg-green-50 flex items-center justify-center text-[#16A34A] shrink-0 group-hover:scale-110 transition-all duration-200">
                   <MapPin size={24} />
                 </div>
                 <div className="space-y-3">
-                  {/* <h4 className="font-bold text-gray-900 mb-1">Our Office</h4> */}
-                  {/* <p className="text-sm text-gray-500 leading-relaxed group-hover:text-brand-red transition-colors">
-                    47, Bharathiyar 7th St, S S Colony,
-                    <br /> Madurai, Tamil Nadu 625016
-                  </p> */}
-
                   <div>
                     <a
                       href="https://maps.app.goo.gl/A9wFG5uy38CVHwUo7"
@@ -268,6 +270,62 @@ const ContactSection = () => {
                     </a>
                   </div>
                 </div>
+              </div> */}
+
+              <div className="flex items-start gap-5 group">
+                <div className="w-12 h-12 rounded-xl bg-green-50 flex items-center justify-center text-brand-red shrink-0 transition-transform group-hover:scale-110">
+                  <MapPin size={24} className="text-green-600" />
+                </div>
+                <div>
+                  <h4 className="font-bold text-gray-900 mb-1">Office</h4>
+                  <div className="flex gap-3 mt-4 justify-center items-center">
+                    <a
+                      href="https://maps.app.goo.gl/EGa27ejrYmRTCCkCA"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className=" border border-gray-200 p-3 rounded-xl text-gray-700 font-semibold hover:text-brand-red transition-colors"
+                    >
+                      Chennai
+                    </a>
+                    <span className="text-gray-950"> - </span>
+                    <a
+                      href="https://maps.app.goo.gl/A9wFG5uy38CVHwUo7"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className=" border border-gray-200 p-3 rounded-xl text-gray-700 font-semibold hover:text-brand-red transition-colors"
+                    >
+                      Madurai
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              {/* gst */}
+              {/* <div className="inline-flex gap-2 group w-fit mt-3">
+                <FileText
+                  className="text-gray-800 group-hover:text-brand-red transition-colors"
+                  size={20}
+                />
+
+                <div className="flex flex-col gap-3">
+                  <p className="text-gray-800 hover:text-brand-red transition-colors">
+                    GST 33AAZPG8624M1Z0
+                  </p>
+                </div>
+              </div> */}
+
+              <div className="flex items-start gap-5 group">
+                <div className="w-12 h-12 rounded-xl bg-green-50 flex items-center justify-center text-brand-red shrink-0 transition-transform group-hover:scale-110">
+                  <FileText size={24} className="text-gray-800" />
+                </div>
+                <div>
+                  <h4 className="font-bold text-gray-900 mb-1">GSTIN</h4>
+                  <div className="flex gap-3 mt-4 justify-center items-center">
+                    <p className=" border border-gray-200 p-3 rounded-xl text-gray-700 font-semibold hover:text-brand-red transition-colors">
+                      33AAZPG8624M1Z0
+                    </p>
+                  </div>
+                </div>
               </div>
 
               <div className="flex items-start gap-5 group">
@@ -281,7 +339,7 @@ const ContactSection = () => {
                       href="tel:+919842076979"
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="text-sm border border-gray-200 p-3 rounded-xl text-gray-500 hover:text-brand-red transition-colors"
+                      className="text-sm border border-gray-200 p-3 rounded-xl text-gray-900 hover:text-brand-red transition-colors"
                     >
                       +91 98420 76979
                     </a>
@@ -290,18 +348,18 @@ const ContactSection = () => {
                       href="tel:+919842105949"
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="text-sm border border-gray-200 p-3 rounded-xl text-gray-500 hover:text-brand-red transition-colors"
+                      className="text-sm border border-gray-200 p-3 rounded-xl text-gray-900 hover:text-brand-red transition-colors"
                     >
                       +91 98421 05949
                     </a>
 
                     <a
-                      href="tel:+919842076979"
+                      href="tel:+918925504599"
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="text-sm border border-gray-200 p-3 rounded-xl text-gray-500 hover:text-brand-red transition-colors"
+                      className="text-sm border border-gray-200 p-3 rounded-xl text-gray-900 hover:text-brand-red transition-colors"
                     >
-                      +91 98765 43210
+                      +91 89255 04599
                     </a>
                   </div>
                 </div>
@@ -309,12 +367,12 @@ const ContactSection = () => {
 
               <div className="flex items-start gap-5 group">
                 <div className="w-12 h-12 rounded-xl bg-green-50 flex items-center justify-center text-brand-red shrink-0 transition-transform group-hover:scale-110">
-                  <MessageCircle size={24} className="text-green-600" />
+                  <MessageCircleMore size={24} className="text-green-600" />
                 </div>
                 <div>
                   <h4 className="font-bold text-gray-900 mb-1">WhatsApp Chat</h4>
                   {/* <p className="text-sm text-gray-500 group-hover:text-brand-red transition-colors">
-                    +91 98765 43210
+                    +91 89255 04599
                   </p> */}
 
                   <div className="flex gap-3">
@@ -322,48 +380,30 @@ const ContactSection = () => {
                       href="https://wa.me/919087718185"
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="text-sm border border-gray-200 p-3 rounded-xl text-gray-500 hover:text-brand-red transition-colors"
+                      className="text-sm border border-gray-200 p-3 rounded-xl text-gray-900 hover:text-brand-red transition-colors"
                     >
                       +91 90877 18185
                     </a>
-
-                    {/* <a
-                      href="https://wa.me/919842105949"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="text-sm border border-gray-200 p-3 rounded-xl text-gray-500 hover:text-brand-red transition-colors"
-                    >
-                      +91 98421 05949
-                    </a>
-
-                    <a
-                      href="https://wa.me/919876543210"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="text-sm border border-gray-200 p-3 rounded-xl  text-gray-500 hover:text-brand-red transition-colors"
-                    >
-                      +91 98765 43210
-                    </a> */}
                   </div>
                 </div>
               </div>
 
-              <a
-                className="flex items-start gap-5 group"
-                href="https://mail.google.com/mail/?view=cm&fs=1&to=info@fujisolar.in"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
+              <div className="flex items-start gap-5 group">
                 <div className="w-12 h-12 rounded-xl group-hover:scale-110 bg-red-50 flex items-center justify-center text-gray-400 shrink-0">
                   <Mail size={24} className="text-red-500" />
                 </div>
                 <div>
                   <h4 className="font-bold text-gray-900 mb-1">Email Us</h4>
-                  <p className="text-sm text-gray-500 group-hover:text-brand-red transition-colors">
+                  <a
+                    href="https://mail.google.com/mail/?view=cm&fs=1&to=info@fujisolar.in"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-sm text-gray-900 hover:text-brand-red transition-colors"
+                  >
                     info@fujisolar.in
-                  </p>
+                  </a>
                 </div>
-              </a>
+              </div>
             </div>
 
             {/* Quick Actions */}

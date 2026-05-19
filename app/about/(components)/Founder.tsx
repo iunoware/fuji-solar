@@ -149,17 +149,16 @@ export default function Founder() {
         </div>
 
         <div className="flex justify-center w-full">
-          <div className="relative grid grid-cols-1 lg:grid-cols-2 gap-x-8 gap-y-8 items-center w-full max-w-5xl">
+          <div className="relative grid grid-cols-1 lg:grid-cols-3 gap-x-15 gap-y-20 items-start w-full max-w-8xl">
             {/* left side */}
-            <div className="flex flex-col gap-6 lg:gap-8 relative z-10 w-full max-w-lg lg:max-w-none mx-auto lg:mx-0">
+            <div className="flex flex-col items-center gap-6 lg:gap-8 relative z-10 w-full max-w-lg lg:max-w-none mx-auto lg:mx-0">
               <div
                 ref={founderCardRef}
-                className="relative w-full h-[60vh] lg:h-[72vh] max-h-170 rounded-[36px] overflow-hidden shadow-[0_20px_60px_-15px_rgba(0,0,0,0.1)] border border-white/20"
+                className="flex justify-center items-end relative w-70 lg:w-[320px] aspect-3/4 rounded-[36px] overflow-hidden shadow-[0_20px_60px_-15px_rgba(0,0,0,0.1)] border border-white/20"
               >
                 <div className="absolute inset-0 rounded-[36px] border border-brand-red/20 shadow-[inset_0_0_20px_rgba(239,68,68,0.05)] z-20 pointer-events-none" />
 
                 <Image
-                  // src="/images/off-grid.png"
                   src="/images/dayal-rajesvaran.webp"
                   alt="D.Dayal Rajesvaran - Founder & CEO of Fuji Solar"
                   fill
@@ -167,9 +166,9 @@ export default function Founder() {
                   sizes="(max-width: 1024px) 100vw, 30vw"
                 />
 
-                <div className="absolute bottom-5 left-5 lg:bottom-8 lg:left-8 z-30">
-                  <div className="bg-white/65 backdrop-blur-sm rounded-2xl p-5 shadow-xl border border-white/50 w-64 lg:w-70">
-                    <h3 className="text-xl lg:text-2xl font-bold text-gray-900 font-sans">
+                <div className="absolute bottom-5 z-30">
+                  <div className="bg-white/65 backdrop-blur-sm rounded-3xl p-5 shadow-xl border border-white/50 w-64 lg:w-70">
+                    <h3 className="text-xl lg:text-xl font-bold text-gray-900 font-sans">
                       D.Dayal Rajesvaran
                     </h3>
                     <p className="text-brand-red font-semibold text-xs lg:text-sm mt-1">
@@ -183,7 +182,7 @@ export default function Founder() {
                 <h3 className="fade-item text-2xl lg:text-3xl font-bold text-gray-900 mb-4">
                   The Foundation of Fuji Solar
                 </h3>
-                <p className="fade-item text-gray-600 text-md leading-relaxed mb-6">
+                <p className="fade-item text-gray-600 text-sm leading-relaxed mb-6">
                   D.Dayal Rajesvaran founded Fuji Solar in 1983 with a simple but powerful
                   conviction - that clean, affordable energy should be within reach of
                   every household and business. Through deep technical expertise, he built
@@ -197,8 +196,8 @@ export default function Founder() {
               </div>
             </div>
 
-            {/* right side */}
-            <div className="relative flex flex-col items-center lg:items-start z-20 w-full mt-4 lg:mt-0 lg:ml-20">
+            {/* middle */}
+            {/* <div className="relative flex flex-col items-center lg:items-start z-20 w-full mt-4 lg:mt-0 lg:ml-20">
               <div
                 ref={directorCardRef}
                 className="relative w-full max-w-100 rounded-3xl overflow-hidden shadow-[0_30px_60px_-15px_rgba(0,0,0,0.15)] lg:-ml-12 bg-white flex flex-col border border-brand-red/10"
@@ -238,6 +237,97 @@ export default function Founder() {
                       innovation, and a forward-thinking approach to renewable energy.
                     </p>
                   </div>
+                </div>
+              </div>
+            </div> */}
+            <div className="flex flex-col items-center gap-6 lg:gap-8 relative z-10 w-full max-w-lg lg:max-w-none mx-auto lg:mx-0">
+              <div
+                ref={founderCardRef}
+                className="flex justify-center items-end relative w-70 lg:w-[320px] aspect-3/4 rounded-[36px] overflow-hidden shadow-[0_20px_60px_-15px_rgba(0,0,0,0.1)] border border-white/20"
+              >
+                <div className="absolute inset-0 rounded-[36px] border border-brand-red/20 shadow-[inset_0_0_20px_rgba(239,68,68,0.05)] z-20 pointer-events-none" />
+
+                <Image
+                  src="/images/zzz.webp"
+                  alt="D.Dayal Rajesvaran - Founder & CEO of Fuji Solar"
+                  fill
+                  className="object-cover object-top"
+                  sizes="(max-width: 1024px) 100vw, 30vw"
+                />
+
+                <div className="absolute bottom-5 z-30">
+                  <div className="bg-white/65 backdrop-blur-sm rounded-3xl p-5 shadow-xl border border-white/50 w-64 lg:w-70">
+                    <h3 className="text-xl lg:text-xl font-bold text-gray-900 font-sans">
+                      Immanuvel Devavaram
+                    </h3>
+                    <p className="text-brand-red font-semibold text-xs mt-1">
+                      Director - Corporate Strategy & Marketing
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div ref={founderContentRef} className="max-w-2xl px-2 lg:px-4">
+                <h3 className="fade-item text-2xl lg:text-3xl font-bold text-gray-900 mb-4">
+                  Leading Fuji Solar Forward
+                </h3>
+                <p className="fade-item text-gray-600 text-sm leading-relaxed mb-6">
+                  As Director of Corporate strategy & Marketing, Immanuvel drives Fuji
+                  Solar&apos;s next chapter through strategic growth, customer-first
+                  innovation, and a forward-thinking approach to renewable energy.
+                </p>
+                <div className="fade-item border-l-4 border-brand-red pl-5 py-1">
+                  <p className="text-gray-700 text-lg italic font-serif leading-relaxed">
+                    &quot;Trust is earned over time and protected through every
+                    action.&quot;
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            {/* right side */}
+            <div className="flex flex-col items-center gap-6 lg:gap-8 relative z-10 w-full max-w-lg lg:max-w-none mx-auto lg:mx-0">
+              <div
+                ref={founderCardRef}
+                className="flex justify-center items-end relative w-70 lg:w-[320px] aspect-3/4 rounded-[36px] overflow-hidden shadow-[0_20px_60px_-15px_rgba(0,0,0,0.1)] border border-white/20"
+              >
+                <div className="absolute inset-0 rounded-[36px] border border-brand-red/20 shadow-[inset_0_0_20px_rgba(239,68,68,0.05)] z-20 pointer-events-none" />
+
+                <Image
+                  src="/images/mohammedAli.webp"
+                  alt="D.Dayal Rajesvaran - Founder & CEO of Fuji Solar"
+                  fill
+                  className="object-cover object-top"
+                  sizes="(max-width: 1024px) 100vw, 30vw"
+                />
+
+                {/* <div className="absolute bottom-5 left-1 lg:bottom-8 lg:left-2 z-30"> */}
+                <div className="absolute bottom-5 z-30">
+                  <div className="bg-white/65 backdrop-blur-sm rounded-3xl p-5 shadow-xl border border-white/50 w-64 lg:w-70">
+                    <h3 className="text-xl lg:text-xl font-bold text-gray-900 font-sans">
+                      Mohammed Ali
+                    </h3>
+                    <p className="text-brand-red font-semibold text-xs mt-1">
+                      Head - Technology & implementation
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div ref={founderContentRef} className="max-w-2xl px-2 lg:px-4">
+                <h3 className="fade-item text-2xl lg:text-3xl font-bold text-gray-900 mb-4">
+                  Engineering Solar Excellence
+                </h3>
+                <p className="fade-item text-gray-600 text-sm leading-relaxed mb-6">
+                  As Head of Technology & Implementation, Mohammed Ali leads the technical
+                  backbone of Fuji Solar. From system architecture to on-ground execution,
+                  he ensures every solar solution is delivered with precision,
+                  performance, and uncompromising quality.
+                </p>
+                <div className="fade-item border-l-4 border-brand-red pl-5 py-1">
+                  <p className="text-gray-700 text-lg italic font-serif leading-relaxed">
+                    &quot;Innovation succeeds when precision meets execution.&quot;
+                  </p>
                 </div>
               </div>
             </div>
