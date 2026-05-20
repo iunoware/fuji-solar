@@ -1,8 +1,35 @@
 "use client";
 
 import Link from "next/link";
-import { ArrowUpRight, Phone, MessageCircle } from "lucide-react";
+import { ArrowUpRight, Phone, MapPin, Mail, FileText } from "lucide-react";
 import Image from "next/image";
+
+function WhatsappIcon() {
+  return (
+    <>
+      <svg
+        width={27}
+        viewBox="0 0 24.00 24.00"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        stroke="#1F2937"
+        strokeWidth="0.00024000000000000003"
+      >
+        <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
+        <g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round"></g>
+        <g id="SVGRepo_iconCarrier">
+          {" "}
+          <path
+            fillRule="evenodd"
+            clipRule="evenodd"
+            d="M3.50002 12C3.50002 7.30558 7.3056 3.5 12 3.5C16.6944 3.5 20.5 7.30558 20.5 12C20.5 16.6944 16.6944 20.5 12 20.5C10.3278 20.5 8.77127 20.0182 7.45798 19.1861C7.21357 19.0313 6.91408 18.9899 6.63684 19.0726L3.75769 19.9319L4.84173 17.3953C4.96986 17.0955 4.94379 16.7521 4.77187 16.4751C3.9657 15.176 3.50002 13.6439 3.50002 12ZM12 1.5C6.20103 1.5 1.50002 6.20101 1.50002 12C1.50002 13.8381 1.97316 15.5683 2.80465 17.0727L1.08047 21.107C0.928048 21.4637 0.99561 21.8763 1.25382 22.1657C1.51203 22.4552 1.91432 22.5692 2.28599 22.4582L6.78541 21.1155C8.32245 21.9965 10.1037 22.5 12 22.5C17.799 22.5 22.5 17.799 22.5 12C22.5 6.20101 17.799 1.5 12 1.5ZM14.2925 14.1824L12.9783 15.1081C12.3628 14.7575 11.6823 14.2681 10.9997 13.5855C10.2901 12.8759 9.76402 12.1433 9.37612 11.4713L10.2113 10.7624C10.5697 10.4582 10.6678 9.94533 10.447 9.53028L9.38284 7.53028C9.23954 7.26097 8.98116 7.0718 8.68115 7.01654C8.38113 6.96129 8.07231 7.046 7.84247 7.24659L7.52696 7.52195C6.76823 8.18414 6.3195 9.2723 6.69141 10.3741C7.07698 11.5163 7.89983 13.314 9.58552 14.9997C11.3991 16.8133 13.2413 17.5275 14.3186 17.8049C15.1866 18.0283 16.008 17.7288 16.5868 17.2572L17.1783 16.7752C17.4313 16.5691 17.5678 16.2524 17.544 15.9269C17.5201 15.6014 17.3389 15.308 17.0585 15.1409L15.3802 14.1409C15.0412 13.939 14.6152 13.9552 14.2925 14.1824Z"
+            fill="#1F2937"
+          ></path>{" "}
+        </g>
+      </svg>
+    </>
+  );
+}
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
@@ -81,13 +108,21 @@ export default function Footer() {
                 Solutions
               </h4>
               <nav className="flex flex-col gap-4">
-                {["Hybrid Systems", "On-Grid", "Off-Grid", "Solar Pumps"].map((item) => (
+                {/* {["Hybrid Systems", "On-Grid", "Off-Grid", "Solar Pumps"].map((item) => ( */}
+                {[
+                  { title: "Hybrid Systems", link: "hybrid-systems" },
+                  { title: "On-Grid", link: "on-grid-systems" },
+                  { title: "Off-Grid", link: "off-grid-systems" },
+                  { title: "Solar Water Pumps", link: "solar-water-pumps" },
+                  { title: "Solar Street Lights", link: "solar-street-lights" },
+                  { title: "Solar water heater", link: "solar-water-heaters" },
+                ].map((item) => (
                   <Link
-                    key={item}
-                    href="solar-products"
+                    key={item.title}
+                    href={`/solar-products/${item.link}`}
                     className="text-gray-800 hover:text-brand-red text-sm transition-colors flex items-center gap-1 group"
                   >
-                    {item}{" "}
+                    {item.title}{" "}
                     <ArrowUpRight
                       size={14}
                       className="opacity-0 group-hover:opacity-100 transition-opacity"
@@ -129,9 +164,7 @@ export default function Footer() {
               <h4 className="text-sm font-bold uppercase tracking-widest text-gray-900">
                 Office
               </h4>
-              <div className="space-y-3">
-                <div className="inline-flex gap-2 group w-fit">
-                  {/* <MapPin className="text-gray-800 group-hover:text-brand-red transition-colors" /> */}
+              {/* <div className="inline-flex gap-2 group w-fit">
                   <a
                     href="https://maps.app.goo.gl/A9wFG5uy38CVHwUo7"
                     target="_blank"
@@ -141,10 +174,9 @@ export default function Footer() {
                     <strong>Zonal Office:</strong> #47, Bharathiyar 7th St, <br />
                     Meenakshi Nagar, <br /> S S Colony, Madurai - 625 016
                   </a>
-                </div>
+                </div> */}
 
-                <div className="inline-flex gap-2 group w-fit">
-                  {/* <MapPin className="text-gray-800 group-hover:text-brand-red transition-colors" /> */}
+              {/* <div className="inline-flex gap-2 group w-fit">
                   <a
                     href="https://maps.app.goo.gl/EGa27ejrYmRTCCkCA"
                     target="_blank"
@@ -154,6 +186,46 @@ export default function Footer() {
                     <strong>Chennai:</strong> #10/1028,
                     <br /> Seethakathi 3rd Cross Street, Mogappair East, Chennai - 600 037
                   </a>
+                </div> */}
+              {/* <div className="space-y-3">
+                <div className="flex">
+                  <MapPin
+                    size={20}
+                    className="text-gray-800 group-hover:text-brand-red transition-colors"
+                  />
+
+                  <div>
+                    <a
+                      href="https://maps.app.goo.gl/EGa27ejrYmRTCCkCA"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="p-3 rounded-xl text-gray-700 font-semibold hover:text-brand-red transition-colors"
+                    >
+                      Chennai
+                    </a>
+                    <span className="text-gray-950"> - </span>
+                    <a
+                      href="https://maps.app.goo.gl/A9wFG5uy38CVHwUo7"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="p-3 rounded-xl text-gray-700 font-semibold hover:text-brand-red transition-colors"
+                    >
+                      Madurai
+                    </a>
+                  </div>
+                </div>
+
+                <div className="inline-flex gap-2 group w-fit mt-3">
+                  <FileText
+                    className="text-gray-800 group-hover:text-brand-red transition-colors"
+                    size={20}
+                  />
+
+                  <div className="flex flex-col gap-3">
+                    <p className="text-gray-800 hover:text-brand-red transition-colors">
+                      GST 33AAZPG8624M1Z0
+                    </p>
+                  </div>
                 </div>
 
                 <div className="flex flex-col gap-4 mt-3">
@@ -162,14 +234,7 @@ export default function Footer() {
                       className="text-gray-800 group-hover:text-brand-red transition-colors"
                       size={20}
                     />
-                    {/* <a
-                      href="tel:+919842076979"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="text-gray-800 group-hover:text-brand-red transition-colors"
-                    >
-                      +91 98420 76979{" "}
-                    </a> */}
+
                     <div className="flex flex-col gap-3">
                       <a
                         href="tel:+919842076979"
@@ -190,12 +255,12 @@ export default function Footer() {
                       </a>
 
                       <a
-                        href="tel:+919842076979"
+                        href="tel:+918925504599"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="text-gray-800 hover:text-brand-red transition-colors"
                       >
-                        +91 98765 43210
+                        +91 89255 04599
                       </a>
                     </div>
                   </div>
@@ -205,14 +270,7 @@ export default function Footer() {
                       className="text-gray-800 group-hover:text-brand-red transition-colors"
                       size={20}
                     />
-                    {/* <a
-                      href="https:/wa.me/919087718185"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="text-gray-800 group-hover:text-brand-red transition-colors"
-                    >
-                      +91 90877 18185{" "}
-                    </a> */}
+
                     <div className="flex flex-col gap-3">
                       <a
                         href="https://wa.me/919087718185"
@@ -222,40 +280,238 @@ export default function Footer() {
                       >
                         +91 90877 18185
                       </a>
+                    </div>
+                  </div>
+                </div>
+              </div> */}
 
-                      {/* <a
-                        href="https://wa.me/919842105949"
+              <div className="space-y-4">
+                {/* map */}
+                <div className="flex items-start justify-start gap-5 group">
+                  <div className="w-5 h-5 flex items-center justify-center shrink-0">
+                    <MapPin size={20} className="text-gray-800" />
+                  </div>
+                  <div>
+                    <h4 className="font-bold text-gray-900 text-sm mb-2">Office</h4>
+                    <div className="flex gap-2 justify-center items-center">
+                      <a
+                        href="https://maps.app.goo.gl/EGa27ejrYmRTCCkCA"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="text-gray-800 hover:text-brand-red transition-colors"
+                        className="text-gray-700 text-sm font-semibold hover:text-brand-red transition-colors"
+                      >
+                        Chennai
+                      </a>
+                      <span className="text-gray-950"> - </span>
+                      <a
+                        href="https://maps.app.goo.gl/A9wFG5uy38CVHwUo7"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-gray-700 text-sm font-semibold hover:text-brand-red transition-colors"
+                      >
+                        Madurai
+                      </a>
+                    </div>
+                  </div>
+                </div>
+
+                {/* gst */}
+                <div className="flex items-start justify-start gap-5 group">
+                  <div className="w-5 h-5 flex items-center justify-center shrink-0">
+                    <FileText size={20} className="text-gray-800" />
+                  </div>
+                  <div>
+                    <h4 className="font-bold text-gray-900 text-sm mb-2">GSTIN</h4>
+                    <div className="flex gap-2 justify-center items-center">
+                      <p className="text-sm rounded-xl text-gray-900 hover:text-brand-red transition-colors">
+                        33AAZPG8624M1Z0
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                {/* phone */}
+                <div className="flex items-start gap-5 group">
+                  <div className="w-5 h-5 flex items-center justify-center shrink-0 ">
+                    <Phone size={20} className="text-gray-800" />
+                  </div>
+                  <div>
+                    <h4 className="font-bold text-gray-900 text-sm mb-2">Call Us</h4>
+                    <div className="flex flex-col gap-2">
+                      <a
+                        href="tel:+919842076979"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-sm rounded-xl text-gray-900 hover:text-brand-red transition-colors"
+                      >
+                        +91 98420 76979
+                      </a>
+
+                      <a
+                        href="tel:+919842105949"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-sm rounded-xl text-gray-900 hover:text-brand-red transition-colors"
                       >
                         +91 98421 05949
                       </a>
 
                       <a
-                        href="https://wa.me/919876543210"
+                        href="tel:+918925504599"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="text-gray-800 hover:text-brand-red transition-colors"
+                        className="text-sm rounded-xl text-gray-900 hover:text-brand-red transition-colors"
                       >
-                        +91 98765 43210
-                      </a> */}
+                        +91 89255 04599
+                      </a>
                     </div>
                   </div>
                 </div>
 
-                {/* <div className="pt-2">
-                  <a
-                    href="https://wa.me/919842076979"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="flex items-center gap-3 px-6 py-3 bg-gray-900 text-white rounded-full w-fit text-sm font-bold hover:bg-brand-red transition-all duration-300 "
-                  >
-                    <MessageSquare size={16} /> Quick Support
-                  </a>
-                </div> */}
+                <div className="flex items-start gap-5 group">
+                  <div className="w-5 h-5 flex items-center justify-center shrink-0">
+                    {/* <MessageCircleMore size={24} className="text-gray-800" /> */}
+                    <WhatsappIcon />
+                  </div>
+                  <div>
+                    <h4 className="font-bold text-sm text-gray-900 mb-2">
+                      WhatsApp Chat
+                    </h4>
+                    <div className="flex gap-3">
+                      <a
+                        href="https://wa.me/919087718185"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-sm rounded-xl text-gray-900 hover:text-brand-red transition-colors"
+                      >
+                        +91 90877 18185
+                      </a>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="flex items-start gap-5 group">
+                  <div className="w-5 h-5 flex items-center justify-center shrink-0">
+                    <Mail size={24} className="text-gray-800" />
+                  </div>
+                  <div>
+                    <h4 className="font-bold text-sm text-gray-900 mb-2">Email Us</h4>
+                    <a
+                      href="https://mail.google.com/mail/?view=cm&fs=1&to=info@fujisolar.in"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-sm text-gray-900 hover:text-brand-red transition-colors"
+                    >
+                      info@fujisolar.in
+                    </a>
+                  </div>
+                </div>
               </div>
             </div>
+
+            {/* <div className="flex flex-col">
+              <div className="flex items-start gap-5 group">
+                <div className="w-12 h-12 rounded-xl bg-green-50 flex items-center justify-center text-brand-red shrink-0 transition-transform group-hover:scale-110">
+                  <MapPin size={24} className="text-green-600" />
+                </div>
+                <div>
+                  <h4 className="font-bold text-gray-900 mb-1">Office</h4>
+                  <div className="flex gap-3 mt-4 justify-center items-center">
+                    <a
+                      href="https://maps.app.goo.gl/EGa27ejrYmRTCCkCA"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className=" border border-gray-200 p-3 rounded-xl text-gray-700 font-semibold hover:text-brand-red transition-colors"
+                    >
+                      Chennai
+                    </a>
+                    <span className="text-gray-950"> - </span>
+                    <a
+                      href="https://maps.app.goo.gl/A9wFG5uy38CVHwUo7"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className=" border border-gray-200 p-3 rounded-xl text-gray-700 font-semibold hover:text-brand-red transition-colors"
+                    >
+                      Madurai
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <div className="flex items-start gap-5 group">
+                <div className="w-12 h-12 rounded-xl bg-orange-50 flex items-center justify-center text-brand-red shrink-0 transition-transform group-hover:scale-110">
+                  <Phone size={24} />
+                </div>
+                <div>
+                  <h4 className="font-bold text-gray-900 mb-1">Call Us</h4>
+                  <div className="flex lg:flex-row flex-col gap-3">
+                    <a
+                      href="tel:+919842076979"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-sm border border-gray-200 p-3 rounded-xl text-gray-900 hover:text-brand-red transition-colors"
+                    >
+                      +91 98420 76979
+                    </a>
+
+                    <a
+                      href="tel:+919842105949"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-sm border border-gray-200 p-3 rounded-xl text-gray-900 hover:text-brand-red transition-colors"
+                    >
+                      +91 98421 05949
+                    </a>
+
+                    <a
+                      href="tel:+918925504599"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-sm border border-gray-200 p-3 rounded-xl text-gray-900 hover:text-brand-red transition-colors"
+                    >
+                      +91 89255 04599
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <div className="flex items-start gap-5 group">
+                <div className="w-12 h-12 rounded-xl bg-green-50 flex items-center justify-center text-brand-red shrink-0 transition-transform group-hover:scale-110">
+                  <MessageCircleMore size={24} className="text-green-600" />
+                </div>
+                <div>
+                  <h4 className="font-bold text-gray-900 mb-1">WhatsApp Chat</h4>
+
+                  <div className="flex gap-3">
+                    <a
+                      href="https://wa.me/919087718185"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-sm border border-gray-200 p-3 rounded-xl text-gray-900 hover:text-brand-red transition-colors"
+                    >
+                      +91 90877 18185
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <div className="flex items-start gap-5 group">
+                <div className="w-12 h-12 rounded-xl group-hover:scale-110 bg-red-50 flex items-center justify-center text-gray-400 shrink-0">
+                  <Mail size={24} className="text-red-500" />
+                </div>
+                <div>
+                  <h4 className="font-bold text-gray-900 mb-1">Email Us</h4>
+                  <a
+                    href="https://mail.google.com/mail/?view=cm&fs=1&to=info@fujisolar.in"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-sm text-gray-900 hover:text-brand-red transition-colors"
+                  >
+                    info@fujisolar.in
+                  </a>
+                </div>
+              </div>
+            </div> */}
           </div>
 
           {/* Huge Brand Text (Premium Element) */}
