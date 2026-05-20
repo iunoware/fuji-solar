@@ -405,7 +405,7 @@ const leaders = [
     imageLeft: true,
   },
   {
-    image: "/images/zzz.webp",
+    image: "/images/immanuvelDevavaram.webp",
     alt: "Immanuvel Devavaram - Director Corporate Strategy & Marketing",
     name: "Immanuvel Devavaram",
     role: "Director – Corporate Strategy & Marketing",
