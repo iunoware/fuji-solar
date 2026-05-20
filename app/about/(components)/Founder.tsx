@@ -30,7 +30,7 @@ const leaders = [
     imageLeft: false,
   },
   {
-    image: "/images/mohammedAli.jpeg",
+    image: "/images/mohammedAli.png",
     alt: "Mohammed Ali - Head of Technology & Implementation",
     name: "Mohammed Ali",
     role: "Head – Technology & Implementation",
