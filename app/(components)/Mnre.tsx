@@ -72,13 +72,13 @@ export default function Mnre() {
         <div className="grid md:grid-cols-2 items-center">
           {/* Left */}
           <div className="relative flex justify-center items-center p-6 md:p-12">
-            <div className="absolute top-8 left-8">
+            <div className="absolute top-4 left-8">
               <span className="inline-flex items-center rounded-full bg-brand-red/10 text-brand-red text-sm font-medium px-4 py-2">
                 Government Recognized
               </span>
             </div>
 
-            <div className="w-full max-w-xs rounded-xl bg-white flex flex-col md:flex-row items-start justify-center gap-6 pt-10">
+            <div className="w-full max-w-xs rounded-xl bg-white flex flex-col md:flex-row items-center justify-center gap-6 pt-10">
               {/* Indian Government Logo */}
               <div className="flex flex-col items-center gap-3 flex-1">
                 <div className="relative h-50 w-50 shrink-0">
@@ -91,14 +91,14 @@ export default function Mnre() {
 
               {/* Tamil Nadu Government Logo */}
               <div className="flex flex-col items-center gap-3 flex-1">
-                <div className="relative h-45 w-43 shrink-0">
+                <div className="relative h-45 w-42 shrink-0">
                   <Image
                     src="/images/emblem-of-tamilnadu.svg"
                     fill
                     alt="Tamil Nadu Government Logo"
                   />
                 </div>
-                <p className="text-center text-gray-900 text-sm px-2">
+                <p className="text-center text-gray-900 text-sm px-2 w-50">
                   TAMIL NADU POWER GENERATION AND DISTRIBUTION CORPORATION
                 </p>
               </div>
