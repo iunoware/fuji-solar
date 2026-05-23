@@ -30,9 +30,9 @@ const leaders = [
     imageLeft: false,
   },
   {
-    image: "/images/mohammedAli.png",
+    image: "/images/mohammedAli.webp",
     alt: "Mohammed Ali - Head of Technology & Implementation",
-    name: "Mohammed Ali",
+    name: "Mohamed Ali M",
     role: "Head – Technology & Implementation",
     heading: "Engineering Solar Excellence",
     body: "As Head of Technology & Implementation, Mohammed Ali leads the technical backbone of Fuji Solar. From system architecture to on-ground execution, he ensures every solar solution is delivered with precision, performance, and uncompromising quality.",
