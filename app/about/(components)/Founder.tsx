@@ -38,7 +38,7 @@ const leaders = [
     role: "Head – Technology & Implementation",
     heading: "Engineering Solar Excellence",
     // body: "As Head of Technology & Implementation, Mohammed Ali leads the technical backbone of Fuji Solar. From system architecture to on-ground execution, he ensures every solar solution is delivered with precision, performance, and uncompromising quality.",
-    body: "As Head of Technology & Implementation, Mohammed Ali leads the technical backbone of Fuji Solar. From system architecture to on-ground execution, he ensures every solar solution is delivered with precision, performance, and uncompromising quality.",
+    body: "As Head of Technology & Implementation, Mohamed Ali leads the technical backbone of Fuji Solar. From system architecture to on-ground execution, he ensures every solar solution is delivered with precision, performance, and uncompromising quality.",
     quote: "Innovation succeeds when precision meets execution.",
     imageLeft: true,
   },
