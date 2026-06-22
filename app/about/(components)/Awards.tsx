@@ -154,7 +154,7 @@ export default function Awards() {
           </div>
 
           {/* CTA */}
-          <div className="pt-4">
+          {/* <div className="pt-4">
             <Link
               href="/about"
               className="inline-flex items-center gap-3 bg-gray-900 text-white px-8 py-4 rounded-full text-sm font-semibold hover:bg-brand-red transition-all duration-300 group shadow-lg shadow-gray-900/10"
@@ -162,7 +162,7 @@ export default function Awards() {
               View All Achievements
               <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
             </Link>
-          </div>
+          </div> */}
         </div>
 
         {/* ── RIGHT COLUMN ── */}

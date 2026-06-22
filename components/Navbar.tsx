@@ -53,11 +53,13 @@ export default function Navbar() {
           </Link>
 
           {/* Desktop Menu */}
-          <div className="hidden lg:flex h-6 mt-1.5 overflow-hidden items-center space-x-8">
+          <div className="hidden lg:flex h-8 mt-1.5 overflow-hidden items-center space-x-8">
             {navLinks.map((link) => {
               // const isActive = pathname === link.href;
               const isActive =
-                link.href === "/" ? pathname === "/" : pathname.startsWith(link.href);
+                link.href === "/"
+                  ? pathname === "/"
+                  : pathname.startsWith(link.href);
               return (
                 <Link
                   key={link.name}
@@ -68,7 +70,7 @@ export default function Navbar() {
                       : isScrolled
                         ? "text-gray-950"
                         : "text-gray-950"
-                  } text-md flex flex-col translate-y-2 hover:-translate-y-5 duration-300 transition-all font-medium`}
+                  } text-md flex flex-col translate-y-3 hover:-translate-y-4 duration-300 transition-all font-medium`}
                 >
                   <span>{link.name}</span>
                   <span>{link.name}</span>
@@ -84,7 +86,10 @@ export default function Navbar() {
             aria-label={isOpen ? "Close menu" : "Open menu"}
           >
             {isOpen ? (
-              <X size={28} className={isScrolled ? "text-gray-900" : "text-gray-700"} />
+              <X
+                size={28}
+                className={isScrolled ? "text-gray-900" : "text-gray-700"}
+              />
             ) : (
               <Menu
                 size={28}
@@ -106,7 +111,9 @@ export default function Navbar() {
         {navLinks.map((link) => {
           // const isActive = pathname === link.href;
           const isActive =
-            link.href === "/" ? pathname === "/" : pathname.startsWith(link.href);
+            link.href === "/"
+              ? pathname === "/"
+              : pathname.startsWith(link.href);
           return (
             <Link
               key={link.name}

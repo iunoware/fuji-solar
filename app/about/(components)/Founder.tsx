@@ -51,9 +51,9 @@ export default function LeadershipSection() {
         </h2>
 
         <p className="max-w-3xl text-gray-600 text-md leading-relaxed">
-          For over 43 years, Fuji Solar has grown through generational leadership -built
-          on D.Dayal Rajesvaran&apos;s pioneering vision and strengthened by
-          Immanuel&apos;s strategic direction for the future.
+          For over 43 years, Fuji Solar has grown through generational
+          leadership -built on D.Dayal Rajesvaran&apos;s pioneering vision and
+          strengthened by Immanuel&apos;s strategic direction for the future.
         </p>
       </div>
 

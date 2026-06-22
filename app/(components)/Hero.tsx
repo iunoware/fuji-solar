@@ -103,7 +103,7 @@ export default function RenewableEnergyHero() {
           </div>
 
           {/* Center - Main Headline */}
-          <div className="lg:col-span-6 -translate-y-15">
+          <div className="lg:col-span-6 md:-translate-y-15">
             <h1
               ref={heroTextRef}
               className="text-5xl md:text-6xl font-bold lg:text-7xl text-white leading-[1.1] tracking-tight mb-8 opacity-0"
