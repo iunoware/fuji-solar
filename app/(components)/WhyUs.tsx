@@ -124,7 +124,7 @@ const WhyUs = () => {
                 <span className="text-brand-red">Excellence</span>
               </h2>
               <p className="text-lg text-gray-600 leading-relaxed max-w-lg">
-                As the best solar panel installation in Madurai, we combine
+                As the best solar panel installation in Tamil Nadu, we combine
                 engineering expertise and quality to deliver reliable solar
                 solutions that stand the test of time.
               </p>

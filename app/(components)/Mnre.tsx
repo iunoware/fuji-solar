@@ -82,7 +82,11 @@ export default function Mnre() {
               {/* Indian Government Logo */}
               <div className="flex flex-col items-center gap-3 flex-1">
                 <div className="relative h-50 w-50 shrink-0">
-                  <Image src="/images/emblem.svg" fill alt="Indian Government Emblem" />
+                  <Image
+                    src="/images/emblem.svg"
+                    fill
+                    alt="Indian Government Emblem"
+                  />
                 </div>
                 <p className="text-center text-gray-900 text-sm px-2">
                   MINISTRY OF NEW AND RENEWABLE ENERGY
@@ -99,7 +103,8 @@ export default function Mnre() {
                   />
                 </div>
                 <p className="text-center text-gray-900 text-sm px-2 w-50">
-                  TAMIL NADU POWER GENERATION AND DISTRIBUTION CORPORATION
+                  {/* TAMIL NADU POWER GENERATION AND DISTRIBUTION CORPORATION */}
+                  TAMIL NADU GREEN ENERGY CORPORATION LIMITED.
                 </p>
               </div>
             </div>
@@ -113,14 +118,16 @@ export default function Mnre() {
 
             <h2 className="text-3xl md:text-4xl font-semibold text-gray-900 leading-tight mb-5">
               Fuji Solar is an{" "}
-              <span className="text-brand-red text-wrap">MNRE & TNPGCL Approved</span>{" "}
+              <span className="text-brand-red text-wrap">
+                MNRE & TNGECL Approved
+              </span>{" "}
               Company
             </h2>
 
             <p className="text-gray-600 leading-relaxed mb-8">
-              We provide solar installations aligned with Ministry of New and Renewable
-              Energy standards, helping homes and businesses across Tamil Nadu switch to
-              reliable clean energy.
+              We provide solar installations aligned with Ministry of New and
+              Renewable Energy standards, helping homes and businesses across
+              Tamil Nadu switch to reliable clean energy.
             </p>
 
             {/* Trust indicators */}

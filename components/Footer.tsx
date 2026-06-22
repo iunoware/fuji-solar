@@ -16,7 +16,11 @@ function WhatsappIcon() {
         strokeWidth="0.00024000000000000003"
       >
         <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
-        <g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round"></g>
+        <g
+          id="SVGRepo_tracerCarrier"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        ></g>
         <g id="SVGRepo_iconCarrier">
           {" "}
           <path
@@ -43,13 +47,6 @@ export default function Footer() {
             {/* Brand Column */}
             <div className="lg:col-span-4 space-y-6">
               <div className="flex items-center gap-3">
-                {/* <div className="w-10 h-10 bg-brand-red rounded-xl flex items-center justify-center shadow-lg shadow-brand-red/20">
-                  <span className="text-white font-bold text-xl leading-none">F</span>
-                </div>
-                <h3 className="text-2xl font-bold tracking-tight text-gray-900 uppercase italic">
-                  Fuji Solar
-                </h3> */}
-
                 <Link href="/" className="relative h-20 w-80">
                   <Image
                     src="/images/logo.png"
@@ -60,8 +57,9 @@ export default function Footer() {
                 </Link>
               </div>
               <p className="text-gray-700 max-w-sm leading-relaxed">
-                Empowering homes and businesses with clean, reliable, and sustainable
-                solar energy solutions. Join the green revolution today.
+                Empowering homes and businesses with clean, reliable, and
+                sustainable solar energy solutions. Join the green revolution
+                today.
               </p>
               <div className="flex items-center gap-4 pt-2">
                 {/* instagram */}
@@ -139,14 +137,14 @@ export default function Footer() {
               </h4>
               <nav className="flex flex-col gap-4">
                 {[
-                  { title: "Home", link: "" },
-                  { title: "About Us", link: "about" },
-                  { title: "services", link: "solar-products" },
-                  { title: "Contact", link: "contact" },
+                  { title: "Home", link: "/" },
+                  { title: "About Us", link: "/about" },
+                  { title: "Services", link: "/solar-products" },
+                  { title: "Contact", link: "/contact" },
                 ].map((item) => (
                   <Link
                     key={item.title}
-                    href={item.link === "" ? "/" : item.link}
+                    href={item.link}
                     className="text-gray-800 hover:text-brand-red text-sm transition-colors flex items-center gap-1 group"
                   >
                     {item.title}{" "}
@@ -292,7 +290,9 @@ export default function Footer() {
                     <MapPin size={20} className="text-gray-800" />
                   </div>
                   <div>
-                    <h4 className="font-bold text-gray-900 text-sm mb-2">Office</h4>
+                    <h4 className="font-bold text-gray-900 text-sm mb-2">
+                      Office
+                    </h4>
                     <div className="flex gap-2 justify-center items-center">
                       <a
                         href="https://maps.app.goo.gl/EGa27ejrYmRTCCkCA"
@@ -321,7 +321,9 @@ export default function Footer() {
                     <FileText size={20} className="text-gray-800" />
                   </div>
                   <div>
-                    <h4 className="font-bold text-gray-900 text-sm mb-2">GSTIN</h4>
+                    <h4 className="font-bold text-gray-900 text-sm mb-2">
+                      GSTIN
+                    </h4>
                     <div className="flex gap-2 justify-center items-center">
                       <p className="text-sm rounded-xl text-gray-900 hover:text-brand-red transition-colors">
                         33AAZPG8624M1Z0
@@ -336,7 +338,9 @@ export default function Footer() {
                     <Phone size={20} className="text-gray-800" />
                   </div>
                   <div>
-                    <h4 className="font-bold text-gray-900 text-sm mb-2">Call Us</h4>
+                    <h4 className="font-bold text-gray-900 text-sm mb-2">
+                      Call Us
+                    </h4>
                     <div className="flex flex-col gap-2">
                       <a
                         href="tel:+919842076979"
@@ -395,7 +399,9 @@ export default function Footer() {
                     <Mail size={24} className="text-gray-800" />
                   </div>
                   <div>
-                    <h4 className="font-bold text-sm text-gray-900 mb-2">Email Us</h4>
+                    <h4 className="font-bold text-sm text-gray-900 mb-2">
+                      Email Us
+                    </h4>
                     <a
                       href="https://mail.google.com/mail/?view=cm&fs=1&to=info@fujisolar.in"
                       target="_blank"
@@ -518,7 +524,9 @@ export default function Footer() {
           <div className="py-10 border-t border-gray-50 select-none">
             <h2 className="text-[12vw] lg:text-[12rem] font-bold leading-none tracking-tighter uppercase italic">
               <span className="text-brand-red">Fuji</span>
-              <span className="text-transparent stroke-text ml-4 opacity-50">Solar</span>
+              <span className="text-transparent stroke-text ml-4 opacity-50">
+                Solar
+              </span>
             </h2>
           </div>
 
@@ -527,7 +535,11 @@ export default function Footer() {
             <div className="flex items-center gap-6">
               <span>
                 © {currentYear}{" "}
-                <a href="https://www.iunoware.com/" className="font-bold" target="_blank">
+                <a
+                  href="https://www.iunoware.com/"
+                  className="font-bold"
+                  target="_blank"
+                >
                   Iunoware Pvt Ltd.
                 </a>{" "}
                 All rights reserved.
