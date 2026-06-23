@@ -57,3 +57,31 @@ body {
   /* font-family: Arial, Helvetica, sans-serif; */
   font-family: montserrat;
 }
+
+/* Premium Marquee Animation */
+.marquee-container {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  white-space: nowrap;
+}
+
+.marquee-content {
+  display: inline-flex;
+  align-items: center;
+  white-space: nowrap;
+  animation: marquee 8s linear infinite;
+}
+
+.marquee-container:hover .marquee-content {
+  animation-play-state: paused;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(-33.3333%, 0, 0);
+  }
+}
