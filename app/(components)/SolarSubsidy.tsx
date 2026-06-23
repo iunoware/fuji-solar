@@ -217,25 +217,68 @@ export default function SolarSubsidySection() {
 
         {/* RIGHT — Pricing Card */}
         <div className="flex flex-col gap-3">
-          <div className="bg-white rounded-2xl shadow-lg overflow-hidden border border-gray-100">
+          <div className="bg-white rounded-2xl  overflow-hidden">
             {/* Subsidy Notice Strip */}
-            <div className="bg-amber-100 border-b border-amber-200 flex items-center justify-center gap-2 px-4 py-2.5 text-amber-900 text-xs md:text-sm font-medium">
-              <svg
-                className="w-4 h-4 animate-pulse text-amber-700 shrink-0"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth={2}
-                viewBox="0 0 24 24"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
-                />
-              </svg>
-              <span className="animate-pulse">
-                Government Subsidy Available Until 31 March 2027*
-              </span>
+            <div className="bg-green-600 border-b marquee-container py-2.5 text-xs md:text-sm font-medium select-none">
+              <div className="marquee-content gap-8 pr-8">
+                {/* Item 1 */}
+                <div className="flex items-center gap-2 text-white">
+                  <svg
+                    className="w-4 h-4 text-white shrink-0"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth={2}
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
+                    />
+                  </svg>
+                  <span className="text-md font-bold tracking-wide">
+                    Government Subsidy Available Until 31 March 2027*
+                  </span>
+                </div>
+                {/* Item 2 */}
+                <div className="flex items-center gap-2 text-white">
+                  <svg
+                    className="w-4 h-4 text-white shrink-0"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth={2}
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
+                    />
+                  </svg>
+                  <span className="text-md font-bold tracking-wide">
+                    Government Subsidy Available Until 31 March 2027*
+                  </span>
+                </div>
+                {/* Item 3 */}
+                <div className="flex items-center gap-2 text-white">
+                  <svg
+                    className="w-4 h-4 text-white shrink-0"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth={2}
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
+                    />
+                  </svg>
+                  <span className="text-md font-bold tracking-wide">
+                    Government Subsidy Available Until 31 March 2027*
+                  </span>
+                </div>
+              </div>
             </div>
 
             {/* Card header */}
