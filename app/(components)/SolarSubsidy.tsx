@@ -221,7 +221,7 @@ export default function SolarSubsidySection() {
             {/* Subsidy Notice Strip */}
             <div className="bg-amber-100 border-b border-amber-200 flex items-center justify-center gap-2 px-4 py-2.5 text-amber-900 text-xs md:text-sm font-medium">
               <svg
-                className="w-4 h-4 text-amber-700 shrink-0"
+                className="w-4 h-4 animate-pulse text-amber-700 shrink-0"
                 fill="none"
                 stroke="currentColor"
                 strokeWidth={2}
@@ -233,15 +233,17 @@ export default function SolarSubsidySection() {
                   d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
                 />
               </svg>
-              <span>Government Subsidy Available Until 31 March 2027*</span>
+              <span className="animate-pulse">
+                Government Subsidy Available Until 31 March 2027*
+              </span>
             </div>
 
             {/* Card header */}
             <div className="bg-red-600 flex gap-5 px-6 py-5">
               <div>
-                <p className="text-red-200 text-xs font-bold uppercase tracking-widest mb-1">
+                {/* <p className="text-red-200 text-xs font-bold uppercase tracking-widest mb-1">
                   Government Subsidy Applied
-                </p>
+                </p> */}
                 <h3 className="text-white text-2xl font-extrabold leading-tight">
                   Cost of the Plant
                   <span className="block text-base font-medium opacity-80">
@@ -340,7 +342,8 @@ export default function SolarSubsidySection() {
             {/* Disclaimer */}
             <div className="px-6 pb-5 pt-0">
               <p className="text-[10px] text-gray-400 leading-normal">
-                *PM Surya Ghar subsidy scheme is currently available until 31 March 2027.
+                *PM Surya Ghar subsidy scheme is currently available until 31
+                March 2027.
               </p>
             </div>
           </div>
