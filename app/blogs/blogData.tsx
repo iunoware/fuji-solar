@@ -22,14 +22,16 @@ const blogData = [
         type: "paragraph",
         text: (
           <>
-            With rising electricity costs and growing awareness about sustainable living,
-            more homeowners and businesses are switching to{" "}
+            With rising electricity costs and growing awareness about
+            sustainable living, more homeowners and businesses are switching to{" "}
             <Link href="/solar-products">
               {" "}
-              <strong className="text-blue-600 font-bold">solar energy solutions</strong>
+              <strong className="text-blue-600 font-bold">
+                solar energy solutions
+              </strong>
             </Link>
-            . Solar power has become one of the most reliable and cost-effective renewable
-            energy solutions available today.
+            . Solar power has become one of the most reliable and cost-effective
+            renewable energy solutions available today.
           </>
         ),
       },
@@ -38,9 +40,9 @@ const blogData = [
         type: "paragraph",
         text: (
           <>
-            Whether for residential properties or commercial spaces, installing a{" "}
-            <strong>solar power system for home</strong> or business offers long-term
-            savings, energy independence, and environmental benefits.
+            Whether for residential properties or commercial spaces, installing
+            a <strong>solar power system for home</strong> or business offers
+            long-term savings, energy independence, and environmental benefits.
           </>
         ),
       },
@@ -55,10 +57,10 @@ const blogData = [
         type: "paragraph",
         text: (
           <>
-            One of the biggest <strong>advantages of solar panels</strong> is the ability
-            to reduce monthly electricity expenses. A properly installed rooftop solar
-            system generates electricity from sunlight, helping homeowners and businesses
-            depend less on the grid.
+            One of the biggest <strong>advantages of solar panels</strong> is
+            the ability to reduce monthly electricity expenses. A properly
+            installed rooftop solar system generates electricity from sunlight,
+            helping homeowners and businesses depend less on the grid.
           </>
         ),
       },
@@ -78,8 +80,8 @@ const blogData = [
         text: (
           <>
             For businesses with high electricity consumption,{" "}
-            <strong>commercial solar solutions Chennai</strong> can drastically lower
-            operational costs and improve profitability.
+            <strong>commercial solar solutions Chennai</strong> can drastically
+            lower operational costs and improve profitability.
           </>
         ),
       },
@@ -94,9 +96,10 @@ const blogData = [
         type: "paragraph",
         text: (
           <>
-            Solar energy is a clean and renewable energy source that helps reduce carbon
-            emissions and environmental pollution. Unlike traditional power sources, solar
-            power does not release harmful gases into the atmosphere.
+            Solar energy is a clean and renewable energy source that helps
+            reduce carbon emissions and environmental pollution. Unlike
+            traditional power sources, solar power does not release harmful
+            gases into the atmosphere.
           </>
         ),
       },
@@ -121,9 +124,9 @@ const blogData = [
         type: "paragraph",
         text: (
           <>
-            Installing a solar power system is a smart long-term investment. Although the
-            initial installation cost may seem high, the long-term savings on electricity
-            bills make solar highly cost-effective.
+            Installing a solar power system is a smart long-term investment.
+            Although the initial installation cost may seem high, the long-term
+            savings on electricity bills make solar highly cost-effective.
           </>
         ),
       },
@@ -148,9 +151,9 @@ const blogData = [
         type: "paragraph",
         text: (
           <>
-            Modern solar panels are designed for durability and require very little
-            maintenance. Most solar panel systems can last 25 years or more with proper
-            care.
+            Modern solar panels are designed for durability and require very
+            little maintenance. Most solar panel systems can last 25 years or
+            more with proper care.
           </>
         ),
       },
@@ -159,8 +162,9 @@ const blogData = [
         type: "paragraph",
         text: (
           <>
-            Routine maintenance usually includes cleaning the solar panels, checking
-            inverter performance, and ensuring panels remain free from dust and debris.
+            Routine maintenance usually includes cleaning the solar panels,
+            checking inverter performance, and ensuring panels remain free from
+            dust and debris.
           </>
         ),
       },
@@ -175,9 +179,9 @@ const blogData = [
         type: "paragraph",
         text: (
           <>
-            With increasing power demand and electricity fluctuations, many people are
-            choosing <strong>residential solar solutions</strong> for better energy
-            independence.
+            With increasing power demand and electricity fluctuations, many
+            people are choosing <strong>residential solar solutions</strong> for
+            better energy independence.
           </>
         ),
       },
@@ -208,9 +212,10 @@ const blogData = [
         type: "paragraph",
         text: (
           <>
-            Solar energy solutions are suitable for both residential and commercial
-            properties. Whether you own a house, office, factory, school, or warehouse,
-            solar systems can be customized according to your electricity requirements.
+            Solar energy solutions are suitable for both residential and
+            commercial properties. Whether you own a house, office, factory,
+            school, or warehouse, solar systems can be customized according to
+            your electricity requirements.
           </>
         ),
       },
@@ -235,9 +240,9 @@ const blogData = [
         type: "paragraph",
         text: (
           <>
-            The Indian government actively promotes solar energy adoption through
-            subsidies and supportive policies. Homeowners can benefit from rooftop solar
-            subsidies, making installation more affordable.
+            The Indian government actively promotes solar energy adoption
+            through subsidies and supportive policies. Homeowners can benefit
+            from rooftop solar subsidies, making installation more affordable.
           </>
         ),
       },
@@ -262,9 +267,9 @@ const blogData = [
         type: "paragraph",
         text: (
           <>
-            Homes and commercial buildings with solar power systems are becoming more
-            attractive to buyers and investors. Energy-efficient properties often have
-            higher market value due to lower operating costs.
+            Homes and commercial buildings with solar power systems are becoming
+            more attractive to buyers and investors. Energy-efficient properties
+            often have higher market value due to lower operating costs.
           </>
         ),
       },
@@ -323,10 +328,10 @@ const blogData = [
         text: (
           <>
             Fuji Solar provides reliable and affordable{" "}
-            <strong>solar panel installation in Chennai</strong> for residential,
-            commercial, and industrial needs. From consultation to installation and
-            maintenance, Fuji Solar helps customers switch to clean and efficient energy
-            systems with expert support.
+            <strong>solar panel installation in Chennai</strong> for
+            residential, commercial, and industrial needs. From consultation to
+            installation and maintenance, Fuji Solar helps customers switch to
+            clean and efficient energy systems with expert support.
           </>
         ),
       },
@@ -341,10 +346,10 @@ const blogData = [
         type: "paragraph",
         text: (
           <>
-            Switching to solar energy is one of the smartest investments for both homes
-            and businesses. From reducing electricity bills to supporting sustainable
-            living, the benefits of solar energy continue to make it a preferred renewable
-            energy solution across India.
+            Switching to solar energy is one of the smartest investments for
+            both homes and businesses. From reducing electricity bills to
+            supporting sustainable living, the benefits of solar energy continue
+            to make it a preferred renewable energy solution across India.
           </>
         ),
       },
@@ -353,9 +358,9 @@ const blogData = [
         type: "paragraph",
         text: (
           <>
-            If you are planning to install a solar power system for your home or business,
-            now is the perfect time to choose sustainable energy solutions with Fuji
-            Solar.
+            If you are planning to install a solar power system for your home or
+            business, now is the perfect time to choose sustainable energy
+            solutions with Fuji Solar.
           </>
         ),
       },
@@ -382,17 +387,18 @@ const blogData = [
         type: "paragraph",
         text: (
           <>
-            With electricity tariffs rising every year, more homeowners and businesses are
-            exploring{" "}
+            With electricity tariffs rising every year, more homeowners and
+            businesses are exploring{" "}
             <Link href="/solar-products">
               {" "}
               <strong className="text-blue">
                 solar panel installation in Tamil Nadu
               </strong>
             </Link>{" "}
-            as a practical way to reduce long-term energy costs. Choosing the right Solar
-            company in Tamil Nadu can help customers understand the actual Solar Panel
-            Installation Cost in Tamil Nadu and make informed investment decisions.
+            as a practical way to reduce long-term energy costs. Choosing the
+            right Solar company in Tamil Nadu can help customers understand the
+            actual Solar Panel Installation Cost in Tamil Nadu and make informed
+            investment decisions.
           </>
         ),
       },
@@ -401,11 +407,11 @@ const blogData = [
         type: "paragraph",
         text: (
           <>
-            In 2026, <strong>rooftop solar installation Tamil Nadu</strong> continues to
-            grow rapidly due to government incentives, net metering benefits, and
-            increasing awareness about clean energy. Understanding the{" "}
-            <strong>Solar System Price in Tamil Nadu</strong> is the first step toward
-            making the switch.
+            In 2026, <strong>rooftop solar installation Tamil Nadu</strong>{" "}
+            continues to grow rapidly due to government incentives, net metering
+            benefits, and increasing awareness about clean energy. Understanding
+            the <strong>Solar System Price in Tamil Nadu</strong> is the first
+            step toward making the switch.
           </>
         ),
       },
@@ -420,11 +426,11 @@ const blogData = [
         type: "paragraph",
         text: (
           <>
-            The cost of <strong>solar panel installation in Tamil Nadu</strong> depends on
-            system size, panel quality, inverter type, roof structure, and installation
-            complexity. On average, the{" "}
-            <strong>Solar Panel Installation Cost in Tamil Nadu</strong> for homes ranges
-            between:
+            The cost of <strong>solar panel installation in Tamil Nadu</strong>{" "}
+            depends on system size, panel quality, inverter type, roof
+            structure, and installation complexity. On average, the{" "}
+            <strong>Solar Panel Installation Cost in Tamil Nadu</strong> for
+            homes ranges between:
           </>
         ),
       },
@@ -445,8 +451,9 @@ const blogData = [
         type: "paragraph",
         text: (
           <>
-            A trusted <strong>Solar company in Tamil Nadu</strong> will provide a
-            customized quote based on your monthly electricity consumption and roof space.
+            A trusted <strong>Solar company in Tamil Nadu</strong> will provide
+            a customized quote based on your monthly electricity consumption and
+            roof space.
           </>
         ),
       },
@@ -462,8 +469,9 @@ const blogData = [
         text: (
           <>
             Several factors influence the overall{" "}
-            <strong>Solar System Price in Tamil Nadu</strong>. While the initial cost may
-            vary, quality installation ensures better long-term performance for{" "}
+            <strong>Solar System Price in Tamil Nadu</strong>. While the initial
+            cost may vary, quality installation ensures better long-term
+            performance for{" "}
             <strong>rooftop solar installation Tamil Nadu</strong>.
           </>
         ),
@@ -498,16 +506,20 @@ const blogData = [
         text: (
           <>
             One of the biggest reasons people choose{" "}
-            <strong>solar panel installation in Tamil Nadu</strong> is the significant
-            reduction in monthly EB bills. Depending on your energy consumption, savings
-            can range from 70% to 95%.
+            <strong>solar panel installation in Tamil Nadu</strong> is the
+            significant reduction in monthly EB bills. Depending on your energy
+            consumption, savings can range from 70% to 95%.
           </>
         ),
       },
 
       {
         type: "table",
-        headers: ["Monthly EB Bill", "Recommended Solar System", "Potential Savings"],
+        headers: [
+          "Monthly EB Bill",
+          "Recommended Solar System",
+          "Potential Savings",
+        ],
         rows: [
           ["₹2,000", "2 kW", "₹18,000 – ₹22,000/year"],
           ["₹4,000", "3 kW", "₹35,000 – ₹45,000/year"],
@@ -520,8 +532,9 @@ const blogData = [
         type: "paragraph",
         text: (
           <>
-            Working with an experienced <strong>Solar company in Tamil Nadu</strong>{" "}
-            ensures your system is designed for maximum output and faster savings.
+            Working with an experienced{" "}
+            <strong>Solar company in Tamil Nadu</strong> ensures your system is
+            designed for maximum output and faster savings.
           </>
         ),
       },
@@ -537,8 +550,9 @@ const blogData = [
         text: (
           <>
             The government continues to support{" "}
-            <strong>rooftop solar installation Tamil Nadu</strong> through subsidy
-            programs and net metering policies. These benefits significantly reduce the{" "}
+            <strong>rooftop solar installation Tamil Nadu</strong> through
+            subsidy programs and net metering policies. These benefits
+            significantly reduce the{" "}
             <strong>Solar Panel Installation Cost in Tamil Nadu</strong>.
           </>
         ),
@@ -564,10 +578,11 @@ const blogData = [
         type: "paragraph",
         text: (
           <>
-            Most customers recover their investment within 4 to 6 years depending on
-            system size and electricity usage. Since solar panels typically last 25+
-            years, this makes <strong>solar panel installation in Tamil Nadu</strong> one
-            of the smartest long-term investments.
+            Most customers recover their investment within 4 to 6 years
+            depending on system size and electricity usage. Since solar panels
+            typically last 25+ years, this makes{" "}
+            <strong>solar panel installation in Tamil Nadu</strong> one of the
+            smartest long-term investments.
           </>
         ),
       },
@@ -593,9 +608,9 @@ const blogData = [
         text: (
           <>
             Tamil Nadu receives excellent sunlight throughout the year, making{" "}
-            <strong>rooftop solar installation Tamil Nadu</strong> highly efficient.
-            Combined with rising electricity tariffs, solar offers both environmental and
-            financial benefits.
+            <strong>rooftop solar installation Tamil Nadu</strong> highly
+            efficient. Combined with rising electricity tariffs, solar offers
+            both environmental and financial benefits.
           </>
         ),
       },
@@ -614,7 +629,8 @@ const blogData = [
         type: "faq",
         content: [
           {
-            question: "What is the average Solar Panel Installation Cost in Tamil Nadu?",
+            question:
+              "What is the average Solar Panel Installation Cost in Tamil Nadu?",
             answer:
               "The cost ranges from ₹65,000 for small systems to ₹8 lakhs for larger commercial systems depending on capacity.",
           },
@@ -624,7 +640,8 @@ const blogData = [
               "Yes, rooftop solar can reduce EB bills by 70% to 95% depending on system size and electricity consumption.",
           },
           {
-            question: "How long does it take for solar panels to pay for themselves?",
+            question:
+              "How long does it take for solar panels to pay for themselves?",
             answer: "Typically between 4 to 6 years.",
           },
           {
@@ -650,12 +667,12 @@ const blogData = [
         type: "paragraph",
         text: (
           <>
-            Fuji Solar is a trusted <strong>Solar company in Tamil Nadu</strong> offering
-            reliable and affordable{" "}
+            Fuji Solar is a trusted <strong>Solar company in Tamil Nadu</strong>{" "}
+            offering reliable and affordable{" "}
             <strong>solar panel installation in Tamil Nadu</strong>
-            for residential and commercial customers. From consultation and design to
-            installation and maintenance, Fuji Solar ensures high-quality service and
-            optimized system performance.
+            for residential and commercial customers. From consultation and
+            design to installation and maintenance, Fuji Solar ensures
+            high-quality service and optimized system performance.
           </>
         ),
       },
@@ -670,11 +687,11 @@ const blogData = [
         type: "paragraph",
         text: (
           <>
-            Understanding the <strong>Solar System Price in Tamil Nadu</strong> helps
-            homeowners and businesses make informed energy decisions. With strong
-            sunlight, government incentives, and significant savings on EB bills,{" "}
-            <strong>rooftop solar installation Tamil Nadu</strong> continues to be a smart
-            investment in 2026.
+            Understanding the <strong>Solar System Price in Tamil Nadu</strong>{" "}
+            helps homeowners and businesses make informed energy decisions. With
+            strong sunlight, government incentives, and significant savings on
+            EB bills, <strong>rooftop solar installation Tamil Nadu</strong>{" "}
+            continues to be a smart investment in 2026.
           </>
         ),
       },
@@ -683,9 +700,372 @@ const blogData = [
         type: "paragraph",
         text: (
           <>
-            If you are considering <strong>solar panel installation in Tamil Nadu</strong>
-            , now is the ideal time to partner with Fuji Solar and start saving for the
+            If you are considering{" "}
+            <strong>solar panel installation in Tamil Nadu</strong>, now is the
+            ideal time to partner with Fuji Solar and start saving for the
             future.
+          </>
+        ),
+      },
+    ],
+  },
+  // 3
+  {
+    id: 3,
+
+    metaTitle:
+      "How to Choose the Right Solar System for Your Home (3kW vs 5kW vs 10kW) | Fuji Solar",
+
+    metaDescription:
+      "Confused between a 3kW, 5kW, or 10kW solar system? Learn how to choose the right rooftop solar system based on your electricity usage, home size, and energy needs with Fuji Solar.",
+
+    title:
+      "How to Choose the Right Solar System for Your Home (3kW vs 5kW vs 10kW)",
+
+    url: "how-to-choose-the-right-solar-system",
+
+    summary:
+      "Learn how to choose the right 3kW, 5kW, or 10kW solar system for your home or business. Understand the factors that affect solar system cost, electricity savings, investment recovery, and why choosing the right system matters.",
+
+    image: "/images/how-to-choose-the-right-solar-system-3kw-5kw-10kw.webp",
+
+    alt: "how to choose the right solar system",
+
+    category: "Solar Energy",
+
+    date: "May 19, 2026",
+
+    fullContent: [
+      {
+        type: "paragraph",
+        text: (
+          <>
+            Choosing the right solar power system for your home is one of the
+            most important decisions when switching to renewable energy. While
+            many people search for the{" "}
+            <Link href="/solar-products" className="font-bold text-blue-500">
+              solar system cost in India
+            </Link>
+            , the ideal system is not determined by price alone. Your
+            electricity consumption, roof space, and future energy needs all
+            play a major role.
+          </>
+        ),
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            Whether you're considering a<strong> 3kW solar system</strong>,
+            <strong> 5kW solar system</strong>, or
+            <strong> 10kW rooftop solar system</strong>, this guide will help
+            you understand which option best suits your home or business while
+            maximizing long-term savings.
+          </>
+        ),
+      },
+
+      {
+        type: "heading",
+        level: 2,
+        text: "What Determines the Right Solar System?",
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            Before selecting a solar system, it's important to understand the
+            factors that influence your requirements. Every home and business
+            has different energy needs, so choosing the right capacity ensures
+            better performance and maximum return on investment.
+          </>
+        ),
+      },
+
+      {
+        type: "list",
+        items: [
+          "Monthly electricity consumption",
+          "Available rooftop space",
+          "Number of electrical appliances",
+          "Air conditioner usage",
+          "Future electricity requirements",
+          "Government subsidy eligibility",
+          "Net metering availability",
+        ],
+      },
+
+      {
+        type: "heading",
+        level: 2,
+        text: "Is a 3kW Solar System Right for You?",
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            A <strong>3kW solar system</strong> is ideal for apartments and
+            smaller homes with moderate electricity usage. It can efficiently
+            power everyday household appliances such as lights, fans,
+            televisions, refrigerators, and other essential devices.
+          </>
+        ),
+      },
+
+      {
+        type: "list",
+        items: [
+          "Small families",
+          "Apartments",
+          "Lower monthly electricity usage",
+          "Excellent entry-level rooftop solar solution",
+        ],
+      },
+
+      {
+        type: "heading",
+        level: 2,
+        text: "Who Should Choose a 5kW Solar System?",
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            The <strong>5kW solar system</strong> is one of the most popular
+            choices for independent homes. It offers enough power for families
+            using multiple appliances, including air conditioners, washing
+            machines, and water heaters.
+          </>
+        ),
+      },
+
+      {
+        type: "list",
+        items: [
+          "Independent houses",
+          "Medium-sized families",
+          "Homes with one or more air conditioners",
+          "Higher daily electricity usage",
+        ],
+      },
+
+      {
+        type: "heading",
+        level: 2,
+        text: "When Should You Consider a 10kW Solar System?",
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            A <strong>10kW solar system</strong> is designed for larger homes,
+            villas, offices, schools, commercial buildings, and businesses with
+            significant electricity consumption.
+          </>
+        ),
+      },
+
+      {
+        type: "list",
+        items: [
+          "Large villas",
+          "Commercial buildings",
+          "Schools",
+          "Factories",
+          "Office spaces",
+        ],
+      },
+
+      {
+        type: "image",
+        path: "/images/solar-investment-energy-savings-homeowners.webp",
+        alt: "3kw vs 5kw vs 10kw solar system",
+      },
+
+      {
+        type: "heading",
+        level: 2,
+        text: "How Much Can You Save with Solar?",
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            One of the biggest reasons homeowners invest in
+            <strong> rooftop solar systems</strong> is to reduce electricity
+            bills. The exact savings depend on your electricity usage and system
+            capacity, but most homeowners experience a significant reduction in
+            monthly power expenses after installation.
+          </>
+        ),
+      },
+
+      {
+        type: "table",
+        headers: ["Solar System", "Potential Electricity Bill Reduction"],
+        rows: [
+          ["3kW", "Up to 70%*"],
+          ["5kW", "Up to 90%*"],
+          ["10kW", "Up to 95%*"],
+        ],
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            *Actual savings depend on your electricity consumption, sunlight
+            availability, system design, and local electricity tariffs.
+          </>
+        ),
+      },
+
+      {
+        type: "heading",
+        level: 2,
+        text: "Recover Your Investment Faster",
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            Installing a rooftop solar system is not just about reducing monthly
+            electricity bills—it's a long-term investment. Many homeowners and
+            businesses recover their investment within
+            <strong> 2 to 3 years</strong>, depending on electricity usage,
+            system capacity, applicable government incentives, and local tariff
+            rates.
+          </>
+        ),
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            Once the investment is recovered, the electricity generated by your
+            solar system continues to provide savings for many more years,
+            making solar one of the smartest financial decisions for any
+            property owner.
+          </>
+        ),
+      },
+
+      {
+        type: "heading",
+        level: 2,
+        text: "Signs You May Need a Larger Solar System",
+      },
+
+      {
+        type: "list",
+        items: [
+          "Your monthly EB bill keeps increasing",
+          "You own multiple air conditioners",
+          "You charge an electric vehicle",
+          "You run a home office or business",
+          "Your family size is growing",
+        ],
+      },
+
+      {
+        type: "heading",
+        level: 2,
+        text: "Why Choose Fuji Solar?",
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            Fuji Solar provides complete
+            <strong> solar panel installation</strong> services for residential,
+            commercial, and industrial customers. Our experts assess your energy
+            requirements, recommend the right system capacity, and ensure a
+            professional installation that delivers long-term performance and
+            savings.
+          </>
+        ),
+      },
+
+      {
+        type: "table",
+        headers: ["Our Services", "Benefits"],
+        rows: [
+          ["Site Survey", "Accurate system planning"],
+          ["Customized Design", "Maximum energy generation"],
+          ["Premium Solar Panels", "Higher efficiency"],
+          ["Professional Installation", "Reliable performance"],
+          ["After-Sales Support", "Long-term peace of mind"],
+        ],
+      },
+
+      {
+        type: "faq",
+        content: [
+          {
+            question: "Which solar system is best for my home?",
+            answer:
+              "The right solar system depends on your monthly electricity consumption, available roof space, and future energy needs. A professional site assessment helps determine the ideal capacity.",
+          },
+          {
+            question: "Is a 3kW solar system enough for a home?",
+            answer:
+              "A 3kW system is generally suitable for smaller homes or apartments with moderate electricity usage.",
+          },
+          {
+            question: "Can I upgrade my solar system later?",
+            answer:
+              "Yes. Many rooftop solar systems can be expanded later if your electricity requirements increase.",
+          },
+          {
+            question: "How long does it take to recover the investment?",
+            answer:
+              "Many customers recover their investment within 2–3 years, depending on electricity usage, system size, local tariffs, and applicable government incentives. Actual results vary.",
+          },
+          {
+            question: "How long do solar panels last?",
+            answer:
+              "High-quality solar panels generally have a lifespan of 25 years or more with proper maintenance.",
+          },
+        ],
+      },
+
+      {
+        type: "heading",
+        level: 2,
+        text: "Conclusion",
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            Selecting the right rooftop solar system is about more than choosing
+            a capacity—it's about finding a solution that matches your
+            lifestyle, electricity consumption, and long-term goals. Whether a
+            3kW, 5kW, or 10kW system is right for you, making an informed
+            decision today can lead to decades of energy savings.
+          </>
+        ),
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            If you're looking for a trusted
+            <strong> solar company in Chennai</strong>, Fuji Solar is ready to
+            help you choose the ideal solar solution for your home or business.
+            Contact our experts today for a personalized consultation and start
+            your journey toward cleaner, smarter, and more affordable energy.
           </>
         ),
       },
