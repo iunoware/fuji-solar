@@ -532,7 +532,7 @@ export default function Footer() {
 
           {/* Bottom Bar */}
           <div className="py-8 border-t border-gray-50 flex flex-col md:flex-row justify-between items-center gap-4 text-[13px] text-black font-medium">
-            <div className="flex items-center gap-6">
+            <div className="flex flex-col sm:flex-row items-center gap-4 sm:gap-6 text-center sm:text-left">
               <span>
                 © {currentYear}{" "}
                 <a
@@ -544,12 +544,14 @@ export default function Footer() {
                 </a>{" "}
                 All rights reserved.
               </span>
-              {/* <Link href="#" className="hover:text-gray-900 transition-colors">
-              Privacy Policy
-            </Link>
-            <Link href="#" className="hover:text-gray-900 transition-colors">
-              Terms
-            </Link> */}
+              <div className="flex items-center gap-6">
+                <Link href="/privacy-policy" className="hover:text-brand-red transition-colors">
+                  Privacy Policy
+                </Link>
+                <Link href="/terms-of-services" className="hover:text-brand-red transition-colors">
+                  Terms of Services
+                </Link>
+              </div>
             </div>
             <div className="flex items-center gap-2">
               <span>Engineering a sustainable future</span>
