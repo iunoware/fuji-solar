@@ -544,12 +544,15 @@ export default function Footer() {
                 </a>{" "}
                 All rights reserved.
               </span>
-              <div className="flex items-center gap-6">
+              <div className="flex flex-wrap items-center gap-x-6 gap-y-2 justify-center sm:justify-start">
                 <Link href="/privacy-policy" className="hover:text-brand-red transition-colors">
                   Privacy Policy
                 </Link>
-                <Link href="/terms-of-services" className="hover:text-brand-red transition-colors">
-                  Terms of Services
+                <Link href="/terms-of-service" className="hover:text-brand-red transition-colors">
+                  Terms of Service
+                </Link>
+                <Link href="/data-deletion" className="hover:text-brand-red transition-colors">
+                  Data Deletion
                 </Link>
               </div>
             </div>
