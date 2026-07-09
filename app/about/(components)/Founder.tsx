@@ -13,7 +13,7 @@ const leaders = [
   },
   {
     name: "Immanuel Devavaram",
-    role: "Director - Corporate Strategy & Marketing",
+    role: "Director - Business Strategy & Marketing",
     heading: "Leading Fuji Solar Forward",
     description:
       "As Director of Corporate Strategy & Marketing, Immanuel drives Fuji Solar's next chapter through strategic growth, customer-first innovation, and a forward-thinking approach to renewable energy.",

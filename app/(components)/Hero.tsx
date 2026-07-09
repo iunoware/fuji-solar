@@ -68,7 +68,8 @@ export default function RenewableEnergyHero() {
   return (
     <div
       ref={containerRef}
-      className="relative bg-[#d3efff] w-full flex items-center justify-center min-h-screen overflow-hidden"
+      // bg-[#d3efff]
+      className="relative bg-white w-full flex items-center justify-center min-h-screen overflow-hidden"
     >
       {/* Background Video */}
       <div

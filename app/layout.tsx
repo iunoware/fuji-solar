@@ -3,6 +3,7 @@ import { Geist, Geist_Mono, Montserrat, Libre_Baskerville } from "next/font/goog
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import FloatingSolarCalculator from "@/components/global/FloatingSolarCalculator";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -57,6 +58,7 @@ export default function RootLayout({
         <Navbar />
         {children}
         <Footer />
+        <FloatingSolarCalculator />
       </body>
     </html>
   );
