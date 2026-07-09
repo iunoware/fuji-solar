@@ -31,7 +31,7 @@ const steps = [
       "Structural integrity verification",
       "Electrical system compatibility check",
     ],
-    image: "/images/best-solar-company-in-coimbatore.webp",
+    image: "/images/best-solar-company-in-coimbatore.png",
   },
   {
     number: "03",
@@ -68,7 +68,7 @@ const steps = [
       "Expert panel & inverter integration",
       "Safe and concealed electrical wiring",
     ],
-    image: "/images/solar-power-solutions-madurai.webp",
+    image: "/images/solar-power-solutions-madurai.png",
   },
   {
     number: "06",
@@ -80,7 +80,7 @@ const steps = [
       "Remote monitoring using a mobile app",
       "Grid-sync & final power-up",
     ],
-    image: "/images/solar-system-price-tirchy.webp",
+    image: "/images/solar-system-price-tirchy.png",
   },
 ];
 
@@ -121,7 +121,11 @@ export const Process = () => {
           },
         });
 
-        tl.fromTo(node, { scale: 0, opacity: 0 }, { scale: 1, opacity: 1, duration: 0.5 })
+        tl.fromTo(
+          node,
+          { scale: 0, opacity: 0 },
+          { scale: 1, opacity: 1, duration: 0.5 },
+        )
           .fromTo(
             textCol,
             { x: index % 2 === 0 ? -50 : 50, opacity: 0 },
@@ -151,11 +155,12 @@ export const Process = () => {
             The Roadmap
           </span>
           <h2 className="text-4xl md:text-6xl font-bold text-gray-900 mb-8 tracking-tight">
-            Seamlessly Powered by <span className="text-brand-red">Expertise</span>
+            Seamlessly Powered by{" "}
+            <span className="text-brand-red">Expertise</span>
           </h2>
           <p className="text-gray-500 max-w-2xl mx-auto text-lg lg:text-xl font-light">
-            From the first handshake to the final switch-on, we manage every detail of
-            your transition to clean energy.
+            From the first handshake to the final switch-on, we manage every
+            detail of your transition to clean energy.
           </p>
         </div>
 
@@ -181,7 +186,9 @@ export const Process = () => {
               >
                 {/* Center Node (Desktop) */}
                 <div className="timeline-node hidden lg:flex absolute left-1/2 -translate-x-1/2 w-12 h-12 rounded-full bg-white border-2 border-brand-red z-10 items-center justify-center shadow-xl shadow-brand-red/10">
-                  <span className="text-brand-red font-bold text-sm">{step.number}</span>
+                  <span className="text-brand-red font-bold text-sm">
+                    {step.number}
+                  </span>
                 </div>
 
                 {/* Text Content Column */}
@@ -200,7 +207,10 @@ export const Process = () => {
 
                   <ul className="space-y-4 pt-2">
                     {step.points.map((point, i) => (
-                      <li key={i} className="flex items-center gap-3 text-gray-700 group">
+                      <li
+                        key={i}
+                        className="flex items-center gap-3 text-gray-700 group"
+                      >
                         <div className="w-1.5 h-1.5 rounded-full bg-brand-red group-hover:scale-150 transition-transform" />
                         <span className="text-sm md:text-base">{point}</span>
                       </li>

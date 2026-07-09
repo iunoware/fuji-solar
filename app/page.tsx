@@ -14,10 +14,10 @@ export default function Home() {
   return (
     <div className="overflow-x-clip bg-background ">
       <Hero />
+      <Mnre />
       <SolarPanel />
       <WhatWeOffer />
       <WhySolar />
-      <Mnre />
       <SolarCalculator />
       <WhyUs />
       <SolarSubsidy />
