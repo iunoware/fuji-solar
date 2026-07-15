@@ -39,6 +39,12 @@ interface SolutionItem {
 
 const solutions: SolutionItem[] = [
   {
+    title: "All Solar Solutions",
+    href: "/solar-products/",
+    description: "Explore all our solar solutions.",
+    iconName: "sun",
+  },
+  {
     title: "On-Grid Solar System",
     href: "/solar-products/on-grid-systems/",
     description: "Maximum savings with utility grid connection.",
@@ -87,7 +93,7 @@ const iconMap = {
 
 function SolutionsDropdown({
   isActive,
-  isScrolled,
+  // isScrolled,
 }: {
   isActive: boolean;
   isScrolled: boolean;
@@ -152,23 +158,20 @@ function SolutionsDropdown({
       onBlur={handleBlur}
       className="relative py-2 flex items-center"
     >
-      <button
+      <Link
+        href="/solar-products/"
         ref={triggerRef}
-        onKeyDown={handleTriggerKeyDown}
-        aria-expanded={isOpen}
-        aria-haspopup="true"
-        id="solutions-menu-trigger"
-        className={`flex items-center gap-1 text-md font-medium cursor-pointer transition-colors duration-300 focus:outline-none focus:ring-2 focus:ring-brand-red/30 rounded px-1.5 py-0.5 ${
+        className={`flex items-center gap-1 text-md font-medium transition-colors duration-300 ${
           isActive ? "text-brand-red" : "text-gray-950 hover:text-brand-red"
         }`}
       >
         <span>Solutions</span>
         <ChevronDown
-          className={`w-4 h-4 transition-transform duration-200 shrink-0 ${
+          className={`w-4 h-4 transition-transform duration-200 ${
             isOpen ? "rotate-180" : ""
           }`}
         />
-      </button>
+      </Link>
 
       {/* Dropdown Menu Overlay with Hover Bridge */}
       <div
@@ -189,10 +192,10 @@ function SolutionsDropdown({
                 key={item.title}
                 href={item.href}
                 role="menuitem"
-                className="group flex items-start gap-3.5 p-2.5 rounded-xl hover:bg-red-50/40 transition-all duration-200 focus:outline-none focus:bg-red-50/40"
+                className="group flex items-center gap-3.5 p-2.5 rounded-xl hover:bg-red-50/40 transition-all duration-200 focus:outline-none focus:bg-red-50/40"
                 onClick={() => setIsOpen(false)}
               >
-                <div className="p-2 rounded-lg bg-red-50 text-brand-red group-hover:bg-brand-red group-hover:!text-white transition-colors duration-200 shrink-0">
+                <div className="p-2 rounded-lg bg-red-50 text-brand-red group-hover:bg-brand-red group-hover:text-white! transition-colors duration-200 shrink-0">
                   {iconMap[item.iconName]}
                 </div>
                 <div className="min-w-0 flex-1">
@@ -361,7 +364,9 @@ export default function Navbar() {
                         setIsMobileSolutionsOpen(false);
                       }}
                     >
-                      <span className="shrink-0 text-brand-red">{iconMap[sub.iconName]}</span>
+                      <span className="shrink-0 text-brand-red">
+                        {iconMap[sub.iconName]}
+                      </span>
                       <span>{sub.title}</span>
                     </Link>
                   ))}
