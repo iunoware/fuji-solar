@@ -29,7 +29,7 @@ export default function DataDeletion() {
             </p>
 
             <p>
-              <strong>Phone:</strong> +91 90877 18185
+              <strong>Whatsapp:</strong> +91 90877 18185
             </p>
 
             <p>
@@ -105,17 +105,19 @@ export default function DataDeletion() {
             </p>
 
             <p>
-              <strong>Email:</strong> fujihitechsolar@gmail.com
+              <strong>Email:</strong> info@fujisolar.in
             </p>
 
             <p>
-              <strong>Phone:</strong> +91 90877 18185
+              <strong>Whatsapp:</strong> +91 90877 18185
             </p>
 
             <p className="mt-3">
               <strong>Address:</strong>
               <br />
-              47, Bharathiyar 7th Street,
+              <h3 className="font-semibold">FUJI HI-TECH ECO LAB,</h3>
+              {/* <br /> */}
+              47 Bharathiyar 7th Street,
               <br />
               Meenakshi Nagar,
               <br />
