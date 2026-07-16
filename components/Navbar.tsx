@@ -100,7 +100,7 @@ function SolutionsDropdown({
 }) {
   const [isOpen, setIsOpen] = useState(false);
   const containerRef = useRef<HTMLDivElement>(null);
-  const triggerRef = useRef<HTMLButtonElement>(null);
+  const triggerRef = useRef<HTMLAnchorElement>(null);
 
   // Close when focus leaves the container
   const handleBlur = (e: React.FocusEvent) => {
@@ -136,19 +136,19 @@ function SolutionsDropdown({
     }
   };
 
-  const handleTriggerKeyDown = (e: React.KeyboardEvent) => {
-    if (e.key === "ArrowDown" || e.key === "Enter" || e.key === " ") {
-      e.preventDefault();
-      setIsOpen(true);
-      setTimeout(() => {
-        const firstItem =
-          containerRef.current?.querySelector<HTMLAnchorElement>(
-            '[role="menuitem"]',
-          );
-        firstItem?.focus();
-      }, 50);
-    }
-  };
+  // const handleTriggerKeyDown = (e: React.KeyboardEvent) => {
+  //   if (e.key === "ArrowDown" || e.key === "Enter" || e.key === " ") {
+  //     e.preventDefault();
+  //     setIsOpen(true);
+  //     setTimeout(() => {
+  //       const firstItem =
+  //         containerRef.current?.querySelector<HTMLAnchorElement>(
+  //           '[role="menuitem"]',
+  //         );
+  //       firstItem?.focus();
+  //     }, 50);
+  //   }
+  // };
 
   return (
     <div
