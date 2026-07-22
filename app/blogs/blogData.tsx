@@ -1851,9 +1851,11 @@ const blogData = [
         type: "paragraph",
         text: (
           <>
-            A professional roof assessment ensures your
-            <strong> solar power system for home</strong> performs efficiently
-            for decades. Whether you're planning a new
+            A professional roof assessment ensures your{" "}
+            <Link href="/solar-products" className="font-bold text-blue-500">
+              solar power system for home
+            </Link>{" "}
+            performs efficiently for decades. Whether you're planning a new
             <strong> residential solar installation</strong> or replacing an old
             electricity source, understanding your roof's suitability can help
             you avoid costly modifications later while maximizing your return on
