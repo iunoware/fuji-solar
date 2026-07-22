@@ -1469,7 +1469,7 @@ const blogData = [
   },
   // 5
   {
-    id: 6,
+    id: 5,
 
     metaTitle:
       "Can Solar Panels Power Your Entire Home? Here's What You Need to Know | Fuji Solar",
@@ -1798,6 +1798,418 @@ const blogData = [
             requirements. Our team is committed to delivering reliable,
             efficient, and sustainable solar solutions that help homeowners
             enjoy cleaner energy and long-term savings.
+          </>
+        ),
+      },
+    ],
+  },
+  // 6
+  {
+    id: 6,
+
+    metaTitle:
+      "Is Your Roof Suitable for Solar Panels? 7 Things You Should Check Before Installation",
+
+    metaDescription:
+      "Wondering if your roof is suitable for solar panels? Learn the 7 essential factors to check before rooftop solar installation and discover how to prepare your home for clean energy.",
+
+    title:
+      "Is Your Roof Suitable for Solar Panels? 7 Things You Should Check Before Installation",
+
+    url: "is-your-roof-suitable-for-solar-panels",
+
+    summary:
+      "Not every roof is the same, but most homes can support a rooftop solar system with the right planning. Learn the seven important factors that determine whether your roof is suitable for solar panels and how a professional site survey helps ensure maximum performance and long-term savings.",
+
+    image: "/images/is-your-roof-suitable-for-solar-panels.webp",
+
+    alt: "Professional inspecting a residential roof before solar panel installation",
+
+    category: "Solar Energy",
+
+    date: "July 21, 2026",
+
+    fullContent: [
+      {
+        type: "paragraph",
+        text: (
+          <>
+            Installing solar panels is one of the smartest investments a
+            homeowner can make, but before choosing a system, there's one
+            important question to answer:
+            <strong> Is your roof suitable for solar panels?</strong> While
+            modern
+            <strong> rooftop solar installation</strong> is possible on many
+            residential buildings, factors such as roof condition, orientation,
+            available space, and shading play a major role in determining how
+            much electricity your system can generate.
+          </>
+        ),
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            A professional roof assessment ensures your
+            <strong> solar power system for home</strong> performs efficiently
+            for decades. Whether you're planning a new
+            <strong> residential solar installation</strong> or replacing an old
+            electricity source, understanding your roof's suitability can help
+            you avoid costly modifications later while maximizing your return on
+            investment.
+          </>
+        ),
+      },
+
+      {
+        type: "heading",
+        level: 2,
+        text: "Why Roof Assessment Is Important Before Solar Installation",
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            Every house is unique, and no two rooftops receive sunlight in
+            exactly the same way. Before beginning a
+            <strong> solar panel installation</strong>, professionals evaluate
+            the roof's structure, available sunlight, load-bearing capacity, and
+            overall condition. This assessment helps determine the ideal panel
+            layout and the best system size for your home.
+          </>
+        ),
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            A proper inspection also identifies potential issues such as cracked
+            roofing materials, excessive shading from nearby trees, or limited
+            installation space. Addressing these concerns before installation
+            ensures your <strong>solar panels for roof</strong> deliver reliable
+            performance and long-term energy savings.
+          </>
+        ),
+      },
+
+      {
+        type: "image",
+        path: "/images/roof-inspection-before-solar-panel-installation.webp",
+        alt: "Engineer inspecting a residential rooftop before solar installation",
+      },
+
+      {
+        type: "heading",
+        level: 2,
+        text: "7 Things You Should Check Before Installing Solar Panels",
+      },
+
+      {
+        type: "heading",
+        level: 3,
+        text: "1. Roof Direction",
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            The direction your roof faces has a significant impact on solar
+            energy production. In India, south-facing roofs generally receive
+            the highest amount of sunlight throughout the day, making them ideal
+            for a<strong> rooftop solar system</strong>. East- and west-facing
+            roofs also perform well with proper system design, while
+            north-facing roofs may generate comparatively less energy.
+          </>
+        ),
+      },
+
+      {
+        type: "heading",
+        level: 3,
+        text: "2. Roof Tilt Angle",
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            Roof angle influences how efficiently solar panels capture sunlight.
+            Although installers can adjust panel mounting systems, a roof with a
+            suitable tilt often delivers better performance and reduces
+            installation complexity. During a site survey, experts calculate the
+            best angle to maximise yearly electricity generation.
+          </>
+        ),
+      },
+
+      {
+        type: "heading",
+        level: 3,
+        text: "3. Roof Condition and Age",
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            One of the most overlooked aspects of
+            <strong> roof condition for solar panels</strong> is the age of the
+            roof itself. Since quality solar panels typically last 25 years or
+            more, it's advisable to repair or replace damaged roofing before
+            installation. A strong and durable roof protects both your home and
+            your solar investment for years to come.
+          </>
+        ),
+      },
+
+      {
+        type: "heading",
+        level: 3,
+        text: "4. Available Roof Space",
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            A common question homeowners ask is,
+            <strong> "How much roof space is needed for solar panels?"</strong>
+            The answer depends on your monthly electricity consumption and the
+            capacity of the system you choose. Larger homes with higher energy
+            usage naturally require more panel area, but efficient modern panels
+            can generate significant power even on moderately sized rooftops.
+          </>
+        ),
+      },
+
+      {
+        type: "table",
+        headers: ["Roof Factor", "Ideal Condition", "Why It Matters"],
+        rows: [
+          [
+            "Direction",
+            "South, East or West",
+            "Receives better sunlight throughout the day",
+          ],
+          [
+            "Roof Condition",
+            "Strong and damage-free",
+            "Supports long-term panel installation",
+          ],
+          [
+            "Roof Space",
+            "Sufficient open area",
+            "Allows installation of the required system size",
+          ],
+          ["Shading", "Minimal or none", "Improves electricity generation"],
+        ],
+      },
+
+      {
+        type: "heading",
+        level: 3,
+        text: "5. Shading Around Your Roof",
+      },
+      {
+        type: "paragraph",
+        text: (
+          <>
+            Even a high-quality <strong>solar power system for home</strong> can
+            lose efficiency if nearby trees, buildings, water tanks, or other
+            structures cast shadows on the panels. Before a
+            <strong> rooftop solar installation</strong>, professionals perform
+            a shading analysis to identify obstacles that may reduce energy
+            production. A shadow-free rooftop helps your system generate maximum
+            electricity throughout the year.
+          </>
+        ),
+      },
+
+      {
+        type: "heading",
+        level: 3,
+        text: "6. Roof Strength and Load Capacity",
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            Many homeowners ask,
+            <strong> "Can my roof support solar panels?"</strong> In most cases,
+            yes. Modern solar panels and mounting structures are designed to
+            distribute weight safely across the roof. During a professional site
+            survey, engineers evaluate your roof's structural integrity to
+            ensure it can comfortably support the system for decades.
+          </>
+        ),
+      },
+
+      {
+        type: "heading",
+        level: 3,
+        text: "7. Future Expansion Plans",
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            Think about your future electricity needs before installing a solar
+            system. If you plan to purchase an electric vehicle, install more
+            air conditioners, or expand your home, your energy consumption will
+            increase. Planning ahead allows your
+            <strong> residential solar installation</strong> to be designed with
+            future upgrades in mind, reducing additional installation costs
+            later.
+          </>
+        ),
+      },
+
+      {
+        type: "heading",
+        level: 2,
+        text: "Can Solar Panels Be Installed on Any Roof?",
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            The good news is that most homes are suitable for
+            <strong> solar panels for roof</strong>. Concrete terraces, tiled
+            roofs, metal sheet roofs, and many other roofing materials can
+            support solar systems when the appropriate mounting structure is
+            used. Although every property is different, a professional
+            assessment helps determine the safest and most efficient
+            installation method.
+          </>
+        ),
+      },
+
+      {
+        type: "heading",
+        level: 2,
+        text: "Why Choose a Professional Solar Installation Company?",
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            Choosing an experienced
+            <strong> solar installation company</strong> is just as important as
+            selecting quality solar panels. Professional installers evaluate
+            your roof, calculate your energy requirements, recommend the ideal
+            system size, and ensure every component meets safety standards. This
+            reduces installation risks while improving long-term performance.
+          </>
+        ),
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            At Fuji Solar, every project begins with a
+            <strong> free solar site survey</strong>. Our experts inspect your
+            rooftop, analyse sunlight availability, identify possible shading
+            issues, and recommend the most suitable
+            <strong> rooftop solar system</strong> based on your electricity
+            usage. This personalised approach ensures every customer receives a
+            reliable and efficient solar solution.
+          </>
+        ),
+      },
+
+      {
+        type: "heading",
+        level: 2,
+        text: "Why Choose Fuji Solar?",
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            Fuji Solar delivers complete
+            <strong> professional solar installation</strong> services for
+            homes, apartments, commercial buildings, and industries. From site
+            surveys and system design to installation and after-sales support,
+            our team focuses on delivering high-quality
+            <strong> renewable energy solutions</strong> that help customers
+            save on electricity bills while investing in a cleaner future.
+          </>
+        ),
+      },
+
+      {
+        type: "faq",
+        content: [
+          {
+            question: "Is my roof suitable for solar panels?",
+            answer:
+              "Most residential roofs can support solar panels. A professional site survey evaluates roof condition, available space, sunlight exposure, and structural strength before installation.",
+          },
+          {
+            question: "Can solar panels be installed on tiled roofs?",
+            answer:
+              "Yes. Solar panels can be installed on tiled, concrete, and metal roofs using specially designed mounting structures.",
+          },
+          {
+            question: "How much roof space is needed for solar panels?",
+            answer:
+              "The required roof space depends on your electricity consumption and the size of the solar system. A professional assessment provides the most accurate recommendation.",
+          },
+          {
+            question: "Do nearby trees affect solar panel performance?",
+            answer:
+              "Yes. Shadows from trees or nearby buildings can reduce electricity generation, which is why shading analysis is an important part of every site survey.",
+          },
+          {
+            question:
+              "Why should I choose a professional solar installation company?",
+            answer:
+              "Professional installers ensure your roof is suitable, design the correct system, follow safety standards, and maximise your solar system's long-term efficiency.",
+          },
+        ],
+      },
+
+      {
+        type: "heading",
+        level: 2,
+        text: "Conclusion",
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            Determining whether your
+            <strong> roof is suitable for solar panels</strong> is the first
+            step towards a successful solar installation. By evaluating factors
+            such as roof direction, available space, structural strength,
+            shading, and future energy requirements, you can ensure your
+            investment delivers reliable performance for many years.
+          </>
+        ),
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            If you're planning a<strong> home solar installation</strong>, Fuji
+            Solar is here to help. Our experienced team provides detailed roof
+            assessments, customised system recommendations, and professional
+            installation services to help you make the most of clean, renewable
+            energy. Contact us today to schedule your{" "}
+            <strong>free solar site survey</strong> and take the first step
+            towards energy independence.
           </>
         ),
       },
