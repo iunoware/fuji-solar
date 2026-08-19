@@ -75,7 +75,7 @@ export default function BlogList() {
       {/* Blog Grid Section */}
       <section className="w-full pt-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-24">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-10">
-          {blogData.map((post) => (
+          {[...blogData].reverse().map((post) => (
             <div
               key={post.id}
               className="flex flex-col bg-white rounded-xl overflow-hidden h-full transition-transform hover:scale-103 duration-300"
@@ -88,7 +88,7 @@ export default function BlogList() {
                 <Image
                   src={post.image}
                   fill
-                  alt="Software company in Madurai"
+                  alt={post.alt || post.title}
                   className="h-full w-full rounded-xl object-cover object-center"
                 />
               </div>
