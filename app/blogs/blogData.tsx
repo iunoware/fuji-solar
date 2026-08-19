@@ -2219,7 +2219,7 @@ const blogData = [
   },
   // 7
   {
-    id: 8,
+    id: 7,
 
     metaTitle:
       "Do Solar Panels Work During Rainy Season? Myths vs Facts Explained | Fuji Solar",
@@ -2594,6 +2594,437 @@ const blogData = [
             high-quality installation, and dependable support to ensure your
             solar investment delivers clean energy and long-term savings in
             every season.
+          </>
+        ),
+      },
+    ],
+  },
+  // 8
+  {
+    id: 8,
+
+    metaTitle:
+      "What Happens to Solar Panels During a Power Cut? On-Grid vs Hybrid Explained | Fuji Solar",
+
+    metaDescription:
+      "What happens to solar panels during a power cut? Learn how on-grid and hybrid solar systems behave during power outages and how solar battery backup keeps your home powered.",
+
+    title:
+      "What Happens to Solar Panels During a Power Cut? On-Grid vs Hybrid Explained",
+
+    url: "solar-panels-during-power-cut",
+
+    summary:
+      "Learn what happens to solar panels when the electricity grid goes down, why standard on-grid systems shut off during outages, and how hybrid solar systems with battery backup can keep essential appliances running.",
+
+    image: "/images/solar-panels-during-power-cut.png",
+
+    alt: "Solar panels providing backup power during a home power cut",
+
+    category: "Solar Energy",
+
+    date: "August 5, 2026",
+
+    fullContent: [
+      {
+        type: "paragraph",
+        text: (
+          <>
+            A power cut can interrupt everything from household appliances and
+            internet connections to work and essential equipment. This often
+            raises an important question for homeowners:
+            <strong> what happens to solar panels during a power cut?</strong>
+          </>
+        ),
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            The answer depends on the type of solar system installed. A standard
+            <Link
+              href={"/solar-products/on-grid-systems/"}
+              className="font-bold text-blue-500"
+            >
+              {" "}
+              on-grid solar system
+            </Link>{" "}
+            works differently from a<strong> hybrid solar system</strong> with
+            battery storage. Knowing this difference is important when choosing
+            a<strong> solar power system for home</strong>, especially if your
+            area experiences frequent power outages.
+          </>
+        ),
+      },
+
+      {
+        type: "heading",
+        level: 2,
+        text: "What Happens to Solar Panels During a Power Cut?",
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            Solar panels can continue receiving sunlight during a power cut, but
+            that does not necessarily mean your home will continue receiving
+            electricity. The behaviour of your system depends mainly on the
+            inverter and whether battery storage is included.
+          </>
+        ),
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            With a standard grid-connected setup, the solar inverter is designed
+            to disconnect from the electricity grid when it detects an outage.
+            This prevents electricity from being sent into the grid while
+            utility workers may be repairing the power network.
+          </>
+        ),
+      },
+
+      {
+        type: "heading",
+        level: 2,
+        text: "Does an On-Grid Solar System Work During a Power Cut?",
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            Normally, no. An{" "}
+            <strong>on-grid solar system during power cut</strong>
+            conditions will automatically shut down its grid connection. This
+            means your home will not receive electricity from the solar panels
+            while the utility grid is unavailable.
+          </>
+        ),
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            This safety feature is known as anti-islanding protection. It is
+            designed to protect utility workers and the electrical network
+            during maintenance or unexpected outages.
+          </>
+        ),
+      },
+
+      {
+        type: "table",
+        headers: ["System Type", "During Power Cut", "Battery Backup"],
+        rows: [
+          ["On-Grid Solar", "Normally shuts down", "No"],
+          ["Off-Grid Solar", "Continues supplying power", "Yes"],
+          ["Hybrid Solar", "Can supply backup power", "Yes"],
+        ],
+      },
+
+      {
+        type: "heading",
+        level: 2,
+        text: "Why Doesn't an On-Grid System Provide Backup Power?",
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            An on-grid system is primarily designed to reduce electricity
+            consumption and work alongside the utility grid. It usually does not
+            include a battery for storing electricity.
+          </>
+        ),
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            During normal operation, your solar panels generate electricity
+            during daylight hours and your home uses that energy. Depending on
+            the configuration and applicable regulations, surplus electricity
+            may be exported to the grid through net metering. When the grid
+            fails, the inverter disconnects for safety.
+          </>
+        ),
+      },
+
+      {
+        type: "image",
+        path: "/images/on-grid-solar-power-cut.png",
+        alt: "On-grid solar system during a power outage",
+      },
+
+      {
+        type: "heading",
+        level: 2,
+        text: "How Does Solar Battery Backup Work?",
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            A <strong>solar battery backup</strong> stores excess energy
+            produced by your solar panels. When the electricity grid becomes
+            unavailable, a compatible system can use the stored energy to supply
+            selected circuits or appliances in your home.
+          </>
+        ),
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            This allows homeowners to maintain power for essential equipment
+            such as lights, fans, Wi-Fi routers, refrigerators, security
+            systems, and other selected appliances, depending on the battery
+            capacity and system design.
+          </>
+        ),
+      },
+
+      {
+        type: "heading",
+        level: 2,
+        text: "What Is a Hybrid Solar System?",
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            A <strong>hybrid solar system</strong> combines solar panels, the
+            electricity grid, and battery storage. During normal conditions, the
+            system can use solar energy, store excess electricity, and draw
+            power from the grid when required.
+          </>
+        ),
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            During a power outage, a properly configured hybrid system can
+            switch to battery backup and continue supplying power to connected
+            loads. This makes hybrid systems a practical option for homeowners
+            who want both electricity savings and backup power.
+          </>
+        ),
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Can Solar Panels Provide Power Without Grid Electricity?",
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            Solar panels can generate electricity without the grid, but a
+            standard on-grid installation is not designed to operate
+            independently during an outage. To use solar energy when the grid is
+            unavailable, the system needs suitable battery storage and an
+            inverter designed for backup operation.
+          </>
+        ),
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            This is why choosing between an on-grid and hybrid system should be
+            based on more than electricity savings. If uninterrupted power is
+            important for your home, a system with appropriate
+            <strong> solar battery backup</strong> may be worth considering.
+          </>
+        ),
+      },
+
+      {
+        type: "heading",
+        level: 2,
+        text: "Which Appliances Can Solar Backup Run?",
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            The appliances that can operate during an outage depend on your
+            battery capacity, inverter rating, and system configuration. Instead
+            of trying to run every appliance at once, many homeowners use backup
+            power for essential loads.
+          </>
+        ),
+      },
+
+      {
+        type: "list",
+        items: [
+          "LED lights",
+          "Ceiling fans",
+          "Wi-Fi routers",
+          "Refrigerators",
+          "Televisions",
+          "Security systems",
+          "Computers and work equipment",
+        ],
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            High-power appliances such as air conditioners, electric water
+            heaters, and large pumps require a larger system and suitable
+            battery capacity. A professional assessment can determine which
+            appliances should be included in your backup circuit.
+          </>
+        ),
+      },
+
+      {
+        type: "heading",
+        level: 2,
+        text: "On-Grid vs Hybrid: Which Is Better for Power Cuts?",
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            If your primary goal is to reduce electricity bills and your area
+            has a reliable grid connection, an on-grid system can be a practical
+            choice. If power outages are common and keeping essential appliances
+            running is important, a hybrid system with battery storage offers
+            greater flexibility.
+          </>
+        ),
+      },
+
+      {
+        type: "table",
+        headers: ["Requirement", "On-Grid", "Hybrid"],
+        rows: [
+          ["Reduce Electricity Bills", "Yes", "Yes"],
+          ["Battery Backup", "No", "Yes"],
+          ["Backup During Power Cut", "No", "Yes"],
+          ["Net Metering", "Usually Available", "Depending on Configuration"],
+          ["Energy Independence", "Limited", "Higher"],
+        ],
+      },
+
+      {
+        type: "heading",
+        level: 2,
+        text: "Why Choose Fuji Solar?",
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            Choosing the right solar system requires more than selecting a panel
+            capacity. Fuji Solar evaluates your electricity consumption,
+            existing grid connection, roof conditions, backup requirements, and
+            future energy needs before recommending a solution.
+          </>
+        ),
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            Whether you need a standard rooftop installation or a
+            <strong> hybrid solar system with battery</strong>, our team
+            provides complete support from system design and installation to
+            testing and after-sales service. Our goal is to provide dependable
+            <strong> solar solutions for homes</strong> and businesses based on
+            actual energy requirements.
+          </>
+        ),
+      },
+
+      {
+        type: "faq",
+        content: [
+          {
+            question: "Do solar panels work during a power cut?",
+            answer:
+              "Solar panels can still receive sunlight during a power cut, but a standard on-grid system normally shuts down for safety. A suitable battery-based or hybrid system can provide backup power during an outage.",
+          },
+          {
+            question:
+              "Does an on-grid solar system work during a power failure?",
+            answer:
+              "Normally, no. An on-grid system disconnects from the utility grid during an outage to prevent electricity from being fed into the grid while maintenance work may be taking place.",
+          },
+          {
+            question:
+              "Can a hybrid solar system provide power during an outage?",
+            answer:
+              "Yes. A properly configured hybrid system can use stored battery energy to supply selected appliances when grid electricity is unavailable.",
+          },
+          {
+            question: "Do I need a battery for solar backup?",
+            answer:
+              "Yes, battery storage is generally required if you want to use stored solar energy during a grid outage. The required battery capacity depends on your backup loads and expected backup duration.",
+          },
+          {
+            question: "Can solar power an AC during a power cut?",
+            answer:
+              "It can be possible with a suitably sized hybrid system, inverter, and battery, but air conditioners require significantly more power than basic household loads. A professional system assessment is recommended.",
+          },
+        ],
+      },
+
+      {
+        type: "heading",
+        level: 2,
+        text: "Conclusion",
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            Understanding what happens to
+            <strong> solar panels during a power cut</strong> is important
+            before choosing a solar system. A standard on-grid installation is
+            mainly designed for electricity savings and normally shuts down when
+            the utility grid fails. A hybrid system with appropriate battery
+            storage, however, can provide backup power for selected appliances
+            during an outage.
+          </>
+        ),
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            If you are looking for a reliable
+            <strong> solar installation company</strong>, Fuji Solar can help
+            you choose a system based on your electricity usage, backup
+            requirements, and property. From
+            <strong> solar panel installation</strong> to battery-based backup
+            solutions, our team can help you build a more reliable and
+            energy-efficient home.
           </>
         ),
       },
