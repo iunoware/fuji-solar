@@ -3032,7 +3032,7 @@ const blogData = [
   },
   // 9
   {
-    id: 10,
+    id: 9,
 
     metaTitle:
       "Can Solar Panels Charge an Electric Vehicle? Complete Guide | Fuji Solar",
@@ -3066,7 +3066,10 @@ const blogData = [
             conversation:{" "}
             <strong>Can solar panels charge an electric vehicle?</strong> The
             answer is yes. A properly designed
-            <Link href={"/solar-products/on-grid-systems/"}>
+            <Link
+              href={"/solar-products/on-grid-systems/"}
+              className="font-bold text-blue-500"
+            >
               {" "}
               solar EV charging
             </Link>{" "}
@@ -3455,6 +3458,478 @@ const blogData = [
             way to make better use of renewable energy. Fuji Solar can help you
             assess your requirements and plan a reliable solar and EV charging
             solution for your property.
+          </>
+        ),
+      },
+    ],
+  },
+  // 10
+  {
+    id: 10,
+
+    metaTitle:
+      "How to Clean Solar Panels Properly: 7 Maintenance Tips | Fuji Solar",
+
+    metaDescription:
+      "Learn how to clean solar panels properly, how often they need maintenance, and simple ways to keep your rooftop solar system performing efficiently for years.",
+
+    title:
+      "How to Clean Solar Panels Properly: 7 Maintenance Tips to Keep Your System Efficient",
+
+    url: "how-to-clean-solar-panels",
+
+    summary:
+      "Regular solar panel cleaning and maintenance can help keep your system performing efficiently. Learn how to care for rooftop solar panels safely and when professional maintenance is recommended.",
+
+    image: "/images/solar-panel-cleaning-maintenance.png",
+
+    alt: "Professional cleaning and maintenance of rooftop solar panels",
+
+    category: "Solar Energy",
+
+    date: "August 26, 2026",
+
+    fullContent: [
+      {
+        type: "paragraph",
+        text: (
+          <>
+            Installing a solar system is a long-term investment, and keeping the
+            panels clean is one of the simplest ways to look after it. Dust,
+            leaves, bird droppings, and other debris can collect on the surface
+            over time and affect how much sunlight reaches the solar cells.
+          </>
+        ),
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            Fortunately, <strong>solar panel maintenance</strong> does not have
+            to be complicated. With regular inspection, safe cleaning practices,
+            and basic monitoring, homeowners can keep their
+            <strong> rooftop solar system</strong> in good working condition.
+            Here's what you should know about
+            <strong> how to clean solar panels</strong> and maintain them
+            safely.
+          </>
+        ),
+      },
+
+      {
+        type: "heading",
+        level: 2,
+        text: "Why Does Solar Panel Cleaning Matter?",
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            Solar panels need clear exposure to daylight to generate
+            electricity. When dust and dirt build up on the surface, they can
+            block part of the available sunlight. The effect varies depending on
+            the local environment, weather, and amount of buildup, but keeping
+            panels clean helps maintain consistent performance.
+          </>
+        ),
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            Homes located near busy roads, construction areas, agricultural
+            land, or places with frequent dust may require more attention than
+            properties in cleaner surroundings. Regular
+            <strong> solar panel inspection</strong> can help identify when
+            cleaning is actually needed instead of following an unnecessary
+            fixed schedule.
+          </>
+        ),
+      },
+
+      {
+        type: "heading",
+        level: 2,
+        text: "7 Maintenance Tips to Keep Your Solar Panels Efficient",
+      },
+
+      {
+        type: "heading",
+        level: 3,
+        text: "1. Inspect Your Panels Regularly",
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            A simple visual inspection can help you notice dust accumulation,
+            leaves, bird droppings, cracks, loose components, or anything
+            unusual on the panels. You don't necessarily need to inspect them
+            every day. Checking the system periodically makes it easier to
+            identify problems before they affect performance.
+          </>
+        ),
+      },
+
+      {
+        type: "heading",
+        level: 3,
+        text: "2. Clean Panels When They Actually Need It",
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            There is no universal cleaning schedule for every home. The right
+            frequency depends on local dust levels, rainfall, nearby trees, bird
+            activity, and the angle of your panels. If you notice visible
+            buildup, it may be time for
+            <strong> solar panel cleaning</strong>.
+          </>
+        ),
+      },
+
+      {
+        type: "heading",
+        level: 3,
+        text: "3. Use the Right Cleaning Method",
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            When cleaning is required, use clean water and a soft, non-abrasive
+            method that won't scratch the glass surface. Avoid harsh chemicals,
+            abrasive brushes, or rough materials that could damage the panels.
+            Always follow the manufacturer's maintenance recommendations.
+          </>
+        ),
+      },
+
+      {
+        type: "heading",
+        level: 3,
+        text: "4. Choose the Right Time for Cleaning",
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            Solar panels can become hot under strong sunlight. Cleaning them
+            when the surface is extremely hot can cause water to evaporate
+            quickly and may make the process less effective. Early morning or
+            later in the day, when the panels are cooler, is generally more
+            practical.
+          </>
+        ),
+      },
+
+      {
+        type: "image",
+        path: "/images/rooftop-solar-panel-inspection-maintenance.png",
+        alt: "Technician safely cleaning rooftop solar panels",
+      },
+
+      {
+        type: "heading",
+        level: 3,
+        text: "5. Don't Ignore Bird Droppings and Stubborn Dirt",
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            Dust is not the only thing that can affect a panel's surface. Bird
+            droppings, leaves, pollen, and other deposits can create areas of
+            blockage that are more difficult to remove naturally. If something
+            remains on the panel after rainfall, proper cleaning may be
+            required.
+          </>
+        ),
+      },
+
+      {
+        type: "heading",
+        level: 3,
+        text: "6. Keep an Eye on System Performance",
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            Cleaning is only one part of
+            <strong> solar system maintenance</strong>. Monitoring your inverter
+            and electricity generation can help you notice unexpected changes in
+            performance. If generation drops without an obvious reason, the
+            issue may require a professional inspection rather than simply
+            cleaning the panels.
+          </>
+        ),
+      },
+
+      {
+        type: "heading",
+        level: 3,
+        text: "7. Check the Inverter and Mounting Structure",
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            The panels are only one part of a complete solar installation. The
+            inverter, cables, mounting structures, and electrical connections
+            also need to remain in good condition. Regular professional checks
+            can help identify loose connections, physical damage, or other
+            issues that may not be visible from ground level.
+          </>
+        ),
+      },
+
+      {
+        type: "heading",
+        level: 2,
+        text: "Can Rain Clean Solar Panels?",
+      },
+      {
+        type: "paragraph",
+        text: (
+          <>
+            Rain can remove some loose dust and dirt from solar panels,
+            especially during periods of regular rainfall. However, it should
+            not always be considered a complete cleaning solution. Bird
+            droppings, oily residue, stubborn dirt, and deposits can remain on
+            the surface even after rain.
+          </>
+        ),
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            If your panels still appear dirty after rainfall, a proper
+            <strong> solar panel cleaning</strong> may be necessary. The amount
+            of cleaning required depends largely on the conditions around your
+            property.
+          </>
+        ),
+      },
+
+      {
+        type: "heading",
+        level: 2,
+        text: "Can You Clean Solar Panels Yourself?",
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            Ground-level cleaning may be possible for some installations, but
+            homeowners should avoid climbing onto rooftops without the proper
+            safety equipment and experience. Solar panels are often installed on
+            elevated surfaces, and a cleaning job is not worth risking a fall or
+            damaging the system.
+          </>
+        ),
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            If the panels are difficult to reach, have stubborn deposits, or
+            require a detailed inspection, it is better to contact a
+            professional
+            <strong> solar panel maintenance service</strong>. Trained
+            technicians can clean and inspect the system while following
+            appropriate safety procedures.
+          </>
+        ),
+      },
+
+      {
+        type: "heading",
+        level: 2,
+        text: "How Often Should Solar Panels Be Cleaned?",
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            There is no fixed cleaning interval that applies to every solar
+            installation. A home in a dusty environment may need more frequent
+            attention than a home in an area with regular rainfall and little
+            airborne pollution.
+          </>
+        ),
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            Instead of cleaning unnecessarily, monitor the condition of the
+            panels and your system's energy generation. If you notice visible
+            buildup or an unexplained change in performance, arrange an
+            inspection to determine whether cleaning or another form of
+            maintenance is required.
+          </>
+        ),
+      },
+
+      {
+        type: "table",
+        headers: ["Maintenance Task", "Recommended Approach", "Why It Matters"],
+        rows: [
+          [
+            "Panel Cleaning",
+            "Use a soft, non-abrasive method",
+            "Keeps the panel surface clear",
+          ],
+          [
+            "Visual Inspection",
+            "Check periodically",
+            "Helps identify visible damage or buildup",
+          ],
+          [
+            "Performance Monitoring",
+            "Review inverter or system data",
+            "Helps detect unexpected generation changes",
+          ],
+          [
+            "Inverter Check",
+            "Professional inspection when required",
+            "Helps maintain reliable system operation",
+          ],
+          [
+            "Mounting Structure",
+            "Inspect during maintenance",
+            "Helps identify loose or damaged components",
+          ],
+        ],
+      },
+
+      {
+        type: "heading",
+        level: 2,
+        text: "When Should You Call a Professional?",
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            Professional maintenance is recommended when panels are difficult to
+            access, the roof requires climbing, visible damage is present, or
+            system performance has changed unexpectedly. Professional
+            <strong> rooftop solar maintenance</strong> can cover more than
+            cleaning by checking the panels, inverter, wiring, mounting
+            structure, and overall system condition.
+          </>
+        ),
+      },
+
+      {
+        type: "heading",
+        level: 2,
+        text: "Why Choose Fuji Solar?",
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            Fuji Solar provides solar solutions with a focus on proper
+            installation and long-term system performance. Our team can help
+            homeowners understand the maintenance requirements of their system
+            and identify issues that may need professional attention.
+          </>
+        ),
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            From <strong>solar panel installation</strong> to maintenance and
+            inspection, Fuji Solar supports customers throughout the life of
+            their solar system. If you need professional
+            <strong> solar maintenance in Chennai</strong>, our team can assess
+            your system and recommend the appropriate service.
+          </>
+        ),
+      },
+
+      {
+        type: "faq",
+        content: [
+          {
+            question: "How often should solar panels be cleaned?",
+            answer:
+              "There is no universal schedule. Cleaning frequency depends on dust, pollution, rainfall, trees, birds, and the surroundings of your property. Regular inspection helps determine when cleaning is actually needed.",
+          },
+          {
+            question: "Can rain clean solar panels?",
+            answer:
+              "Rain can remove some loose dust and dirt, but it may not remove bird droppings, oily residue, or stubborn deposits. Periodic inspection and cleaning may still be required.",
+          },
+          {
+            question: "Does dust reduce solar panel efficiency?",
+            answer:
+              "Dust and other deposits can block part of the sunlight reaching the panel surface. Keeping panels reasonably clean helps maintain consistent energy generation.",
+          },
+          {
+            question: "Can I clean solar panels myself?",
+            answer:
+              "Ground-level cleaning may be possible in some installations, but homeowners should avoid unsafe rooftop access. Professional cleaning is recommended when panels are difficult or dangerous to reach.",
+          },
+          {
+            question: "Do solar panels need regular maintenance?",
+            answer:
+              "Yes. Solar panels generally require limited maintenance, but periodic inspection, cleaning when necessary, and checks of the inverter and mounting system can help maintain reliable operation.",
+          },
+        ],
+      },
+
+      {
+        type: "heading",
+        level: 2,
+        text: "Conclusion",
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            Good <strong>solar panel maintenance</strong> does not require
+            complicated routines. Keeping an eye on panel cleanliness,
+            monitoring system performance, and arranging professional
+            inspections when necessary can help your rooftop solar system
+            continue operating reliably.
+          </>
+        ),
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            If you're planning a new solar installation or need help maintaining
+            an existing system, Fuji Solar can provide practical guidance and
+            professional support. Proper care today can help you get dependable
+            performance from your solar investment for years to come.
           </>
         ),
       },
