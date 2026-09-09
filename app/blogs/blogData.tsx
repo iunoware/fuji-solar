@@ -4672,6 +4672,590 @@ const blogData = [
       },
     ],
   },
+  // 12
+  {
+    id: 12,
+
+    metaTitle:
+      "Solar Panel Subsidy in Tamil Nadu 2026: Eligibility & How to Apply",
+
+    metaDescription:
+      "Learn about solar panel subsidy in Tamil Nadu 2026, PM Surya Ghar eligibility, subsidy benefits, application process and how Fuji Solar helps homeowners with the application.",
+
+    title:
+      "Solar Panel Subsidy in Tamil Nadu 2026: Eligibility, Benefits & How to Apply",
+
+    url: "solar-panel-subsidy-in-tamil-nadu-2026",
+
+    summary:
+      "Planning to install rooftop solar in Tamil Nadu? Learn how the PM Surya Ghar Muft Bijli Yojana works, who can apply, what subsidy support is available and how Fuji Solar can help you through the application process.",
+
+    image: "/images/solar-panel-subsidy-tamil-nadu-2026.png",
+
+    alt: "Residential rooftop solar panels eligible for solar subsidy in Tamil Nadu",
+
+    category: "Solar Energy",
+
+    date: "September 9, 2026",
+
+    fullContent: [
+      {
+        type: "paragraph",
+        text: (
+          <>
+            If you have been thinking about installing solar panels at your
+            home, the cost of installation may be one of the first things you
+            consider. The good news is that eligible residential consumers can
+            receive financial assistance under the{" "}
+            <strong>PM Surya Ghar: Muft Bijli Yojana</strong>, the Government of
+            India's rooftop solar scheme.
+          </>
+        ),
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            For homeowners in Tamil Nadu, understanding the{" "}
+            <strong>solar panel subsidy in Tamil Nadu</strong> can make the
+            decision to switch to rooftop solar much easier. However, the
+            subsidy is not simply an automatic discount from every solar
+            installation. There are eligibility requirements, an application
+            process and official procedures that need to be followed.
+          </>
+        ),
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            In this guide, we will explain how the scheme works, who can benefit
+            from it, what the subsidy covers and how Fuji Solar can support you
+            throughout the subsidy application process.
+          </>
+        ),
+      },
+
+      {
+        type: "heading",
+        level: 2,
+        text: "What Is the PM Surya Ghar Muft Bijli Yojana?",
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            The <strong>PM Surya Ghar: Muft Bijli Yojana</strong> is a
+            Government of India initiative designed to encourage households to
+            install grid-connected rooftop solar systems. The scheme provides
+            Central Financial Assistance, commonly referred to as CFA, to
+            eligible residential consumers.
+          </>
+        ),
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            The scheme was launched in February 2024 with the objective of
+            supporting rooftop solar installations for one crore households.
+            Applications under the scheme are processed through the national
+            rooftop solar portal.
+          </>
+        ),
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            This means homeowners who are planning a{" "}
+            <strong>rooftop solar installation</strong> should understand the
+            scheme before choosing their system and installer.
+          </>
+        ),
+      },
+
+      {
+        type: "heading",
+        level: 2,
+        text: "How Much Solar Subsidy Can You Get?",
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            The subsidy under PM Surya Ghar is linked to the capacity of the
+            residential rooftop solar system. The current central financial
+            assistance structure provides support for the first 2 kW and an
+            additional portion for the next 1 kW. There is no additional central
+            financial assistance for capacity beyond 3 kW.
+          </>
+        ),
+      },
+
+      {
+        type: "table",
+        headers: [
+          "Residential Solar Capacity",
+          "Central Financial Assistance",
+          "General Understanding",
+        ],
+        rows: [
+          [
+            "Up to 2 kW",
+            "60% of applicable benchmark cost",
+            "Higher level of central subsidy support",
+          ],
+          [
+            "Additional 1 kW",
+            "40% of applicable benchmark cost for the additional capacity",
+            "Additional subsidy support up to 3 kW",
+          ],
+          [
+            "Beyond 3 kW",
+            "No additional central CFA",
+            "Additional capacity does not increase the central subsidy",
+          ],
+        ],
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            The exact subsidy amount should always be checked against the
+            current official scheme rules and applicable benchmark costs when
+            you apply. This is important because subsidy rules and
+            implementation details can change over time.
+          </>
+        ),
+      },
+
+      {
+        type: "heading",
+        level: 2,
+        text: "Who Is Eligible for the Solar Subsidy?",
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            The PM Surya Ghar subsidy is primarily intended for eligible
+            residential electricity consumers installing rooftop solar. Before
+            applying, homeowners should make sure their electricity connection
+            and property meet the requirements of the scheme and the relevant
+            distribution utility.
+          </>
+        ),
+      },
+
+      {
+        type: "list",
+        items: [
+          "The applicant should be a residential electricity consumer.",
+          "The rooftop solar installation should follow the requirements of the applicable scheme.",
+          "The application needs to be processed through the designated national portal.",
+          "The installation and equipment should meet the applicable technical and scheme requirements.",
+          "The required documentation and verification procedures must be completed.",
+        ],
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            Eligibility can depend on the specific circumstances of the property
+            and electricity connection. Therefore, it is better to confirm the
+            requirements before starting the installation process.
+          </>
+        ),
+      },
+
+      {
+        type: "heading",
+        level: 2,
+        text: "How Does the Solar Subsidy Application Process Work?",
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            Applying for a rooftop solar subsidy involves more than simply
+            purchasing solar panels. The application, installation, inspection
+            and related documentation need to follow the prescribed process.
+          </>
+        ),
+      },
+
+      {
+        type: "list",
+        items: [
+          "Register and submit the required details through the official rooftop solar portal.",
+          "Provide the required electricity connection and applicant information.",
+          "Select an eligible solar installation option and proceed with the installation.",
+          "Complete the required installation and utility-related procedures.",
+          "Follow the applicable inspection and verification process.",
+          "Complete the required subsidy claim and banking details.",
+          "Receive the eligible financial assistance after the prescribed process is completed.",
+        ],
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            The exact steps and processing time can depend on the application,
+            electricity distribution utility and current scheme procedures. The
+            official PM Surya Ghar portal is used for the scheme's application
+            process.
+          </>
+        ),
+      },
+
+      {
+        type: "heading",
+        level: 2,
+        text: "What Documents May Be Required?",
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            Applicants may need to provide information related to their
+            electricity connection, identity, bank account and rooftop solar
+            installation. Having these details ready can make the application
+            process smoother.
+          </>
+        ),
+      },
+
+      {
+        type: "list",
+        items: [
+          "Recent electricity bill or consumer connection details",
+          "Applicant identification details",
+          "Registered mobile number",
+          "Bank account details for eligible subsidy disbursement",
+          "Property and rooftop installation details",
+          "Required installation and system documentation",
+        ],
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            The exact documents required can vary depending on the current
+            portal process and verification requirements. It is always advisable
+            to check the latest requirements before submitting an application.
+          </>
+        ),
+      },
+
+      {
+        type: "heading",
+        level: 2,
+        text: "Why Is the Subsidy Process Sometimes Confusing?",
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            For a homeowner installing solar for the first time, the subsidy
+            process can feel complicated. There may be portal registration,
+            electricity connection details, installer information,
+            documentation, inspections and other steps to keep track of.
+          </>
+        ),
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            This is why choosing an experienced solar installation company can
+            make the overall process easier. You should not have to figure out
+            every stage of the rooftop solar process on your own.
+          </>
+        ),
+      },
+
+      {
+        type: "image",
+        path: "/images/solar-panel-subsidy-tamil-nadu-2027.png",
+        alt: "Homeowner receiving support for rooftop solar subsidy application in Tamil Nadu",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Fuji Solar Supports You With the Subsidy Application",
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            At <strong>Fuji Solar</strong>, our support does not stop at
+            installing the solar panels. We understand that the subsidy
+            application can be one of the important parts of the process for
+            homeowners, so we provide guidance and support throughout the
+            application procedure.
+          </>
+        ),
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            Our team can help you understand the applicable scheme requirements,
+            prepare the necessary information and guide you through the relevant
+            steps involved in applying for the subsidy. This gives homeowners a
+            simpler experience from{" "}
+            <strong>solar system selection to subsidy application</strong>.
+          </>
+        ),
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            While the final approval and disbursement of subsidy are subject to
+            the Government's applicable rules and verification process, Fuji
+            Solar will support you in completing the required process correctly.
+          </>
+        ),
+      },
+
+      {
+        type: "heading",
+        level: 2,
+        text: "Why Choose Fuji Solar for Your Rooftop Solar Installation?",
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            Installing solar is a long-term investment. The company you choose
+            should help you understand not only the panels and inverter, but the
+            complete process from system selection to installation and post-
+            installation support.
+          </>
+        ),
+      },
+
+      {
+        type: "list",
+        items: [
+          "Guidance in selecting a suitable solar system for your electricity requirements.",
+          "Professional rooftop assessment and system planning.",
+          "Support throughout the solar subsidy application process.",
+          "Assistance with the information and documentation required for the application.",
+          "Professional installation using suitable solar components.",
+          "Guidance on monitoring and maintaining your solar system.",
+          "Support after installation when you need assistance with your system.",
+        ],
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            Whether you are considering a smaller residential system or a larger
+            rooftop installation, the right approach is to first understand your
+            electricity consumption and property requirements and then select a
+            suitable system.
+          </>
+        ),
+      },
+
+      {
+        type: "heading",
+        level: 2,
+        text: "Is It Better to Apply for the Subsidy Before Installing Solar?",
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            The subsidy process follows specific government procedures, so it is
+            important to start the application through the prescribed channel
+            and follow the applicable steps rather than treating the subsidy as
+            a simple post-purchase discount.
+          </>
+        ),
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            If you are planning to install solar, discuss the subsidy process
+            with your solar provider before starting the installation. This can
+            help you understand what needs to be completed at each stage and
+            avoid unnecessary confusion later.
+          </>
+        ),
+      },
+
+      {
+        type: "heading",
+        level: 2,
+        text: "Does the Subsidy Apply to Every Solar System?",
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            The central subsidy is intended for eligible residential rooftop
+            solar installations that meet the scheme requirements. It should not
+            be assumed that every solar project or every type of installation
+            automatically qualifies.
+          </>
+        ),
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            This is another reason why checking the current scheme guidelines
+            and working with a knowledgeable{" "}
+            <strong>solar installation company</strong>
+            is useful before making your investment.
+          </>
+        ),
+      },
+
+      {
+        type: "heading",
+        level: 2,
+        text: "Solar Subsidy in Tamil Nadu: What Homeowners Should Remember",
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            If you are searching for{" "}
+            <strong>solar subsidy Tamil Nadu 2026</strong>, remember that the
+            subsidy is only one part of the overall solar investment. The
+            quality of the system, correct sizing, installation quality and
+            long-term service are equally important.
+          </>
+        ),
+      },
+
+      {
+        type: "list",
+        items: [
+          "Check the current PM Surya Ghar scheme requirements before applying.",
+          "Choose the solar system based on your actual electricity consumption.",
+          "Make sure the installation follows the applicable technical requirements.",
+          "Keep the required documents and electricity connection details ready.",
+          "Follow the official application and verification process.",
+          "Work with a solar provider who can guide you through the subsidy process.",
+          "Do not choose a system only because it offers a subsidy; consider long-term performance and service as well.",
+        ],
+      },
+
+      {
+        type: "heading",
+        level: 2,
+        text: "Frequently Asked Questions",
+      },
+
+      {
+        type: "faq",
+        content: [
+          {
+            question: "What is the solar panel subsidy in Tamil Nadu in 2026?",
+            answer:
+              "Eligible residential rooftop solar consumers in Tamil Nadu can receive Central Financial Assistance under the PM Surya Ghar Muft Bijli Yojana. The current central structure provides assistance for the first 2 kW and additional assistance for the next 1 kW, with no additional central CFA beyond 3 kW. The applicable amount depends on the scheme's benchmark costs and current rules.",
+          },
+          {
+            question: "Who can apply for the PM Surya Ghar solar subsidy?",
+            answer:
+              "The scheme is primarily intended for eligible residential electricity consumers installing qualifying rooftop solar systems. Applicants must follow the applicable portal, technical and verification requirements.",
+          },
+          {
+            question: "How do I apply for the solar subsidy?",
+            answer:
+              "The PM Surya Ghar scheme uses the national rooftop solar portal for the application process. The process involves registration, providing electricity connection and applicant details, completing the eligible installation process and following the required verification and subsidy claim procedures.",
+          },
+          {
+            question: "Will Fuji Solar help me apply for the subsidy?",
+            answer:
+              "Yes. Fuji Solar provides support and guidance throughout the applicable subsidy application process, including helping homeowners understand the requirements and complete the necessary steps and information. Final subsidy approval and disbursement remain subject to the Government's applicable rules and verification.",
+          },
+          {
+            question: "Can I get a subsidy for a 5kW or 10kW solar system?",
+            answer:
+              "The current central PM Surya Ghar CFA structure provides subsidy support up to 3 kW of residential rooftop solar capacity. Installing a system larger than 3 kW does not provide additional central CFA beyond the applicable 3 kW limit.",
+          },
+        ],
+      },
+
+      {
+        type: "heading",
+        level: 2,
+        text: "Conclusion",
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            The <strong>PM Surya Ghar Muft Bijli Yojana</strong> has made
+            rooftop solar more accessible for eligible residential consumers.
+            For homeowners in Tamil Nadu, understanding the current subsidy
+            rules, eligibility requirements and application process can help
+            make the transition to solar easier.
+          </>
+        ),
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            However, choosing solar should not be based on subsidy alone. The
+            right system size, quality of installation, suitable components and
+            dependable after-sales support all play an important role in getting
+            value from your investment.
+          </>
+        ),
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            If you are planning a{" "}
+            <strong>rooftop solar installation in Tamil Nadu</strong>, Fuji
+            Solar can help you from the initial system selection through
+            installation and provide support with the applicable subsidy
+            application process. You can focus on making the switch to solar
+            while our team helps you navigate the paperwork and required steps.
+          </>
+        ),
+      },
+    ],
+  },
 ];
 
 // use 16th blog for reference
