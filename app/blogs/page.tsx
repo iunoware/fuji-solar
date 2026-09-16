@@ -2,15 +2,41 @@
 import Link from "next/link";
 import Image from "next/image";
 import blogData from "./blogData";
-import { useRef } from "react";
+import { useRef, useState } from "react";
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
-import { ArrowRight } from "lucide-react";
+import { ArrowRight, ChevronLeft, ChevronRight } from "lucide-react";
 
 export default function BlogList() {
   const headingRef = useRef<HTMLHeadingElement>(null);
   const paragraphRef = useRef<HTMLParagraphElement>(null);
   const ctaRef = useRef<HTMLDivElement>(null);
+  const gridSectionRef = useRef<HTMLElement>(null);
+
+  const [currentPage, setCurrentPage] = useState(1);
+  const POSTS_PER_PAGE = 10;
+
+  const reversedBlogs = [...blogData].reverse();
+  const totalPages = Math.ceil(reversedBlogs.length / POSTS_PER_PAGE);
+
+  const safeCurrentPage = Math.min(Math.max(currentPage, 1), totalPages || 1);
+  const startIndex = (safeCurrentPage - 1) * POSTS_PER_PAGE;
+  const currentBlogs = reversedBlogs.slice(
+    startIndex,
+    startIndex + POSTS_PER_PAGE
+  );
+
+  const handlePageChange = (pageNumber: number) => {
+    if (pageNumber >= 1 && pageNumber <= totalPages) {
+      setCurrentPage(pageNumber);
+      if (gridSectionRef.current) {
+        gridSectionRef.current.scrollIntoView({
+          behavior: "smooth",
+          block: "start",
+        });
+      }
+    }
+  };
 
   useGSAP(() => {
     const tl = gsap.timeline({ defaults: { ease: "power3.out" } });
@@ -18,19 +44,19 @@ export default function BlogList() {
     tl.fromTo(
       headingRef.current,
       { opacity: 0, y: 40 },
-      { opacity: 1, y: 0, duration: 0.8 },
+      { opacity: 1, y: 0, duration: 0.8 }
     )
       .fromTo(
         paragraphRef.current,
         { opacity: 0, y: 30 },
         { opacity: 1, y: 0, duration: 0.7 },
-        "-=0.5",
+        "-=0.5"
       )
       .fromTo(
         ctaRef.current,
         { opacity: 0, y: 20 },
         { opacity: 1, y: 0, duration: 0.6 },
-        "-=0.4",
+        "-=0.4"
       );
   });
 
@@ -73,16 +99,18 @@ export default function BlogList() {
       </main>
 
       {/* Blog Grid Section */}
-      <section className="w-full pt-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-24">
+      <section
+        ref={gridSectionRef}
+        className="w-full pt-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-16"
+      >
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-10">
-          {[...blogData].reverse().map((post) => (
+          {currentBlogs.map((post) => (
             <div
               key={post.id}
               className="flex flex-col bg-white rounded-xl overflow-hidden h-full transition-transform hover:scale-103 duration-300"
             >
               <div
                 className="h-48 w-full rounded-xl bg-center bg-cover relative"
-                // style={{ backgroundImage: `url(${post.image})` }}
                 aria-label={`Cover image for ${post.title}`}
               >
                 <Image
@@ -112,7 +140,6 @@ export default function BlogList() {
 
                 <Link
                   href={`/blogs/${post.url}`}
-                  // state={{ blogId: post.id }}
                   className="mt-auto pt-4 border-t border-gray-50"
                 >
                   <span className="inline-block text-sm font-medium text-blue cursor-pointer hover:underline">
@@ -123,12 +150,57 @@ export default function BlogList() {
             </div>
           ))}
         </div>
+
+        {/* Pagination Controls */}
+        {totalPages > 1 && (
+          <div className="mt-12 flex flex-col sm:flex-row items-center justify-center gap-4 border-t border-gray-100 pt-8">
+            <div className="flex items-center gap-2">
+              <button
+                onClick={() => handlePageChange(safeCurrentPage - 1)}
+                disabled={safeCurrentPage === 1}
+                className="flex items-center justify-center px-4 py-2 text-sm font-medium text-gray-700 bg-white border border-gray-300 rounded-lg hover:bg-gray-50 disabled:opacity-40 disabled:cursor-not-allowed disabled:hover:bg-white transition-colors"
+                aria-label="Previous page"
+              >
+                <ChevronLeft className="w-4 h-4 mr-1" />
+                Previous
+              </button>
+
+              <div className="flex items-center gap-1.5 px-2">
+                {Array.from({ length: totalPages }, (_, i) => i + 1).map((page) => (
+                  <button
+                    key={page}
+                    onClick={() => handlePageChange(page)}
+                    className={`w-9 h-9 flex items-center justify-center rounded-lg text-sm font-semibold transition-all ${
+                      safeCurrentPage === page
+                        ? "bg-brand-red text-white shadow-sm"
+                        : "text-gray-700 bg-white border border-gray-300 hover:bg-gray-100"
+                    }`}
+                  >
+                    {page}
+                  </button>
+                ))}
+              </div>
+
+              <button
+                onClick={() => handlePageChange(safeCurrentPage + 1)}
+                disabled={safeCurrentPage === totalPages}
+                className="flex items-center justify-center px-4 py-2 text-sm font-medium text-gray-700 bg-white border border-gray-300 rounded-lg hover:bg-gray-50 disabled:opacity-40 disabled:cursor-not-allowed disabled:hover:bg-white transition-colors"
+                aria-label="Next page"
+              >
+                Next
+                <ChevronRight className="w-4 h-4 ml-1" />
+              </button>
+            </div>
+          </div>
+        )}
       </section>
 
-      {/* Simple Footer / Pagination Placeholder (Optional Visual Only) */}
+      {/* Footer / Pagination Info */}
       <div className="w-full text-center pb-20">
         <span className="text-gray-600 text-sm">
-          Showing {blogData.length} recent articles
+          Showing {startIndex + 1}–
+          {Math.min(startIndex + POSTS_PER_PAGE, reversedBlogs.length)} of{" "}
+          {reversedBlogs.length} articles
         </span>
       </div>
     </div>
