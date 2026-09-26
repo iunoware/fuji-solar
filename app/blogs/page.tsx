@@ -23,7 +23,7 @@ export default function BlogList() {
   const startIndex = (safeCurrentPage - 1) * POSTS_PER_PAGE;
   const currentBlogs = reversedBlogs.slice(
     startIndex,
-    startIndex + POSTS_PER_PAGE
+    startIndex + POSTS_PER_PAGE,
   );
 
   const handlePageChange = (pageNumber: number) => {
@@ -44,19 +44,19 @@ export default function BlogList() {
     tl.fromTo(
       headingRef.current,
       { opacity: 0, y: 40 },
-      { opacity: 1, y: 0, duration: 0.8 }
+      { opacity: 1, y: 0, duration: 0.8 },
     )
       .fromTo(
         paragraphRef.current,
         { opacity: 0, y: 30 },
         { opacity: 1, y: 0, duration: 0.7 },
-        "-=0.5"
+        "-=0.5",
       )
       .fromTo(
         ctaRef.current,
         { opacity: 0, y: 20 },
         { opacity: 1, y: 0, duration: 0.6 },
-        "-=0.4"
+        "-=0.4",
       );
   });
 
@@ -81,8 +81,9 @@ export default function BlogList() {
             ref={paragraphRef}
             className="mt-4 text-gray-900 max-w-2xl mx-auto text-lg font-semibold opacity-0"
           >
-            Welcome to the Fuji Solar blogs. Your ultimate destination for all things
-            related to sustainable energy, innovation, and the future of power
+            Welcome to the Fuji Solar blogs. Your ultimate destination for all
+            things related to sustainable energy, innovation, and the future of
+            power
           </p>
           <div ref={ctaRef} className="mt-6 opacity-0">
             <Link
@@ -124,9 +125,10 @@ export default function BlogList() {
               {/* Content Section */}
               <div className="flex flex-col grow p-6">
                 <div className="flex items-center justify-between mb-3">
-                  <span className="text-xs font-semibold uppercase tracking-wider px-3 py-0.5 text-red-700 bg-red-100 rounded-full">
+                  {/* <span className="text-xs font-semibold uppercase tracking-wider px-3 py-0.5 text-red-700 bg-red-100 rounded-full">
                     {post.category}
-                  </span>
+                  </span> */}
+                  <div></div>
                   <span className="text-xs text-gray-400">{post.date}</span>
                 </div>
 
@@ -166,19 +168,21 @@ export default function BlogList() {
               </button>
 
               <div className="flex items-center gap-1.5 px-2">
-                {Array.from({ length: totalPages }, (_, i) => i + 1).map((page) => (
-                  <button
-                    key={page}
-                    onClick={() => handlePageChange(page)}
-                    className={`w-9 h-9 flex items-center justify-center rounded-lg text-sm font-semibold transition-all ${
-                      safeCurrentPage === page
-                        ? "bg-brand-red text-white shadow-sm"
-                        : "text-gray-700 bg-white border border-gray-300 hover:bg-gray-100"
-                    }`}
-                  >
-                    {page}
-                  </button>
-                ))}
+                {Array.from({ length: totalPages }, (_, i) => i + 1).map(
+                  (page) => (
+                    <button
+                      key={page}
+                      onClick={() => handlePageChange(page)}
+                      className={`w-9 h-9 flex items-center justify-center rounded-lg text-sm font-semibold transition-all ${
+                        safeCurrentPage === page
+                          ? "bg-brand-red text-white shadow-sm"
+                          : "text-gray-700 bg-white border border-gray-300 hover:bg-gray-100"
+                      }`}
+                    >
+                      {page}
+                    </button>
+                  ),
+                )}
               </div>
 
               <button
