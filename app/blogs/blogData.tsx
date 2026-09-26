@@ -6541,6 +6541,722 @@ const blogData = [
       },
     ],
   },
+  // 15
+  {
+    id: 15,
+
+    metaTitle:
+      "Solar Panel Warranty Explained: Product vs Performance Warranty",
+
+    metaDescription:
+      "Understand solar panel warranties, including product warranty, performance warranty, degradation, inverter warranty and what homeowners should check before buying solar panels.",
+
+    title:
+      "Solar Panel Warranty Explained: Product Warranty vs Performance Warranty",
+
+    url: "solar-panel-warranty-product-vs-performance-warranty",
+
+    summary:
+      "Buying solar panels is a long-term investment. Learn the difference between product and performance warranties, what solar warranties cover, what they may exclude and what homeowners should check before installation.",
+
+    image: "/images/solar-panel-warranty-explained.webp",
+
+    alt: "Homeowner reviewing solar panel warranty information with a solar consultant",
+
+    category: "Solar Energy",
+
+    date: "September 26, 2026",
+
+    fullContent: [
+      {
+        type: "paragraph",
+        text: (
+          <>
+            When homeowners compare solar panels, they often look at efficiency,
+            price and power output first. But there is another important detail
+            that should not be overlooked: the{" "}
+            <strong>solar panel warranty</strong>. Since a rooftop solar system
+            is designed to operate for many years, understanding the warranty
+            can help you make a more informed purchasing decision.
+          </>
+        ),
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            Solar panels can have more than one type of warranty, and these
+            warranties do not necessarily cover the same things. The two terms
+            homeowners will commonly come across are{" "}
+            <strong>product warranty</strong>
+            and <strong>performance warranty</strong>.
+          </>
+        ),
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            In this guide, we will explain the difference between them, how
+            solar panel degradation relates to performance warranties, what you
+            should check before purchasing a system and why the warranty of your
+            inverter and other components also matters.
+          </>
+        ),
+      },
+
+      {
+        type: "heading",
+        level: 2,
+        text: "What Is a Solar Panel Warranty?",
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            A solar panel warranty is a manufacturer's commitment covering
+            specified defects, materials, workmanship or performance conditions
+            for a defined period. The exact terms depend on the manufacturer and
+            the particular solar panel model.
+          </>
+        ),
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            It is important to remember that a warranty is not simply a promise
+            that the panel will produce the same amount of electricity forever.
+            Different parts of the warranty address different aspects of the
+            product.
+          </>
+        ),
+      },
+
+      {
+        type: "heading",
+        level: 2,
+        text: "Product Warranty vs Performance Warranty",
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            The easiest way to understand solar warranties is to separate them
+            into two categories: the <strong>product warranty</strong>, which
+            generally relates to the physical product, and the
+            <strong> performance warranty</strong>, which relates to the panel's
+            ability to maintain a specified level of power output over time.
+          </>
+        ),
+      },
+
+      {
+        type: "table",
+        headers: [
+          "Warranty Type",
+          "What It Generally Covers",
+          "What Homeowners Should Check",
+        ],
+        rows: [
+          [
+            "Product Warranty",
+            "Specified defects in materials or workmanship",
+            "Coverage period, exclusions and claim conditions",
+          ],
+          [
+            "Performance Warranty",
+            "Specified minimum power output over time",
+            "Guaranteed output level, degradation terms and measurement conditions",
+          ],
+          [
+            "Inverter Warranty",
+            "Specified defects or failures in the inverter",
+            "Warranty period, service process and replacement conditions",
+          ],
+          [
+            "Installation Warranty",
+            "Workmanship-related installation issues where provided",
+            "What installation work is covered and for how long",
+          ],
+        ],
+      },
+
+      {
+        type: "heading",
+        level: 2,
+        text: "What Is a Product Warranty?",
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            A <strong>solar panel product warranty</strong> generally protects
+            against specified manufacturing defects and issues related to the
+            materials or workmanship of the panel.
+          </>
+        ),
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            For example, if a panel develops a covered manufacturing defect
+            during the applicable warranty period, the manufacturer may provide
+            a repair, replacement or another remedy according to its warranty
+            terms.
+          </>
+        ),
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            However, the exact coverage depends on the manufacturer's warranty
+            document. Damage caused by improper handling, unauthorised
+            modifications, incorrect installation or external events may be
+            treated differently from a manufacturing defect.
+          </>
+        ),
+      },
+
+      {
+        type: "heading",
+        level: 2,
+        text: "What Is a Performance Warranty?",
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            A <strong>solar panel performance warranty</strong> relates to the
+            panel's electrical output over time. Solar modules naturally
+            experience some reduction in power output as they age. This process
+            is commonly referred to as <strong>degradation</strong>.
+          </>
+        ),
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            A performance warranty specifies how the manufacturer's guaranteed
+            power output changes over the stated warranty period. The exact
+            degradation rate and guaranteed output depend on the specific panel
+            model.
+          </>
+        ),
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            This means two panels can have similar power ratings when new but
+            different long-term performance warranty terms. Looking at the
+            performance warranty can therefore be useful when comparing
+            <strong> solar panels for home</strong>.
+          </>
+        ),
+      },
+
+      {
+        type: "heading",
+        level: 2,
+        text: "What Does Solar Panel Degradation Mean?",
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            Solar panel degradation refers to the gradual reduction in the
+            electrical output of a module over its operating life. It does not
+            mean that a panel suddenly stops working after a particular number
+            of years.
+          </>
+        ),
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            Instead, manufacturers specify expected or warranted performance
+            levels over time. The actual performance of a solar installation can
+            also be influenced by environmental conditions, installation
+            quality, operating temperature, shading, maintenance and other
+            factors.
+          </>
+        ),
+      },
+
+      {
+        type: "heading",
+        level: 2,
+        text: "Why Performance Warranty Matters",
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            A rooftop solar system is a long-term investment. The panels
+            installed on your roof today are expected to continue generating
+            electricity for many years.
+          </>
+        ),
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            The performance warranty gives homeowners a way to understand the
+            manufacturer's stated long-term output commitment. When comparing
+            panels, do not look only at the initial wattage. Consider how the
+            manufacturer defines its guaranteed performance over time.
+          </>
+        ),
+      },
+
+      {
+        type: "image",
+        path: "/images/solar-panel-warranty-explained2.webp",
+
+        alt: "Homeowner reviewing solar panel warranty information with a solar consultant",
+      },
+
+      {
+        type: "heading",
+        level: 2,
+        text: "Is a Solar Panel Warranty the Same as an Installation Warranty?",
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            No. A manufacturer's panel warranty and an installer's workmanship
+            warranty can cover different things.
+          </>
+        ),
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            The panel manufacturer generally provides the product and
+            performance terms for the module itself. An installer may separately
+            provide coverage for installation workmanship, depending on the
+            company and agreement.
+          </>
+        ),
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            This is why homeowners should ask for both the manufacturer's
+            warranty documentation and the installer's applicable service or
+            workmanship terms before finalising a{" "}
+            <strong>residential solar installation</strong>.
+          </>
+        ),
+      },
+
+      {
+        type: "heading",
+        level: 2,
+        text: "What About the Solar Inverter Warranty?",
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            Solar panels are only one part of a complete solar power system. The
+            inverter is another important component and has its own warranty
+            conditions.
+          </>
+        ),
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            The inverter converts the electricity generated by the solar panels
+            into a form that can be used by your home's electrical system. Since
+            it performs an important role, homeowners should check its warranty,
+            service availability and replacement process when selecting a solar
+            system.
+          </>
+        ),
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            A good comparison should therefore look at the complete system
+            rather than focusing only on the solar panel warranty.
+          </>
+        ),
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "What Should You Check in a Solar Panel Warranty?",
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            Before purchasing solar panels, do not rely only on a salesperson's
+            verbal explanation. Ask to see the actual warranty documentation and
+            review the conditions that apply to your installation.
+          </>
+        ),
+      },
+
+      {
+        type: "list",
+        items: [
+          "Product warranty period",
+          "Performance warranty period",
+          "Guaranteed power output over time",
+          "Degradation terms",
+          "Warranty exclusions",
+          "Conditions that can invalidate the warranty",
+          "Warranty claim procedure",
+          "Who handles the warranty claim",
+          "Replacement or repair terms",
+          "Availability of manufacturer or authorised service support",
+        ],
+      },
+
+      {
+        type: "heading",
+        level: 2,
+        text: "What May Not Be Covered by a Solar Panel Warranty?",
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            A warranty does not necessarily cover every type of damage or
+            performance problem. Coverage depends on the manufacturer's specific
+            terms and conditions.
+          </>
+        ),
+      },
+
+      {
+        type: "list",
+        items: [
+          "Damage caused by improper installation",
+          "Unauthorised modifications or repairs",
+          "Improper handling or transportation",
+          "Damage caused by external events where excluded by the warranty",
+          "Normal ageing or degradation outside the guaranteed limits",
+          "Failure to follow applicable installation or operating requirements",
+          "Damage resulting from conditions specifically excluded by the manufacturer",
+        ],
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            These are examples of areas that may be excluded depending on the
+            manufacturer's terms. Always read the actual warranty document for
+            the specific solar panel model rather than assuming that every issue
+            is covered.
+          </>
+        ),
+      },
+
+      {
+        type: "heading",
+        level: 2,
+        text: "Does Proper Installation Affect Your Warranty?",
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            Installation quality can be important for both the performance and
+            long-term condition of your solar system. Panels need to be mounted
+            correctly, electrical connections need to be handled safely and the
+            system should be installed according to applicable requirements.
+          </>
+        ),
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            Before choosing a <strong>solar installation company</strong>, ask
+            how the company handles installation quality, documentation,
+            commissioning and warranty support.
+          </>
+        ),
+      },
+
+      {
+        type: "heading",
+        level: 2,
+        text: "How Can You Protect Your Solar Investment?",
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            A warranty is only one part of protecting a solar investment. Proper
+            system design, professional installation, regular monitoring and
+            suitable maintenance can also help your system operate effectively
+            over its working life.
+          </>
+        ),
+      },
+
+      {
+        type: "list",
+        items: [
+          "Choose a properly sized solar system.",
+          "Use compatible and suitable system components.",
+          "Have the system installed by qualified professionals.",
+          "Keep warranty documents and purchase records safely.",
+          "Monitor your solar generation regularly.",
+          "Follow the manufacturer's maintenance recommendations.",
+          "Contact the appropriate service provider when a serious issue occurs.",
+        ],
+      },
+
+      {
+        type: "heading",
+        level: 2,
+        text: "What Happens If a Solar Panel Has a Warranty Issue?",
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            If you notice an unusual drop in generation or a visible issue with
+            a solar panel, do not immediately assume that the panel itself has
+            failed.
+          </>
+        ),
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            Solar output can change because of shading, dirt, weather, inverter
+            issues, electrical faults and other factors. A professional
+            inspection can help identify the actual cause before a warranty
+            claim is made.
+          </>
+        ),
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            If the issue is determined to be covered under the applicable
+            warranty, the claim should then be handled according to the
+            manufacturer's prescribed procedure.
+          </>
+        ),
+      },
+
+      {
+        type: "heading",
+        level: 2,
+        text: "Solar Panel Warranty Comparison Checklist",
+      },
+
+      {
+        type: "table",
+        headers: ["What to Compare", "Why It Matters"],
+        rows: [
+          [
+            "Product warranty",
+            "Helps you understand protection against specified product defects.",
+          ],
+          [
+            "Performance warranty",
+            "Shows the manufacturer's stated long-term power output commitment.",
+          ],
+          [
+            "Degradation terms",
+            "Helps you understand how guaranteed output changes over time.",
+          ],
+          [
+            "Inverter warranty",
+            "Provides information about coverage for another critical system component.",
+          ],
+          [
+            "Installation support",
+            "Clarifies who is responsible for installation-related issues.",
+          ],
+          [
+            "Warranty claim process",
+            "Helps you understand where and how to request warranty service.",
+          ],
+        ],
+      },
+
+      {
+        type: "heading",
+        level: 2,
+        text: "How Fuji Solar Helps With Your Solar Investment",
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            Choosing solar equipment involves more than comparing panel wattage
+            or installation cost. At <strong>Fuji Solar</strong>, we help
+            homeowners understand the important components of their solar
+            system, including panels, inverters, installation requirements and
+            applicable warranty information.
+          </>
+        ),
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            Our team can help you understand the specifications and warranty
+            documentation associated with the equipment selected for your
+            installation. We also provide guidance throughout the installation
+            process and support homeowners with applicable system-related
+            requirements.
+          </>
+        ),
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            The goal is to make sure you understand what you are purchasing and
+            have the right information available throughout the life of your
+            <strong> rooftop solar system</strong>.
+          </>
+        ),
+      },
+
+      // {
+      //   type: "heading",
+      //   level: 2,
+      //   text: "Frequently Asked Questions",
+      // },
+
+      {
+        type: "faq",
+        content: [
+          {
+            question:
+              "What is the difference between a product warranty and a performance warranty?",
+            answer:
+              "A product warranty generally covers specified defects in materials or workmanship, while a performance warranty relates to the manufacturer's stated minimum power output over time. They address different aspects of a solar panel.",
+          },
+          {
+            question: "What is solar panel degradation?",
+            answer:
+              "Solar panel degradation is the gradual reduction in a module's electrical output as it ages. A performance warranty specifies the manufacturer's stated output commitment over the applicable warranty period.",
+          },
+          {
+            question:
+              "Does a solar panel warranty cover installation problems?",
+            answer:
+              "Not necessarily. Manufacturer warranties and installation workmanship warranties are separate forms of coverage. The applicable terms should be checked with both the panel manufacturer and the installer.",
+          },
+          {
+            question: "Does the solar inverter have a separate warranty?",
+            answer:
+              "Yes. Solar inverters generally have their own warranty terms, which can differ from the warranty provided for the solar panels. Homeowners should review the inverter warranty before purchasing a system.",
+          },
+          {
+            question:
+              "What should I do if my solar panel stops producing normally?",
+            answer:
+              "First, have the system checked to identify the cause. Reduced generation can result from shading, dirt, weather, inverter problems or other issues. If a covered product issue is identified, the applicable warranty claim process can then be followed.",
+          },
+        ],
+      },
+
+      {
+        type: "heading",
+        level: 2,
+        text: "Conclusion",
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            Understanding the <strong>solar panel warranty</strong> is an
+            important part of choosing a rooftop solar system. Product
+            warranties and performance warranties serve different purposes,
+            while inverters and installation work may have separate warranty
+            conditions.
+          </>
+        ),
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            Instead of looking only at the length of a warranty, take time to
+            understand what it covers, what it excludes, how performance is
+            measured and how a warranty claim is handled. This gives you a much
+            clearer picture of the long-term protection associated with your
+            solar investment.
+          </>
+        ),
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            If you are planning a{" "}
+            <strong>solar installation in Tamil Nadu</strong>, Fuji Solar can
+            help you understand your system requirements, equipment
+            specifications and applicable warranty information before you make
+            your investment.
+          </>
+        ),
+      },
+    ],
+  },
 ];
 
 // use 16th blog for reference
