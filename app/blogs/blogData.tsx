@@ -7257,6 +7257,780 @@ const blogData = [
       },
     ],
   },
+  // 16
+  {
+  id: 16,
+
+  metaTitle:
+    "Tamil Nadu Rooftop Solar Subsidy 2026: New State Subsidy Explained",
+
+  metaDescription:
+    "Learn about the Tamil Nadu rooftop solar subsidy 2026, including the new state subsidy, PM Surya Ghar benefits, eligibility, subsidy amounts and how homeowners can apply.",
+
+  title:
+    "Tamil Nadu Rooftop Solar Subsidy 2026: New State Subsidy Explained for Homeowners",
+
+  url:
+    "tamil-nadu-rooftop-solar-subsidy-2026",
+
+  summary:
+    "Tamil Nadu has introduced an additional rooftop solar subsidy for eligible residential consumers in addition to the central PM Surya Ghar subsidy. Here is how the new subsidy works, how much you can receive and what homeowners should know before installing solar.",
+
+  image:
+    "/images/tamil-nadu-rooftop-solar-subsidy-2026.webp",
+
+  alt:
+    "Tamil Nadu homeowner with rooftop solar panels under the 2026 solar subsidy scheme",
+
+  category:
+    "Solar Energy",
+
+  date:
+    "September 30, 2026",
+
+  fullContent: [
+
+    {
+      type: "paragraph",
+      text: (
+        <>
+          If you have been planning to install rooftop solar in Tamil Nadu,
+          2026 has brought an important update. The Tamil Nadu government has
+          introduced an additional state subsidy for eligible residential
+          rooftop solar systems under the new Tamil Nadu Rooftop Solar Subsidy
+          Scheme.
+        </>
+      ),
+    },
+
+    {
+      type: "paragraph",
+      text: (
+        <>
+          This state support is provided in addition to the subsidy available
+          through the central government's PM Surya Ghar: Muft Bijli Yojana.
+          When both benefits are combined, eligible homeowners can receive
+          financial assistance of up to ₹1 lakh for a rooftop solar system.
+        </>
+      ),
+    },
+
+    {
+      type: "paragraph",
+      text: (
+        <>
+          The new scheme makes rooftop solar more accessible for homeowners
+          who want to reduce their electricity bills and generate their own
+          electricity. But before installing a system, it is important to
+          understand how the subsidy is calculated, who can receive it and
+          what steps are involved.
+        </>
+      ),
+    },
+
+    {
+      type: "image",
+      path:
+        "/images/tamil-nadu-rooftop-solar-subsidy-2027.webp",
+      alt:
+        "Modern Tamil Nadu home with rooftop solar panels representing the new solar subsidy scheme",
+    },
+
+    {
+      type: "heading",
+      level: 2,
+      text:
+        "What Is the New Tamil Nadu Rooftop Solar Subsidy 2026?",
+    },
+
+    {
+      type: "paragraph",
+      text: (
+        <>
+          The Tamil Nadu Rooftop Solar Subsidy Scheme is a state-level
+          financial support programme introduced alongside the central PM
+          Surya Ghar scheme.
+        </>
+      ),
+    },
+
+    {
+      type: "paragraph",
+      text: (
+        <>
+          Under the new structure, eligible residential consumers can receive
+          the central subsidy first and then receive an additional Tamil Nadu
+          state subsidy. The official Tamil Nadu Solar Homes portal states that
+          the state subsidy is processed after the required installation,
+          net-metering, commissioning and central subsidy conditions are
+          completed.
+        </>
+      ),
+    },
+
+    {
+      type: "paragraph",
+      text: (
+        <>
+          One important point is that homeowners do not have to treat the
+          central and state subsidies as two completely separate processes.
+          According to the state portal, once the central subsidy is credited,
+          the state portal can automatically process the Tamil Nadu top-up,
+          subject to the scheme's eligibility conditions.
+        </>
+      ),
+    },
+
+    {
+      type: "heading",
+      level: 2,
+      text:
+        "How Much Solar Subsidy Can You Get in Tamil Nadu?",
+    },
+
+    {
+      type: "paragraph",
+      text: (
+        <>
+          The amount of subsidy depends mainly on the capacity of the rooftop
+          solar system. The current Tamil Nadu Solar Homes portal lists the
+          following combined central and state assistance for eligible
+          residential consumers:
+        </>
+      ),
+    },
+
+    {
+      type: "table",
+      headers: [
+        "Solar System Capacity",
+        "Central Subsidy",
+        "Tamil Nadu State Subsidy",
+        "Total Assistance",
+      ],
+      rows: [
+        [
+          "1 kW",
+          "₹30,000",
+          "₹5,000",
+          "₹35,000",
+        ],
+        [
+          "2 kW",
+          "₹60,000",
+          "₹10,000",
+          "₹70,000",
+        ],
+        [
+          "3 kW",
+          "₹78,000",
+          "₹22,000",
+          "₹1,00,000",
+        ],
+        [
+          "Above 3 kW",
+          "₹78,000 maximum",
+          "₹22,000 maximum",
+          "₹1,00,000 maximum",
+        ],
+      ],
+    },
+
+    {
+      type: "paragraph",
+      text: (
+        <>
+          For example, a qualifying 3 kW residential rooftop solar system can
+          receive ₹78,000 through the central subsidy and an additional
+          ₹22,000 from Tamil Nadu, bringing the total assistance to ₹1 lakh.
+        </>
+      ),
+    },
+
+    {
+      type: "paragraph",
+      text: (
+        <>
+          The subsidy amount is not simply deducted from the installation
+          quotation at the time of purchase. The actual process involves
+          application, installation, commissioning and the required metering
+          procedures before the applicable subsidy is released.
+        </>
+      ),
+    },
+
+    {
+      type: "heading",
+      level: 2,
+      text:
+        "Who Can Benefit From the Tamil Nadu Solar Subsidy?",
+    },
+
+    {
+      type: "paragraph",
+      text: (
+        <>
+          The current state portal describes the scheme as covering residential
+          rooftop solar systems up to 10 kW, subject to the applicable
+          eligibility conditions.
+        </>
+      ),
+    },
+
+    {
+      type: "list",
+      items: [
+        "The solar system should be installed for an eligible residential electricity connection.",
+        "The installation must follow the applicable PM Surya Ghar and Tamil Nadu scheme requirements.",
+        "The required net-metering and commissioning procedures must be completed.",
+        "The central subsidy eligibility and disbursal conditions must be satisfied.",
+        "The solar modules must meet the required DCR and ALMM requirements.",
+        "The system must be installed through the applicable empanelled vendor process.",
+      ],
+    },
+
+    {
+      type: "paragraph",
+      text: (
+        <>
+          Eligibility should always be checked against the latest official
+          scheme guidelines before installation because subsidy rules and
+          implementation procedures can change.
+        </>
+      ),
+    },
+
+    {
+      type: "heading",
+      level: 2,
+      text:
+        "What Is PM Surya Ghar and How Does It Connect With the Tamil Nadu Subsidy?",
+    },
+
+    {
+      type: "paragraph",
+      text: (
+        <>
+          PM Surya Ghar: Muft Bijli Yojana is the central government's
+          residential rooftop solar programme. The central subsidy provides
+          financial support based on the installed rooftop solar capacity.
+        </>
+      ),
+    },
+
+    {
+      type: "paragraph",
+      text: (
+        <>
+          Tamil Nadu's new subsidy works alongside this central support. This
+          means eligible homeowners in the state can receive the central
+          benefit and the additional Tamil Nadu state subsidy when the
+          applicable conditions are satisfied.
+        </>
+      ),
+    },
+
+    {
+      type: "paragraph",
+      text: (
+        <>
+          This combination is particularly relevant for homeowners considering
+          systems around 2 kW or 3 kW because the combined assistance can
+          significantly reduce the amount they need to finance themselves.
+        </>
+      ),
+    },
+
+    {
+      type: "heading",
+      level: 2,
+      text:
+        "How Does the Tamil Nadu Rooftop Solar Subsidy Process Work?",
+    },
+
+    {
+      type: "paragraph",
+      text: (
+        <>
+          Installing solar under a subsidy scheme involves more than simply
+          purchasing solar panels. The application, installation, inspection,
+          metering and subsidy stages all need to be completed correctly.
+        </>
+      ),
+    },
+
+    {
+      type: "list",
+      items: [
+        "Check your electricity consumption and determine the appropriate solar capacity.",
+        "Choose an eligible solar installation vendor.",
+        "Complete the required application process through the applicable solar portal.",
+        "Proceed with the rooftop solar installation using the required equipment and modules.",
+        "Complete the required net-metering process.",
+        "Submit the required installation and commissioning information.",
+        "Wait for the central subsidy to be processed and credited after the applicable verification.",
+        "The Tamil Nadu state subsidy is then processed according to the state scheme requirements.",
+      ],
+    },
+
+    {
+      type: "paragraph",
+      text: (
+        <>
+          The Tamil Nadu Solar Homes portal has been created to bring together
+          information about the scheme, applications, subsidy details,
+          empanelled vendors and application status.
+        </>
+      ),
+    },
+
+    {
+      type: "heading",
+      level: 2,
+      text:
+        "Why Is Net Metering Important?",
+    },
+
+    {
+      type: "paragraph",
+      text: (
+        <>
+          Net metering is an important part of a grid-connected rooftop solar
+          installation. During the day, your solar panels generate electricity
+          for your home. If your system produces more electricity than your
+          home is using at that moment, the excess can be exported to the
+          electricity grid through the appropriate metering arrangement.
+        </>
+      ),
+    },
+
+    {
+      type: "paragraph",
+      text: (
+        <>
+          A bidirectional meter records electricity flowing in both directions:
+          electricity consumed from the grid and eligible surplus electricity
+          exported to the grid.
+        </>
+      ),
+    },
+
+    {
+      type: "paragraph",
+      text: (
+        <>
+          Because net metering and commissioning are part of the subsidy
+          process, homeowners should not treat the installation of the solar
+          panels as the final step. The required electrical and utility
+          procedures also need to be completed.
+        </>
+      ),
+    },
+
+    {
+      type: "heading",
+      level: 2,
+      text:
+        "How Much Can a 3 kW Solar System Cost After Subsidy?",
+    },
+
+    {
+      type: "paragraph",
+      text: (
+        <>
+          The final price of a solar installation depends on the equipment,
+          roof structure, inverter, installation requirements, electrical work
+          and other project-specific factors.
+        </>
+      ),
+    },
+
+    {
+      type: "paragraph",
+      text: (
+        <>
+          As an illustration, the Tamil Nadu Solar Homes portal currently shows
+          an indicative market price range of ₹1.80 lakh to ₹2.20 lakh for a
+          3 kW residential rooftop solar system. It uses ₹2 lakh as the
+          midpoint for its calculator example. Against that example, the
+          listed combined subsidy is ₹1 lakh.
+        </>
+      ),
+    },
+
+    {
+      type: "paragraph",
+      text: (
+        <>
+          This does not mean every 3 kW installation will cost exactly ₹2 lakh.
+          Your actual quotation may be different depending on the equipment
+          selected and the site requirements. The subsidy should therefore be
+          considered separately from the final project quotation.
+        </>
+      ),
+    },
+
+    {
+      type: "image",
+      path:
+        "/images/solar-subsidy-installation-process-2026.webp",
+      alt:
+        "Stylized rooftop solar installation showing panels, inverter and electricity meter in Tamil Nadu",
+    },
+
+    {
+      type: "heading",
+      level: 2,
+      text:
+        "What Should You Check Before Installing Solar?",
+    },
+
+    {
+      type: "paragraph",
+      text: (
+        <>
+          A subsidy can reduce the initial financial burden, but choosing the
+          right solar system is still important. The system should match your
+          electricity usage, available roof space and future power requirements.
+        </>
+      ),
+    },
+
+    {
+      type: "list",
+      items: [
+        "Check your recent EB bills to understand your average monthly consumption.",
+        "Choose the system capacity based on actual electricity usage rather than subsidy alone.",
+        "Check whether your roof has enough usable space for the required panels.",
+        "Make sure the installation uses eligible modules and equipment.",
+        "Confirm that the vendor follows the applicable government and utility procedures.",
+        "Understand what is included in the installation quotation.",
+        "Ask about warranty coverage for panels, inverter and workmanship.",
+        "Confirm the process for net-metering and commissioning before starting the project.",
+      ],
+    },
+
+    {
+      type: "heading",
+      level: 2,
+      text:
+        "1 kW vs 2 kW vs 3 kW: Which Capacity Should You Consider?",
+    },
+
+    {
+      type: "paragraph",
+      text: (
+        <>
+          The largest subsidy is not necessarily a reason to install the
+          largest system. Your solar capacity should be based on your household
+          electricity consumption.
+        </>
+      ),
+    },
+
+    {
+      type: "table",
+      headers: [
+        "System Size",
+        "Combined Subsidy",
+        "Generally Suitable For",
+      ],
+      rows: [
+        [
+          "1 kW",
+          "Up to ₹35,000",
+          "Homes with relatively lower electricity consumption",
+        ],
+        [
+          "2 kW",
+          "Up to ₹70,000",
+          "Homes with moderate electricity consumption",
+        ],
+        [
+          "3 kW",
+          "Up to ₹1,00,000",
+          "Homes with higher electricity consumption",
+        ],
+        [
+          "Above 3 kW",
+          "Up to ₹1,00,000",
+          "Larger residential requirements, with subsidy capped at the applicable maximum",
+        ],
+      ],
+    },
+
+    {
+      type: "paragraph",
+      text: (
+        <>
+          A proper site assessment can help determine whether 1 kW, 2 kW, 3 kW
+          or a larger system makes sense for your home. Factors such as monthly
+          consumption, roof area, shadow conditions and future electricity
+          requirements should all be considered.
+        </>
+      ),
+    },
+
+    {
+      type: "heading",
+      level: 2,
+      text:
+        "What Are DCR and ALMM Requirements?",
+    },
+
+    {
+      type: "paragraph",
+      text: (
+        <>
+          Homeowners may come across the terms DCR and ALMM when applying for
+          a subsidised rooftop solar system.
+        </>
+      ),
+    },
+
+    {
+      type: "paragraph",
+      text: (
+        <>
+          DCR refers to Domestic Content Requirement, while ALMM refers to the
+          Approved List of Models and Manufacturers. The Tamil Nadu Solar Homes
+          portal specifies that systems under the state subsidy structure must
+          use DCR-compliant, ALMM-listed modules installed through the required
+          empanelled vendor process.
+        </>
+      ),
+    },
+
+    {
+      type: "paragraph",
+      text: (
+        <>
+          This is one reason why homeowners should not select solar panels
+          based only on the lowest quotation. The equipment and installation
+          process must meet the applicable subsidy requirements.
+        </>
+      ),
+    },
+
+    {
+      type: "heading",
+      level: 2,
+      text:
+        "Common Mistakes Homeowners Should Avoid",
+    },
+
+    {
+      type: "list",
+      items: [
+        "Choosing a solar system only because it offers a higher subsidy.",
+        "Comparing quotations based only on the number of solar panels.",
+        "Ignoring inverter specifications and warranty terms.",
+        "Not checking whether the equipment meets subsidy requirements.",
+        "Assuming that the subsidy will be received immediately after installation.",
+        "Ignoring the net-metering and commissioning process.",
+        "Choosing an installer without checking the applicable empanelment requirements.",
+        "Not reviewing the complete quotation before making an installation decision.",
+      ],
+    },
+
+    {
+      type: "heading",
+      level: 2,
+      text:
+        "How Fuji Solar Can Help With Your Rooftop Solar Installation",
+    },
+
+    {
+      type: "paragraph",
+      text: (
+        <>
+          Understanding the subsidy is only one part of going solar. The next
+          step is choosing the right system and completing the installation
+          process correctly.
+        </>
+      ),
+    },
+
+    {
+      type: "paragraph",
+      text: (
+        <>
+          At Fuji Solar, we help homeowners understand their electricity
+          requirements, select a suitable rooftop solar capacity and plan the
+          installation based on their property and power consumption.
+        </>
+      ),
+    },
+
+    {
+      type: "paragraph",
+      text: (
+        <>
+          We can also guide customers through the information required for the
+          applicable subsidy and rooftop solar process, including installation,
+          net-metering and commissioning requirements. Government approval and
+          subsidy release remain subject to the applicable official rules and
+          eligibility conditions.
+        </>
+      ),
+    },
+
+    {
+      type: "heading",
+      level: 2,
+      text:
+        "Is 2026 a Good Time to Explore Rooftop Solar in Tamil Nadu?",
+    },
+
+    {
+      type: "paragraph",
+      text: (
+        <>
+          The introduction of the additional Tamil Nadu state subsidy changes
+          the financial calculation for eligible homeowners. A system that was
+          previously considered too expensive may now require a lower
+          upfront contribution after the applicable subsidy.
+        </>
+      ),
+    },
+
+    {
+      type: "paragraph",
+      text: (
+        <>
+          However, solar should still be treated as a long-term investment.
+          The right system size, quality of equipment, installation standards,
+          roof condition and electricity consumption all matter when evaluating
+          a solar project.
+        </>
+      ),
+    },
+
+    {
+      type: "paragraph",
+      text: (
+        <>
+          If you are considering rooftop solar in Tamil Nadu, checking your
+          electricity usage and understanding the latest subsidy structure is a
+          good place to start.
+        </>
+      ),
+    },
+
+    {
+      type: "heading",
+      level: 2,
+      text:
+        "Frequently Asked Questions About Tamil Nadu Solar Subsidy 2026",
+    },
+
+    {
+      type: "faq",
+      content: [
+        {
+          question:
+            "How much solar subsidy is available in Tamil Nadu in 2026?",
+          answer:
+            "Eligible residential consumers can receive combined central and Tamil Nadu state assistance of up to ₹1 lakh. The current state portal lists ₹35,000 for 1 kW, ₹70,000 for 2 kW and ₹1 lakh for 3 kW or above, subject to the applicable scheme conditions.",
+        },
+
+        {
+          question:
+            "What is the Tamil Nadu state subsidy for a 3 kW solar system?",
+          answer:
+            "The Tamil Nadu state subsidy listed on the official portal is ₹22,000 for a 3 kW system. When combined with the ₹78,000 central subsidy, the total assistance can reach ₹1 lakh for eligible consumers.",
+        },
+
+        {
+          question:
+            "Is the Tamil Nadu solar subsidy available for residential homes?",
+          answer:
+            "The current Tamil Nadu Solar Homes portal describes the scheme as covering eligible residential rooftop solar systems up to 10 kW, subject to the applicable eligibility requirements.",
+        },
+
+        {
+          question:
+            "Do I need to apply separately for the Tamil Nadu state subsidy?",
+          answer:
+            "The Tamil Nadu Solar Homes portal states that after the central subsidy is credited, the state portal can automatically process the Tamil Nadu top-up. Eligibility and required installation, net-metering and commissioning conditions still apply.",
+        },
+
+        {
+          question:
+            "Can I get the subsidy for a 5 kW solar system?",
+          answer:
+            "The state portal lists residential rooftop systems up to 10 kW within the scheme coverage, but the combined subsidy is capped at ₹1 lakh because the central and state subsidy amounts are capped at ₹78,000 and ₹22,000 respectively.",
+        },
+
+        {
+          question:
+            "Does the solar subsidy reduce the full installation cost?",
+          answer:
+            "The subsidy provides financial assistance but does not mean every installation will have the same final price. The total project cost depends on system capacity, equipment, installation requirements and site conditions.",
+        },
+
+        {
+          question:
+            "What documents are required for the solar subsidy?",
+          answer:
+            "The exact documents and application requirements depend on the applicable scheme and portal process. Homeowners should check the latest official Tamil Nadu Solar Homes and PM Surya Ghar requirements before submitting an application.",
+        },
+
+        {
+          question:
+            "Can Fuji Solar help me with the Tamil Nadu solar subsidy process?",
+          answer:
+            "Yes. Fuji Solar can help you understand the applicable subsidy structure, determine a suitable system size, plan the installation and guide you through the relevant rooftop solar, net-metering and commissioning process. Final subsidy approval and release are subject to government and utility rules.",
+        },
+      ],
+    },
+
+    {
+      type: "heading",
+      level: 2,
+      text:
+        "Final Thoughts",
+    },
+
+    {
+      type: "paragraph",
+      text: (
+        <>
+          The new Tamil Nadu rooftop solar subsidy gives eligible homeowners
+          an additional financial benefit on top of the central PM Surya Ghar
+          subsidy. With combined assistance of up to ₹1 lakh, rooftop solar
+          can become more accessible for households looking to generate their
+          own electricity.
+        </>
+      ),
+    },
+
+    {
+      type: "paragraph",
+      text: (
+        <>
+          But the subsidy should not be the only factor in your decision.
+          Choosing the right system capacity, reliable equipment, proper
+          installation and completing the required net-metering and commissioning
+          procedures are equally important.
+        </>
+      ),
+    },
+
+    {
+      type: "paragraph",
+      text: (
+        <>
+          If you are planning to install rooftop solar in Tamil Nadu, start by
+          checking your current electricity consumption and getting a proper
+          assessment of your home. From there, you can understand the system
+          size, project cost and applicable subsidy before moving forward.
+        </>
+      ),
+    },
+
+  ],
+},
 ];
 
 // use 16th blog for reference
