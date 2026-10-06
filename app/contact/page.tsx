@@ -10,9 +10,9 @@ import ContactSection from "./(components)/ContactSection";
 // });
 
 export const metadata = {
-  title: "Fuji Solar | Contact Solar Company in Madurai",
+  title: "Fuji Solar | Contact Solar Company in Tamil Nadu",
   description:
-    "Contact our solar experts in Madurai for installation, pricing, and subsidy support. Get a free consultation for solar panel installation across Tamil Nadu today.",
+    "Contact our solar experts in Tamil Nadu for installation, pricing, and subsidy support. Get a free consultation for solar panel installation across Tamil Nadu today.",
 };
 
 export default function Contact() {

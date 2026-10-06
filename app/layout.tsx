@@ -31,7 +31,7 @@ export const metadata: Metadata = {
   title: "Fuji Solar | Best Solar Panel Company in Tamil Nadu",
 
   description:
-    "Looking for solar panel installation in Madurai? We provide affordable rooftop solar systems across Tamil Nadu with full support including pricing and subsidy assistance.",
+    "Looking for solar panel installation in Tamil Nadu? We provide affordable rooftop solar systems across Tamil Nadu with full support including pricing and subsidy assistance.",
 
   icons: [{ url: "/images/favicon.png", sizes: "32x32", type: "image/png" }],
 
