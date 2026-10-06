@@ -10,7 +10,7 @@ export default function TermsOfService() {
 
         <p className="mb-8 leading-8">
           Welcome to <strong>FUJI SOLAR</strong>. These Terms of Service
-          ("Terms") govern your use of our website, products, and services. By
+          (&quot;Terms&quot;) govern your use of our website, products, and services. By
           accessing our website or engaging with our services, you agree to
           comply with these Terms.
         </p>

@@ -7,7 +7,7 @@ import Cta from "@/components/Cta";
 export const metadata = {
   title: "Fuji Solar | Solar Panel Installation Cost Tamil Nadu | Solar Experts",
   description:
-    "Get expert solar panel installation in Madurai with transparent pricing. Discover solar system cost in Tamil Nadu and choose the best rooftop solar system for your home or business.",
+    "Get expert solar panel installation in Tamil Nadu with transparent pricing. Discover solar system cost in Tamil Nadu and choose the best rooftop solar system for your home or business.",
 };
 
 const installationProcess = () => {
