@@ -7259,778 +7259,1481 @@ const blogData = [
   },
   // 16
   {
-  id: 16,
+    id: 16,
 
-  metaTitle:
-    "Tamil Nadu Rooftop Solar Subsidy 2026: New State Subsidy Explained",
+    metaTitle:
+      "Tamil Nadu Rooftop Solar Subsidy 2026: New State Subsidy Explained",
 
-  metaDescription:
-    "Learn about the Tamil Nadu rooftop solar subsidy 2026, including the new state subsidy, PM Surya Ghar benefits, eligibility, subsidy amounts and how homeowners can apply.",
+    metaDescription:
+      "Learn about the Tamil Nadu rooftop solar subsidy 2026, including the new state subsidy, PM Surya Ghar benefits, eligibility, subsidy amounts and how homeowners can apply.",
 
-  title:
-    "Tamil Nadu Rooftop Solar Subsidy 2026: New State Subsidy Explained for Homeowners",
+    title:
+      "Tamil Nadu Rooftop Solar Subsidy 2026: New State Subsidy Explained for Homeowners",
 
-  url:
-    "tamil-nadu-rooftop-solar-subsidy-2026",
+    url: "tamil-nadu-rooftop-solar-subsidy-2026",
 
-  summary:
-    "Tamil Nadu has introduced an additional rooftop solar subsidy for eligible residential consumers in addition to the central PM Surya Ghar subsidy. Here is how the new subsidy works, how much you can receive and what homeowners should know before installing solar.",
+    summary:
+      "Tamil Nadu has introduced an additional rooftop solar subsidy for eligible residential consumers in addition to the central PM Surya Ghar subsidy. Here is how the new subsidy works, how much you can receive and what homeowners should know before installing solar.",
 
-  image:
-    "/images/tamil-nadu-rooftop-solar-subsidy-2026.webp",
+    image: "/images/tamil-nadu-rooftop-solar-subsidy-2026.webp",
 
-  alt:
-    "Tamil Nadu homeowner with rooftop solar panels under the 2026 solar subsidy scheme",
+    alt: "Tamil Nadu homeowner with rooftop solar panels under the 2026 solar subsidy scheme",
 
-  category:
-    "Solar Energy",
+    category: "Solar Energy",
 
-  date:
-    "September 30, 2026",
+    date: "September 30, 2026",
 
-  fullContent: [
+    fullContent: [
+      {
+        type: "paragraph",
+        text: (
+          <>
+            If you have been planning to install rooftop solar in Tamil Nadu,
+            2026 has brought an important update. The Tamil Nadu government has
+            introduced an additional state subsidy for eligible residential
+            rooftop solar systems under the new Tamil Nadu Rooftop Solar Subsidy
+            Scheme.
+          </>
+        ),
+      },
 
-    {
-      type: "paragraph",
-      text: (
-        <>
-          If you have been planning to install rooftop solar in Tamil Nadu,
-          2026 has brought an important update. The Tamil Nadu government has
-          introduced an additional state subsidy for eligible residential
-          rooftop solar systems under the new Tamil Nadu Rooftop Solar Subsidy
-          Scheme.
-        </>
-      ),
-    },
+      {
+        type: "paragraph",
+        text: (
+          <>
+            This state support is provided in addition to the subsidy available
+            through the central government's PM Surya Ghar: Muft Bijli Yojana.
+            When both benefits are combined, eligible homeowners can receive
+            financial assistance of up to ₹1 lakh for a rooftop solar system.
+          </>
+        ),
+      },
 
-    {
-      type: "paragraph",
-      text: (
-        <>
-          This state support is provided in addition to the subsidy available
-          through the central government's PM Surya Ghar: Muft Bijli Yojana.
-          When both benefits are combined, eligible homeowners can receive
-          financial assistance of up to ₹1 lakh for a rooftop solar system.
-        </>
-      ),
-    },
+      {
+        type: "paragraph",
+        text: (
+          <>
+            The new scheme makes rooftop solar more accessible for homeowners
+            who want to reduce their electricity bills and generate their own
+            electricity. But before installing a system, it is important to
+            understand how the subsidy is calculated, who can receive it and
+            what steps are involved.
+          </>
+        ),
+      },
 
-    {
-      type: "paragraph",
-      text: (
-        <>
-          The new scheme makes rooftop solar more accessible for homeowners
-          who want to reduce their electricity bills and generate their own
-          electricity. But before installing a system, it is important to
-          understand how the subsidy is calculated, who can receive it and
-          what steps are involved.
-        </>
-      ),
-    },
+      {
+        type: "image",
+        path: "/images/tamil-nadu-rooftop-solar-subsidy-2027.webp",
+        alt: "Modern Tamil Nadu home with rooftop solar panels representing the new solar subsidy scheme",
+      },
 
-    {
-      type: "image",
-      path:
-        "/images/tamil-nadu-rooftop-solar-subsidy-2027.webp",
-      alt:
-        "Modern Tamil Nadu home with rooftop solar panels representing the new solar subsidy scheme",
-    },
+      {
+        type: "heading",
+        level: 2,
+        text: "What Is the New Tamil Nadu Rooftop Solar Subsidy 2026?",
+      },
 
-    {
-      type: "heading",
-      level: 2,
-      text:
-        "What Is the New Tamil Nadu Rooftop Solar Subsidy 2026?",
-    },
+      {
+        type: "paragraph",
+        text: (
+          <>
+            The Tamil Nadu Rooftop Solar Subsidy Scheme is a state-level
+            financial support programme introduced alongside the central PM
+            Surya Ghar scheme.
+          </>
+        ),
+      },
 
-    {
-      type: "paragraph",
-      text: (
-        <>
-          The Tamil Nadu Rooftop Solar Subsidy Scheme is a state-level
-          financial support programme introduced alongside the central PM
-          Surya Ghar scheme.
-        </>
-      ),
-    },
+      {
+        type: "paragraph",
+        text: (
+          <>
+            Under the new structure, eligible residential consumers can receive
+            the central subsidy first and then receive an additional Tamil Nadu
+            state subsidy. The official Tamil Nadu Solar Homes portal states
+            that the state subsidy is processed after the required installation,
+            net-metering, commissioning and central subsidy conditions are
+            completed.
+          </>
+        ),
+      },
 
-    {
-      type: "paragraph",
-      text: (
-        <>
-          Under the new structure, eligible residential consumers can receive
-          the central subsidy first and then receive an additional Tamil Nadu
-          state subsidy. The official Tamil Nadu Solar Homes portal states that
-          the state subsidy is processed after the required installation,
-          net-metering, commissioning and central subsidy conditions are
-          completed.
-        </>
-      ),
-    },
+      {
+        type: "paragraph",
+        text: (
+          <>
+            One important point is that homeowners do not have to treat the
+            central and state subsidies as two completely separate processes.
+            According to the state portal, once the central subsidy is credited,
+            the state portal can automatically process the Tamil Nadu top-up,
+            subject to the scheme's eligibility conditions.
+          </>
+        ),
+      },
 
-    {
-      type: "paragraph",
-      text: (
-        <>
-          One important point is that homeowners do not have to treat the
-          central and state subsidies as two completely separate processes.
-          According to the state portal, once the central subsidy is credited,
-          the state portal can automatically process the Tamil Nadu top-up,
-          subject to the scheme's eligibility conditions.
-        </>
-      ),
-    },
+      {
+        type: "heading",
+        level: 2,
+        text: "How Much Solar Subsidy Can You Get in Tamil Nadu?",
+      },
 
-    {
-      type: "heading",
-      level: 2,
-      text:
-        "How Much Solar Subsidy Can You Get in Tamil Nadu?",
-    },
+      {
+        type: "paragraph",
+        text: (
+          <>
+            The amount of subsidy depends mainly on the capacity of the rooftop
+            solar system. The current Tamil Nadu Solar Homes portal lists the
+            following combined central and state assistance for eligible
+            residential consumers:
+          </>
+        ),
+      },
 
-    {
-      type: "paragraph",
-      text: (
-        <>
-          The amount of subsidy depends mainly on the capacity of the rooftop
-          solar system. The current Tamil Nadu Solar Homes portal lists the
-          following combined central and state assistance for eligible
-          residential consumers:
-        </>
-      ),
-    },
-
-    {
-      type: "table",
-      headers: [
-        "Solar System Capacity",
-        "Central Subsidy",
-        "Tamil Nadu State Subsidy",
-        "Total Assistance",
-      ],
-      rows: [
-        [
-          "1 kW",
-          "₹30,000",
-          "₹5,000",
-          "₹35,000",
+      {
+        type: "table",
+        headers: [
+          "Solar System Capacity",
+          "Central Subsidy",
+          "Tamil Nadu State Subsidy",
+          "Total Assistance",
         ],
-        [
-          "2 kW",
-          "₹60,000",
-          "₹10,000",
-          "₹70,000",
+        rows: [
+          ["1 kW", "₹30,000", "₹5,000", "₹35,000"],
+          ["2 kW", "₹60,000", "₹10,000", "₹70,000"],
+          ["3 kW", "₹78,000", "₹22,000", "₹1,00,000"],
+          [
+            "Above 3 kW",
+            "₹78,000 maximum",
+            "₹22,000 maximum",
+            "₹1,00,000 maximum",
+          ],
         ],
-        [
-          "3 kW",
-          "₹78,000",
-          "₹22,000",
-          "₹1,00,000",
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            For example, a qualifying 3 kW residential rooftop solar system can
+            receive ₹78,000 through the central subsidy and an additional
+            ₹22,000 from Tamil Nadu, bringing the total assistance to ₹1 lakh.
+          </>
+        ),
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            The subsidy amount is not simply deducted from the installation
+            quotation at the time of purchase. The actual process involves
+            application, installation, commissioning and the required metering
+            procedures before the applicable subsidy is released.
+          </>
+        ),
+      },
+
+      {
+        type: "heading",
+        level: 2,
+        text: "Who Can Benefit From the Tamil Nadu Solar Subsidy?",
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            The current state portal describes the scheme as covering
+            residential rooftop solar systems up to 10 kW, subject to the
+            applicable eligibility conditions.
+          </>
+        ),
+      },
+
+      {
+        type: "list",
+        items: [
+          "The solar system should be installed for an eligible residential electricity connection.",
+          "The installation must follow the applicable PM Surya Ghar and Tamil Nadu scheme requirements.",
+          "The required net-metering and commissioning procedures must be completed.",
+          "The central subsidy eligibility and disbursal conditions must be satisfied.",
+          "The solar modules must meet the required DCR and ALMM requirements.",
+          "The system must be installed through the applicable empanelled vendor process.",
         ],
-        [
-          "Above 3 kW",
-          "₹78,000 maximum",
-          "₹22,000 maximum",
-          "₹1,00,000 maximum",
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            Eligibility should always be checked against the latest official
+            scheme guidelines before installation because subsidy rules and
+            implementation procedures can change.
+          </>
+        ),
+      },
+
+      {
+        type: "heading",
+        level: 2,
+        text: "What Is PM Surya Ghar and How Does It Connect With the Tamil Nadu Subsidy?",
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            PM Surya Ghar: Muft Bijli Yojana is the central government's
+            residential rooftop solar programme. The central subsidy provides
+            financial support based on the installed rooftop solar capacity.
+          </>
+        ),
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            Tamil Nadu's new subsidy works alongside this central support. This
+            means eligible homeowners in the state can receive the central
+            benefit and the additional Tamil Nadu state subsidy when the
+            applicable conditions are satisfied.
+          </>
+        ),
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            This combination is particularly relevant for homeowners considering
+            systems around 2 kW or 3 kW because the combined assistance can
+            significantly reduce the amount they need to finance themselves.
+          </>
+        ),
+      },
+
+      {
+        type: "heading",
+        level: 2,
+        text: "How Does the Tamil Nadu Rooftop Solar Subsidy Process Work?",
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            Installing solar under a subsidy scheme involves more than simply
+            purchasing solar panels. The application, installation, inspection,
+            metering and subsidy stages all need to be completed correctly.
+          </>
+        ),
+      },
+
+      {
+        type: "list",
+        items: [
+          "Check your electricity consumption and determine the appropriate solar capacity.",
+          "Choose an eligible solar installation vendor.",
+          "Complete the required application process through the applicable solar portal.",
+          "Proceed with the rooftop solar installation using the required equipment and modules.",
+          "Complete the required net-metering process.",
+          "Submit the required installation and commissioning information.",
+          "Wait for the central subsidy to be processed and credited after the applicable verification.",
+          "The Tamil Nadu state subsidy is then processed according to the state scheme requirements.",
         ],
-      ],
-    },
+      },
 
-    {
-      type: "paragraph",
-      text: (
-        <>
-          For example, a qualifying 3 kW residential rooftop solar system can
-          receive ₹78,000 through the central subsidy and an additional
-          ₹22,000 from Tamil Nadu, bringing the total assistance to ₹1 lakh.
-        </>
-      ),
-    },
+      {
+        type: "paragraph",
+        text: (
+          <>
+            The Tamil Nadu Solar Homes portal has been created to bring together
+            information about the scheme, applications, subsidy details,
+            empanelled vendors and application status.
+          </>
+        ),
+      },
 
-    {
-      type: "paragraph",
-      text: (
-        <>
-          The subsidy amount is not simply deducted from the installation
-          quotation at the time of purchase. The actual process involves
-          application, installation, commissioning and the required metering
-          procedures before the applicable subsidy is released.
-        </>
-      ),
-    },
+      {
+        type: "heading",
+        level: 2,
+        text: "Why Is Net Metering Important?",
+      },
 
-    {
-      type: "heading",
-      level: 2,
-      text:
-        "Who Can Benefit From the Tamil Nadu Solar Subsidy?",
-    },
+      {
+        type: "paragraph",
+        text: (
+          <>
+            Net metering is an important part of a grid-connected rooftop solar
+            installation. During the day, your solar panels generate electricity
+            for your home. If your system produces more electricity than your
+            home is using at that moment, the excess can be exported to the
+            electricity grid through the appropriate metering arrangement.
+          </>
+        ),
+      },
 
-    {
-      type: "paragraph",
-      text: (
-        <>
-          The current state portal describes the scheme as covering residential
-          rooftop solar systems up to 10 kW, subject to the applicable
-          eligibility conditions.
-        </>
-      ),
-    },
+      {
+        type: "paragraph",
+        text: (
+          <>
+            A bidirectional meter records electricity flowing in both
+            directions: electricity consumed from the grid and eligible surplus
+            electricity exported to the grid.
+          </>
+        ),
+      },
 
-    {
-      type: "list",
-      items: [
-        "The solar system should be installed for an eligible residential electricity connection.",
-        "The installation must follow the applicable PM Surya Ghar and Tamil Nadu scheme requirements.",
-        "The required net-metering and commissioning procedures must be completed.",
-        "The central subsidy eligibility and disbursal conditions must be satisfied.",
-        "The solar modules must meet the required DCR and ALMM requirements.",
-        "The system must be installed through the applicable empanelled vendor process.",
-      ],
-    },
+      {
+        type: "paragraph",
+        text: (
+          <>
+            Because net metering and commissioning are part of the subsidy
+            process, homeowners should not treat the installation of the solar
+            panels as the final step. The required electrical and utility
+            procedures also need to be completed.
+          </>
+        ),
+      },
 
-    {
-      type: "paragraph",
-      text: (
-        <>
-          Eligibility should always be checked against the latest official
-          scheme guidelines before installation because subsidy rules and
-          implementation procedures can change.
-        </>
-      ),
-    },
+      {
+        type: "heading",
+        level: 2,
+        text: "How Much Can a 3 kW Solar System Cost After Subsidy?",
+      },
 
-    {
-      type: "heading",
-      level: 2,
-      text:
-        "What Is PM Surya Ghar and How Does It Connect With the Tamil Nadu Subsidy?",
-    },
+      {
+        type: "paragraph",
+        text: (
+          <>
+            The final price of a solar installation depends on the equipment,
+            roof structure, inverter, installation requirements, electrical work
+            and other project-specific factors.
+          </>
+        ),
+      },
 
-    {
-      type: "paragraph",
-      text: (
-        <>
-          PM Surya Ghar: Muft Bijli Yojana is the central government's
-          residential rooftop solar programme. The central subsidy provides
-          financial support based on the installed rooftop solar capacity.
-        </>
-      ),
-    },
+      {
+        type: "paragraph",
+        text: (
+          <>
+            As an illustration, the Tamil Nadu Solar Homes portal currently
+            shows an indicative market price range of ₹1.80 lakh to ₹2.20 lakh
+            for a 3 kW residential rooftop solar system. It uses ₹2 lakh as the
+            midpoint for its calculator example. Against that example, the
+            listed combined subsidy is ₹1 lakh.
+          </>
+        ),
+      },
 
-    {
-      type: "paragraph",
-      text: (
-        <>
-          Tamil Nadu's new subsidy works alongside this central support. This
-          means eligible homeowners in the state can receive the central
-          benefit and the additional Tamil Nadu state subsidy when the
-          applicable conditions are satisfied.
-        </>
-      ),
-    },
+      {
+        type: "paragraph",
+        text: (
+          <>
+            This does not mean every 3 kW installation will cost exactly ₹2
+            lakh. Your actual quotation may be different depending on the
+            equipment selected and the site requirements. The subsidy should
+            therefore be considered separately from the final project quotation.
+          </>
+        ),
+      },
 
-    {
-      type: "paragraph",
-      text: (
-        <>
-          This combination is particularly relevant for homeowners considering
-          systems around 2 kW or 3 kW because the combined assistance can
-          significantly reduce the amount they need to finance themselves.
-        </>
-      ),
-    },
+      {
+        type: "image",
+        path: "/images/solar-subsidy-installation-process-2026.webp",
+        alt: "Stylized rooftop solar installation showing panels, inverter and electricity meter in Tamil Nadu",
+      },
 
-    {
-      type: "heading",
-      level: 2,
-      text:
-        "How Does the Tamil Nadu Rooftop Solar Subsidy Process Work?",
-    },
+      {
+        type: "heading",
+        level: 2,
+        text: "What Should You Check Before Installing Solar?",
+      },
 
-    {
-      type: "paragraph",
-      text: (
-        <>
-          Installing solar under a subsidy scheme involves more than simply
-          purchasing solar panels. The application, installation, inspection,
-          metering and subsidy stages all need to be completed correctly.
-        </>
-      ),
-    },
+      {
+        type: "paragraph",
+        text: (
+          <>
+            A subsidy can reduce the initial financial burden, but choosing the
+            right solar system is still important. The system should match your
+            electricity usage, available roof space and future power
+            requirements.
+          </>
+        ),
+      },
 
-    {
-      type: "list",
-      items: [
-        "Check your electricity consumption and determine the appropriate solar capacity.",
-        "Choose an eligible solar installation vendor.",
-        "Complete the required application process through the applicable solar portal.",
-        "Proceed with the rooftop solar installation using the required equipment and modules.",
-        "Complete the required net-metering process.",
-        "Submit the required installation and commissioning information.",
-        "Wait for the central subsidy to be processed and credited after the applicable verification.",
-        "The Tamil Nadu state subsidy is then processed according to the state scheme requirements.",
-      ],
-    },
-
-    {
-      type: "paragraph",
-      text: (
-        <>
-          The Tamil Nadu Solar Homes portal has been created to bring together
-          information about the scheme, applications, subsidy details,
-          empanelled vendors and application status.
-        </>
-      ),
-    },
-
-    {
-      type: "heading",
-      level: 2,
-      text:
-        "Why Is Net Metering Important?",
-    },
-
-    {
-      type: "paragraph",
-      text: (
-        <>
-          Net metering is an important part of a grid-connected rooftop solar
-          installation. During the day, your solar panels generate electricity
-          for your home. If your system produces more electricity than your
-          home is using at that moment, the excess can be exported to the
-          electricity grid through the appropriate metering arrangement.
-        </>
-      ),
-    },
-
-    {
-      type: "paragraph",
-      text: (
-        <>
-          A bidirectional meter records electricity flowing in both directions:
-          electricity consumed from the grid and eligible surplus electricity
-          exported to the grid.
-        </>
-      ),
-    },
-
-    {
-      type: "paragraph",
-      text: (
-        <>
-          Because net metering and commissioning are part of the subsidy
-          process, homeowners should not treat the installation of the solar
-          panels as the final step. The required electrical and utility
-          procedures also need to be completed.
-        </>
-      ),
-    },
-
-    {
-      type: "heading",
-      level: 2,
-      text:
-        "How Much Can a 3 kW Solar System Cost After Subsidy?",
-    },
-
-    {
-      type: "paragraph",
-      text: (
-        <>
-          The final price of a solar installation depends on the equipment,
-          roof structure, inverter, installation requirements, electrical work
-          and other project-specific factors.
-        </>
-      ),
-    },
-
-    {
-      type: "paragraph",
-      text: (
-        <>
-          As an illustration, the Tamil Nadu Solar Homes portal currently shows
-          an indicative market price range of ₹1.80 lakh to ₹2.20 lakh for a
-          3 kW residential rooftop solar system. It uses ₹2 lakh as the
-          midpoint for its calculator example. Against that example, the
-          listed combined subsidy is ₹1 lakh.
-        </>
-      ),
-    },
-
-    {
-      type: "paragraph",
-      text: (
-        <>
-          This does not mean every 3 kW installation will cost exactly ₹2 lakh.
-          Your actual quotation may be different depending on the equipment
-          selected and the site requirements. The subsidy should therefore be
-          considered separately from the final project quotation.
-        </>
-      ),
-    },
-
-    {
-      type: "image",
-      path:
-        "/images/solar-subsidy-installation-process-2026.webp",
-      alt:
-        "Stylized rooftop solar installation showing panels, inverter and electricity meter in Tamil Nadu",
-    },
-
-    {
-      type: "heading",
-      level: 2,
-      text:
-        "What Should You Check Before Installing Solar?",
-    },
-
-    {
-      type: "paragraph",
-      text: (
-        <>
-          A subsidy can reduce the initial financial burden, but choosing the
-          right solar system is still important. The system should match your
-          electricity usage, available roof space and future power requirements.
-        </>
-      ),
-    },
-
-    {
-      type: "list",
-      items: [
-        "Check your recent EB bills to understand your average monthly consumption.",
-        "Choose the system capacity based on actual electricity usage rather than subsidy alone.",
-        "Check whether your roof has enough usable space for the required panels.",
-        "Make sure the installation uses eligible modules and equipment.",
-        "Confirm that the vendor follows the applicable government and utility procedures.",
-        "Understand what is included in the installation quotation.",
-        "Ask about warranty coverage for panels, inverter and workmanship.",
-        "Confirm the process for net-metering and commissioning before starting the project.",
-      ],
-    },
-
-    {
-      type: "heading",
-      level: 2,
-      text:
-        "1 kW vs 2 kW vs 3 kW: Which Capacity Should You Consider?",
-    },
-
-    {
-      type: "paragraph",
-      text: (
-        <>
-          The largest subsidy is not necessarily a reason to install the
-          largest system. Your solar capacity should be based on your household
-          electricity consumption.
-        </>
-      ),
-    },
-
-    {
-      type: "table",
-      headers: [
-        "System Size",
-        "Combined Subsidy",
-        "Generally Suitable For",
-      ],
-      rows: [
-        [
-          "1 kW",
-          "Up to ₹35,000",
-          "Homes with relatively lower electricity consumption",
+      {
+        type: "list",
+        items: [
+          "Check your recent EB bills to understand your average monthly consumption.",
+          "Choose the system capacity based on actual electricity usage rather than subsidy alone.",
+          "Check whether your roof has enough usable space for the required panels.",
+          "Make sure the installation uses eligible modules and equipment.",
+          "Confirm that the vendor follows the applicable government and utility procedures.",
+          "Understand what is included in the installation quotation.",
+          "Ask about warranty coverage for panels, inverter and workmanship.",
+          "Confirm the process for net-metering and commissioning before starting the project.",
         ],
-        [
-          "2 kW",
-          "Up to ₹70,000",
-          "Homes with moderate electricity consumption",
+      },
+
+      {
+        type: "heading",
+        level: 2,
+        text: "1 kW vs 2 kW vs 3 kW: Which Capacity Should You Consider?",
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            The largest subsidy is not necessarily a reason to install the
+            largest system. Your solar capacity should be based on your
+            household electricity consumption.
+          </>
+        ),
+      },
+
+      {
+        type: "table",
+        headers: ["System Size", "Combined Subsidy", "Generally Suitable For"],
+        rows: [
+          [
+            "1 kW",
+            "Up to ₹35,000",
+            "Homes with relatively lower electricity consumption",
+          ],
+          [
+            "2 kW",
+            "Up to ₹70,000",
+            "Homes with moderate electricity consumption",
+          ],
+          [
+            "3 kW",
+            "Up to ₹1,00,000",
+            "Homes with higher electricity consumption",
+          ],
+          [
+            "Above 3 kW",
+            "Up to ₹1,00,000",
+            "Larger residential requirements, with subsidy capped at the applicable maximum",
+          ],
         ],
-        [
-          "3 kW",
-          "Up to ₹1,00,000",
-          "Homes with higher electricity consumption",
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            A proper site assessment can help determine whether 1 kW, 2 kW, 3 kW
+            or a larger system makes sense for your home. Factors such as
+            monthly consumption, roof area, shadow conditions and future
+            electricity requirements should all be considered.
+          </>
+        ),
+      },
+
+      {
+        type: "heading",
+        level: 2,
+        text: "What Are DCR and ALMM Requirements?",
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            Homeowners may come across the terms DCR and ALMM when applying for
+            a subsidised rooftop solar system.
+          </>
+        ),
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            DCR refers to Domestic Content Requirement, while ALMM refers to the
+            Approved List of Models and Manufacturers. The Tamil Nadu Solar
+            Homes portal specifies that systems under the state subsidy
+            structure must use DCR-compliant, ALMM-listed modules installed
+            through the required empanelled vendor process.
+          </>
+        ),
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            This is one reason why homeowners should not select solar panels
+            based only on the lowest quotation. The equipment and installation
+            process must meet the applicable subsidy requirements.
+          </>
+        ),
+      },
+
+      {
+        type: "heading",
+        level: 2,
+        text: "Common Mistakes Homeowners Should Avoid",
+      },
+
+      {
+        type: "list",
+        items: [
+          "Choosing a solar system only because it offers a higher subsidy.",
+          "Comparing quotations based only on the number of solar panels.",
+          "Ignoring inverter specifications and warranty terms.",
+          "Not checking whether the equipment meets subsidy requirements.",
+          "Assuming that the subsidy will be received immediately after installation.",
+          "Ignoring the net-metering and commissioning process.",
+          "Choosing an installer without checking the applicable empanelment requirements.",
+          "Not reviewing the complete quotation before making an installation decision.",
         ],
-        [
-          "Above 3 kW",
-          "Up to ₹1,00,000",
-          "Larger residential requirements, with subsidy capped at the applicable maximum",
+      },
+
+      {
+        type: "heading",
+        level: 2,
+        text: "How Fuji Solar Can Help With Your Rooftop Solar Installation",
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            Understanding the subsidy is only one part of going solar. The next
+            step is choosing the right system and completing the installation
+            process correctly.
+          </>
+        ),
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            At Fuji Solar, we help homeowners understand their electricity
+            requirements, select a suitable rooftop solar capacity and plan the
+            installation based on their property and power consumption.
+          </>
+        ),
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            We can also guide customers through the information required for the
+            applicable subsidy and rooftop solar process, including
+            installation, net-metering and commissioning requirements.
+            Government approval and subsidy release remain subject to the
+            applicable official rules and eligibility conditions.
+          </>
+        ),
+      },
+
+      {
+        type: "heading",
+        level: 2,
+        text: "Is 2026 a Good Time to Explore Rooftop Solar in Tamil Nadu?",
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            The introduction of the additional Tamil Nadu state subsidy changes
+            the financial calculation for eligible homeowners. A system that was
+            previously considered too expensive may now require a lower upfront
+            contribution after the applicable subsidy.
+          </>
+        ),
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            However, solar should still be treated as a long-term investment.
+            The right system size, quality of equipment, installation standards,
+            roof condition and electricity consumption all matter when
+            evaluating a solar project.
+          </>
+        ),
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            If you are considering rooftop solar in Tamil Nadu, checking your
+            electricity usage and understanding the latest subsidy structure is
+            a good place to start.
+          </>
+        ),
+      },
+
+      {
+        type: "heading",
+        level: 2,
+        text: "Frequently Asked Questions About Tamil Nadu Solar Subsidy 2026",
+      },
+
+      {
+        type: "faq",
+        content: [
+          {
+            question:
+              "How much solar subsidy is available in Tamil Nadu in 2026?",
+            answer:
+              "Eligible residential consumers can receive combined central and Tamil Nadu state assistance of up to ₹1 lakh. The current state portal lists ₹35,000 for 1 kW, ₹70,000 for 2 kW and ₹1 lakh for 3 kW or above, subject to the applicable scheme conditions.",
+          },
+
+          {
+            question:
+              "What is the Tamil Nadu state subsidy for a 3 kW solar system?",
+            answer:
+              "The Tamil Nadu state subsidy listed on the official portal is ₹22,000 for a 3 kW system. When combined with the ₹78,000 central subsidy, the total assistance can reach ₹1 lakh for eligible consumers.",
+          },
+
+          {
+            question:
+              "Is the Tamil Nadu solar subsidy available for residential homes?",
+            answer:
+              "The current Tamil Nadu Solar Homes portal describes the scheme as covering eligible residential rooftop solar systems up to 10 kW, subject to the applicable eligibility requirements.",
+          },
+
+          {
+            question:
+              "Do I need to apply separately for the Tamil Nadu state subsidy?",
+            answer:
+              "The Tamil Nadu Solar Homes portal states that after the central subsidy is credited, the state portal can automatically process the Tamil Nadu top-up. Eligibility and required installation, net-metering and commissioning conditions still apply.",
+          },
+
+          {
+            question: "Can I get the subsidy for a 5 kW solar system?",
+            answer:
+              "The state portal lists residential rooftop systems up to 10 kW within the scheme coverage, but the combined subsidy is capped at ₹1 lakh because the central and state subsidy amounts are capped at ₹78,000 and ₹22,000 respectively.",
+          },
+
+          {
+            question:
+              "Does the solar subsidy reduce the full installation cost?",
+            answer:
+              "The subsidy provides financial assistance but does not mean every installation will have the same final price. The total project cost depends on system capacity, equipment, installation requirements and site conditions.",
+          },
+
+          {
+            question: "What documents are required for the solar subsidy?",
+            answer:
+              "The exact documents and application requirements depend on the applicable scheme and portal process. Homeowners should check the latest official Tamil Nadu Solar Homes and PM Surya Ghar requirements before submitting an application.",
+          },
+
+          {
+            question:
+              "Can Fuji Solar help me with the Tamil Nadu solar subsidy process?",
+            answer:
+              "Yes. Fuji Solar can help you understand the applicable subsidy structure, determine a suitable system size, plan the installation and guide you through the relevant rooftop solar, net-metering and commissioning process. Final subsidy approval and release are subject to government and utility rules.",
+          },
         ],
-      ],
-    },
+      },
 
-    {
-      type: "paragraph",
-      text: (
-        <>
-          A proper site assessment can help determine whether 1 kW, 2 kW, 3 kW
-          or a larger system makes sense for your home. Factors such as monthly
-          consumption, roof area, shadow conditions and future electricity
-          requirements should all be considered.
-        </>
-      ),
-    },
+      {
+        type: "heading",
+        level: 2,
+        text: "Final Thoughts",
+      },
 
-    {
-      type: "heading",
-      level: 2,
-      text:
-        "What Are DCR and ALMM Requirements?",
-    },
+      {
+        type: "paragraph",
+        text: (
+          <>
+            The new Tamil Nadu rooftop solar subsidy gives eligible homeowners
+            an additional financial benefit on top of the central PM Surya Ghar
+            subsidy. With combined assistance of up to ₹1 lakh, rooftop solar
+            can become more accessible for households looking to generate their
+            own electricity.
+          </>
+        ),
+      },
 
-    {
-      type: "paragraph",
-      text: (
-        <>
-          Homeowners may come across the terms DCR and ALMM when applying for
-          a subsidised rooftop solar system.
-        </>
-      ),
-    },
+      {
+        type: "paragraph",
+        text: (
+          <>
+            But the subsidy should not be the only factor in your decision.
+            Choosing the right system capacity, reliable equipment, proper
+            installation and completing the required net-metering and
+            commissioning procedures are equally important.
+          </>
+        ),
+      },
 
-    {
-      type: "paragraph",
-      text: (
-        <>
-          DCR refers to Domestic Content Requirement, while ALMM refers to the
-          Approved List of Models and Manufacturers. The Tamil Nadu Solar Homes
-          portal specifies that systems under the state subsidy structure must
-          use DCR-compliant, ALMM-listed modules installed through the required
-          empanelled vendor process.
-        </>
-      ),
-    },
+      {
+        type: "paragraph",
+        text: (
+          <>
+            If you are planning to install rooftop solar in Tamil Nadu, start by
+            checking your current electricity consumption and getting a proper
+            assessment of your home. From there, you can understand the system
+            size, project cost and applicable subsidy before moving forward.
+          </>
+        ),
+      },
+    ],
+  },
+  // 17
+  {
+    id: 17,
 
-    {
-      type: "paragraph",
-      text: (
-        <>
-          This is one reason why homeowners should not select solar panels
-          based only on the lowest quotation. The equipment and installation
-          process must meet the applicable subsidy requirements.
-        </>
-      ),
-    },
+    metaTitle: "Is Solar Power Worth It for Small Businesses in Tamil Nadu?",
 
-    {
-      type: "heading",
-      level: 2,
-      text:
-        "Common Mistakes Homeowners Should Avoid",
-    },
+    metaDescription:
+      "Discover how commercial solar panels can reduce electricity bills for shops, offices, bakeries and small industries in Tamil Nadu. Explore costs, savings and ROI.",
 
-    {
-      type: "list",
-      items: [
-        "Choosing a solar system only because it offers a higher subsidy.",
-        "Comparing quotations based only on the number of solar panels.",
-        "Ignoring inverter specifications and warranty terms.",
-        "Not checking whether the equipment meets subsidy requirements.",
-        "Assuming that the subsidy will be received immediately after installation.",
-        "Ignoring the net-metering and commissioning process.",
-        "Choosing an installer without checking the applicable empanelment requirements.",
-        "Not reviewing the complete quotation before making an installation decision.",
-      ],
-    },
+    title: "Is Solar Power Worth It for Small Businesses in Tamil Nadu?",
 
-    {
-      type: "heading",
-      level: 2,
-      text:
-        "How Fuji Solar Can Help With Your Rooftop Solar Installation",
-    },
+    url: "solar-power-for-small-businesses-tamil-nadu",
 
-    {
-      type: "paragraph",
-      text: (
-        <>
-          Understanding the subsidy is only one part of going solar. The next
-          step is choosing the right system and completing the installation
-          process correctly.
-        </>
-      ),
-    },
+    summary:
+      "Electricity bills can take a significant share of a small business's monthly expenses. Discover how rooftop solar can help shops, offices, bakeries and small industries in Tamil Nadu manage electricity costs and make a long-term investment.",
 
-    {
-      type: "paragraph",
-      text: (
-        <>
-          At Fuji Solar, we help homeowners understand their electricity
-          requirements, select a suitable rooftop solar capacity and plan the
-          installation based on their property and power consumption.
-        </>
-      ),
-    },
+    image: "/images/solar-power-small-businesses-tamil-nadu.webp",
 
-    {
-      type: "paragraph",
-      text: (
-        <>
-          We can also guide customers through the information required for the
-          applicable subsidy and rooftop solar process, including installation,
-          net-metering and commissioning requirements. Government approval and
-          subsidy release remain subject to the applicable official rules and
-          eligibility conditions.
-        </>
-      ),
-    },
+    alt: "Modern commercial building in Tamil Nadu equipped with rooftop solar panels to reduce business electricity costs",
 
-    {
-      type: "heading",
-      level: 2,
-      text:
-        "Is 2026 a Good Time to Explore Rooftop Solar in Tamil Nadu?",
-    },
+    category: "Commercial Solar",
 
-    {
-      type: "paragraph",
-      text: (
-        <>
-          The introduction of the additional Tamil Nadu state subsidy changes
-          the financial calculation for eligible homeowners. A system that was
-          previously considered too expensive may now require a lower
-          upfront contribution after the applicable subsidy.
-        </>
-      ),
-    },
+    date: "October 10, 2026",
 
-    {
-      type: "paragraph",
-      text: (
-        <>
-          However, solar should still be treated as a long-term investment.
-          The right system size, quality of equipment, installation standards,
-          roof condition and electricity consumption all matter when evaluating
-          a solar project.
-        </>
-      ),
-    },
+    fullContent: [
+      {
+        type: "paragraph",
+        text: (
+          <>
+            Running a business involves more than managing sales and customers.
+            Rent, salaries, inventory, maintenance and electricity bills all
+            affect your monthly expenses. For businesses that depend on
+            lighting, computers, air conditioning, refrigeration or machinery,
+            electricity can become a significant operating cost.
+          </>
+        ),
+      },
 
-    {
-      type: "paragraph",
-      text: (
-        <>
-          If you are considering rooftop solar in Tamil Nadu, checking your
-          electricity usage and understanding the latest subsidy structure is a
-          good place to start.
-        </>
-      ),
-    },
+      {
+        type: "paragraph",
+        text: (
+          <>
+            This is why more business owners are exploring solar power as a
+            long-term way to manage their electricity expenses. From retail
+            shops and bakeries to offices, supermarkets and manufacturing units,
+            commercial rooftop solar can help businesses generate electricity
+            using the roof space they already have.
+          </>
+        ),
+      },
 
-    {
-      type: "heading",
-      level: 2,
-      text:
-        "Frequently Asked Questions About Tamil Nadu Solar Subsidy 2026",
-    },
+      {
+        type: "paragraph",
+        text: (
+          <>
+            But is solar power actually worth the investment for a small
+            business in Tamil Nadu? The answer depends on how much electricity
+            you use, when your business operates, the cost of installation and
+            the rules that apply to your electricity connection.
+          </>
+        ),
+      },
 
-    {
-      type: "faq",
-      content: [
-        {
-          question:
-            "How much solar subsidy is available in Tamil Nadu in 2026?",
-          answer:
-            "Eligible residential consumers can receive combined central and Tamil Nadu state assistance of up to ₹1 lakh. The current state portal lists ₹35,000 for 1 kW, ₹70,000 for 2 kW and ₹1 lakh for 3 kW or above, subject to the applicable scheme conditions.",
-        },
+      {
+        type: "image",
+        path: "/images/solar-power-small-businesses-tamil-nadu-2.webp",
+        alt: "Stylized 3D illustration of a small Indian business building with rooftop solar panels generating clean electricity",
+      },
 
-        {
-          question:
-            "What is the Tamil Nadu state subsidy for a 3 kW solar system?",
-          answer:
-            "The Tamil Nadu state subsidy listed on the official portal is ₹22,000 for a 3 kW system. When combined with the ₹78,000 central subsidy, the total assistance can reach ₹1 lakh for eligible consumers.",
-        },
+      {
+        type: "heading",
+        level: 2,
+        text: "Why Are Small Businesses in Tamil Nadu Considering Solar Power?",
+      },
 
-        {
-          question:
-            "Is the Tamil Nadu solar subsidy available for residential homes?",
-          answer:
-            "The current Tamil Nadu Solar Homes portal describes the scheme as covering eligible residential rooftop solar systems up to 10 kW, subject to the applicable eligibility requirements.",
-        },
+      {
+        type: "paragraph",
+        text: (
+          <>
+            Many businesses consume electricity throughout their working hours.
+            Shops need lighting and cooling, offices operate computers and air
+            conditioners, bakeries use ovens and refrigeration equipment, and
+            workshops depend on electrical machinery.
+          </>
+        ),
+      },
 
-        {
-          question:
-            "Do I need to apply separately for the Tamil Nadu state subsidy?",
-          answer:
-            "The Tamil Nadu Solar Homes portal states that after the central subsidy is credited, the state portal can automatically process the Tamil Nadu top-up. Eligibility and required installation, net-metering and commissioning conditions still apply.",
-        },
+      {
+        type: "paragraph",
+        text: (
+          <>
+            When a business uses a suitable rooftop solar system, it can
+            generate electricity during daylight hours and use that power to
+            operate eligible electrical equipment. This reduces the amount of
+            electricity it needs to purchase from the grid while the solar
+            system is generating power.
+          </>
+        ),
+      },
 
-        {
-          question:
-            "Can I get the subsidy for a 5 kW solar system?",
-          answer:
-            "The state portal lists residential rooftop systems up to 10 kW within the scheme coverage, but the combined subsidy is capped at ₹1 lakh because the central and state subsidy amounts are capped at ₹78,000 and ₹22,000 respectively.",
-        },
+      {
+        type: "paragraph",
+        text: (
+          <>
+            Unlike a business expense that repeats without creating a physical
+            asset, a properly designed solar installation can continue
+            generating electricity for many years. That makes it worth
+            evaluating as a long-term investment rather than simply another
+            monthly expense.
+          </>
+        ),
+      },
 
-        {
-          question:
-            "Does the solar subsidy reduce the full installation cost?",
-          answer:
-            "The subsidy provides financial assistance but does not mean every installation will have the same final price. The total project cost depends on system capacity, equipment, installation requirements and site conditions.",
-        },
+      {
+        type: "heading",
+        level: 2,
+        text: "Which Types of Small Businesses Can Benefit From Solar?",
+      },
 
-        {
-          question:
-            "What documents are required for the solar subsidy?",
-          answer:
-            "The exact documents and application requirements depend on the applicable scheme and portal process. Homeowners should check the latest official Tamil Nadu Solar Homes and PM Surya Ghar requirements before submitting an application.",
-        },
+      {
+        type: "paragraph",
+        text: (
+          <>
+            Solar power is not limited to factories or large commercial
+            buildings. Many small and medium-sized businesses have rooftops that
+            could accommodate a solar installation, provided the roof,
+            electrical connection and electricity consumption are suitable.
+          </>
+        ),
+      },
 
-        {
-          question:
-            "Can Fuji Solar help me with the Tamil Nadu solar subsidy process?",
-          answer:
-            "Yes. Fuji Solar can help you understand the applicable subsidy structure, determine a suitable system size, plan the installation and guide you through the relevant rooftop solar, net-metering and commissioning process. Final subsidy approval and release are subject to government and utility rules.",
-        },
-      ],
-    },
+      {
+        type: "list",
+        items: [
+          "Retail shops and supermarkets that use lighting, fans, air conditioning and refrigeration.",
+          "Bakeries and food businesses that operate refrigerators, freezers and other electrical equipment.",
+          "Offices and IT companies that run computers, networking equipment and cooling systems.",
+          "Textile shops and small garment units that use lighting and electrical machinery.",
+          "Educational institutions and training centres with daytime electricity consumption.",
+          "Hotels, restaurants and commercial kitchens with substantial electrical loads.",
+          "Workshops and small manufacturing units that operate machinery during daylight hours.",
+          "Warehouses and commercial buildings with suitable rooftop space.",
+        ],
+      },
 
-    {
-      type: "heading",
-      level: 2,
-      text:
-        "Final Thoughts",
-    },
+      {
+        type: "paragraph",
+        text: (
+          <>
+            However, not every business will achieve the same savings. A shop
+            that uses most of its electricity during the day may benefit
+            differently from a restaurant that operates mainly at night. The
+            best approach is to evaluate the actual electricity consumption
+            before deciding on a system.
+          </>
+        ),
+      },
 
-    {
-      type: "paragraph",
-      text: (
-        <>
-          The new Tamil Nadu rooftop solar subsidy gives eligible homeowners
-          an additional financial benefit on top of the central PM Surya Ghar
-          subsidy. With combined assistance of up to ₹1 lakh, rooftop solar
-          can become more accessible for households looking to generate their
-          own electricity.
-        </>
-      ),
-    },
+      {
+        type: "heading",
+        level: 2,
+        text: "How Does Commercial Rooftop Solar Reduce Electricity Bills?",
+      },
 
-    {
-      type: "paragraph",
-      text: (
-        <>
-          But the subsidy should not be the only factor in your decision.
-          Choosing the right system capacity, reliable equipment, proper
-          installation and completing the required net-metering and commissioning
-          procedures are equally important.
-        </>
-      ),
-    },
+      {
+        type: "paragraph",
+        text: (
+          <>
+            A commercial rooftop solar system converts sunlight into electricity
+            through photovoltaic panels. An inverter then converts the generated
+            electricity into usable alternating current for compatible
+            electrical equipment.
+          </>
+        ),
+      },
 
-    {
-      type: "paragraph",
-      text: (
-        <>
-          If you are planning to install rooftop solar in Tamil Nadu, start by
-          checking your current electricity consumption and getting a proper
-          assessment of your home. From there, you can understand the system
-          size, project cost and applicable subsidy before moving forward.
-        </>
-      ),
-    },
+      {
+        type: "paragraph",
+        text: (
+          <>
+            When your business consumes electricity while the panels are
+            generating power, the solar energy can supply part of that demand.
+            The remaining electricity can be drawn from the grid whenever solar
+            generation is insufficient.
+          </>
+        ),
+      },
 
-  ],
-},
+      {
+        type: "paragraph",
+        text: (
+          <>
+            For example, imagine an office that operates from 9 AM to 6 PM.
+            Computers, lighting and air conditioning may consume a substantial
+            amount of electricity during these hours. A correctly sized rooftop
+            solar system can supply part of that daytime demand, reducing grid
+            electricity consumption.
+          </>
+        ),
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            Any surplus electricity may be handled through the applicable
+            grid-connected arrangement. The value of exported electricity,
+            settlement rules and any network charges depend on the consumer
+            category and the regulations applicable to the installation.
+          </>
+        ),
+      },
+
+      {
+        type: "heading",
+        level: 2,
+        text: "How Much Can a Small Business Save With Solar Panels?",
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            The savings from commercial solar depend on several factors,
+            including the size of the system, electricity consumption,
+            applicable tariff, solar generation, self-consumption and
+            installation cost. This means there is no single savings figure that
+            applies to every business.
+          </>
+        ),
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            The following example illustrates how to estimate potential savings.
+            These figures are hypothetical and are provided only to explain the
+            calculation. They are not a solar quotation or a guaranteed savings
+            estimate.
+          </>
+        ),
+      },
+
+      {
+        type: "table",
+        headers: ["Business Electricity Details", "Illustrative Example"],
+        rows: [
+          ["Average monthly electricity bill", "₹25,000"],
+          ["Annual electricity bill before solar", "₹3,00,000"],
+          ["Illustrative reduction in annual electricity charges", "30%"],
+          ["Illustrative annual savings", "₹90,000"],
+          ["Illustrative monthly equivalent", "₹7,500"],
+        ],
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            In this example, a business with an annual electricity bill of ₹3
+            lakh could save ₹90,000 per year if its solar installation reduced
+            the relevant electricity charges by 30%.
+          </>
+        ),
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            Actual savings may be lower or higher. The calculation above assumes
+            a 30% reduction solely for illustration; it is not a prediction for
+            a particular system. A proper assessment should account for solar
+            generation, daytime consumption, electricity tariffs, fixed and
+            demand charges, applicable grid charges, and the treatment of
+            surplus energy.
+          </>
+        ),
+      },
+
+      {
+        type: "heading",
+        level: 2,
+        text: "What Is the Cost of Installing Solar Panels for a Small Business?",
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            The cost of a commercial solar installation depends on system
+            capacity, panel and inverter specifications, mounting structures,
+            roof conditions, electrical work, safety equipment and grid
+            connection requirements.
+          </>
+        ),
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            A small shop may need a relatively modest system, while a bakery,
+            office or manufacturing unit with higher electricity consumption may
+            require a larger installation. Therefore, the first step is to
+            understand the business's electricity demand and identify how much
+            rooftop space is available.
+          </>
+        ),
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            Businesses should also compare the complete installation quotation
+            rather than looking only at the price per solar panel. Inverter
+            capacity, mounting quality, protection devices, installation work,
+            monitoring and warranty coverage all contribute to the overall value
+            of the system.
+          </>
+        ),
+      },
+
+      {
+        type: "heading",
+        level: 2,
+        text: "How Long Does It Take for Commercial Solar to Pay for Itself?",
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            The payback period is the estimated time required for accumulated
+            savings to recover the initial investment. It is one of the most
+            important figures to consider when evaluating commercial solar.
+          </>
+        ),
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            For a simple estimate, divide the initial installation cost by the
+            expected annual net savings. For example, if a system costs
+            ₹4,00,000 and generates ₹1,00,000 in annual net savings, the simple
+            payback period would be approximately four years.
+          </>
+        ),
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            This is only an illustrative calculation. A more complete financial
+            assessment should account for financing costs, maintenance,
+            degradation in solar generation, applicable charges and any changes
+            in electricity tariffs. Tax benefits should be included only after
+            confirming eligibility with a qualified tax professional.
+          </>
+        ),
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            Once the initial investment has been recovered, the system may
+            continue to provide financial benefits for the remainder of its
+            useful operating life. The actual result depends on the system's
+            performance, maintenance and the business's future electricity
+            requirements.
+          </>
+        ),
+      },
+
+      {
+        type: "heading",
+        level: 2,
+        text: "Should Your Business Choose On-Grid, Off-Grid or Hybrid Solar?",
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            Selecting the right solar system is just as important as choosing
+            the installation size. The best option depends on whether your
+            business prioritizes reducing electricity bills, operating
+            independently of the grid or maintaining power during outages.
+          </>
+        ),
+      },
+
+      {
+        type: "table",
+        headers: ["Solar System", "Main Advantage", "Important Consideration"],
+        rows: [
+          [
+            "On-Grid Solar",
+            "Generates electricity for daytime business use and can reduce grid consumption.",
+            "Standard grid-connected systems generally shut down during grid outages for safety.",
+          ],
+          [
+            "Off-Grid Solar",
+            "Can operate independently of the electricity grid with suitable batteries and system design.",
+            "Battery capacity and backup requirements can increase the investment.",
+          ],
+          [
+            "Hybrid Solar",
+            "Combines solar generation with grid power and battery backup where configured.",
+            "Costs more than a comparable system without battery storage, depending on configuration.",
+          ],
+        ],
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            For a business that operates mainly during the day and has a
+            reliable grid connection, on-grid solar may be worth evaluating
+            first. A business that needs uninterrupted power for essential
+            equipment may also need to consider a properly designed battery
+            backup solution.
+          </>
+        ),
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            Remember that solar panels alone do not guarantee backup electricity
+            during a power cut. The inverter, battery configuration and backup
+            circuits must be designed to support that requirement.
+          </>
+        ),
+      },
+
+      {
+        type: "heading",
+        level: 2,
+        text: "Can Small Businesses Receive Government Subsidies for Commercial Solar?",
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            Government subsidy eligibility depends on the scheme, consumer
+            category, system type and applicable guidelines. A subsidy announced
+            for residential rooftop solar should not automatically be assumed to
+            apply to a shop, office or industrial electricity connection.
+          </>
+        ),
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            Tamil Nadu's rooftop solar programme includes provisions for
+            different building categories, but the central residential subsidy
+            under PM Surya Ghar is intended for eligible residential consumers.
+            Commercial and industrial businesses should verify the applicable
+            rules before including any subsidy in their financial calculations.
+          </>
+        ),
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            Depending on the business structure and applicable regulations,
+            financing arrangements or tax treatment may also affect the overall
+            investment. Businesses should verify these details with the relevant
+            authorities and qualified financial professionals before making a
+            decision.
+          </>
+        ),
+      },
+
+      {
+        type: "heading",
+        level: 2,
+        text: "What Should You Check Before Installing Commercial Solar?",
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            Before investing in rooftop solar, review the following points to
+            understand whether the project is suitable for your business.
+          </>
+        ),
+      },
+
+      {
+        type: "list",
+        items: [
+          "Review your recent electricity bills to understand monthly consumption and applicable tariffs.",
+          "Check how much electricity your business uses during daylight hours.",
+          "Assess the available roof space, structural condition and shading.",
+          "Choose a system capacity that matches your electricity requirements.",
+          "Compare panel and inverter specifications across quotations.",
+          "Understand the applicable grid connection, metering and export rules.",
+          "Check warranty coverage, monitoring options and maintenance requirements.",
+          "Request an estimate of annual generation, net savings and simple payback period.",
+          "Verify any claimed subsidy, tax benefit or financing option before relying on it.",
+          "Confirm the total installation cost and all included components in writing.",
+        ],
+      },
+
+      {
+        type: "heading",
+        level: 2,
+        text: "Is Commercial Solar Worth It for Your Business?",
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            Commercial solar is worth evaluating if your business has
+            substantial daytime electricity consumption, suitable roof space and
+            a long-term plan to operate from the same property.
+          </>
+        ),
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            It may be less attractive if your electricity consumption is mainly
+            at night, your roof receives significant shade, your property needs
+            major structural work or most of your electricity bill comes from
+            charges that solar generation does not reduce.
+          </>
+        ),
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            Businesses should also consider their plans for the next several
+            years. If you expect to move premises or significantly change your
+            electricity requirements soon, those factors should be included in
+            the investment decision.
+          </>
+        ),
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            The most reliable way to decide is to compare the proposed solar
+            system's estimated annual savings with its total installation cost.
+            This gives you a clearer picture of the potential financial benefit
+            than choosing a system based only on its capacity.
+          </>
+        ),
+      },
+
+      {
+        type: "heading",
+        level: 2,
+        text: "How Fuji Solar Can Help Your Business Go Solar",
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            Every business has different electricity requirements. A bakery
+            operating refrigeration equipment, an office running air
+            conditioners and a workshop using machinery will not necessarily
+            need the same solar solution.
+          </>
+        ),
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            At Fuji Solar, we help businesses explore rooftop solar solutions
+            based on their electricity consumption, available roof space and
+            operational requirements.
+          </>
+        ),
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            Our team can help you evaluate suitable system capacity, understand
+            the installation process and compare the potential savings against
+            your current electricity expenses. We can also explain the
+            differences between on-grid, off-grid and hybrid systems so that you
+            can make a more informed decision.
+          </>
+        ),
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            If you are considering solar for your shop, office, bakery,
+            commercial building or industrial unit in Tamil Nadu, start by
+            reviewing your recent electricity bills and arranging a site
+            assessment.
+          </>
+        ),
+      },
+
+      {
+        type: "heading",
+        level: 2,
+        text: "Frequently Asked Questions About Commercial Solar in Tamil Nadu",
+      },
+
+      {
+        type: "faq",
+        content: [
+          {
+            question:
+              "Is solar power worth it for small businesses in Tamil Nadu?",
+
+            answer:
+              "Solar power can be worthwhile for businesses with substantial daytime electricity consumption, suitable roof space and a favourable installation cost. The actual benefit depends on electricity tariffs, solar generation, self-consumption, grid charges and system maintenance.",
+          },
+
+          {
+            question: "How much can a small business save with solar panels?",
+
+            answer:
+              "Savings depend on system capacity, electricity consumption, applicable tariffs and how much solar electricity the business uses directly. A site-specific assessment and electricity bill analysis are needed to estimate realistic savings.",
+          },
+
+          {
+            question:
+              "How much does a commercial solar system cost in Tamil Nadu?",
+
+            answer:
+              "Commercial solar costs vary according to system capacity, panels, inverter, mounting structures, roof conditions, electrical work and grid connection requirements. Businesses should obtain a quotation based on their actual electricity demand and site conditions.",
+          },
+
+          {
+            question: "How long does commercial solar take to pay for itself?",
+
+            answer:
+              "The payback period depends on the installation cost and annual net savings. For example, a ₹4 lakh system producing ₹1 lakh in annual net savings has a simple illustrative payback period of four years. Actual results will vary.",
+          },
+
+          {
+            question:
+              "Can a shop or office use solar panels during a power cut?",
+
+            answer:
+              "A standard on-grid solar system generally shuts down when the electricity grid fails. Backup power requires a suitable hybrid or off-grid configuration with the necessary battery and inverter arrangements.",
+          },
+
+          {
+            question: "Can businesses receive the PM Surya Ghar solar subsidy?",
+
+            answer:
+              "The PM Surya Ghar central subsidy is intended for eligible residential consumers. Businesses should not assume that a commercial or industrial electricity connection qualifies for the same benefit. Check the latest official scheme rules for your consumer category.",
+          },
+
+          {
+            question: "Do solar panels work during cloudy weather?",
+
+            answer:
+              "Solar panels can generate electricity during cloudy weather, although output is generally lower than under strong sunlight. The system may draw additional electricity from the grid whenever solar generation is insufficient.",
+          },
+
+          {
+            question: "What is the best solar system for a small business?",
+
+            answer:
+              "An on-grid system may suit a business that primarily wants to reduce daytime electricity expenses and has a reliable grid connection. Businesses requiring backup during outages should evaluate a hybrid or off-grid solution based on their critical loads.",
+          },
+
+          {
+            question:
+              "How can I find out whether my business is suitable for solar?",
+
+            answer:
+              "Review your recent electricity bills, daytime consumption, available roof space and electricity connection details. A solar site assessment can then help determine a suitable system capacity and estimate the potential financial return.",
+          },
+        ],
+      },
+
+      {
+        type: "heading",
+        level: 2,
+        text: "Final Thoughts",
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            Electricity is an essential part of running a business, but managing
+            its cost can make a difference to long-term profitability.
+            Commercial rooftop solar offers businesses in Tamil Nadu an
+            opportunity to generate their own electricity and reduce their
+            dependence on grid-supplied power during suitable operating hours.
+          </>
+        ),
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            The key is to choose a system based on your actual electricity
+            requirements rather than simply selecting the largest installation
+            or expecting a fixed percentage of savings. Understanding the
+            installation cost, applicable charges and realistic payback period
+            will help you make a better investment decision.
+          </>
+        ),
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            Thinking about solar for your business? Contact Fuji Solar to
+            explore a suitable rooftop solar solution for your electricity needs
+            and take the first step towards more predictable energy costs.
+          </>
+        ),
+      },
+    ],
+  },
 ];
 
 // use 16th blog for reference
