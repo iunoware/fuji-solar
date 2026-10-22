@@ -8734,6 +8734,642 @@ const blogData = [
       },
     ],
   },
+  // 18
+  {
+  id: 18,
+
+  metaTitle: "Tamil Nadu Solar Subsidy 2026: How to Avoid Overpaying",
+
+  metaDescription:
+    "Planning rooftop solar in Tamil Nadu? Learn how to compare installation quotes, understand the ₹1 lakh subsidy, check vendors, and avoid hidden costs.",
+
+  title:
+    "Tamil Nadu Solar Subsidy: How to Avoid Overpaying for Rooftop Installation",
+
+  url: "tamil-nadu-solar-subsidy-avoid-overpaying",
+
+  summary:
+    "Tamil Nadu homeowners can receive up to ₹1 lakh in combined central and state subsidies for eligible residential rooftop solar systems. Learn how to compare quotes, identify hidden charges, choose the right installer, and make a confident solar investment.",
+
+  image: "/images/tamil-nadu-solar-subsidy-rooftop-installation.webp",
+
+  alt:
+    "Residential rooftop solar panels installed on a house in Tamil Nadu under the rooftop solar subsidy scheme",
+
+  category: "Solar Subsidy",
+
+  date: "October 22, 2026",
+
+  fullContent: [
+    {
+      type: "paragraph",
+      text: (
+        <>
+          Rooftop solar has become an attractive option for homeowners in Tamil Nadu who want to reduce their electricity bills. With financial assistance available through the central government's PM Surya Ghar Muft Bijli Yojana and an additional state subsidy, installing solar panels can be more affordable than many people expect.
+          <br />
+          <br />
+          However, there is something homeowners should pay attention to before signing an installation agreement: <strong>the price quoted by the solar installer.</strong>
+          <br />
+          <br />
+          A government subsidy can reduce your investment, but it does not automatically mean that every installation quote offers good value. You need to understand what is included in the price, which equipment will be installed, and whether the vendor is eligible to complete a subsidy-supported project.
+          <br />
+          <br />
+          In this guide, we explain how the Tamil Nadu solar subsidy works, what to check before accepting a quote, and how to avoid paying more than necessary for your rooftop solar system.
+        </>
+      ),
+    },
+
+    {
+      type: "heading",
+      level: 2,
+      text: "How Much Solar Subsidy Can You Get in Tamil Nadu?",
+    },
+
+    {
+      type: "paragraph",
+      text: (
+        <>
+          Under the residential rooftop solar subsidy structure currently published on the Tamil Nadu Solar Homes Portal, eligible homeowners can receive financial assistance through the central PM Surya Ghar scheme and the Tamil Nadu state government's additional subsidy.
+          <br />
+          <br />
+          The combined assistance can reach <strong>₹1,00,000 for an eligible residential rooftop solar installation.</strong> The amount depends on the system capacity and applicable scheme conditions.
+          <br />
+          <br />
+          Here is the published subsidy structure:
+        </>
+      ),
+    },
+
+    {
+      type: "table",
+      headers: [
+        "Solar System Capacity",
+        "Central Subsidy",
+        "Tamil Nadu State Subsidy",
+        "Total Assistance",
+      ],
+      rows: [
+        ["1 kW", "₹30,000", "₹5,000", "₹35,000"],
+        ["2 kW", "₹60,000", "₹10,000", "₹70,000"],
+        ["3 kW", "₹78,000", "₹22,000", "₹1,00,000"],
+        ["Above 3 kW", "₹78,000 maximum", "₹22,000 maximum", "₹1,00,000 maximum"],
+      ],
+    },
+
+    {
+      type: "paragraph",
+      text: (
+        <>
+          These figures represent the published subsidy limits, not a guarantee that every applicant will receive the maximum amount. Eligibility, approved installation capacity, commissioning, net-metering requirements, and other scheme conditions apply.
+          <br />
+          <br />
+          For the latest rules and application process, check the official{" "}
+          <a
+            href="https://www.tnebltd.gov.in/usrp/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Tamil Nadu Solar Homes Portal
+          </a>
+          .
+        </>
+      ),
+    },
+
+    {
+      type: "heading",
+      level: 2,
+      text: "Why You Should Compare Solar Installation Quotes Carefully",
+    },
+
+    {
+      type: "paragraph",
+      text: (
+        <>
+          When government support becomes available, more homeowners naturally start enquiring about solar installations. This creates an opportunity for customers, but it also makes price comparison especially important.
+          <br />
+          <br />
+          In October 2026, a report on rooftop solar applications in Tiruchy highlighted concerns from a TNPDCL official that some vendors had increased installation prices following the introduction of the additional state subsidy. Such increases can reduce the financial benefit that the subsidy is intended to provide.
+          <br />
+          <br />
+          This does not mean every installer charges unfair prices. It means homeowners should compare the complete installation cost instead of choosing a vendor based only on a discount, a promotional offer, or the promise of a large subsidy.
+          <br />
+          <br />
+          For example, if one installer quotes a lower price but excludes essential electrical work, while another provides a more complete installation package, the first quote may not actually be cheaper.
+          <br />
+          <br />
+          <strong>The right question is not simply, "How much subsidy will I get?" It is, "What am I paying for, and what will my final investment be?"</strong>
+        </>
+      ),
+    },
+
+    {
+      type: "image",
+      path: "/images/compare-solar-installation-quotes-tamil-nadu.webp",
+      alt:
+        "Solar consultant explaining a rooftop solar installation quotation and equipment options to a homeowner in Tamil Nadu",
+    },
+
+    {
+      type: "heading",
+      level: 2,
+      text: "7 Ways to Avoid Overpaying for Rooftop Solar",
+    },
+
+    {
+      type: "heading",
+      level: 3,
+      text: "1. Get at Least Three Detailed Quotes",
+    },
+
+    {
+      type: "paragraph",
+      text: (
+        <>
+          Before finalising your rooftop solar installation, request detailed quotations from multiple vendors. Comparing three quotes can help you understand the typical price range for a system suited to your home.
+          <br />
+          <br />
+          However, do not compare only the final amount. Check whether each quotation includes the same system capacity, panel specifications, inverter, mounting structure, installation work, wiring, protection devices, and applicable taxes.
+          <br />
+          <br />
+          If one quotation is significantly cheaper or more expensive than the others, ask the vendor to explain the difference.
+        </>
+      ),
+    },
+
+    {
+      type: "heading",
+      level: 3,
+      text: "2. Understand the Price Before and After Subsidy",
+    },
+
+    {
+      type: "paragraph",
+      text: (
+        <>
+          A solar quotation should clearly explain the total installation cost and the subsidy amount you may be eligible to receive.
+          <br />
+          <br />
+          Be cautious if a vendor advertises an unusually low final price without showing how it was calculated. Ask for a written breakdown of the system price, additional charges, and expected subsidy.
+          <br />
+          <br />
+          For eligible residential systems, the published combined subsidy can reach ₹1 lakh. However, the subsidy is subject to the applicable rules and is not an automatic discount on every quotation.
+          <br />
+          <br />
+          Under the currently published Tamil Nadu process, subsidy assistance is released through direct benefit transfer after the required installation, net-metering, commissioning, central subsidy disbursal, and eligibility checks. Plan your finances accordingly rather than assuming the subsidy will be available immediately.
+        </>
+      ),
+    },
+
+    {
+      type: "heading",
+      level: 3,
+      text: "3. Check Whether the Installer Is Empanelled",
+    },
+
+    {
+      type: "paragraph",
+      text: (
+        <>
+          If you want to claim the residential rooftop solar subsidy, choosing an eligible installer is essential.
+          <br />
+          <br />
+          The Tamil Nadu Solar Homes Portal directs eligible customers to choose a TEDA-empanelled vendor. The installation must also meet the applicable technical and scheme requirements, including the required domestic-content and module-listing conditions.
+          <br />
+          <br />
+          Before paying an advance, verify the vendor's current empanelment status through the official portal. Do not rely solely on a logo, brochure, social media advertisement, or verbal assurance.
+          <br />
+          <br />
+          You can also ask for a written agreement that identifies the installer, equipment, installation scope, payment terms, warranty coverage, and responsibilities for completing the subsidy-related process.
+        </>
+      ),
+    },
+
+    {
+      type: "heading",
+      level: 3,
+      text: "4. Compare the Solar Panels and Inverter",
+    },
+
+    {
+      type: "paragraph",
+      text: (
+        <>
+          Two rooftop solar systems with the same capacity may have different prices because they use different equipment.
+          <br />
+          <br />
+          Ask the installer to specify the solar panel manufacturer, model, rated capacity, inverter brand, inverter capacity, and applicable product and performance warranties.
+          <br />
+          <br />
+          Also confirm that the proposed equipment meets the technical requirements for the subsidy scheme. Eligible installations must use compliant modules under the applicable domestic-content and ALMM requirements.
+          <br />
+          <br />
+          A lower quote may be reasonable if the equipment and installation scope differ. But you should know exactly what you are receiving before deciding.
+        </>
+      ),
+    },
+
+    {
+      type: "heading",
+      level: 3,
+      text: "5. Ask About Hidden and Additional Charges",
+    },
+
+    {
+      type: "paragraph",
+      text: (
+        <>
+          Some costs may not be obvious when you first see a solar installation advertisement. Ask the vendor to confirm whether the quoted price includes all the work required for your particular property.
+          <br />
+          <br />
+          Depending on the site and system design, additional costs may arise from:
+        </>
+      ),
+    },
+
+    {
+      type: "list",
+      items: [
+        "Mounting structures and any special rooftop fabrication",
+        "Electrical wiring, conduits, and protection devices",
+        "Earthing and lightning protection where required",
+        "Additional cable lengths or difficult installation access",
+        "Roof repairs or structural work, if necessary",
+        "Electrical panel or sanctioned-load upgrades, if required",
+        "Applicable taxes, documentation, and other stated service charges",
+        "Monitoring equipment or optional accessories",
+      ],
+    },
+
+    {
+      type: "paragraph",
+      text: (
+        <>
+          Not every installation requires all these items, and some may already be included in the package. The important point is to obtain a written list of inclusions and exclusions before work begins.
+          <br />
+          <br />
+          Ask the vendor to obtain your approval before carrying out additional paid work that was not included in the original quotation.
+        </>
+      ),
+    },
+
+    {
+      type: "heading",
+      level: 3,
+      text: "6. Read the Warranty and After-Sales Service Terms",
+    },
+
+    {
+      type: "paragraph",
+      text: (
+        <>
+          Solar panels are a long-term investment, so the purchase price is only one part of the decision. You should also understand what happens if an inverter stops working, a panel develops a fault, or the system generates less electricity than expected.
+          <br />
+          <br />
+          Before signing the agreement, ask about:
+        </>
+      ),
+    },
+
+    {
+      type: "list",
+      items: [
+        "Solar panel product warranty",
+        "Solar panel performance warranty",
+        "Inverter warranty and replacement process",
+        "Workmanship and installation warranty",
+        "Monitoring and system inspection support",
+        "Who handles warranty claims and service visits",
+        "Whether maintenance services are included or charged separately",
+      ],
+    },
+
+    {
+      type: "paragraph",
+      text: (
+        <>
+          Request the relevant warranty documents rather than relying on verbal promises. A clear service process can make a significant difference throughout the life of your rooftop solar system.
+        </>
+      ),
+    },
+
+    {
+      type: "heading",
+      level: 3,
+      text: "7. Check the Expected Electricity Savings",
+    },
+
+    {
+      type: "paragraph",
+      text: (
+        <>
+          A suitable solar system should be selected according to your electricity consumption, available roof area, daytime usage, and future requirements.
+          <br />
+          <br />
+          Before accepting a quotation, ask the installer to explain the expected electricity generation and how it relates to your current electricity bill. The estimate should consider roof orientation, shading, local weather, system losses, and the proposed system capacity.
+          <br />
+          <br />
+          Be careful with promises of guaranteed bill elimination or a fixed payback period. Actual savings depend on how much electricity you consume, how much solar energy you use directly, applicable billing rules, and the performance of your installation.
+          <br />
+          <br />
+          A properly sized system with a transparent price can offer better value than a larger, more expensive system that does not match your needs.
+        </>
+      ),
+    },
+
+    {
+      type: "heading",
+      level: 2,
+      text: "Solar Installation Quote: What Should You Compare?",
+    },
+
+    {
+      type: "paragraph",
+      text: (
+        <>
+          Once you receive quotations, put the important details side by side. This makes it easier to identify differences that may explain why one installer charges more than another.
+        </>
+      ),
+    },
+
+    {
+      type: "table",
+      headers: [
+        "What to Compare",
+        "What to Check",
+        "Why It Matters",
+      ],
+      rows: [
+        [
+          "Total price",
+          "Complete written cost and itemised charges",
+          "Helps identify exclusions and unexpected costs",
+        ],
+        [
+          "Subsidy",
+          "Eligible amount and application requirements",
+          "Prevents confusion about the final investment",
+        ],
+        [
+          "Solar panels",
+          "Manufacturer, model, capacity, and compliance",
+          "Confirms the equipment being supplied",
+        ],
+        [
+          "Inverter",
+          "Brand, capacity, compatibility, and warranty",
+          "Helps assess suitability for your system",
+        ],
+        [
+          "Installation",
+          "Mounting, wiring, protection, and labour",
+          "Shows whether essential work is included",
+        ],
+        [
+          "Vendor eligibility",
+          "Current empanelment and scheme compliance",
+          "Important for subsidy-supported installations",
+        ],
+        [
+          "After-sales service",
+          "Warranty terms and service responsibilities",
+          "Clarifies support after installation",
+        ],
+      ],
+    },
+
+    {
+      type: "heading",
+      level: 2,
+      text: "Example: Calculate Your Solar Investment Before Paying",
+    },
+
+    {
+      type: "paragraph",
+      text: (
+        <>
+          Let us consider an illustrative example for a homeowner planning to install a 3 kW rooftop solar system.
+          <br />
+          <br />
+          Suppose the written installation quotation is ₹2,00,000. If the homeowner qualifies for the full published combined subsidy of ₹1,00,000, the effective cost after receiving the subsidy would be ₹1,00,000.
+          <br />
+          <br />
+          This is only an example to explain the calculation. It is not a fixed market price or a guarantee of subsidy eligibility.
+        </>
+      ),
+    },
+
+    {
+      type: "table",
+      headers: [
+        "Cost Detail",
+        "Illustrative Amount",
+      ],
+      rows: [
+        ["Total quoted installation cost", "₹2,00,000"],
+        ["Eligible central and state subsidy", "₹1,00,000"],
+        ["Effective cost after subsidy is received", "₹1,00,000"],
+      ],
+    },
+
+    {
+      type: "paragraph",
+      text: (
+        <>
+          Notice that the subsidy is calculated against the quoted installation cost. It should not be treated as proof that the original quote is reasonable.
+          <br />
+          <br />
+          If another installer offers a comparable, compliant system for a lower price, compare both quotations carefully. Check the equipment, scope of work, warranty, and other charges before making a decision.
+          <br />
+          <br />
+          Also remember that you may need to pay the installation cost before the subsidy is credited. Confirm the payment schedule and expected process with the vendor and official scheme portal.
+        </>
+      ),
+    },
+
+    {
+      type: "image",
+      path: "/images/rooftop-solar-subsidy-savings-tamil-nadu-home.webp",
+      alt:
+        "Completed rooftop solar installation on a modern Indian home, illustrating a homeowner's long-term solar investment",
+    },
+
+    {
+      type: "heading",
+      level: 2,
+      text: "Documents and Details to Check Before Installation",
+    },
+
+    {
+      type: "paragraph",
+      text: (
+        <>
+          Getting your documents and installation details ready can help prevent delays and misunderstandings during the subsidy process.
+          <br />
+          <br />
+          Before proceeding, confirm the requirements that apply to your application and keep copies of relevant records, including:
+        </>
+      ),
+    },
+
+    {
+      type: "list",
+      items: [
+        "Your electricity consumer number and latest electricity bill",
+        "Your application or reference number",
+        "The written installation quotation and agreement",
+        "Details of the selected empanelled vendor",
+        "The proposed system capacity and equipment specifications",
+        "Payment receipts and invoices",
+        "Required bank account details for subsidy disbursal",
+        "Installation, inspection, commissioning, and net-metering records",
+        "Warranty documents and the vendor's service contact details",
+      ],
+    },
+
+    {
+      type: "paragraph",
+      text: (
+        <>
+          The exact documents and steps may vary depending on your application and the applicable scheme process. Use the official portal for current instructions rather than relying entirely on a vendor's checklist.
+        </>
+      ),
+    },
+
+    {
+      type: "heading",
+      level: 2,
+      text: "Common Mistakes Homeowners Should Avoid",
+    },
+
+    {
+      type: "list",
+      items: [
+        "Choosing a vendor only because the advertised price is low",
+        "Assuming every homeowner automatically qualifies for the maximum subsidy",
+        "Paying an advance without a written quotation or agreement",
+        "Ignoring the brand and specifications of the panels and inverter",
+        "Accepting verbal promises about electricity savings",
+        "Failing to confirm whether essential installation work is included",
+        "Not checking the vendor's current empanelment status",
+        "Assuming the subsidy will be credited immediately",
+        "Ignoring warranty conditions and after-sales support",
+      ],
+    },
+
+    {
+      type: "heading",
+      level: 2,
+      text: "Where Can You Check the Official Tamil Nadu Solar Subsidy Details?",
+    },
+
+    {
+      type: "paragraph",
+      text: (
+        <>
+          Before making a payment or selecting an installer, use official sources to confirm the current subsidy structure, eligibility rules, application requirements, and vendor information.
+          <br />
+          <br />
+          You can start with the following resources:
+        </>
+      ),
+    },
+
+    {
+      type: "list",
+      items: [
+        "Tamil Nadu Solar Homes Portal: https://www.tnebltd.gov.in/usrp/",
+        "PM Surya Ghar National Portal: https://pmsuryaghar.gov.in/",
+      ],
+    },
+
+    {
+      type: "paragraph",
+      text: (
+        <>
+          Check the latest scheme conditions before proceeding, as government guidelines and eligibility requirements may change. If a vendor makes a claim that you cannot verify, request written clarification or contact the relevant official support channel.
+        </>
+      ),
+    },
+
+    {
+      type: "heading",
+      level: 2,
+      text: "Final Thoughts",
+    },
+
+    {
+      type: "paragraph",
+      text: (
+        <>
+          The Tamil Nadu solar subsidy can make rooftop solar more accessible to eligible homeowners, but the subsidy alone should not determine your choice of installer.
+          <br />
+          <br />
+          Compare detailed quotations, verify vendor eligibility, understand the equipment being supplied, and confirm all installation charges before signing an agreement. These simple checks can help you make a more informed decision and avoid unexpected expenses.
+          <br />
+          <br />
+          Most importantly, choose a solar system that matches your electricity consumption and rooftop conditions. A well-planned installation with transparent pricing can help you get better value from your solar investment over the long term.
+          <br />
+          <br />
+          <strong>Thinking about installing rooftop solar at your home?</strong> Start by reviewing your electricity usage, checking your subsidy eligibility, and comparing complete installation quotations before making your decision.
+        </>
+      ),
+    },
+    {
+      type: "faq",
+      content: [
+        {
+          question:
+            "How much solar subsidy is available in Tamil Nadu in 2026?",
+          answer:
+            "The Tamil Nadu Solar Homes Portal currently publishes combined central and state subsidy amounts of ₹35,000 for 1 kW, ₹70,000 for 2 kW, and up to ₹1,00,000 for 3 kW and above. The amount you receive depends on eligibility and the applicable scheme conditions.",
+        },
+        {
+          question:
+            "Can solar installation vendors increase their prices after the subsidy is announced?",
+          answer:
+            "Installation prices can vary between vendors, and recent reporting from Tiruchy has highlighted concerns about some vendors increasing prices after the additional state subsidy was introduced. Compare detailed quotations and equipment specifications rather than assuming that every quoted price is reasonable.",
+        },
+        {
+          question:
+            "How can I check whether a solar installer is eligible for the subsidy scheme?",
+          answer:
+            "Check the current empanelled vendor information on the official Tamil Nadu Solar Homes Portal. Before signing an agreement, confirm the vendor's eligibility and ensure the proposed installation meets the applicable technical and scheme requirements.",
+        },
+        {
+          question:
+            "Is the solar subsidy deducted from the installation price?",
+          answer:
+            "Under the currently published process, the central and Tamil Nadu state subsidy amounts are credited to the eligible beneficiary's bank account through direct benefit transfer after the required steps and verification. Confirm your payment obligations and the expected disbursal process before installation.",
+        },
+        {
+          question:
+            "Does every homeowner qualify for the full ₹1 lakh subsidy?",
+          answer:
+            "No. The maximum combined subsidy is subject to eligibility, system capacity, technical requirements, commissioning, net-metering, and other applicable scheme conditions. Check the official portal to understand the requirements for your application.",
+        },
+        {
+          question:
+            "What should I check before accepting a rooftop solar quotation?",
+          answer:
+            "Compare the total price, equipment brands and specifications, installation scope, additional charges, vendor eligibility, warranty coverage, after-sales service, and expected subsidy. Ask for all important details in writing before paying an advance.",
+        },
+        {
+          question:
+            "Can I choose any solar panel brand when applying for the subsidy?",
+          answer:
+            "Subsidy-supported installations must comply with the applicable technical and domestic-content requirements, including relevant ALMM and DCR conditions. Ask your installer to confirm the proposed modules' compliance before proceeding.",
+        },
+        {
+          question:
+            "How can I avoid hidden charges during solar installation?",
+          answer:
+            "Request an itemised quotation that clearly lists the equipment, installation work, wiring, mounting structure, electrical protection, taxes, and any site-specific charges. Ask the vendor to obtain your approval before carrying out additional paid work that was not included in the agreement.",
+        },
+      ],
+    },
+  ],
+}
 ];
 
 // use 16th blog for reference
