@@ -36,8 +36,11 @@ export const metadata: Metadata = {
   icons: [{ url: "/images/favicon.png", sizes: "32x32", type: "image/png" }],
 
   // google search console verification
+  // verification: {
+  //   google: "T6V1zKAoyq6kHlV5IyaMwVWp2IM9OdT08hXKEcZ6fro",
+  // },
   verification: {
-    google: "T6V1zKAoyq6kHlV5IyaMwVWp2IM9OdT08hXKEcZ6fro",
+    google: "wUF-GkIaOe7uELliDfQItscyDIfC30lLEguhiEjRznI",
   },
 
   // canonical tag
