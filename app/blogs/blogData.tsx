@@ -8736,2305 +8736,3600 @@ const blogData = [
   },
   // 18
   {
-  id: 18,
+    id: 18,
 
-  metaTitle: "Tamil Nadu Solar Subsidy 2026: How to Avoid Overpaying",
+    metaTitle: "Tamil Nadu Solar Subsidy 2026: How to Avoid Overpaying",
 
-  metaDescription:
-    "Planning rooftop solar in Tamil Nadu? Learn how to compare installation quotes, understand the ₹1 lakh subsidy, check vendors, and avoid hidden costs.",
+    metaDescription:
+      "Planning rooftop solar in Tamil Nadu? Learn how to compare installation quotes, understand the ₹1 lakh subsidy, check vendors, and avoid hidden costs.",
 
-  title:
-    "Tamil Nadu Solar Subsidy: How to Avoid Overpaying for Rooftop Installation",
+    title:
+      "Tamil Nadu Solar Subsidy: How to Avoid Overpaying for Rooftop Installation",
 
-  url: "tamil-nadu-solar-subsidy-avoid-overpaying",
+    url: "tamil-nadu-solar-subsidy-avoid-overpaying",
 
-  summary:
-    "Tamil Nadu homeowners can receive up to ₹1 lakh in combined central and state subsidies for eligible residential rooftop solar systems. Learn how to compare quotes, identify hidden charges, choose the right installer, and make a confident solar investment.",
+    summary:
+      "Tamil Nadu homeowners can receive up to ₹1 lakh in combined central and state subsidies for eligible residential rooftop solar systems. Learn how to compare quotes, identify hidden charges, choose the right installer, and make a confident solar investment.",
 
-  image: "/images/tamil-nadu-solar-subsidy-rooftop-installation.webp",
+    image: "/images/tamil-nadu-solar-subsidy-rooftop-installation.webp",
 
-  alt:
-    "Residential rooftop solar panels installed on a house in Tamil Nadu under the rooftop solar subsidy scheme",
+    alt: "Residential rooftop solar panels installed on a house in Tamil Nadu under the rooftop solar subsidy scheme",
 
-  category: "Solar Subsidy",
+    category: "Solar Subsidy",
 
-  date: "October 22, 2026",
+    date: "October 22, 2026",
 
-  fullContent: [
-    {
-      type: "paragraph",
-      text: (
-        <>
-          Rooftop solar has become an attractive option for homeowners in Tamil Nadu who want to reduce their electricity bills. With financial assistance available through the central government's PM Surya Ghar Muft Bijli Yojana and an additional state subsidy, installing solar panels can be more affordable than many people expect.
-          <br />
-          <br />
-          However, there is something homeowners should pay attention to before signing an installation agreement: <strong>the price quoted by the solar installer.</strong>
-          <br />
-          <br />
-          A government subsidy can reduce your investment, but it does not automatically mean that every installation quote offers good value. You need to understand what is included in the price, which equipment will be installed, and whether the vendor is eligible to complete a subsidy-supported project.
-          <br />
-          <br />
-          In this guide, we explain how the Tamil Nadu solar subsidy works, what to check before accepting a quote, and how to avoid paying more than necessary for your rooftop solar system.
-        </>
-      ),
-    },
+    fullContent: [
+      {
+        type: "paragraph",
+        text: (
+          <>
+            Rooftop solar has become an attractive option for homeowners in
+            Tamil Nadu who want to reduce their electricity bills. With
+            financial assistance available through the central government's PM
+            Surya Ghar Muft Bijli Yojana and an additional state subsidy,
+            installing solar panels can be more affordable than many people
+            expect.
+            <br />
+            <br />
+            However, there is something homeowners should pay attention to
+            before signing an installation agreement:{" "}
+            <strong>the price quoted by the solar installer.</strong>
+            <br />
+            <br />
+            A government subsidy can reduce your investment, but it does not
+            automatically mean that every installation quote offers good value.
+            You need to understand what is included in the price, which
+            equipment will be installed, and whether the vendor is eligible to
+            complete a subsidy-supported project.
+            <br />
+            <br />
+            In this guide, we explain how the Tamil Nadu solar subsidy works,
+            what to check before accepting a quote, and how to avoid paying more
+            than necessary for your rooftop solar system.
+          </>
+        ),
+      },
 
-    {
-      type: "heading",
-      level: 2,
-      text: "How Much Solar Subsidy Can You Get in Tamil Nadu?",
-    },
+      {
+        type: "heading",
+        level: 2,
+        text: "How Much Solar Subsidy Can You Get in Tamil Nadu?",
+      },
 
-    {
-      type: "paragraph",
-      text: (
-        <>
-          Under the residential rooftop solar subsidy structure currently published on the Tamil Nadu Solar Homes Portal, eligible homeowners can receive financial assistance through the central PM Surya Ghar scheme and the Tamil Nadu state government's additional subsidy.
-          <br />
-          <br />
-          The combined assistance can reach <strong>₹1,00,000 for an eligible residential rooftop solar installation.</strong> The amount depends on the system capacity and applicable scheme conditions.
-          <br />
-          <br />
-          Here is the published subsidy structure:
-        </>
-      ),
-    },
+      {
+        type: "paragraph",
+        text: (
+          <>
+            Under the residential rooftop solar subsidy structure currently
+            published on the Tamil Nadu Solar Homes Portal, eligible homeowners
+            can receive financial assistance through the central PM Surya Ghar
+            scheme and the Tamil Nadu state government's additional subsidy.
+            <br />
+            <br />
+            The combined assistance can reach{" "}
+            <strong>
+              ₹1,00,000 for an eligible residential rooftop solar installation.
+            </strong>{" "}
+            The amount depends on the system capacity and applicable scheme
+            conditions.
+            <br />
+            <br />
+            Here is the published subsidy structure:
+          </>
+        ),
+      },
 
-    {
-      type: "table",
-      headers: [
-        "Solar System Capacity",
-        "Central Subsidy",
-        "Tamil Nadu State Subsidy",
-        "Total Assistance",
-      ],
-      rows: [
-        ["1 kW", "₹30,000", "₹5,000", "₹35,000"],
-        ["2 kW", "₹60,000", "₹10,000", "₹70,000"],
-        ["3 kW", "₹78,000", "₹22,000", "₹1,00,000"],
-        ["Above 3 kW", "₹78,000 maximum", "₹22,000 maximum", "₹1,00,000 maximum"],
-      ],
-    },
-
-    {
-      type: "paragraph",
-      text: (
-        <>
-          These figures represent the published subsidy limits, not a guarantee that every applicant will receive the maximum amount. Eligibility, approved installation capacity, commissioning, net-metering requirements, and other scheme conditions apply.
-          <br />
-          <br />
-          For the latest rules and application process, check the official{" "}
-          <a
-            href="https://www.tnebltd.gov.in/usrp/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Tamil Nadu Solar Homes Portal
-          </a>
-          .
-        </>
-      ),
-    },
-
-    {
-      type: "heading",
-      level: 2,
-      text: "Why You Should Compare Solar Installation Quotes Carefully",
-    },
-
-    {
-      type: "paragraph",
-      text: (
-        <>
-          When government support becomes available, more homeowners naturally start enquiring about solar installations. This creates an opportunity for customers, but it also makes price comparison especially important.
-          <br />
-          <br />
-          In October 2026, a report on rooftop solar applications in Tiruchy highlighted concerns from a TNPDCL official that some vendors had increased installation prices following the introduction of the additional state subsidy. Such increases can reduce the financial benefit that the subsidy is intended to provide.
-          <br />
-          <br />
-          This does not mean every installer charges unfair prices. It means homeowners should compare the complete installation cost instead of choosing a vendor based only on a discount, a promotional offer, or the promise of a large subsidy.
-          <br />
-          <br />
-          For example, if one installer quotes a lower price but excludes essential electrical work, while another provides a more complete installation package, the first quote may not actually be cheaper.
-          <br />
-          <br />
-          <strong>The right question is not simply, "How much subsidy will I get?" It is, "What am I paying for, and what will my final investment be?"</strong>
-        </>
-      ),
-    },
-
-    {
-      type: "image",
-      path: "/images/compare-solar-installation-quotes-tamil-nadu.webp",
-      alt:
-        "Solar consultant explaining a rooftop solar installation quotation and equipment options to a homeowner in Tamil Nadu",
-    },
-
-    {
-      type: "heading",
-      level: 2,
-      text: "7 Ways to Avoid Overpaying for Rooftop Solar",
-    },
-
-    {
-      type: "heading",
-      level: 3,
-      text: "1. Get at Least Three Detailed Quotes",
-    },
-
-    {
-      type: "paragraph",
-      text: (
-        <>
-          Before finalising your rooftop solar installation, request detailed quotations from multiple vendors. Comparing three quotes can help you understand the typical price range for a system suited to your home.
-          <br />
-          <br />
-          However, do not compare only the final amount. Check whether each quotation includes the same system capacity, panel specifications, inverter, mounting structure, installation work, wiring, protection devices, and applicable taxes.
-          <br />
-          <br />
-          If one quotation is significantly cheaper or more expensive than the others, ask the vendor to explain the difference.
-        </>
-      ),
-    },
-
-    {
-      type: "heading",
-      level: 3,
-      text: "2. Understand the Price Before and After Subsidy",
-    },
-
-    {
-      type: "paragraph",
-      text: (
-        <>
-          A solar quotation should clearly explain the total installation cost and the subsidy amount you may be eligible to receive.
-          <br />
-          <br />
-          Be cautious if a vendor advertises an unusually low final price without showing how it was calculated. Ask for a written breakdown of the system price, additional charges, and expected subsidy.
-          <br />
-          <br />
-          For eligible residential systems, the published combined subsidy can reach ₹1 lakh. However, the subsidy is subject to the applicable rules and is not an automatic discount on every quotation.
-          <br />
-          <br />
-          Under the currently published Tamil Nadu process, subsidy assistance is released through direct benefit transfer after the required installation, net-metering, commissioning, central subsidy disbursal, and eligibility checks. Plan your finances accordingly rather than assuming the subsidy will be available immediately.
-        </>
-      ),
-    },
-
-    {
-      type: "heading",
-      level: 3,
-      text: "3. Check Whether the Installer Is Empanelled",
-    },
-
-    {
-      type: "paragraph",
-      text: (
-        <>
-          If you want to claim the residential rooftop solar subsidy, choosing an eligible installer is essential.
-          <br />
-          <br />
-          The Tamil Nadu Solar Homes Portal directs eligible customers to choose a TEDA-empanelled vendor. The installation must also meet the applicable technical and scheme requirements, including the required domestic-content and module-listing conditions.
-          <br />
-          <br />
-          Before paying an advance, verify the vendor's current empanelment status through the official portal. Do not rely solely on a logo, brochure, social media advertisement, or verbal assurance.
-          <br />
-          <br />
-          You can also ask for a written agreement that identifies the installer, equipment, installation scope, payment terms, warranty coverage, and responsibilities for completing the subsidy-related process.
-        </>
-      ),
-    },
-
-    {
-      type: "heading",
-      level: 3,
-      text: "4. Compare the Solar Panels and Inverter",
-    },
-
-    {
-      type: "paragraph",
-      text: (
-        <>
-          Two rooftop solar systems with the same capacity may have different prices because they use different equipment.
-          <br />
-          <br />
-          Ask the installer to specify the solar panel manufacturer, model, rated capacity, inverter brand, inverter capacity, and applicable product and performance warranties.
-          <br />
-          <br />
-          Also confirm that the proposed equipment meets the technical requirements for the subsidy scheme. Eligible installations must use compliant modules under the applicable domestic-content and ALMM requirements.
-          <br />
-          <br />
-          A lower quote may be reasonable if the equipment and installation scope differ. But you should know exactly what you are receiving before deciding.
-        </>
-      ),
-    },
-
-    {
-      type: "heading",
-      level: 3,
-      text: "5. Ask About Hidden and Additional Charges",
-    },
-
-    {
-      type: "paragraph",
-      text: (
-        <>
-          Some costs may not be obvious when you first see a solar installation advertisement. Ask the vendor to confirm whether the quoted price includes all the work required for your particular property.
-          <br />
-          <br />
-          Depending on the site and system design, additional costs may arise from:
-        </>
-      ),
-    },
-
-    {
-      type: "list",
-      items: [
-        "Mounting structures and any special rooftop fabrication",
-        "Electrical wiring, conduits, and protection devices",
-        "Earthing and lightning protection where required",
-        "Additional cable lengths or difficult installation access",
-        "Roof repairs or structural work, if necessary",
-        "Electrical panel or sanctioned-load upgrades, if required",
-        "Applicable taxes, documentation, and other stated service charges",
-        "Monitoring equipment or optional accessories",
-      ],
-    },
-
-    {
-      type: "paragraph",
-      text: (
-        <>
-          Not every installation requires all these items, and some may already be included in the package. The important point is to obtain a written list of inclusions and exclusions before work begins.
-          <br />
-          <br />
-          Ask the vendor to obtain your approval before carrying out additional paid work that was not included in the original quotation.
-        </>
-      ),
-    },
-
-    {
-      type: "heading",
-      level: 3,
-      text: "6. Read the Warranty and After-Sales Service Terms",
-    },
-
-    {
-      type: "paragraph",
-      text: (
-        <>
-          Solar panels are a long-term investment, so the purchase price is only one part of the decision. You should also understand what happens if an inverter stops working, a panel develops a fault, or the system generates less electricity than expected.
-          <br />
-          <br />
-          Before signing the agreement, ask about:
-        </>
-      ),
-    },
-
-    {
-      type: "list",
-      items: [
-        "Solar panel product warranty",
-        "Solar panel performance warranty",
-        "Inverter warranty and replacement process",
-        "Workmanship and installation warranty",
-        "Monitoring and system inspection support",
-        "Who handles warranty claims and service visits",
-        "Whether maintenance services are included or charged separately",
-      ],
-    },
-
-    {
-      type: "paragraph",
-      text: (
-        <>
-          Request the relevant warranty documents rather than relying on verbal promises. A clear service process can make a significant difference throughout the life of your rooftop solar system.
-        </>
-      ),
-    },
-
-    {
-      type: "heading",
-      level: 3,
-      text: "7. Check the Expected Electricity Savings",
-    },
-
-    {
-      type: "paragraph",
-      text: (
-        <>
-          A suitable solar system should be selected according to your electricity consumption, available roof area, daytime usage, and future requirements.
-          <br />
-          <br />
-          Before accepting a quotation, ask the installer to explain the expected electricity generation and how it relates to your current electricity bill. The estimate should consider roof orientation, shading, local weather, system losses, and the proposed system capacity.
-          <br />
-          <br />
-          Be careful with promises of guaranteed bill elimination or a fixed payback period. Actual savings depend on how much electricity you consume, how much solar energy you use directly, applicable billing rules, and the performance of your installation.
-          <br />
-          <br />
-          A properly sized system with a transparent price can offer better value than a larger, more expensive system that does not match your needs.
-        </>
-      ),
-    },
-
-    {
-      type: "heading",
-      level: 2,
-      text: "Solar Installation Quote: What Should You Compare?",
-    },
-
-    {
-      type: "paragraph",
-      text: (
-        <>
-          Once you receive quotations, put the important details side by side. This makes it easier to identify differences that may explain why one installer charges more than another.
-        </>
-      ),
-    },
-
-    {
-      type: "table",
-      headers: [
-        "What to Compare",
-        "What to Check",
-        "Why It Matters",
-      ],
-      rows: [
-        [
-          "Total price",
-          "Complete written cost and itemised charges",
-          "Helps identify exclusions and unexpected costs",
+      {
+        type: "table",
+        headers: [
+          "Solar System Capacity",
+          "Central Subsidy",
+          "Tamil Nadu State Subsidy",
+          "Total Assistance",
         ],
-        [
-          "Subsidy",
-          "Eligible amount and application requirements",
-          "Prevents confusion about the final investment",
+        rows: [
+          ["1 kW", "₹30,000", "₹5,000", "₹35,000"],
+          ["2 kW", "₹60,000", "₹10,000", "₹70,000"],
+          ["3 kW", "₹78,000", "₹22,000", "₹1,00,000"],
+          [
+            "Above 3 kW",
+            "₹78,000 maximum",
+            "₹22,000 maximum",
+            "₹1,00,000 maximum",
+          ],
         ],
-        [
-          "Solar panels",
-          "Manufacturer, model, capacity, and compliance",
-          "Confirms the equipment being supplied",
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            These figures represent the published subsidy limits, not a
+            guarantee that every applicant will receive the maximum amount.
+            Eligibility, approved installation capacity, commissioning,
+            net-metering requirements, and other scheme conditions apply.
+            <br />
+            <br />
+            For the latest rules and application process, check the official{" "}
+            <a
+              href="https://www.tnebltd.gov.in/usrp/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Tamil Nadu Solar Homes Portal
+            </a>
+            .
+          </>
+        ),
+      },
+
+      {
+        type: "heading",
+        level: 2,
+        text: "Why You Should Compare Solar Installation Quotes Carefully",
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            When government support becomes available, more homeowners naturally
+            start enquiring about solar installations. This creates an
+            opportunity for customers, but it also makes price comparison
+            especially important.
+            <br />
+            <br />
+            In October 2026, a report on rooftop solar applications in Tiruchy
+            highlighted concerns from a TNPDCL official that some vendors had
+            increased installation prices following the introduction of the
+            additional state subsidy. Such increases can reduce the financial
+            benefit that the subsidy is intended to provide.
+            <br />
+            <br />
+            This does not mean every installer charges unfair prices. It means
+            homeowners should compare the complete installation cost instead of
+            choosing a vendor based only on a discount, a promotional offer, or
+            the promise of a large subsidy.
+            <br />
+            <br />
+            For example, if one installer quotes a lower price but excludes
+            essential electrical work, while another provides a more complete
+            installation package, the first quote may not actually be cheaper.
+            <br />
+            <br />
+            <strong>
+              The right question is not simply, "How much subsidy will I get?"
+              It is, "What am I paying for, and what will my final investment
+              be?"
+            </strong>
+          </>
+        ),
+      },
+
+      {
+        type: "image",
+        path: "/images/compare-solar-installation-quotes-tamil-nadu.webp",
+        alt: "Solar consultant explaining a rooftop solar installation quotation and equipment options to a homeowner in Tamil Nadu",
+      },
+
+      {
+        type: "heading",
+        level: 2,
+        text: "7 Ways to Avoid Overpaying for Rooftop Solar",
+      },
+
+      {
+        type: "heading",
+        level: 3,
+        text: "1. Get at Least Three Detailed Quotes",
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            Before finalising your rooftop solar installation, request detailed
+            quotations from multiple vendors. Comparing three quotes can help
+            you understand the typical price range for a system suited to your
+            home.
+            <br />
+            <br />
+            However, do not compare only the final amount. Check whether each
+            quotation includes the same system capacity, panel specifications,
+            inverter, mounting structure, installation work, wiring, protection
+            devices, and applicable taxes.
+            <br />
+            <br />
+            If one quotation is significantly cheaper or more expensive than the
+            others, ask the vendor to explain the difference.
+          </>
+        ),
+      },
+
+      {
+        type: "heading",
+        level: 3,
+        text: "2. Understand the Price Before and After Subsidy",
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            A solar quotation should clearly explain the total installation cost
+            and the subsidy amount you may be eligible to receive.
+            <br />
+            <br />
+            Be cautious if a vendor advertises an unusually low final price
+            without showing how it was calculated. Ask for a written breakdown
+            of the system price, additional charges, and expected subsidy.
+            <br />
+            <br />
+            For eligible residential systems, the published combined subsidy can
+            reach ₹1 lakh. However, the subsidy is subject to the applicable
+            rules and is not an automatic discount on every quotation.
+            <br />
+            <br />
+            Under the currently published Tamil Nadu process, subsidy assistance
+            is released through direct benefit transfer after the required
+            installation, net-metering, commissioning, central subsidy
+            disbursal, and eligibility checks. Plan your finances accordingly
+            rather than assuming the subsidy will be available immediately.
+          </>
+        ),
+      },
+
+      {
+        type: "heading",
+        level: 3,
+        text: "3. Check Whether the Installer Is Empanelled",
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            If you want to claim the residential rooftop solar subsidy, choosing
+            an eligible installer is essential.
+            <br />
+            <br />
+            The Tamil Nadu Solar Homes Portal directs eligible customers to
+            choose a TEDA-empanelled vendor. The installation must also meet the
+            applicable technical and scheme requirements, including the required
+            domestic-content and module-listing conditions.
+            <br />
+            <br />
+            Before paying an advance, verify the vendor's current empanelment
+            status through the official portal. Do not rely solely on a logo,
+            brochure, social media advertisement, or verbal assurance.
+            <br />
+            <br />
+            You can also ask for a written agreement that identifies the
+            installer, equipment, installation scope, payment terms, warranty
+            coverage, and responsibilities for completing the subsidy-related
+            process.
+          </>
+        ),
+      },
+
+      {
+        type: "heading",
+        level: 3,
+        text: "4. Compare the Solar Panels and Inverter",
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            Two rooftop solar systems with the same capacity may have different
+            prices because they use different equipment.
+            <br />
+            <br />
+            Ask the installer to specify the solar panel manufacturer, model,
+            rated capacity, inverter brand, inverter capacity, and applicable
+            product and performance warranties.
+            <br />
+            <br />
+            Also confirm that the proposed equipment meets the technical
+            requirements for the subsidy scheme. Eligible installations must use
+            compliant modules under the applicable domestic-content and ALMM
+            requirements.
+            <br />
+            <br />A lower quote may be reasonable if the equipment and
+            installation scope differ. But you should know exactly what you are
+            receiving before deciding.
+          </>
+        ),
+      },
+
+      {
+        type: "heading",
+        level: 3,
+        text: "5. Ask About Hidden and Additional Charges",
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            Some costs may not be obvious when you first see a solar
+            installation advertisement. Ask the vendor to confirm whether the
+            quoted price includes all the work required for your particular
+            property.
+            <br />
+            <br />
+            Depending on the site and system design, additional costs may arise
+            from:
+          </>
+        ),
+      },
+
+      {
+        type: "list",
+        items: [
+          "Mounting structures and any special rooftop fabrication",
+          "Electrical wiring, conduits, and protection devices",
+          "Earthing and lightning protection where required",
+          "Additional cable lengths or difficult installation access",
+          "Roof repairs or structural work, if necessary",
+          "Electrical panel or sanctioned-load upgrades, if required",
+          "Applicable taxes, documentation, and other stated service charges",
+          "Monitoring equipment or optional accessories",
         ],
-        [
-          "Inverter",
-          "Brand, capacity, compatibility, and warranty",
-          "Helps assess suitability for your system",
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            Not every installation requires all these items, and some may
+            already be included in the package. The important point is to obtain
+            a written list of inclusions and exclusions before work begins.
+            <br />
+            <br />
+            Ask the vendor to obtain your approval before carrying out
+            additional paid work that was not included in the original
+            quotation.
+          </>
+        ),
+      },
+
+      {
+        type: "heading",
+        level: 3,
+        text: "6. Read the Warranty and After-Sales Service Terms",
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            Solar panels are a long-term investment, so the purchase price is
+            only one part of the decision. You should also understand what
+            happens if an inverter stops working, a panel develops a fault, or
+            the system generates less electricity than expected.
+            <br />
+            <br />
+            Before signing the agreement, ask about:
+          </>
+        ),
+      },
+
+      {
+        type: "list",
+        items: [
+          "Solar panel product warranty",
+          "Solar panel performance warranty",
+          "Inverter warranty and replacement process",
+          "Workmanship and installation warranty",
+          "Monitoring and system inspection support",
+          "Who handles warranty claims and service visits",
+          "Whether maintenance services are included or charged separately",
         ],
-        [
-          "Installation",
-          "Mounting, wiring, protection, and labour",
-          "Shows whether essential work is included",
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            Request the relevant warranty documents rather than relying on
+            verbal promises. A clear service process can make a significant
+            difference throughout the life of your rooftop solar system.
+          </>
+        ),
+      },
+
+      {
+        type: "heading",
+        level: 3,
+        text: "7. Check the Expected Electricity Savings",
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            A suitable solar system should be selected according to your
+            electricity consumption, available roof area, daytime usage, and
+            future requirements.
+            <br />
+            <br />
+            Before accepting a quotation, ask the installer to explain the
+            expected electricity generation and how it relates to your current
+            electricity bill. The estimate should consider roof orientation,
+            shading, local weather, system losses, and the proposed system
+            capacity.
+            <br />
+            <br />
+            Be careful with promises of guaranteed bill elimination or a fixed
+            payback period. Actual savings depend on how much electricity you
+            consume, how much solar energy you use directly, applicable billing
+            rules, and the performance of your installation.
+            <br />
+            <br />A properly sized system with a transparent price can offer
+            better value than a larger, more expensive system that does not
+            match your needs.
+          </>
+        ),
+      },
+
+      {
+        type: "heading",
+        level: 2,
+        text: "Solar Installation Quote: What Should You Compare?",
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            Once you receive quotations, put the important details side by side.
+            This makes it easier to identify differences that may explain why
+            one installer charges more than another.
+          </>
+        ),
+      },
+
+      {
+        type: "table",
+        headers: ["What to Compare", "What to Check", "Why It Matters"],
+        rows: [
+          [
+            "Total price",
+            "Complete written cost and itemised charges",
+            "Helps identify exclusions and unexpected costs",
+          ],
+          [
+            "Subsidy",
+            "Eligible amount and application requirements",
+            "Prevents confusion about the final investment",
+          ],
+          [
+            "Solar panels",
+            "Manufacturer, model, capacity, and compliance",
+            "Confirms the equipment being supplied",
+          ],
+          [
+            "Inverter",
+            "Brand, capacity, compatibility, and warranty",
+            "Helps assess suitability for your system",
+          ],
+          [
+            "Installation",
+            "Mounting, wiring, protection, and labour",
+            "Shows whether essential work is included",
+          ],
+          [
+            "Vendor eligibility",
+            "Current empanelment and scheme compliance",
+            "Important for subsidy-supported installations",
+          ],
+          [
+            "After-sales service",
+            "Warranty terms and service responsibilities",
+            "Clarifies support after installation",
+          ],
         ],
-        [
-          "Vendor eligibility",
-          "Current empanelment and scheme compliance",
-          "Important for subsidy-supported installations",
+      },
+
+      {
+        type: "heading",
+        level: 2,
+        text: "Example: Calculate Your Solar Investment Before Paying",
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            Let us consider an illustrative example for a homeowner planning to
+            install a 3 kW rooftop solar system.
+            <br />
+            <br />
+            Suppose the written installation quotation is ₹2,00,000. If the
+            homeowner qualifies for the full published combined subsidy of
+            ₹1,00,000, the effective cost after receiving the subsidy would be
+            ₹1,00,000.
+            <br />
+            <br />
+            This is only an example to explain the calculation. It is not a
+            fixed market price or a guarantee of subsidy eligibility.
+          </>
+        ),
+      },
+
+      {
+        type: "table",
+        headers: ["Cost Detail", "Illustrative Amount"],
+        rows: [
+          ["Total quoted installation cost", "₹2,00,000"],
+          ["Eligible central and state subsidy", "₹1,00,000"],
+          ["Effective cost after subsidy is received", "₹1,00,000"],
         ],
-        [
-          "After-sales service",
-          "Warranty terms and service responsibilities",
-          "Clarifies support after installation",
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            Notice that the subsidy is calculated against the quoted
+            installation cost. It should not be treated as proof that the
+            original quote is reasonable.
+            <br />
+            <br />
+            If another installer offers a comparable, compliant system for a
+            lower price, compare both quotations carefully. Check the equipment,
+            scope of work, warranty, and other charges before making a decision.
+            <br />
+            <br />
+            Also remember that you may need to pay the installation cost before
+            the subsidy is credited. Confirm the payment schedule and expected
+            process with the vendor and official scheme portal.
+          </>
+        ),
+      },
+
+      {
+        type: "image",
+        path: "/images/rooftop-solar-subsidy-savings-tamil-nadu-home.webp",
+        alt: "Completed rooftop solar installation on a modern Indian home, illustrating a homeowner's long-term solar investment",
+      },
+
+      {
+        type: "heading",
+        level: 2,
+        text: "Documents and Details to Check Before Installation",
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            Getting your documents and installation details ready can help
+            prevent delays and misunderstandings during the subsidy process.
+            <br />
+            <br />
+            Before proceeding, confirm the requirements that apply to your
+            application and keep copies of relevant records, including:
+          </>
+        ),
+      },
+
+      {
+        type: "list",
+        items: [
+          "Your electricity consumer number and latest electricity bill",
+          "Your application or reference number",
+          "The written installation quotation and agreement",
+          "Details of the selected empanelled vendor",
+          "The proposed system capacity and equipment specifications",
+          "Payment receipts and invoices",
+          "Required bank account details for subsidy disbursal",
+          "Installation, inspection, commissioning, and net-metering records",
+          "Warranty documents and the vendor's service contact details",
         ],
-      ],
-    },
+      },
 
-    {
-      type: "heading",
-      level: 2,
-      text: "Example: Calculate Your Solar Investment Before Paying",
-    },
+      {
+        type: "paragraph",
+        text: (
+          <>
+            The exact documents and steps may vary depending on your application
+            and the applicable scheme process. Use the official portal for
+            current instructions rather than relying entirely on a vendor's
+            checklist.
+          </>
+        ),
+      },
 
-    {
-      type: "paragraph",
-      text: (
-        <>
-          Let us consider an illustrative example for a homeowner planning to install a 3 kW rooftop solar system.
-          <br />
-          <br />
-          Suppose the written installation quotation is ₹2,00,000. If the homeowner qualifies for the full published combined subsidy of ₹1,00,000, the effective cost after receiving the subsidy would be ₹1,00,000.
-          <br />
-          <br />
-          This is only an example to explain the calculation. It is not a fixed market price or a guarantee of subsidy eligibility.
-        </>
-      ),
-    },
+      {
+        type: "heading",
+        level: 2,
+        text: "Common Mistakes Homeowners Should Avoid",
+      },
 
-    {
-      type: "table",
-      headers: [
-        "Cost Detail",
-        "Illustrative Amount",
-      ],
-      rows: [
-        ["Total quoted installation cost", "₹2,00,000"],
-        ["Eligible central and state subsidy", "₹1,00,000"],
-        ["Effective cost after subsidy is received", "₹1,00,000"],
-      ],
-    },
-
-    {
-      type: "paragraph",
-      text: (
-        <>
-          Notice that the subsidy is calculated against the quoted installation cost. It should not be treated as proof that the original quote is reasonable.
-          <br />
-          <br />
-          If another installer offers a comparable, compliant system for a lower price, compare both quotations carefully. Check the equipment, scope of work, warranty, and other charges before making a decision.
-          <br />
-          <br />
-          Also remember that you may need to pay the installation cost before the subsidy is credited. Confirm the payment schedule and expected process with the vendor and official scheme portal.
-        </>
-      ),
-    },
-
-    {
-      type: "image",
-      path: "/images/rooftop-solar-subsidy-savings-tamil-nadu-home.webp",
-      alt:
-        "Completed rooftop solar installation on a modern Indian home, illustrating a homeowner's long-term solar investment",
-    },
-
-    {
-      type: "heading",
-      level: 2,
-      text: "Documents and Details to Check Before Installation",
-    },
-
-    {
-      type: "paragraph",
-      text: (
-        <>
-          Getting your documents and installation details ready can help prevent delays and misunderstandings during the subsidy process.
-          <br />
-          <br />
-          Before proceeding, confirm the requirements that apply to your application and keep copies of relevant records, including:
-        </>
-      ),
-    },
-
-    {
-      type: "list",
-      items: [
-        "Your electricity consumer number and latest electricity bill",
-        "Your application or reference number",
-        "The written installation quotation and agreement",
-        "Details of the selected empanelled vendor",
-        "The proposed system capacity and equipment specifications",
-        "Payment receipts and invoices",
-        "Required bank account details for subsidy disbursal",
-        "Installation, inspection, commissioning, and net-metering records",
-        "Warranty documents and the vendor's service contact details",
-      ],
-    },
-
-    {
-      type: "paragraph",
-      text: (
-        <>
-          The exact documents and steps may vary depending on your application and the applicable scheme process. Use the official portal for current instructions rather than relying entirely on a vendor's checklist.
-        </>
-      ),
-    },
-
-    {
-      type: "heading",
-      level: 2,
-      text: "Common Mistakes Homeowners Should Avoid",
-    },
-
-    {
-      type: "list",
-      items: [
-        "Choosing a vendor only because the advertised price is low",
-        "Assuming every homeowner automatically qualifies for the maximum subsidy",
-        "Paying an advance without a written quotation or agreement",
-        "Ignoring the brand and specifications of the panels and inverter",
-        "Accepting verbal promises about electricity savings",
-        "Failing to confirm whether essential installation work is included",
-        "Not checking the vendor's current empanelment status",
-        "Assuming the subsidy will be credited immediately",
-        "Ignoring warranty conditions and after-sales support",
-      ],
-    },
-
-    {
-      type: "heading",
-      level: 2,
-      text: "Where Can You Check the Official Tamil Nadu Solar Subsidy Details?",
-    },
-
-    {
-      type: "paragraph",
-      text: (
-        <>
-          Before making a payment or selecting an installer, use official sources to confirm the current subsidy structure, eligibility rules, application requirements, and vendor information.
-          <br />
-          <br />
-          You can start with the following resources:
-        </>
-      ),
-    },
-
-    {
-      type: "list",
-      items: [
-        "Tamil Nadu Solar Homes Portal: https://www.tnebltd.gov.in/usrp/",
-        "PM Surya Ghar National Portal: https://pmsuryaghar.gov.in/",
-      ],
-    },
-
-    {
-      type: "paragraph",
-      text: (
-        <>
-          Check the latest scheme conditions before proceeding, as government guidelines and eligibility requirements may change. If a vendor makes a claim that you cannot verify, request written clarification or contact the relevant official support channel.
-        </>
-      ),
-    },
-
-    {
-      type: "heading",
-      level: 2,
-      text: "Final Thoughts",
-    },
-
-    {
-      type: "paragraph",
-      text: (
-        <>
-          The Tamil Nadu solar subsidy can make rooftop solar more accessible to eligible homeowners, but the subsidy alone should not determine your choice of installer.
-          <br />
-          <br />
-          Compare detailed quotations, verify vendor eligibility, understand the equipment being supplied, and confirm all installation charges before signing an agreement. These simple checks can help you make a more informed decision and avoid unexpected expenses.
-          <br />
-          <br />
-          Most importantly, choose a solar system that matches your electricity consumption and rooftop conditions. A well-planned installation with transparent pricing can help you get better value from your solar investment over the long term.
-          <br />
-          <br />
-          <strong>Thinking about installing rooftop solar at your home?</strong> Start by reviewing your electricity usage, checking your subsidy eligibility, and comparing complete installation quotations before making your decision.
-        </>
-      ),
-    },
-    {
-      type: "faq",
-      content: [
-        {
-          question:
-            "How much solar subsidy is available in Tamil Nadu in 2026?",
-          answer:
-            "The Tamil Nadu Solar Homes Portal currently publishes combined central and state subsidy amounts of ₹35,000 for 1 kW, ₹70,000 for 2 kW, and up to ₹1,00,000 for 3 kW and above. The amount you receive depends on eligibility and the applicable scheme conditions.",
-        },
-        {
-          question:
-            "Can solar installation vendors increase their prices after the subsidy is announced?",
-          answer:
-            "Installation prices can vary between vendors, and recent reporting from Tiruchy has highlighted concerns about some vendors increasing prices after the additional state subsidy was introduced. Compare detailed quotations and equipment specifications rather than assuming that every quoted price is reasonable.",
-        },
-        {
-          question:
-            "How can I check whether a solar installer is eligible for the subsidy scheme?",
-          answer:
-            "Check the current empanelled vendor information on the official Tamil Nadu Solar Homes Portal. Before signing an agreement, confirm the vendor's eligibility and ensure the proposed installation meets the applicable technical and scheme requirements.",
-        },
-        {
-          question:
-            "Is the solar subsidy deducted from the installation price?",
-          answer:
-            "Under the currently published process, the central and Tamil Nadu state subsidy amounts are credited to the eligible beneficiary's bank account through direct benefit transfer after the required steps and verification. Confirm your payment obligations and the expected disbursal process before installation.",
-        },
-        {
-          question:
-            "Does every homeowner qualify for the full ₹1 lakh subsidy?",
-          answer:
-            "No. The maximum combined subsidy is subject to eligibility, system capacity, technical requirements, commissioning, net-metering, and other applicable scheme conditions. Check the official portal to understand the requirements for your application.",
-        },
-        {
-          question:
-            "What should I check before accepting a rooftop solar quotation?",
-          answer:
-            "Compare the total price, equipment brands and specifications, installation scope, additional charges, vendor eligibility, warranty coverage, after-sales service, and expected subsidy. Ask for all important details in writing before paying an advance.",
-        },
-        {
-          question:
-            "Can I choose any solar panel brand when applying for the subsidy?",
-          answer:
-            "Subsidy-supported installations must comply with the applicable technical and domestic-content requirements, including relevant ALMM and DCR conditions. Ask your installer to confirm the proposed modules' compliance before proceeding.",
-        },
-        {
-          question:
-            "How can I avoid hidden charges during solar installation?",
-          answer:
-            "Request an itemised quotation that clearly lists the equipment, installation work, wiring, mounting structure, electrical protection, taxes, and any site-specific charges. Ask the vendor to obtain your approval before carrying out additional paid work that was not included in the agreement.",
-        },
-      ],
-    },
-  ],
-},
-// 19
-{
-  id: 19,
-
-  metaTitle: "How to Choose the Best Solar Panels in India: 7 Tips",
-
-  metaDescription:
-    "Learn how to choose quality solar panels for your home in India. Compare efficiency, warranties, durability, heat performance, certifications, and long-term value.",
-
-  title:
-    "How to Choose Solar Panels That Last: 7 Things to Check Before Buying",
-
-  url: "how-to-choose-quality-solar-panels",
-
-  summary:
-    "Choosing solar panels involves more than comparing prices and wattage. Learn how to evaluate solar panel efficiency, warranties, durability, heat performance, certifications, and installation quality before investing in a rooftop solar system.",
-
-  image: "/images/how-to-choose-quality-solar-panels.webp",
-
-  alt:
-    "High-quality rooftop solar panels installed on a modern Indian home under clear sunlight",
-
-  category: "Solar Panels",
-
-  date: "October 24, 2026",
-
-  fullContent: [
-    {
-      type: "paragraph",
-      text: (
-        <>
-          Choosing solar panels for your home is an important decision. A rooftop solar system can serve your household for many years, so the panels you select today can influence how much electricity your system generates in the future.
-          <br />
-          <br />
-          When comparing solar panels, many homeowners focus mainly on price and wattage. While these factors matter, they do not tell the whole story. Panel efficiency, temperature performance, warranty coverage, manufacturing quality, and installation standards also deserve attention.
-          <br />
-          <br />
-          This is particularly important in Tamil Nadu, where rooftop solar panels are exposed to strong sunlight, high temperatures, seasonal rainfall, dust, and changing weather conditions.
-          <br />
-          <br />
-          So, how do you choose solar panels that offer reliable performance over the long term?
-          <br />
-          <br />
-          In this guide, we explain seven important things to check before buying solar panels for your home or business.
-        </>
-      ),
-    },
-
-    {
-      type: "heading",
-      level: 2,
-      text: "Why Does Solar Panel Quality Matter?",
-    },
-
-    {
-      type: "paragraph",
-      text: (
-        <>
-          Solar panels are designed to generate electricity for decades, but their actual performance depends on several factors, including manufacturing quality, environmental conditions, system design, and maintenance.
-          <br />
-          <br />
-          Two panels with similar rated capacities may differ in efficiency, temperature response, warranty terms, and expected long-term performance.
-          <br />
-          <br />
-          Choosing a suitable panel can help you make better use of your available rooftop space and understand what to expect from your solar investment.
-          <br />
-          <br />
-          Instead of asking only, "Which solar panel is cheapest?", consider a more useful question: "Which panel offers the right balance of performance, reliability, warranty, and overall cost for my requirements?"
-        </>
-      ),
-    },
-
-    {
-      type: "heading",
-      level: 2,
-      text: "1. Check Solar Panel Efficiency",
-    },
-
-    {
-      type: "paragraph",
-      text: (
-        <>
-          Solar panel efficiency describes how effectively a panel converts the sunlight it receives into electricity under specified test conditions.
-          <br />
-          <br />
-          For homeowners with limited rooftop space, efficiency is particularly important. A more efficient panel can generally produce more power from the same surface area, assuming comparable operating conditions and suitable system design.
-          <br />
-          <br />
-          For example, if your roof has limited space because of water tanks, staircases, or nearby buildings, higher-efficiency panels may help you achieve your required system capacity without using as much roof area.
-          <br />
-          <br />
-          However, efficiency should not be the only factor in your decision. A panel with a higher efficiency rating is not automatically the best choice for every property.
-          <br />
-          <br />
-          Compare the actual wattage, physical dimensions, product specifications, warranty, and price alongside the efficiency rating.
-        </>
-      ),
-    },
-
-    {
-      type: "heading",
-      level: 3,
-      text: "What Efficiency Rating Should You Look For?",
-    },
-
-    {
-      type: "paragraph",
-      text: (
-        <>
-          Modern residential solar panels are available across a range of efficiency levels, with many current models offering efficiencies in the low-to-mid 20% range. The exact figure depends on the model and technology.
-          <br />
-          <br />
-          Check the manufacturer's official datasheet instead of relying on general advertising claims. Compare panels of similar wattage and size to understand which option makes better use of your available roof area.
-        </>
-      ),
-    },
-
-    {
-      type: "heading",
-      level: 2,
-      text: "2. Understand the Difference Between Product and Performance Warranties",
-    },
-
-    {
-      type: "paragraph",
-      text: (
-        <>
-          A solar panel warranty explains the manufacturer's commitments if a product develops a covered problem or its power output falls below the specified performance level.
-          <br />
-          <br />
-          However, not all warranties cover the same things. Understanding the difference between product warranty and performance warranty can help you make a more informed purchase.
-        </>
-      ),
-    },
-
-    {
-      type: "heading",
-      level: 3,
-      text: "Product Warranty",
-    },
-
-    {
-      type: "paragraph",
-      text: (
-        <>
-          A product warranty generally covers specified manufacturing defects and material-related problems, subject to the manufacturer's terms and exclusions.
-          <br />
-          <br />
-          Depending on the warranty, this may include certain defects affecting the panel's construction or components. Read the actual warranty document to understand what is covered, how claims are handled, and whether labour or transportation costs are included.
-        </>
-      ),
-    },
-
-    {
-      type: "heading",
-      level: 3,
-      text: "Performance Warranty",
-    },
-
-    {
-      type: "paragraph",
-      text: (
-        <>
-          A performance warranty generally describes the minimum power output a manufacturer guarantees over a specified period, according to the warranty terms.
-          <br />
-          <br />
-          Solar panels gradually lose some of their original power-generating capability over time. This process is known as degradation. A performance warranty sets out the manufacturer's commitment regarding the panel's remaining output at particular points during its service life.
-          <br />
-          <br />
-          Before buying, check the warranty duration, the stated degradation limits, the claim procedure, and the conditions that may affect coverage.
-        </>
-      ),
-    },
-
-    {
-      type: "table",
-      headers: [
-        "Feature",
-        "Product Warranty",
-        "Performance Warranty",
-      ],
-      rows: [
-        [
-          "Main purpose",
-          "Covers specified product defects",
-          "Guarantees specified power output over time",
+      {
+        type: "list",
+        items: [
+          "Choosing a vendor only because the advertised price is low",
+          "Assuming every homeowner automatically qualifies for the maximum subsidy",
+          "Paying an advance without a written quotation or agreement",
+          "Ignoring the brand and specifications of the panels and inverter",
+          "Accepting verbal promises about electricity savings",
+          "Failing to confirm whether essential installation work is included",
+          "Not checking the vendor's current empanelment status",
+          "Assuming the subsidy will be credited immediately",
+          "Ignoring warranty conditions and after-sales support",
         ],
-        [
-          "What to check",
-          "Covered defects and exclusions",
-          "Guaranteed output and degradation terms",
+      },
+
+      {
+        type: "heading",
+        level: 2,
+        text: "Where Can You Check the Official Tamil Nadu Solar Subsidy Details?",
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            Before making a payment or selecting an installer, use official
+            sources to confirm the current subsidy structure, eligibility rules,
+            application requirements, and vendor information.
+            <br />
+            <br />
+            You can start with the following resources:
+          </>
+        ),
+      },
+
+      {
+        type: "list",
+        items: [
+          "Tamil Nadu Solar Homes Portal: https://www.tnebltd.gov.in/usrp/",
+          "PM Surya Ghar National Portal: https://pmsuryaghar.gov.in/",
         ],
-        [
-          "Claim requirements",
-          "Proof of purchase and defect assessment, as applicable",
-          "Output evidence and assessment under warranty terms",
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            Check the latest scheme conditions before proceeding, as government
+            guidelines and eligibility requirements may change. If a vendor
+            makes a claim that you cannot verify, request written clarification
+            or contact the relevant official support channel.
+          </>
+        ),
+      },
+
+      {
+        type: "heading",
+        level: 2,
+        text: "Final Thoughts",
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            The Tamil Nadu solar subsidy can make rooftop solar more accessible
+            to eligible homeowners, but the subsidy alone should not determine
+            your choice of installer.
+            <br />
+            <br />
+            Compare detailed quotations, verify vendor eligibility, understand
+            the equipment being supplied, and confirm all installation charges
+            before signing an agreement. These simple checks can help you make a
+            more informed decision and avoid unexpected expenses.
+            <br />
+            <br />
+            Most importantly, choose a solar system that matches your
+            electricity consumption and rooftop conditions. A well-planned
+            installation with transparent pricing can help you get better value
+            from your solar investment over the long term.
+            <br />
+            <br />
+            <strong>
+              Thinking about installing rooftop solar at your home?
+            </strong>{" "}
+            Start by reviewing your electricity usage, checking your subsidy
+            eligibility, and comparing complete installation quotations before
+            making your decision.
+          </>
+        ),
+      },
+      {
+        type: "faq",
+        content: [
+          {
+            question:
+              "How much solar subsidy is available in Tamil Nadu in 2026?",
+            answer:
+              "The Tamil Nadu Solar Homes Portal currently publishes combined central and state subsidy amounts of ₹35,000 for 1 kW, ₹70,000 for 2 kW, and up to ₹1,00,000 for 3 kW and above. The amount you receive depends on eligibility and the applicable scheme conditions.",
+          },
+          {
+            question:
+              "Can solar installation vendors increase their prices after the subsidy is announced?",
+            answer:
+              "Installation prices can vary between vendors, and recent reporting from Tiruchy has highlighted concerns about some vendors increasing prices after the additional state subsidy was introduced. Compare detailed quotations and equipment specifications rather than assuming that every quoted price is reasonable.",
+          },
+          {
+            question:
+              "How can I check whether a solar installer is eligible for the subsidy scheme?",
+            answer:
+              "Check the current empanelled vendor information on the official Tamil Nadu Solar Homes Portal. Before signing an agreement, confirm the vendor's eligibility and ensure the proposed installation meets the applicable technical and scheme requirements.",
+          },
+          {
+            question:
+              "Is the solar subsidy deducted from the installation price?",
+            answer:
+              "Under the currently published process, the central and Tamil Nadu state subsidy amounts are credited to the eligible beneficiary's bank account through direct benefit transfer after the required steps and verification. Confirm your payment obligations and the expected disbursal process before installation.",
+          },
+          {
+            question:
+              "Does every homeowner qualify for the full ₹1 lakh subsidy?",
+            answer:
+              "No. The maximum combined subsidy is subject to eligibility, system capacity, technical requirements, commissioning, net-metering, and other applicable scheme conditions. Check the official portal to understand the requirements for your application.",
+          },
+          {
+            question:
+              "What should I check before accepting a rooftop solar quotation?",
+            answer:
+              "Compare the total price, equipment brands and specifications, installation scope, additional charges, vendor eligibility, warranty coverage, after-sales service, and expected subsidy. Ask for all important details in writing before paying an advance.",
+          },
+          {
+            question:
+              "Can I choose any solar panel brand when applying for the subsidy?",
+            answer:
+              "Subsidy-supported installations must comply with the applicable technical and domestic-content requirements, including relevant ALMM and DCR conditions. Ask your installer to confirm the proposed modules' compliance before proceeding.",
+          },
+          {
+            question:
+              "How can I avoid hidden charges during solar installation?",
+            answer:
+              "Request an itemised quotation that clearly lists the equipment, installation work, wiring, mounting structure, electrical protection, taxes, and any site-specific charges. Ask the vendor to obtain your approval before carrying out additional paid work that was not included in the agreement.",
+          },
         ],
-        [
-          "Why it matters",
-          "Helps protect against covered manufacturing problems",
-          "Clarifies the manufacturer's long-term output commitment",
+      },
+    ],
+  },
+  // 19
+  {
+    id: 19,
+
+    metaTitle: "How to Choose the Best Solar Panels in India: 7 Tips",
+
+    metaDescription:
+      "Learn how to choose quality solar panels for your home in India. Compare efficiency, warranties, durability, heat performance, certifications, and long-term value.",
+
+    title:
+      "How to Choose Solar Panels That Last: 7 Things to Check Before Buying",
+
+    url: "how-to-choose-quality-solar-panels",
+
+    summary:
+      "Choosing solar panels involves more than comparing prices and wattage. Learn how to evaluate solar panel efficiency, warranties, durability, heat performance, certifications, and installation quality before investing in a rooftop solar system.",
+
+    image: "/images/how-to-choose-quality-solar-panels.webp",
+
+    alt: "High-quality rooftop solar panels installed on a modern Indian home under clear sunlight",
+
+    category: "Solar Panels",
+
+    date: "October 24, 2026",
+
+    fullContent: [
+      {
+        type: "paragraph",
+        text: (
+          <>
+            Choosing solar panels for your home is an important decision. A
+            rooftop solar system can serve your household for many years, so the
+            panels you select today can influence how much electricity your
+            system generates in the future.
+            <br />
+            <br />
+            When comparing solar panels, many homeowners focus mainly on price
+            and wattage. While these factors matter, they do not tell the whole
+            story. Panel efficiency, temperature performance, warranty coverage,
+            manufacturing quality, and installation standards also deserve
+            attention.
+            <br />
+            <br />
+            This is particularly important in Tamil Nadu, where rooftop solar
+            panels are exposed to strong sunlight, high temperatures, seasonal
+            rainfall, dust, and changing weather conditions.
+            <br />
+            <br />
+            So, how do you choose solar panels that offer reliable performance
+            over the long term?
+            <br />
+            <br />
+            In this guide, we explain seven important things to check before
+            buying solar panels for your home or business.
+          </>
+        ),
+      },
+
+      {
+        type: "heading",
+        level: 2,
+        text: "Why Does Solar Panel Quality Matter?",
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            Solar panels are designed to generate electricity for decades, but
+            their actual performance depends on several factors, including
+            manufacturing quality, environmental conditions, system design, and
+            maintenance.
+            <br />
+            <br />
+            Two panels with similar rated capacities may differ in efficiency,
+            temperature response, warranty terms, and expected long-term
+            performance.
+            <br />
+            <br />
+            Choosing a suitable panel can help you make better use of your
+            available rooftop space and understand what to expect from your
+            solar investment.
+            <br />
+            <br />
+            Instead of asking only, "Which solar panel is cheapest?", consider a
+            more useful question: "Which panel offers the right balance of
+            performance, reliability, warranty, and overall cost for my
+            requirements?"
+          </>
+        ),
+      },
+
+      {
+        type: "heading",
+        level: 2,
+        text: "1. Check Solar Panel Efficiency",
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            Solar panel efficiency describes how effectively a panel converts
+            the sunlight it receives into electricity under specified test
+            conditions.
+            <br />
+            <br />
+            For homeowners with limited rooftop space, efficiency is
+            particularly important. A more efficient panel can generally produce
+            more power from the same surface area, assuming comparable operating
+            conditions and suitable system design.
+            <br />
+            <br />
+            For example, if your roof has limited space because of water tanks,
+            staircases, or nearby buildings, higher-efficiency panels may help
+            you achieve your required system capacity without using as much roof
+            area.
+            <br />
+            <br />
+            However, efficiency should not be the only factor in your decision.
+            A panel with a higher efficiency rating is not automatically the
+            best choice for every property.
+            <br />
+            <br />
+            Compare the actual wattage, physical dimensions, product
+            specifications, warranty, and price alongside the efficiency rating.
+          </>
+        ),
+      },
+
+      {
+        type: "heading",
+        level: 3,
+        text: "What Efficiency Rating Should You Look For?",
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            Modern residential solar panels are available across a range of
+            efficiency levels, with many current models offering efficiencies in
+            the low-to-mid 20% range. The exact figure depends on the model and
+            technology.
+            <br />
+            <br />
+            Check the manufacturer's official datasheet instead of relying on
+            general advertising claims. Compare panels of similar wattage and
+            size to understand which option makes better use of your available
+            roof area.
+          </>
+        ),
+      },
+
+      {
+        type: "heading",
+        level: 2,
+        text: "2. Understand the Difference Between Product and Performance Warranties",
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            A solar panel warranty explains the manufacturer's commitments if a
+            product develops a covered problem or its power output falls below
+            the specified performance level.
+            <br />
+            <br />
+            However, not all warranties cover the same things. Understanding the
+            difference between product warranty and performance warranty can
+            help you make a more informed purchase.
+          </>
+        ),
+      },
+
+      {
+        type: "heading",
+        level: 3,
+        text: "Product Warranty",
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            A product warranty generally covers specified manufacturing defects
+            and material-related problems, subject to the manufacturer's terms
+            and exclusions.
+            <br />
+            <br />
+            Depending on the warranty, this may include certain defects
+            affecting the panel's construction or components. Read the actual
+            warranty document to understand what is covered, how claims are
+            handled, and whether labour or transportation costs are included.
+          </>
+        ),
+      },
+
+      {
+        type: "heading",
+        level: 3,
+        text: "Performance Warranty",
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            A performance warranty generally describes the minimum power output
+            a manufacturer guarantees over a specified period, according to the
+            warranty terms.
+            <br />
+            <br />
+            Solar panels gradually lose some of their original power-generating
+            capability over time. This process is known as degradation. A
+            performance warranty sets out the manufacturer's commitment
+            regarding the panel's remaining output at particular points during
+            its service life.
+            <br />
+            <br />
+            Before buying, check the warranty duration, the stated degradation
+            limits, the claim procedure, and the conditions that may affect
+            coverage.
+          </>
+        ),
+      },
+
+      {
+        type: "table",
+        headers: ["Feature", "Product Warranty", "Performance Warranty"],
+        rows: [
+          [
+            "Main purpose",
+            "Covers specified product defects",
+            "Guarantees specified power output over time",
+          ],
+          [
+            "What to check",
+            "Covered defects and exclusions",
+            "Guaranteed output and degradation terms",
+          ],
+          [
+            "Claim requirements",
+            "Proof of purchase and defect assessment, as applicable",
+            "Output evidence and assessment under warranty terms",
+          ],
+          [
+            "Why it matters",
+            "Helps protect against covered manufacturing problems",
+            "Clarifies the manufacturer's long-term output commitment",
+          ],
         ],
-      ],
-    },
+      },
 
-    {
-      type: "paragraph",
-      text: (
-        <>
-          Do not compare panels using warranty duration alone. Two manufacturers may offer similar warranty periods but different coverage conditions. Read the full terms before making your decision.
-        </>
-      ),
-    },
+      {
+        type: "paragraph",
+        text: (
+          <>
+            Do not compare panels using warranty duration alone. Two
+            manufacturers may offer similar warranty periods but different
+            coverage conditions. Read the full terms before making your
+            decision.
+          </>
+        ),
+      },
 
-    {
-      type: "heading",
-      level: 2,
-      text: "3. Evaluate Panel Performance in High Temperatures",
-    },
+      {
+        type: "heading",
+        level: 2,
+        text: "3. Evaluate Panel Performance in High Temperatures",
+      },
 
-    {
-      type: "paragraph",
-      text: (
-        <>
-          Tamil Nadu receives strong sunlight for much of the year, making solar energy an attractive option for residential and commercial properties. However, strong sunlight also means that rooftop panels can become significantly hotter than the surrounding air.
-          <br />
-          <br />
-          Solar panel output is affected by temperature. Many conventional panels produce less power as their cell temperature rises above the reference temperature used for their rated specifications.
-          <br />
-          <br />
-          This is why checking a panel's temperature coefficient is useful when comparing models.
-        </>
-      ),
-    },
+      {
+        type: "paragraph",
+        text: (
+          <>
+            Tamil Nadu receives strong sunlight for much of the year, making
+            solar energy an attractive option for residential and commercial
+            properties. However, strong sunlight also means that rooftop panels
+            can become significantly hotter than the surrounding air.
+            <br />
+            <br />
+            Solar panel output is affected by temperature. Many conventional
+            panels produce less power as their cell temperature rises above the
+            reference temperature used for their rated specifications.
+            <br />
+            <br />
+            This is why checking a panel's temperature coefficient is useful
+            when comparing models.
+          </>
+        ),
+      },
 
-    {
-      type: "heading",
-      level: 3,
-      text: "What Is the Temperature Coefficient?",
-    },
+      {
+        type: "heading",
+        level: 3,
+        text: "What Is the Temperature Coefficient?",
+      },
 
-    {
-      type: "paragraph",
-      text: (
-        <>
-          The temperature coefficient of maximum power indicates how a panel's power output changes with temperature above the specified reference point. It is usually expressed as a percentage change per degree Celsius.
-          <br />
-          <br />
-          For example, consider two hypothetical panels:
-        </>
-      ),
-    },
+      {
+        type: "paragraph",
+        text: (
+          <>
+            The temperature coefficient of maximum power indicates how a panel's
+            power output changes with temperature above the specified reference
+            point. It is usually expressed as a percentage change per degree
+            Celsius.
+            <br />
+            <br />
+            For example, consider two hypothetical panels:
+          </>
+        ),
+      },
 
-    {
-      type: "table",
-      headers: [
-        "Panel Specification",
-        "Panel A",
-        "Panel B",
-      ],
-      rows: [
-        [
-          "Rated power",
-          "550 W",
-          "550 W",
+      {
+        type: "table",
+        headers: ["Panel Specification", "Panel A", "Panel B"],
+        rows: [
+          ["Rated power", "550 W", "550 W"],
+          [
+            "Temperature coefficient of maximum power",
+            "-0.35%/°C",
+            "-0.29%/°C",
+          ],
+          [
+            "Output response to rising temperature",
+            "Greater percentage reduction",
+            "Smaller percentage reduction",
+          ],
         ],
-        [
-          "Temperature coefficient of maximum power",
-          "-0.35%/°C",
-          "-0.29%/°C",
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            In this hypothetical comparison, Panel B has a less negative
+            temperature coefficient, meaning its power output is expected to
+            decline less for each degree of temperature increase above the
+            reference point, all else being equal.
+            <br />
+            <br />
+            These figures are examples, not specifications for particular
+            products. Always compare the actual datasheets of the panels you are
+            considering.
+            <br />
+            <br />
+            Also ask your installer about ventilation beneath the panels,
+            mounting arrangements, roof conditions, and expected operating
+            temperatures. Good system design matters alongside panel selection.
+          </>
+        ),
+      },
+
+      {
+        type: "image",
+        path: "/images/solar-panel-performance-hot-weather-india.webp",
+        alt: "Photorealistic rooftop solar panels on an Indian home under bright sunlight, illustrating solar panel performance in hot weather",
+      },
+
+      {
+        type: "heading",
+        level: 2,
+        text: "4. Check the Solar Panel Technology and Construction",
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            Solar panels use different cell technologies and construction
+            methods. Understanding the options can help you compare products
+            based on your budget, roof space, and performance requirements.
+            <br />
+            <br />
+            Monocrystalline silicon panels are widely used in residential
+            rooftop installations. Within this category, manufacturers offer
+            different cell designs and technologies, each with its own
+            specifications.
+            <br />
+            <br />
+            Rather than choosing a panel based only on a technology label,
+            examine the manufacturer's datasheet and warranty documentation.
+          </>
+        ),
+      },
+
+      {
+        type: "heading",
+        level: 3,
+        text: "What Should You Check?",
+      },
+
+      {
+        type: "list",
+        items: [
+          "The exact panel model and rated power output",
+          "Cell technology and module efficiency",
+          "The manufacturer's stated mechanical load ratings",
+          "Resistance to environmental exposure under the specified test conditions",
+          "The temperature coefficient and degradation specifications",
+          "The applicable product and performance warranties",
+          "Whether the panel meets the requirements for your intended installation",
         ],
-        [
-          "Output response to rising temperature",
-          "Greater percentage reduction",
-          "Smaller percentage reduction",
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            You may also encounter terms such as TOPCon, PERC, and
+            heterojunction in solar panel advertisements. These refer to
+            different cell technologies or architectures.
+            <br />
+            <br />
+            Each technology has its own performance characteristics and product
+            options. Compare specific panel models rather than assuming that a
+            technology name alone guarantees superior quality.
+          </>
+        ),
+      },
+
+      {
+        type: "heading",
+        level: 2,
+        text: "5. Verify Certifications and Scheme Compliance",
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            Before purchasing solar panels, verify that the proposed equipment
+            meets the relevant technical standards and any requirements that
+            apply to your installation.
+            <br />
+            <br />
+            Certifications and compliance documents provide useful information
+            about whether a product has been assessed against specified
+            standards. However, the exact certification requirements depend on
+            the product, installation type, and applicable regulations.
+            <br />
+            <br />
+            If you are planning to install a residential rooftop solar system
+            under a government subsidy scheme in India, this check becomes
+            especially important.
+          </>
+        ),
+      },
+
+      {
+        type: "heading",
+        level: 3,
+        text: "What About ALMM and DCR Requirements?",
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            ALMM stands for Approved List of Models and Manufacturers. Domestic
+            Content Requirement, or DCR, refers to applicable requirements
+            concerning domestically manufactured solar cells and modules under
+            relevant schemes.
+            <br />
+            <br />
+            Eligible subsidy-supported installations must comply with the rules
+            applicable to the project, including relevant module-listing and
+            domestic-content conditions.
+            <br />
+            <br />
+            Ask your installer to identify the exact panel model being supplied
+            and explain how it meets the applicable requirements. Where
+            relevant, verify the model and manufacturer through the official
+            government resources.
+            <br />
+            <br />
+            Never assume that every panel sold in the market automatically
+            qualifies for a subsidy-supported installation.
+          </>
+        ),
+      },
+
+      {
+        type: "heading",
+        level: 2,
+        text: "6. Look Beyond the Initial Price",
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            Price is an important part of choosing solar panels, but the
+            cheapest option is not always the best value for your home.
+            <br />
+            <br />
+            When comparing quotations, consider the complete system rather than
+            evaluating panels in isolation. Your total investment may include
+            the panels, inverter, mounting structure, wiring, electrical
+            protection, installation labour, and other site-specific work.
+            <br />
+            <br />
+            The price may also differ because of equipment specifications,
+            installation complexity, warranty coverage, and the service offered
+            by the installer.
+            <br />
+            <br />A useful comparison should consider what you receive for the
+            amount you pay.
+          </>
+        ),
+      },
+
+      {
+        type: "heading",
+        level: 3,
+        text: "Compare the Cost Per Watt Carefully",
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            Cost per watt is a simple way to compare prices when looking at
+            solar equipment or installations with similar specifications and
+            scope.
+            <br />
+            <br />
+            For example, if two quotations offer different system capacities,
+            dividing the relevant price by the rated capacity can help you
+            understand their relative cost per watt.
+            <br />
+            <br />
+            However, this figure does not measure quality, reliability, or the
+            amount of electricity your system will generate. A meaningful
+            comparison should also account for equipment, installation work,
+            warranty terms, and expected system performance.
+          </>
+        ),
+      },
+
+      {
+        type: "heading",
+        level: 3,
+        text: "Think About Long-Term Value",
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            A solar system's long-term value depends on how well it matches your
+            electricity needs and how it performs over time.
+            <br />
+            <br />
+            Ask the installer for a realistic estimate of annual electricity
+            generation based on your roof, location, shading, and proposed
+            system size. Understand the assumptions behind the estimate and how
+            maintenance or equipment replacement could affect your costs.
+            <br />
+            <br />
+            Avoid choosing a panel solely because someone promises a guaranteed
+            savings figure or a fixed payback period. Actual results depend on
+            your consumption, electricity tariff, system performance, and
+            applicable billing arrangements.
+          </>
+        ),
+      },
+
+      {
+        type: "heading",
+        level: 2,
+        text: "7. Choose a Reliable Installer, Not Just a Good Panel",
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            Even a well-manufactured solar panel needs proper installation to
+            perform as intended. System design, mounting, wiring, electrical
+            protection, and commissioning all affect the safety and operation of
+            your rooftop solar system.
+            <br />
+            <br />
+            Poor installation can create problems such as loose connections,
+            water leakage around mounting points, inadequate cable protection,
+            or avoidable performance losses.
+            <br />
+            <br />
+            Before finalising your purchase, check the installer's experience,
+            written quotation, equipment specifications, warranty terms, and
+            after-sales service arrangements.
+          </>
+        ),
+      },
+
+      {
+        type: "heading",
+        level: 3,
+        text: "Questions to Ask Your Solar Installer",
+      },
+
+      {
+        type: "list",
+        items: [
+          "Which panel manufacturer and exact model will you install?",
+          "What are the panel efficiency and temperature coefficient?",
+          "What product and performance warranties are provided?",
+          "Does the proposed equipment meet the applicable scheme requirements?",
+          "What installation work is included in the quotation?",
+          "How will shading and rooftop ventilation be considered?",
+          "What electrical protection and earthing arrangements are included?",
+          "Who will handle maintenance and warranty claims?",
+          "How can I monitor the system's electricity generation?",
+          "What documentation will I receive after commissioning?",
         ],
-      ],
-    },
+      },
 
-    {
-      type: "paragraph",
-      text: (
-        <>
-          In this hypothetical comparison, Panel B has a less negative temperature coefficient, meaning its power output is expected to decline less for each degree of temperature increase above the reference point, all else being equal.
-          <br />
-          <br />
-          These figures are examples, not specifications for particular products. Always compare the actual datasheets of the panels you are considering.
-          <br />
-          <br />
-          Also ask your installer about ventilation beneath the panels, mounting arrangements, roof conditions, and expected operating temperatures. Good system design matters alongside panel selection.
-        </>
-      ),
-    },
+      {
+        type: "paragraph",
+        text: (
+          <>
+            If you are applying for a residential solar subsidy, also verify the
+            installer through the appropriate official portal and confirm that
+            the proposed system satisfies the applicable requirements.
+            <br />
+            <br />A transparent installer should be willing to explain the
+            equipment selection, expected performance, costs, and limitations
+            before you commit.
+          </>
+        ),
+      },
 
-    {
-      type: "image",
-      path: "/images/solar-panel-performance-hot-weather-india.webp",
-      alt:
-        "Photorealistic rooftop solar panels on an Indian home under bright sunlight, illustrating solar panel performance in hot weather",
-    },
+      {
+        type: "heading",
+        level: 2,
+        text: "Solar Panel Buying Checklist: What Should You Compare?",
+      },
 
-    {
-      type: "heading",
-      level: 2,
-      text: "4. Check the Solar Panel Technology and Construction",
-    },
+      {
+        type: "paragraph",
+        text: (
+          <>
+            If you are comparing multiple solar panel brands or installation
+            quotations, use this checklist to organise the important details.
+          </>
+        ),
+      },
 
-    {
-      type: "paragraph",
-      text: (
-        <>
-          Solar panels use different cell technologies and construction methods. Understanding the options can help you compare products based on your budget, roof space, and performance requirements.
-          <br />
-          <br />
-          Monocrystalline silicon panels are widely used in residential rooftop installations. Within this category, manufacturers offer different cell designs and technologies, each with its own specifications.
-          <br />
-          <br />
-          Rather than choosing a panel based only on a technology label, examine the manufacturer's datasheet and warranty documentation.
-        </>
-      ),
-    },
-
-    {
-      type: "heading",
-      level: 3,
-      text: "What Should You Check?",
-    },
-
-    {
-      type: "list",
-      items: [
-        "The exact panel model and rated power output",
-        "Cell technology and module efficiency",
-        "The manufacturer's stated mechanical load ratings",
-        "Resistance to environmental exposure under the specified test conditions",
-        "The temperature coefficient and degradation specifications",
-        "The applicable product and performance warranties",
-        "Whether the panel meets the requirements for your intended installation",
-      ],
-    },
-
-    {
-      type: "paragraph",
-      text: (
-        <>
-          You may also encounter terms such as TOPCon, PERC, and heterojunction in solar panel advertisements. These refer to different cell technologies or architectures.
-          <br />
-          <br />
-          Each technology has its own performance characteristics and product options. Compare specific panel models rather than assuming that a technology name alone guarantees superior quality.
-        </>
-      ),
-    },
-
-    {
-      type: "heading",
-      level: 2,
-      text: "5. Verify Certifications and Scheme Compliance",
-    },
-
-    {
-      type: "paragraph",
-      text: (
-        <>
-          Before purchasing solar panels, verify that the proposed equipment meets the relevant technical standards and any requirements that apply to your installation.
-          <br />
-          <br />
-          Certifications and compliance documents provide useful information about whether a product has been assessed against specified standards. However, the exact certification requirements depend on the product, installation type, and applicable regulations.
-          <br />
-          <br />
-          If you are planning to install a residential rooftop solar system under a government subsidy scheme in India, this check becomes especially important.
-        </>
-      ),
-    },
-
-    {
-      type: "heading",
-      level: 3,
-      text: "What About ALMM and DCR Requirements?",
-    },
-
-    {
-      type: "paragraph",
-      text: (
-        <>
-          ALMM stands for Approved List of Models and Manufacturers. Domestic Content Requirement, or DCR, refers to applicable requirements concerning domestically manufactured solar cells and modules under relevant schemes.
-          <br />
-          <br />
-          Eligible subsidy-supported installations must comply with the rules applicable to the project, including relevant module-listing and domestic-content conditions.
-          <br />
-          <br />
-          Ask your installer to identify the exact panel model being supplied and explain how it meets the applicable requirements. Where relevant, verify the model and manufacturer through the official government resources.
-          <br />
-          <br />
-          Never assume that every panel sold in the market automatically qualifies for a subsidy-supported installation.
-        </>
-      ),
-    },
-
-    {
-      type: "heading",
-      level: 2,
-      text: "6. Look Beyond the Initial Price",
-    },
-
-    {
-      type: "paragraph",
-      text: (
-        <>
-          Price is an important part of choosing solar panels, but the cheapest option is not always the best value for your home.
-          <br />
-          <br />
-          When comparing quotations, consider the complete system rather than evaluating panels in isolation. Your total investment may include the panels, inverter, mounting structure, wiring, electrical protection, installation labour, and other site-specific work.
-          <br />
-          <br />
-          The price may also differ because of equipment specifications, installation complexity, warranty coverage, and the service offered by the installer.
-          <br />
-          <br />
-          A useful comparison should consider what you receive for the amount you pay.
-        </>
-      ),
-    },
-
-    {
-      type: "heading",
-      level: 3,
-      text: "Compare the Cost Per Watt Carefully",
-    },
-
-    {
-      type: "paragraph",
-      text: (
-        <>
-          Cost per watt is a simple way to compare prices when looking at solar equipment or installations with similar specifications and scope.
-          <br />
-          <br />
-          For example, if two quotations offer different system capacities, dividing the relevant price by the rated capacity can help you understand their relative cost per watt.
-          <br />
-          <br />
-          However, this figure does not measure quality, reliability, or the amount of electricity your system will generate. A meaningful comparison should also account for equipment, installation work, warranty terms, and expected system performance.
-        </>
-      ),
-    },
-
-    {
-      type: "heading",
-      level: 3,
-      text: "Think About Long-Term Value",
-    },
-
-    {
-      type: "paragraph",
-      text: (
-        <>
-          A solar system's long-term value depends on how well it matches your electricity needs and how it performs over time.
-          <br />
-          <br />
-          Ask the installer for a realistic estimate of annual electricity generation based on your roof, location, shading, and proposed system size. Understand the assumptions behind the estimate and how maintenance or equipment replacement could affect your costs.
-          <br />
-          <br />
-          Avoid choosing a panel solely because someone promises a guaranteed savings figure or a fixed payback period. Actual results depend on your consumption, electricity tariff, system performance, and applicable billing arrangements.
-        </>
-      ),
-    },
-
-    {
-      type: "heading",
-      level: 2,
-      text: "7. Choose a Reliable Installer, Not Just a Good Panel",
-    },
-
-    {
-      type: "paragraph",
-      text: (
-        <>
-          Even a well-manufactured solar panel needs proper installation to perform as intended. System design, mounting, wiring, electrical protection, and commissioning all affect the safety and operation of your rooftop solar system.
-          <br />
-          <br />
-          Poor installation can create problems such as loose connections, water leakage around mounting points, inadequate cable protection, or avoidable performance losses.
-          <br />
-          <br />
-          Before finalising your purchase, check the installer's experience, written quotation, equipment specifications, warranty terms, and after-sales service arrangements.
-        </>
-      ),
-    },
-
-    {
-      type: "heading",
-      level: 3,
-      text: "Questions to Ask Your Solar Installer",
-    },
-
-    {
-      type: "list",
-      items: [
-        "Which panel manufacturer and exact model will you install?",
-        "What are the panel efficiency and temperature coefficient?",
-        "What product and performance warranties are provided?",
-        "Does the proposed equipment meet the applicable scheme requirements?",
-        "What installation work is included in the quotation?",
-        "How will shading and rooftop ventilation be considered?",
-        "What electrical protection and earthing arrangements are included?",
-        "Who will handle maintenance and warranty claims?",
-        "How can I monitor the system's electricity generation?",
-        "What documentation will I receive after commissioning?",
-      ],
-    },
-
-    {
-      type: "paragraph",
-      text: (
-        <>
-          If you are applying for a residential solar subsidy, also verify the installer through the appropriate official portal and confirm that the proposed system satisfies the applicable requirements.
-          <br />
-          <br />
-          A transparent installer should be willing to explain the equipment selection, expected performance, costs, and limitations before you commit.
-        </>
-      ),
-    },
-
-    {
-      type: "heading",
-      level: 2,
-      text: "Solar Panel Buying Checklist: What Should You Compare?",
-    },
-
-    {
-      type: "paragraph",
-      text: (
-        <>
-          If you are comparing multiple solar panel brands or installation quotations, use this checklist to organise the important details.
-        </>
-      ),
-    },
-
-    {
-      type: "table",
-      headers: [
-        "Factor",
-        "What to Check",
-        "Why It Matters",
-      ],
-      rows: [
-        [
-          "Efficiency",
-          "Rated efficiency and physical dimensions",
-          "Helps determine how much power can fit on your roof",
+      {
+        type: "table",
+        headers: ["Factor", "What to Check", "Why It Matters"],
+        rows: [
+          [
+            "Efficiency",
+            "Rated efficiency and physical dimensions",
+            "Helps determine how much power can fit on your roof",
+          ],
+          [
+            "Rated power",
+            "Panel wattage and official datasheet",
+            "Helps compare the proposed equipment",
+          ],
+          [
+            "Warranty",
+            "Product and performance warranty documents",
+            "Clarifies coverage and long-term output commitments",
+          ],
+          [
+            "Temperature coefficient",
+            "Power-output change with temperature",
+            "Useful for comparing panels in hot conditions",
+          ],
+          [
+            "Construction",
+            "Mechanical ratings and product specifications",
+            "Helps assess suitability for the installation environment",
+          ],
+          [
+            "Compliance",
+            "Applicable standards and scheme requirements",
+            "Important for safe installation and subsidy eligibility",
+          ],
+          [
+            "Total cost",
+            "Itemised quotation and exclusions",
+            "Makes price comparisons more meaningful",
+          ],
+          [
+            "Installer",
+            "Experience, eligibility, and service support",
+            "Helps ensure correct installation and ongoing assistance",
+          ],
         ],
-        [
-          "Rated power",
-          "Panel wattage and official datasheet",
-          "Helps compare the proposed equipment",
+      },
+
+      {
+        type: "heading",
+        level: 2,
+        text: "Which Solar Panels Are Best for Homes in Tamil Nadu?",
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            There is no single solar panel model that is best for every home in
+            Tamil Nadu. The right choice depends on your available rooftop area,
+            electricity consumption, budget, preferred equipment, and the
+            conditions at your property.
+            <br />
+            <br />
+            For homes with limited roof space, efficiency and physical panel
+            dimensions may be particularly important. For rooftops exposed to
+            high temperatures, comparing temperature coefficients can help you
+            understand differences between products.
+            <br />
+            <br />
+            If your property is exposed to strong winds, heavy rain, or
+            challenging environmental conditions, review the manufacturer's
+            applicable mechanical and environmental ratings and make sure the
+            mounting structure is properly designed.
+            <br />
+            <br />
+            You should also check the warranty, local service arrangements, and
+            any requirements associated with government subsidies before
+            deciding.
+            <br />
+            <br />
+            The best approach is to compare a few suitable panel models using
+            the same criteria rather than relying on brand popularity or
+            advertising claims alone.
+          </>
+        ),
+      },
+
+      {
+        type: "heading",
+        level: 2,
+        text: "Final Thoughts",
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            Choosing solar panels that last starts with understanding what you
+            are buying. Efficiency, warranty coverage, temperature performance,
+            construction quality, certifications, overall cost, and installation
+            standards all deserve attention.
+            <br />
+            <br />
+            Take time to compare official product datasheets and request
+            detailed quotations from qualified installers. Ask questions
+            whenever a specification or warranty term is unclear, and make sure
+            the equipment offered matches what is written in your agreement.
+            <br />
+            <br />
+            For homeowners in Tamil Nadu, selecting panels suited to local
+            weather conditions and ensuring proper installation can help build a
+            rooftop solar system designed for reliable long-term operation.
+            <br />
+            <br />
+            Remember, the goal is not simply to purchase the panel with the
+            highest wattage or the lowest price. It is to choose a suitable
+            solar system that delivers value for your home over many years.
+            <br />
+            <br />
+            <strong>Planning to install rooftop solar?</strong> Compare the
+            panel specifications, check the warranty, and understand the
+            complete installation cost before making your decision.
+          </>
+        ),
+      },
+
+      {
+        type: "heading",
+        level: 2,
+        text: "Frequently Asked Questions",
+      },
+
+      {
+        type: "faq",
+        content: [
+          {
+            question: "How do I choose the best solar panels for my home?",
+            answer:
+              "Compare panel efficiency, rated power, product and performance warranties, temperature coefficient, construction specifications, applicable certifications, and total installation cost. Choose a panel that matches your roof space, electricity requirements, and budget.",
+          },
+          {
+            question: "Which solar panel is best for hot weather in India?",
+            answer:
+              "Look for panels with suitable temperature coefficients and reliable product specifications. A less negative temperature coefficient generally indicates a smaller percentage reduction in power output as temperature rises above the reference point. Actual performance also depends on installation, ventilation, and environmental conditions.",
+          },
+          {
+            question:
+              "What is the difference between a product warranty and a performance warranty?",
+            answer:
+              "A product warranty generally covers specified manufacturing or material defects, while a performance warranty describes the manufacturer's commitment to a specified level of power output over time. The exact coverage and conditions depend on the warranty document.",
+          },
+          {
+            question: "How long do solar panels last?",
+            answer:
+              "Many rooftop solar panels are designed to operate for 25 years or longer, and some products carry performance warranties extending beyond that period. Actual service life and electricity generation depend on product quality, environmental exposure, installation, and maintenance.",
+          },
+          {
+            question: "Do solar panels lose efficiency over time?",
+            answer:
+              "Yes. Solar panels gradually lose some power-generating capability through a process called degradation. The rate varies by product and operating conditions, so check the manufacturer's performance warranty and degradation specifications.",
+          },
+          {
+            question: "Are higher-wattage solar panels always better?",
+            answer:
+              "No. Higher wattage can help reduce the number of panels needed for a particular system capacity, but physical dimensions, efficiency, price, warranty, and installation conditions also matter. Compare the full specifications rather than wattage alone.",
+          },
+          {
+            question:
+              "What solar panel certifications should I check in India?",
+            answer:
+              "Check the applicable product standards and certifications for your intended installation. If you are applying for a government residential rooftop solar subsidy, verify the relevant ALMM, domestic-content, and other scheme requirements through official sources.",
+          },
+          {
+            question: "Should I choose the cheapest solar panel?",
+            answer:
+              "Not necessarily. Compare the equipment specifications, warranty terms, installer quality, installation scope, and total cost. A lower initial price may not offer the best value if important components, services, or warranty protections differ.",
+          },
+          {
+            question:
+              "Does solar panel installation quality affect performance?",
+            answer:
+              "Yes. Correct system design, secure mounting, appropriate wiring, electrical protection, and commissioning are important for safe operation and expected performance. Choose a qualified installer and obtain a written quotation and installation documentation.",
+          },
+          {
+            question:
+              "Can I get a government subsidy for rooftop solar in Tamil Nadu?",
+            answer:
+              "Eligible residential installations may qualify for assistance under the applicable central and Tamil Nadu state schemes. Eligibility, approved equipment, vendor requirements, and subsidy amounts can change, so check the official Tamil Nadu Solar Homes Portal and PM Surya Ghar portal before proceeding.",
+          },
         ],
-        [
-          "Warranty",
-          "Product and performance warranty documents",
-          "Clarifies coverage and long-term output commitments",
+      },
+    ],
+  },
+  // 20
+  {
+    id: 20,
+
+    metaTitle: "Solar Battery Storage in India: Is It Worth It in 2026?",
+
+    metaDescription:
+      "Is solar battery storage worth the cost in India? Compare solar batteries, backup benefits, costs, hybrid systems, and payback considerations for homeowners.",
+
+    title:
+      "Solar Battery Storage in India: Is It Worth the Extra Cost for Your Home?",
+
+    url: "solar-battery-storage-worth-it-india",
+
+    summary:
+      "Thinking about adding a battery to your rooftop solar system? Learn how solar battery storage works, compare on-grid and hybrid systems, understand the benefits and limitations, and decide whether a home solar battery makes sense for your electricity needs.",
+
+    image: "/images/solar-battery-storage-india-home.webp",
+
+    alt: "Residential rooftop solar panels connected to a home battery storage system in India",
+
+    category: "Solar Energy",
+
+    date: "October 28, 2026",
+
+    fullContent: [
+      {
+        type: "paragraph",
+        text: (
+          <>
+            Rooftop solar panels can help households reduce their dependence on
+            grid electricity by generating power from sunlight. But there is one
+            common question homeowners ask before investing in solar: what
+            happens to the electricity generated during the day when nobody is
+            at home to use it?
+            <br />
+            <br />
+            One option is to add a battery storage system. It stores surplus
+            solar electricity during sunny hours so that you can use the stored
+            energy later, such as in the evening or during certain power
+            outages.
+            <br />
+            <br />
+            At first, adding a battery sounds like an obvious improvement. You
+            generate electricity during the day, store what you do not need
+            immediately, and use it when the sun goes down.
+            <br />
+            <br />
+            However, solar batteries also increase the upfront cost of a solar
+            installation. Whether that additional investment makes financial
+            sense depends on your electricity consumption, backup requirements,
+            local electricity billing rules, and the battery system you choose.
+            <br />
+            <br />
+            In this guide, we explain how solar battery storage works, compare
+            different solar system configurations, and help you decide whether a
+            battery is worth considering for your home in India.
+          </>
+        ),
+      },
+
+      {
+        type: "heading",
+        level: 2,
+        text: "What Is Solar Battery Storage?",
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            A solar battery is a rechargeable energy storage device that stores
+            electricity generated by your solar panels for use at a later time.
+            <br />
+            <br />
+            During sunny hours, your panels generate electricity. Your home uses
+            the electricity it needs at that moment. Depending on your system
+            configuration, surplus electricity can charge a battery or be
+            exported to the electricity grid.
+            <br />
+            <br />
+            When solar generation decreases in the evening, the stored energy
+            can supply compatible household loads through the appropriate
+            inverter and electrical setup.
+            <br />
+            <br />
+            This allows you to shift some of your daytime solar generation to a
+            later period when your household needs electricity.
+            <br />
+            <br />
+            It is important to understand that a battery does not generate
+            electricity by itself. It stores electricity produced by your solar
+            panels or supplied through another compatible charging source.
+          </>
+        ),
+      },
+
+      {
+        type: "heading",
+        level: 3,
+        text: "How Does a Solar Battery Work?",
+      },
+
+      {
+        type: "list",
+        items: [
+          "Solar panels generate electricity when sunlight is available.",
+          "Your home uses the solar electricity required by operating appliances.",
+          "Depending on the system design, surplus electricity charges the battery or is exported to the grid.",
+          "When solar generation decreases, the battery can supply compatible household loads.",
+          "When the battery is depleted or cannot meet the demand, the system may draw electricity from the grid if the configuration permits it.",
         ],
-        [
-          "Temperature coefficient",
-          "Power-output change with temperature",
-          "Useful for comparing panels in hot conditions",
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            The exact sequence depends on the inverter, battery configuration,
+            energy management settings, and electrical design. A qualified
+            installer can explain how the proposed system will operate in your
+            home.
+          </>
+        ),
+      },
+
+      {
+        type: "heading",
+        level: 2,
+        text: "Why Is Solar Battery Storage Becoming Important in India?",
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            Residential rooftop solar is growing in India, and more households
+            are generating electricity during the day. However, many homes
+            consume a substantial amount of electricity in the evening, when
+            solar panels generate little or no power.
+            <br />
+            <br />
+            This creates a timing difference between electricity generation and
+            consumption.
+            <br />
+            <br />
+            For example, a family may generate surplus electricity around midday
+            while everyone is at work or school. Later, the family returns home
+            and switches on lights, fans, televisions, washing machines, and
+            other appliances.
+            <br />
+            <br />
+            A battery can help shift some of the surplus daytime generation into
+            the evening. This can be useful when backup power is important or
+            when local electricity billing arrangements make storing electricity
+            financially attractive.
+            <br />
+            <br />
+            However, the financial benefit is not the same for every household.
+            Under net-metering arrangements that credit exported electricity
+            against electricity drawn later, a battery may provide limited
+            additional bill savings relative to its cost.
+          </>
+        ),
+      },
+
+      {
+        type: "heading",
+        level: 2,
+        text: "Solar Panels Without a Battery vs Solar Panels With a Battery",
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            Before purchasing a battery, it helps to understand the difference
+            between a standard grid-connected solar system and a system designed
+            to store electricity.
+          </>
+        ),
+      },
+
+      {
+        type: "table",
+        headers: [
+          "Feature",
+          "On-Grid Solar Without Battery",
+          "Hybrid Solar With Battery",
         ],
-        [
-          "Construction",
-          "Mechanical ratings and product specifications",
-          "Helps assess suitability for the installation environment",
+        rows: [
+          [
+            "Daytime solar generation",
+            "Powers household loads",
+            "Powers household loads and can charge the battery",
+          ],
+          [
+            "Surplus electricity",
+            "Can be exported to the grid, subject to the applicable arrangement",
+            "Can charge the battery or be exported, depending on system settings",
+          ],
+          [
+            "Evening electricity",
+            "Usually supplied by the grid",
+            "Can be supplied by the battery, the grid, or both",
+          ],
+          [
+            "Power-cut backup",
+            "A conventional grid-tied system generally shuts down during a grid outage",
+            "Can supply designated backup loads if designed and configured for backup",
+          ],
+          [
+            "Initial investment",
+            "Generally lower",
+            "Generally higher because of the battery and compatible equipment",
+          ],
+          [
+            "Maintenance",
+            "Solar equipment requires appropriate inspection and maintenance",
+            "Solar equipment and the battery require appropriate care",
+          ],
+          [
+            "Best suited for",
+            "Households prioritising bill savings under suitable grid conditions",
+            "Households needing backup or greater control over when solar electricity is used",
+          ],
         ],
-        [
-          "Compliance",
-          "Applicable standards and scheme requirements",
-          "Important for safe installation and subsidy eligibility",
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            A battery does not automatically make a solar system independent of
+            the grid. The system must be designed for the intended operating
+            mode, and the battery must have enough usable capacity to supply the
+            required loads.
+            <br />
+            <br />
+            Also, a conventional on-grid solar inverter normally shuts down when
+            the grid fails because of electrical safety requirements. If you
+            want backup during a power cut, confirm that the system includes
+            compatible backup functionality and the necessary electrical
+            arrangements.
+          </>
+        ),
+      },
+
+      // {
+      //   type: "image",
+      //   path: "/images/solar-battery-storage-india-home.webp",
+      //   alt:
+      //     "Modern Indian home with rooftop solar panels and a residential battery storage system for evening electricity use",
+      // },
+
+      {
+        type: "heading",
+        level: 2,
+        text: "5 Benefits of Adding a Battery to Your Solar System",
+      },
+
+      {
+        type: "heading",
+        level: 3,
+        text: "1. Use More of Your Own Solar Electricity",
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            One of the main advantages of solar battery storage is the ability
+            to use electricity generated during the day at a later time.
+            <br />
+            <br />
+            Suppose your solar panels generate more electricity than your
+            household needs around noon. Without a battery, the surplus may be
+            exported to the grid if your system supports it. With a suitable
+            battery, some of that electricity can be stored for evening use.
+            <br />
+            <br />
+            This can increase the proportion of your solar generation that is
+            used directly by your household across the day.
+            <br />
+            <br />
+            However, storing electricity does not automatically produce
+            additional financial savings. The value depends on what would have
+            happened to the surplus electricity without the battery, including
+            the credits or compensation available under your electricity billing
+            arrangement.
+          </>
+        ),
+      },
+
+      {
+        type: "heading",
+        level: 3,
+        text: "2. Get Backup Power During Certain Outages",
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            If your area experiences frequent power cuts, a battery system
+            designed for backup can help keep selected appliances running.
+            <br />
+            <br />
+            Depending on the system's capacity and design, backup loads may
+            include:
+          </>
+        ),
+      },
+
+      {
+        type: "list",
+        items: [
+          "LED lights",
+          "Ceiling fans",
+          "Wi-Fi routers",
+          "Mobile phone chargers",
+          "A television",
+          "Selected essential household equipment",
         ],
-        [
-          "Total cost",
-          "Itemised quotation and exclusions",
-          "Makes price comparisons more meaningful",
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            The actual appliances you can run depend on their power
+            requirements, the inverter's output capacity, and the battery's
+            available energy.
+            <br />
+            <br />
+            High-power appliances such as air conditioners, electric water
+            heaters, and induction cooktops can use a substantial amount of
+            stored energy. They may require a larger system and careful load
+            planning.
+            <br />
+            <br />
+            Ask your installer which circuits will receive backup power and
+            which appliances the system is designed to support.
+          </>
+        ),
+      },
+
+      {
+        type: "heading",
+        level: 3,
+        text: "3. Shift Daytime Solar Energy to the Evening",
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            Solar panels generate electricity primarily during daylight hours,
+            but household demand often increases later in the day.
+            <br />
+            <br />
+            A battery helps bridge this gap by storing some of the energy
+            generated during sunny hours and releasing it when needed.
+            <br />
+            <br />
+            This can be especially useful for families that are away from home
+            during the day but use more electricity after returning in the
+            evening.
+            <br />
+            <br />
+            The benefit depends on the amount of surplus energy available to
+            charge the battery and how much electricity your household consumes
+            later.
+          </>
+        ),
+      },
+
+      {
+        type: "heading",
+        level: 3,
+        text: "4. Reduce Dependence on Grid Electricity at Selected Times",
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            A battery can reduce the amount of electricity your home draws from
+            the grid during periods when stored energy is available.
+            <br />
+            <br />
+            This can provide greater control over your household electricity
+            supply, especially when solar generation and consumption occur at
+            different times.
+            <br />
+            <br />
+            However, whether this reduces your electricity bill depends on the
+            applicable tariff and settlement rules. If exported solar
+            electricity already receives useful credits under net metering, the
+            financial benefit of storing that electricity instead may be
+            limited.
+            <br />
+            <br />A battery should therefore be evaluated against your actual
+            electricity bill and consumption pattern rather than assumed to be a
+            guaranteed way to save more money.
+          </>
+        ),
+      },
+
+      {
+        type: "heading",
+        level: 3,
+        text: "5. Gain More Flexibility in Managing Household Electricity",
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            A properly configured solar battery system can give you more control
+            over when stored electricity is used.
+            <br />
+            <br />
+            Depending on the inverter and energy management system, you may be
+            able to prioritise backup reserves, use stored electricity during
+            selected periods, or adjust charging and discharging settings.
+            <br />
+            <br />
+            These features can be helpful for households with specific backup
+            requirements or changing electricity consumption patterns.
+            <br />
+            <br />
+            Before choosing a system, ask which monitoring and energy management
+            features are included and whether they require a compatible app,
+            internet connection, or additional equipment.
+          </>
+        ),
+      },
+
+      {
+        type: "heading",
+        level: 2,
+        text: "What Are the Disadvantages of Solar Battery Storage?",
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            Although batteries offer useful benefits, they are not essential for
+            every rooftop solar installation. There are several factors to
+            consider before paying for additional storage.
+          </>
+        ),
+      },
+
+      {
+        type: "heading",
+        level: 3,
+        text: "1. Higher Upfront Cost",
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            Adding a battery increases the initial investment. Depending on the
+            installation, you may also need a compatible hybrid inverter,
+            additional protection equipment, wiring, and backup circuit
+            arrangements.
+            <br />
+            <br />
+            Battery prices vary according to usable capacity, chemistry, brand,
+            warranty, power output, and installation requirements.
+            <br />
+            <br />
+            Request a complete quotation that separates the cost of the solar
+            panels, inverter, battery, installation, and any additional work.
+            This makes it easier to understand the extra amount you are paying
+            for storage.
+          </>
+        ),
+      },
+
+      {
+        type: "heading",
+        level: 3,
+        text: "2. Batteries Have a Limited Service Life",
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            Solar batteries gradually age as they are used and exposed to
+            operating conditions. Their usable capacity and performance may
+            change over time.
+            <br />
+            <br />
+            Battery lifespan depends on factors such as chemistry, temperature,
+            charging and discharging patterns, depth of discharge, and the
+            manufacturer's operating requirements.
+            <br />
+            <br />
+            Since your solar panels and battery may not have the same service
+            life, consider whether a replacement could be needed during the
+            overall ownership period.
+            <br />
+            <br />
+            Check the battery warranty, its covered energy throughput or cycle
+            conditions where applicable, and the process for obtaining service.
+          </>
+        ),
+      },
+
+      {
+        type: "heading",
+        level: 3,
+        text: "3. Energy Is Lost During Charging and Discharging",
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            A battery cannot return every unit of electricity that goes into it.
+            Some energy is lost during charging, storage, conversion, and
+            discharging.
+            <br />
+            <br />
+            This means that the electricity available for use later will
+            generally be lower than the amount originally used to charge the
+            battery.
+            <br />
+            <br />
+            When comparing systems, ask for the battery's usable capacity and
+            round-trip efficiency. These figures help you understand how much
+            stored energy you can realistically use.
+          </>
+        ),
+      },
+
+      {
+        type: "heading",
+        level: 3,
+        text: "4. Space and Installation Requirements",
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            A home battery needs a suitable installation location with
+            appropriate ventilation, temperature conditions, protection from
+            water exposure, and access for maintenance.
+            <br />
+            <br />
+            The exact requirements depend on the battery design and
+            manufacturer's instructions. The installer should assess the
+            proposed location before installation.
+            <br />
+            <br />
+            Do not place a battery in an unsuitable location simply because it
+            is convenient. Follow the manufacturer's installation requirements
+            and applicable electrical and fire safety standards.
+          </>
+        ),
+      },
+
+      {
+        type: "heading",
+        level: 2,
+        text: "Is Solar Battery Storage Financially Worth It in India?",
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            This is one of the most important questions to consider before
+            buying a battery.
+            <br />
+            <br />
+            The financial value of a battery depends on the additional cost of
+            storage and the value of the electricity it helps you use. If the
+            battery mainly shifts electricity that would otherwise receive an
+            equivalent credit through net metering, the additional bill savings
+            may be too small to justify its cost.
+            <br />
+            <br />
+            An analysis published by Ember on October 22, 2026, illustrates this
+            challenge for Indian households. It modelled a 3 kW rooftop solar
+            system with a 5 kWh battery and found that, under the assumptions
+            used in the analysis, adding storage extended the estimated payback
+            period substantially compared with solar alone.
+            <br />
+            <br />
+            The report is a modelled example, not a universal prediction. Your
+            own result may differ depending on installation cost, consumption,
+            electricity tariffs, export credits, battery performance, and backup
+            needs.
+          </>
+        ),
+      },
+
+      {
+        type: "heading",
+        level: 3,
+        text: "An Illustrative Example of Solar With and Without a Battery",
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            Consider a household planning to install a 3 kW rooftop solar
+            system. The following figures come from Ember's published modelling
+            and are intended to illustrate how adding a battery can change the
+            economics of a residential installation.
+            <br />
+            <br />
+            They are not a current quotation for your home, a guaranteed payback
+            period, or a promise of subsidy eligibility.
+          </>
+        ),
+      },
+
+      {
+        type: "table",
+        headers: [
+          "Illustrative System",
+          "Estimated Cost After Central Solar Subsidy",
+          "Modelled Payback Period",
         ],
-        [
-          "Installer",
-          "Experience, eligibility, and service support",
-          "Helps ensure correct installation and ongoing assistance",
+        rows: [
+          ["3 kW rooftop solar without battery", "₹87,000", "About 3.3 years"],
+          [
+            "3 kW rooftop solar with 5 kWh battery",
+            "Higher total investment; modelled total before subsidy was ₹2,27,000",
+            "About 9 years",
+          ],
         ],
-      ],
-    },
+      },
 
-    {
-      type: "heading",
-      level: 2,
-      text: "Which Solar Panels Are Best for Homes in Tamil Nadu?",
-    },
+      {
+        type: "paragraph",
+        text: (
+          <>
+            In this example, the battery increases the overall investment and
+            extends the estimated payback period. The reason is that the model's
+            existing net-metering arrangement gives households limited
+            additional financial value for storing electricity that can
+            otherwise be exported and credited.
+            <br />
+            <br />
+            Ember also examined a hypothetical scenario in which a subsidy
+            covered 50% of the battery's capital cost. Under its assumptions,
+            the estimated payback period for the solar-plus-battery system fell
+            to approximately 6.3 years.
+            <br />
+            <br />
+            <strong>Important:</strong> The 50% battery subsidy in this example
+            is a proposed policy scenario discussed in the analysis. It should
+            not be interpreted as confirmation that a general 50% residential
+            battery subsidy is currently available under PM Surya Ghar.
+          </>
+        ),
+      },
 
-    {
-      type: "paragraph",
-      text: (
-        <>
-          There is no single solar panel model that is best for every home in Tamil Nadu. The right choice depends on your available rooftop area, electricity consumption, budget, preferred equipment, and the conditions at your property.
-          <br />
-          <br />
-          For homes with limited roof space, efficiency and physical panel dimensions may be particularly important. For rooftops exposed to high temperatures, comparing temperature coefficients can help you understand differences between products.
-          <br />
-          <br />
-          If your property is exposed to strong winds, heavy rain, or challenging environmental conditions, review the manufacturer's applicable mechanical and environmental ratings and make sure the mounting structure is properly designed.
-          <br />
-          <br />
-          You should also check the warranty, local service arrangements, and any requirements associated with government subsidies before deciding.
-          <br />
-          <br />
-          The best approach is to compare a few suitable panel models using the same criteria rather than relying on brand popularity or advertising claims alone.
-        </>
-      ),
-    },
+      {
+        type: "heading",
+        level: 2,
+        text: "How Much Battery Capacity Does Your Home Need?",
+      },
 
-    {
-      type: "heading",
-      level: 2,
-      text: "Final Thoughts",
-    },
+      {
+        type: "paragraph",
+        text: (
+          <>
+            Choosing the right battery size is just as important as deciding
+            whether to buy one.
+            <br />
+            <br />
+            A small battery may be sufficient for essential lighting, fans, and
+            communication equipment. A larger battery may be required if you
+            want to run more appliances or extend backup time.
+            <br />
+            <br />
+            Instead of selecting a battery based only on the size of your solar
+            panels, first identify the appliances you want to run and how long
+            you need to run them.
+          </>
+        ),
+      },
 
-    {
-      type: "paragraph",
-      text: (
-        <>
-          Choosing solar panels that last starts with understanding what you are buying. Efficiency, warranty coverage, temperature performance, construction quality, certifications, overall cost, and installation standards all deserve attention.
-          <br />
-          <br />
-          Take time to compare official product datasheets and request detailed quotations from qualified installers. Ask questions whenever a specification or warranty term is unclear, and make sure the equipment offered matches what is written in your agreement.
-          <br />
-          <br />
-          For homeowners in Tamil Nadu, selecting panels suited to local weather conditions and ensuring proper installation can help build a rooftop solar system designed for reliable long-term operation.
-          <br />
-          <br />
-          Remember, the goal is not simply to purchase the panel with the highest wattage or the lowest price. It is to choose a suitable solar system that delivers value for your home over many years.
-          <br />
-          <br />
-          <strong>Planning to install rooftop solar?</strong> Compare the panel specifications, check the warranty, and understand the complete installation cost before making your decision.
-        </>
-      ),
-    },
+      {
+        type: "heading",
+        level: 3,
+        text: "Calculate Your Approximate Backup Requirement",
+      },
 
-    {
-      type: "heading",
-      level: 2,
-      text: "Frequently Asked Questions",
-    },
+      {
+        type: "paragraph",
+        text: (
+          <>
+            Start by estimating the total power consumption of the appliances
+            you expect to use during a power cut.
+            <br />
+            <br />
+            For example, suppose the essential appliances you want to run have a
+            combined average load of 500 watts. If you need to operate them for
+            four hours, the approximate energy requirement is 2 kWh before
+            accounting for conversion losses and other system limitations.
+            <br />
+            <br />
+            This is a simplified illustration. Your actual requirement depends
+            on appliance duty cycles, starting power, inverter efficiency,
+            battery limits, and the amount of reserve you want to keep.
+          </>
+        ),
+      },
 
-    {
-      type: "faq",
-      content: [
-        {
-          question:
-            "How do I choose the best solar panels for my home?",
-          answer:
-            "Compare panel efficiency, rated power, product and performance warranties, temperature coefficient, construction specifications, applicable certifications, and total installation cost. Choose a panel that matches your roof space, electricity requirements, and budget.",
-        },
-        {
-          question:
-            "Which solar panel is best for hot weather in India?",
-          answer:
-            "Look for panels with suitable temperature coefficients and reliable product specifications. A less negative temperature coefficient generally indicates a smaller percentage reduction in power output as temperature rises above the reference point. Actual performance also depends on installation, ventilation, and environmental conditions.",
-        },
-        {
-          question:
-            "What is the difference between a product warranty and a performance warranty?",
-          answer:
-            "A product warranty generally covers specified manufacturing or material defects, while a performance warranty describes the manufacturer's commitment to a specified level of power output over time. The exact coverage and conditions depend on the warranty document.",
-        },
-        {
-          question:
-            "How long do solar panels last?",
-          answer:
-            "Many rooftop solar panels are designed to operate for 25 years or longer, and some products carry performance warranties extending beyond that period. Actual service life and electricity generation depend on product quality, environmental exposure, installation, and maintenance.",
-        },
-        {
-          question:
-            "Do solar panels lose efficiency over time?",
-          answer:
-            "Yes. Solar panels gradually lose some power-generating capability through a process called degradation. The rate varies by product and operating conditions, so check the manufacturer's performance warranty and degradation specifications.",
-        },
-        {
-          question:
-            "Are higher-wattage solar panels always better?",
-          answer:
-            "No. Higher wattage can help reduce the number of panels needed for a particular system capacity, but physical dimensions, efficiency, price, warranty, and installation conditions also matter. Compare the full specifications rather than wattage alone.",
-        },
-        {
-          question:
-            "What solar panel certifications should I check in India?",
-          answer:
-            "Check the applicable product standards and certifications for your intended installation. If you are applying for a government residential rooftop solar subsidy, verify the relevant ALMM, domestic-content, and other scheme requirements through official sources.",
-        },
-        {
-          question:
-            "Should I choose the cheapest solar panel?",
-          answer:
-            "Not necessarily. Compare the equipment specifications, warranty terms, installer quality, installation scope, and total cost. A lower initial price may not offer the best value if important components, services, or warranty protections differ.",
-        },
-        {
-          question:
-            "Does solar panel installation quality affect performance?",
-          answer:
-            "Yes. Correct system design, secure mounting, appropriate wiring, electrical protection, and commissioning are important for safe operation and expected performance. Choose a qualified installer and obtain a written quotation and installation documentation.",
-        },
-        {
-          question:
-            "Can I get a government subsidy for rooftop solar in Tamil Nadu?",
-          answer:
-            "Eligible residential installations may qualify for assistance under the applicable central and Tamil Nadu state schemes. Eligibility, approved equipment, vendor requirements, and subsidy amounts can change, so check the official Tamil Nadu Solar Homes Portal and PM Surya Ghar portal before proceeding.",
-        },
-      ],
-    },
-  ],
-},
-// 20
-{
-  id: 20,
-
-  metaTitle:
-    "Solar Battery Storage in India: Is It Worth It in 2026?",
-
-  metaDescription:
-    "Is solar battery storage worth the cost in India? Compare solar batteries, backup benefits, costs, hybrid systems, and payback considerations for homeowners.",
-
-  title:
-    "Solar Battery Storage in India: Is It Worth the Extra Cost for Your Home?",
-
-  url:
-    "solar-battery-storage-worth-it-india",
-
-  summary:
-    "Thinking about adding a battery to your rooftop solar system? Learn how solar battery storage works, compare on-grid and hybrid systems, understand the benefits and limitations, and decide whether a home solar battery makes sense for your electricity needs.",
-
-  image:
-    "/images/solar-battery-storage-india-home.webp",
-
-  alt:
-    "Residential rooftop solar panels connected to a home battery storage system in India",
-
-  category: "Solar Energy",
-
-  date: "October 28, 2026",
-
-  fullContent: [
-    {
-      type: "paragraph",
-      text: (
-        <>
-          Rooftop solar panels can help households reduce their dependence on grid electricity by generating power from sunlight. But there is one common question homeowners ask before investing in solar: what happens to the electricity generated during the day when nobody is at home to use it?
-          <br />
-          <br />
-          One option is to add a battery storage system. It stores surplus solar electricity during sunny hours so that you can use the stored energy later, such as in the evening or during certain power outages.
-          <br />
-          <br />
-          At first, adding a battery sounds like an obvious improvement. You generate electricity during the day, store what you do not need immediately, and use it when the sun goes down.
-          <br />
-          <br />
-          However, solar batteries also increase the upfront cost of a solar installation. Whether that additional investment makes financial sense depends on your electricity consumption, backup requirements, local electricity billing rules, and the battery system you choose.
-          <br />
-          <br />
-          In this guide, we explain how solar battery storage works, compare different solar system configurations, and help you decide whether a battery is worth considering for your home in India.
-        </>
-      ),
-    },
-
-    {
-      type: "heading",
-      level: 2,
-      text: "What Is Solar Battery Storage?",
-    },
-
-    {
-      type: "paragraph",
-      text: (
-        <>
-          A solar battery is a rechargeable energy storage device that stores electricity generated by your solar panels for use at a later time.
-          <br />
-          <br />
-          During sunny hours, your panels generate electricity. Your home uses the electricity it needs at that moment. Depending on your system configuration, surplus electricity can charge a battery or be exported to the electricity grid.
-          <br />
-          <br />
-          When solar generation decreases in the evening, the stored energy can supply compatible household loads through the appropriate inverter and electrical setup.
-          <br />
-          <br />
-          This allows you to shift some of your daytime solar generation to a later period when your household needs electricity.
-          <br />
-          <br />
-          It is important to understand that a battery does not generate electricity by itself. It stores electricity produced by your solar panels or supplied through another compatible charging source.
-        </>
-      ),
-    },
-
-    {
-      type: "heading",
-      level: 3,
-      text: "How Does a Solar Battery Work?",
-    },
-
-    {
-      type: "list",
-      items: [
-        "Solar panels generate electricity when sunlight is available.",
-        "Your home uses the solar electricity required by operating appliances.",
-        "Depending on the system design, surplus electricity charges the battery or is exported to the grid.",
-        "When solar generation decreases, the battery can supply compatible household loads.",
-        "When the battery is depleted or cannot meet the demand, the system may draw electricity from the grid if the configuration permits it.",
-      ],
-    },
-
-    {
-      type: "paragraph",
-      text: (
-        <>
-          The exact sequence depends on the inverter, battery configuration, energy management settings, and electrical design. A qualified installer can explain how the proposed system will operate in your home.
-        </>
-      ),
-    },
-
-    {
-      type: "heading",
-      level: 2,
-      text: "Why Is Solar Battery Storage Becoming Important in India?",
-    },
-
-    {
-      type: "paragraph",
-      text: (
-        <>
-          Residential rooftop solar is growing in India, and more households are generating electricity during the day. However, many homes consume a substantial amount of electricity in the evening, when solar panels generate little or no power.
-          <br />
-          <br />
-          This creates a timing difference between electricity generation and consumption.
-          <br />
-          <br />
-          For example, a family may generate surplus electricity around midday while everyone is at work or school. Later, the family returns home and switches on lights, fans, televisions, washing machines, and other appliances.
-          <br />
-          <br />
-          A battery can help shift some of the surplus daytime generation into the evening. This can be useful when backup power is important or when local electricity billing arrangements make storing electricity financially attractive.
-          <br />
-          <br />
-          However, the financial benefit is not the same for every household. Under net-metering arrangements that credit exported electricity against electricity drawn later, a battery may provide limited additional bill savings relative to its cost.
-        </>
-      ),
-    },
-
-    {
-      type: "heading",
-      level: 2,
-      text: "Solar Panels Without a Battery vs Solar Panels With a Battery",
-    },
-
-    {
-      type: "paragraph",
-      text: (
-        <>
-          Before purchasing a battery, it helps to understand the difference between a standard grid-connected solar system and a system designed to store electricity.
-        </>
-      ),
-    },
-
-    {
-      type: "table",
-      headers: [
-        "Feature",
-        "On-Grid Solar Without Battery",
-        "Hybrid Solar With Battery",
-      ],
-      rows: [
-        [
-          "Daytime solar generation",
-          "Powers household loads",
-          "Powers household loads and can charge the battery",
+      {
+        type: "table",
+        headers: [
+          "Example Backup Load",
+          "Approximate Running Time",
+          "Energy Used",
         ],
-        [
-          "Surplus electricity",
-          "Can be exported to the grid, subject to the applicable arrangement",
-          "Can charge the battery or be exported, depending on system settings",
+        rows: [
+          ["250 W", "4 hours", "1 kWh"],
+          ["500 W", "4 hours", "2 kWh"],
+          ["1,000 W", "4 hours", "4 kWh"],
         ],
-        [
-          "Evening electricity",
-          "Usually supplied by the grid",
-          "Can be supplied by the battery, the grid, or both",
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            These examples show the energy consumed by the stated average loads.
+            They do not represent guaranteed backup times for a particular
+            battery.
+            <br />
+            <br />
+            When choosing a battery, compare its usable capacity in
+            kilowatt-hours (kWh) and its continuous and peak power ratings in
+            kilowatts (kW). Capacity indicates how much energy it can store,
+            while power ratings help determine which appliances it can operate
+            simultaneously.
+            <br />
+            <br />
+            Ask your installer to calculate the expected backup time using your
+            actual appliance list and the proposed battery and inverter
+            specifications.
+          </>
+        ),
+      },
+
+      {
+        type: "heading",
+        level: 2,
+        text: "Lithium vs Lead-Acid Solar Batteries: Which Should You Choose?",
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            Home solar storage systems are available with different battery
+            chemistries. Lithium iron phosphate (LFP) and lead-acid batteries
+            are two options you may encounter.
+            <br />
+            <br />
+            They differ in upfront cost, usable capacity, charging behaviour,
+            maintenance requirements, and expected service life. The most
+            suitable option depends on your budget, intended use, and the
+            specifications of the complete system.
+          </>
+        ),
+      },
+
+      {
+        type: "table",
+        headers: ["Feature", "Lithium Iron Phosphate (LFP)", "Lead-Acid"],
+        rows: [
+          ["Initial cost", "Generally higher", "Generally lower"],
+          [
+            "Usable capacity",
+            "Often supports a greater usable share of rated capacity, depending on the product",
+            "Usable capacity depends on battery type and discharge limits",
+          ],
+          [
+            "Charging and discharging",
+            "Often supports efficient operation and higher cycle use",
+            "Performance depends on the battery type and charging conditions",
+          ],
+          [
+            "Maintenance",
+            "Many products require relatively little routine maintenance",
+            "Requirements vary; some types require specific maintenance",
+          ],
+          [
+            "Space and weight",
+            "Often more compact for comparable usable energy",
+            "Can be heavier or bulkier for comparable usable energy",
+          ],
+          [
+            "Expected service life",
+            "Depends on cell quality, temperature, operating conditions, and warranty",
+            "Depends on battery type, discharge depth, maintenance, and operating conditions",
+          ],
         ],
-        [
-          "Power-cut backup",
-          "A conventional grid-tied system generally shuts down during a grid outage",
-          "Can supply designated backup loads if designed and configured for backup",
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            Avoid choosing a battery based only on its chemistry. Compare the
+            manufacturer's specifications, usable capacity, warranty, cycle or
+            energy-throughput commitments, safety features, and compatibility
+            with the inverter.
+            <br />
+            <br />
+            Ask the installer to explain the expected maintenance and
+            replacement requirements for the specific product being offered.
+          </>
+        ),
+      },
+
+      {
+        type: "image",
+        path: "/images/home-solar-battery-backup-system.webp",
+        alt: "Residential solar battery storage equipment installed in a suitable location to provide backup electricity for essential household appliances",
+      },
+
+      {
+        type: "heading",
+        level: 2,
+        text: "Will a Solar Battery Keep Your Home Running During a Power Cut?",
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            Yes, a solar battery can provide backup power during an outage if
+            the solar installation has been designed and configured to operate
+            safely when the grid is unavailable.
+            <br />
+            <br />
+            However, not every solar installation provides this capability.
+            <br />
+            <br />
+            A conventional grid-connected solar system normally shuts down
+            during a grid outage to prevent electricity from being fed into
+            lines that utility workers may be repairing.
+            <br />
+            <br />
+            To receive backup power, your system generally needs a compatible
+            hybrid inverter or another approved backup arrangement, a suitable
+            battery, and the required transfer and protection equipment.
+            <br />
+            <br />
+            Some installations provide backup only to selected essential
+            circuits. Others may support a larger portion of the home if the
+            system is appropriately sized and configured.
+          </>
+        ),
+      },
+
+      {
+        type: "heading",
+        level: 3,
+        text: "What Should You Confirm Before Buying?",
+      },
+
+      {
+        type: "list",
+        items: [
+          "Whether the inverter supports battery storage and backup operation",
+          "Whether the system can operate safely during a grid outage",
+          "Which household circuits will receive backup power",
+          "The battery's usable capacity and continuous output rating",
+          "The expected backup duration for your appliances",
+          "Whether solar panels can recharge the battery during a daytime outage",
+          "The warranty, installation requirements, and service arrangements",
         ],
-        [
-          "Initial investment",
-          "Generally lower",
-          "Generally higher because of the battery and compatible equipment",
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            A qualified installer should explain exactly how the system behaves
+            during an outage, including what happens when the battery becomes
+            depleted or solar generation is insufficient.
+          </>
+        ),
+      },
+
+      {
+        type: "heading",
+        level: 2,
+        text: "Is a Solar Battery Worth It for Homes in Tamil Nadu?",
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            The answer depends on what you want your solar system to achieve.
+            <br />
+            <br />
+            Tamil Nadu receives substantial sunlight across much of the year,
+            making rooftop solar attractive for many homes. However, the value
+            of adding a battery depends on local power reliability, household
+            consumption patterns, system cost, and the electricity billing
+            arrangement that applies to your property.
+            <br />
+            <br />
+            Consider a few common situations.
+          </>
+        ),
+      },
+
+      {
+        type: "heading",
+        level: 3,
+        text: "A Battery May Make Sense If...",
+      },
+
+      {
+        type: "list",
+        items: [
+          "Your home experiences frequent power cuts and backup electricity is important.",
+          "You need essential appliances to keep running when the grid is unavailable.",
+          "You have substantial surplus solar generation during the day and meaningful evening demand.",
+          "Your electricity tariff or export settlement rules make stored electricity more valuable than exporting it.",
+          "You understand the extra upfront cost and are comfortable with the expected financial return.",
         ],
-        [
-          "Maintenance",
-          "Solar equipment requires appropriate inspection and maintenance",
-          "Solar equipment and the battery require appropriate care",
+      },
+
+      {
+        type: "heading",
+        level: 3,
+        text: "A Battery May Not Be Necessary If...",
+      },
+
+      {
+        type: "list",
+        items: [
+          "Your main goal is to reduce electricity bills at the lowest reasonable upfront cost.",
+          "Your grid supply is reliable and backup power is not a priority.",
+          "Your existing net-metering arrangement provides useful credits for surplus electricity.",
+          "You use much of your solar electricity during the day already.",
+          "The extra battery cost would place too much pressure on your budget.",
         ],
-        [
-          "Best suited for",
-          "Households prioritising bill savings under suitable grid conditions",
-          "Households needing backup or greater control over when solar electricity is used",
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            If your priority is simply reducing your electricity bill, start by
+            evaluating the cost and expected generation of a suitably sized
+            rooftop solar system without a battery.
+            <br />
+            <br />
+            You can then request a separate quotation for adding storage and
+            compare the incremental cost against the backup capability and
+            potential savings it offers.
+            <br />
+            <br />
+            If backup power is essential to your household, a battery may
+            provide value even when the additional financial return is modest.
+            In that case, consider both the financial cost and the practical
+            importance of maintaining power during outages.
+          </>
+        ),
+      },
+
+      {
+        type: "heading",
+        level: 2,
+        text: "Questions to Ask Before Installing a Solar Battery",
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            Before committing to a battery system, ask the installer for clear
+            answers to the following questions.
+          </>
+        ),
+      },
+
+      {
+        type: "list",
+        items: [
+          "What is the total installed price of the battery system?",
+          "What is the battery's rated capacity and usable capacity?",
+          "How much continuous and peak power can the battery deliver?",
+          "Which appliances can run together during a power cut?",
+          "What backup duration should I expect for my actual load?",
+          "Is the proposed battery compatible with the inverter?",
+          "What are the battery's warranty conditions and expected service life?",
+          "What happens if the battery needs replacement?",
+          "Can the system be monitored through an app?",
+          "How will the battery affect my electricity bill under the applicable net-metering arrangement?",
+          "Are there any additional installation, protection, or maintenance costs?",
         ],
-      ],
-    },
+      },
 
-    {
-      type: "paragraph",
-      text: (
-        <>
-          A battery does not automatically make a solar system independent of the grid. The system must be designed for the intended operating mode, and the battery must have enough usable capacity to supply the required loads.
-          <br />
-          <br />
-          Also, a conventional on-grid solar inverter normally shuts down when the grid fails because of electrical safety requirements. If you want backup during a power cut, confirm that the system includes compatible backup functionality and the necessary electrical arrangements.
-        </>
-      ),
-    },
+      {
+        type: "heading",
+        level: 2,
+        text: "Final Thoughts",
+      },
 
-    // {
-    //   type: "image",
-    //   path: "/images/solar-battery-storage-india-home.webp",
-    //   alt:
-    //     "Modern Indian home with rooftop solar panels and a residential battery storage system for evening electricity use",
-    // },
+      {
+        type: "paragraph",
+        text: (
+          <>
+            Solar battery storage offers a practical way to save surplus daytime
+            solar electricity for later use. It can help households use more of
+            their own solar generation and provide backup power when the system
+            is designed for that purpose.
+            <br />
+            <br />
+            However, a battery is not automatically the most economical choice
+            for every rooftop solar installation. The additional upfront
+            investment, battery lifespan, energy losses, and local electricity
+            billing arrangements all affect its value.
+            <br />
+            <br />
+            For many homeowners, a grid-connected solar system without a battery
+            may be the more affordable starting point when the main goal is
+            reducing electricity bills. For households that need reliable backup
+            power, a properly designed hybrid solar system with storage may be
+            worth the additional investment.
+            <br />
+            <br />
+            Before deciding, compare quotations for both options, calculate your
+            backup requirements, and understand how surplus electricity is
+            credited under your applicable billing arrangement.
+            <br />
+            <br />
+            <strong>
+              The best solar battery system is not necessarily the biggest or
+              most expensive one. It is the system that matches your household's
+              electricity needs, backup expectations, and budget.
+            </strong>
+            <br />
+            <br />
+            If you are planning a rooftop solar installation, start by
+            understanding your electricity consumption and the purpose of adding
+            storage. This will help you make a more informed decision about
+            whether a battery belongs in your solar investment.
+          </>
+        ),
+      },
 
-    {
-      type: "heading",
-      level: 2,
-      text: "5 Benefits of Adding a Battery to Your Solar System",
-    },
-
-    {
-      type: "heading",
-      level: 3,
-      text: "1. Use More of Your Own Solar Electricity",
-    },
-
-    {
-      type: "paragraph",
-      text: (
-        <>
-          One of the main advantages of solar battery storage is the ability to use electricity generated during the day at a later time.
-          <br />
-          <br />
-          Suppose your solar panels generate more electricity than your household needs around noon. Without a battery, the surplus may be exported to the grid if your system supports it. With a suitable battery, some of that electricity can be stored for evening use.
-          <br />
-          <br />
-          This can increase the proportion of your solar generation that is used directly by your household across the day.
-          <br />
-          <br />
-          However, storing electricity does not automatically produce additional financial savings. The value depends on what would have happened to the surplus electricity without the battery, including the credits or compensation available under your electricity billing arrangement.
-        </>
-      ),
-    },
-
-    {
-      type: "heading",
-      level: 3,
-      text: "2. Get Backup Power During Certain Outages",
-    },
-
-    {
-      type: "paragraph",
-      text: (
-        <>
-          If your area experiences frequent power cuts, a battery system designed for backup can help keep selected appliances running.
-          <br />
-          <br />
-          Depending on the system's capacity and design, backup loads may include:
-        </>
-      ),
-    },
-
-    {
-      type: "list",
-      items: [
-        "LED lights",
-        "Ceiling fans",
-        "Wi-Fi routers",
-        "Mobile phone chargers",
-        "A television",
-        "Selected essential household equipment",
-      ],
-    },
-
-    {
-      type: "paragraph",
-      text: (
-        <>
-          The actual appliances you can run depend on their power requirements, the inverter's output capacity, and the battery's available energy.
-          <br />
-          <br />
-          High-power appliances such as air conditioners, electric water heaters, and induction cooktops can use a substantial amount of stored energy. They may require a larger system and careful load planning.
-          <br />
-          <br />
-          Ask your installer which circuits will receive backup power and which appliances the system is designed to support.
-        </>
-      ),
-    },
-
-    {
-      type: "heading",
-      level: 3,
-      text: "3. Shift Daytime Solar Energy to the Evening",
-    },
-
-    {
-      type: "paragraph",
-      text: (
-        <>
-          Solar panels generate electricity primarily during daylight hours, but household demand often increases later in the day.
-          <br />
-          <br />
-          A battery helps bridge this gap by storing some of the energy generated during sunny hours and releasing it when needed.
-          <br />
-          <br />
-          This can be especially useful for families that are away from home during the day but use more electricity after returning in the evening.
-          <br />
-          <br />
-          The benefit depends on the amount of surplus energy available to charge the battery and how much electricity your household consumes later.
-        </>
-      ),
-    },
-
-    {
-      type: "heading",
-      level: 3,
-      text: "4. Reduce Dependence on Grid Electricity at Selected Times",
-    },
-
-    {
-      type: "paragraph",
-      text: (
-        <>
-          A battery can reduce the amount of electricity your home draws from the grid during periods when stored energy is available.
-          <br />
-          <br />
-          This can provide greater control over your household electricity supply, especially when solar generation and consumption occur at different times.
-          <br />
-          <br />
-          However, whether this reduces your electricity bill depends on the applicable tariff and settlement rules. If exported solar electricity already receives useful credits under net metering, the financial benefit of storing that electricity instead may be limited.
-          <br />
-          <br />
-          A battery should therefore be evaluated against your actual electricity bill and consumption pattern rather than assumed to be a guaranteed way to save more money.
-        </>
-      ),
-    },
-
-    {
-      type: "heading",
-      level: 3,
-      text: "5. Gain More Flexibility in Managing Household Electricity",
-    },
-
-    {
-      type: "paragraph",
-      text: (
-        <>
-          A properly configured solar battery system can give you more control over when stored electricity is used.
-          <br />
-          <br />
-          Depending on the inverter and energy management system, you may be able to prioritise backup reserves, use stored electricity during selected periods, or adjust charging and discharging settings.
-          <br />
-          <br />
-          These features can be helpful for households with specific backup requirements or changing electricity consumption patterns.
-          <br />
-          <br />
-          Before choosing a system, ask which monitoring and energy management features are included and whether they require a compatible app, internet connection, or additional equipment.
-        </>
-      ),
-    },
-
-    {
-      type: "heading",
-      level: 2,
-      text: "What Are the Disadvantages of Solar Battery Storage?",
-    },
-
-    {
-      type: "paragraph",
-      text: (
-        <>
-          Although batteries offer useful benefits, they are not essential for every rooftop solar installation. There are several factors to consider before paying for additional storage.
-        </>
-      ),
-    },
-
-    {
-      type: "heading",
-      level: 3,
-      text: "1. Higher Upfront Cost",
-    },
-
-    {
-      type: "paragraph",
-      text: (
-        <>
-          Adding a battery increases the initial investment. Depending on the installation, you may also need a compatible hybrid inverter, additional protection equipment, wiring, and backup circuit arrangements.
-          <br />
-          <br />
-          Battery prices vary according to usable capacity, chemistry, brand, warranty, power output, and installation requirements.
-          <br />
-          <br />
-          Request a complete quotation that separates the cost of the solar panels, inverter, battery, installation, and any additional work. This makes it easier to understand the extra amount you are paying for storage.
-        </>
-      ),
-    },
-
-    {
-      type: "heading",
-      level: 3,
-      text: "2. Batteries Have a Limited Service Life",
-    },
-
-    {
-      type: "paragraph",
-      text: (
-        <>
-          Solar batteries gradually age as they are used and exposed to operating conditions. Their usable capacity and performance may change over time.
-          <br />
-          <br />
-          Battery lifespan depends on factors such as chemistry, temperature, charging and discharging patterns, depth of discharge, and the manufacturer's operating requirements.
-          <br />
-          <br />
-          Since your solar panels and battery may not have the same service life, consider whether a replacement could be needed during the overall ownership period.
-          <br />
-          <br />
-          Check the battery warranty, its covered energy throughput or cycle conditions where applicable, and the process for obtaining service.
-        </>
-      ),
-    },
-
-    {
-      type: "heading",
-      level: 3,
-      text: "3. Energy Is Lost During Charging and Discharging",
-    },
-
-    {
-      type: "paragraph",
-      text: (
-        <>
-          A battery cannot return every unit of electricity that goes into it. Some energy is lost during charging, storage, conversion, and discharging.
-          <br />
-          <br />
-          This means that the electricity available for use later will generally be lower than the amount originally used to charge the battery.
-          <br />
-          <br />
-          When comparing systems, ask for the battery's usable capacity and round-trip efficiency. These figures help you understand how much stored energy you can realistically use.
-        </>
-      ),
-    },
-
-    {
-      type: "heading",
-      level: 3,
-      text: "4. Space and Installation Requirements",
-    },
-
-    {
-      type: "paragraph",
-      text: (
-        <>
-          A home battery needs a suitable installation location with appropriate ventilation, temperature conditions, protection from water exposure, and access for maintenance.
-          <br />
-          <br />
-          The exact requirements depend on the battery design and manufacturer's instructions. The installer should assess the proposed location before installation.
-          <br />
-          <br />
-          Do not place a battery in an unsuitable location simply because it is convenient. Follow the manufacturer's installation requirements and applicable electrical and fire safety standards.
-        </>
-      ),
-    },
-
-    {
-      type: "heading",
-      level: 2,
-      text: "Is Solar Battery Storage Financially Worth It in India?",
-    },
-
-    {
-      type: "paragraph",
-      text: (
-        <>
-          This is one of the most important questions to consider before buying a battery.
-          <br />
-          <br />
-          The financial value of a battery depends on the additional cost of storage and the value of the electricity it helps you use. If the battery mainly shifts electricity that would otherwise receive an equivalent credit through net metering, the additional bill savings may be too small to justify its cost.
-          <br />
-          <br />
-          An analysis published by Ember on October 22, 2026, illustrates this challenge for Indian households. It modelled a 3 kW rooftop solar system with a 5 kWh battery and found that, under the assumptions used in the analysis, adding storage extended the estimated payback period substantially compared with solar alone.
-          <br />
-          <br />
-          The report is a modelled example, not a universal prediction. Your own result may differ depending on installation cost, consumption, electricity tariffs, export credits, battery performance, and backup needs.
-        </>
-      ),
-    },
-
-    {
-      type: "heading",
-      level: 3,
-      text: "An Illustrative Example of Solar With and Without a Battery",
-    },
-
-    {
-      type: "paragraph",
-      text: (
-        <>
-          Consider a household planning to install a 3 kW rooftop solar system. The following figures come from Ember's published modelling and are intended to illustrate how adding a battery can change the economics of a residential installation.
-          <br />
-          <br />
-          They are not a current quotation for your home, a guaranteed payback period, or a promise of subsidy eligibility.
-        </>
-      ),
-    },
-
-    {
-      type: "table",
-      headers: [
-        "Illustrative System",
-        "Estimated Cost After Central Solar Subsidy",
-        "Modelled Payback Period",
-      ],
-      rows: [
-        [
-          "3 kW rooftop solar without battery",
-          "₹87,000",
-          "About 3.3 years",
+      {
+        type: "faq",
+        content: [
+          {
+            question: "Is solar battery storage worth it in India in 2026?",
+            answer:
+              "It depends on your electricity usage, backup requirements, battery cost, and electricity billing arrangement. Batteries can provide backup and shift daytime solar generation to the evening, but the additional investment may extend the payback period when net metering already credits surplus electricity.",
+          },
+          {
+            question: "How much does a solar battery cost in India?",
+            answer:
+              "The price depends on usable capacity, battery chemistry, brand, inverter compatibility, warranty, power output, and installation requirements. Request a detailed quotation for your required capacity instead of relying on a single general price.",
+          },
+          {
+            question:
+              "Can solar batteries provide electricity during a power cut?",
+            answer:
+              "Yes, if the system is designed for backup operation and includes compatible battery, inverter, transfer, and protection equipment. A conventional grid-connected solar system generally shuts down during a grid outage unless suitable backup functionality is provided.",
+          },
+          {
+            question: "What size solar battery does a home need?",
+            answer:
+              "The right capacity depends on which appliances you want to run and for how long. Estimate your essential load in watts and the required operating time, then ask an installer to calculate the usable battery capacity and inverter output you need.",
+          },
+          {
+            question:
+              "Can I add a battery to my existing rooftop solar system?",
+            answer:
+              "In many cases, storage can be added, but compatibility depends on your existing inverter, system configuration, and electrical setup. A qualified installer should inspect your installation and determine whether a compatible battery, hybrid inverter, or additional equipment is required.",
+          },
+          {
+            question:
+              "Which is better: a solar system with a battery or without one?",
+            answer:
+              "A system without a battery generally costs less upfront and may suit homes focused on electricity bill savings under favourable net-metering arrangements. A battery system may suit homes that need backup power or want to shift surplus solar electricity to later use. The better option depends on your priorities.",
+          },
+          {
+            question: "How long can a solar battery power a home?",
+            answer:
+              "Backup time depends on usable battery capacity, appliance consumption, inverter efficiency, and system limits. A battery powering a small set of essential appliances may last longer than the same battery supplying air conditioning or other high-power equipment.",
+          },
+          {
+            question:
+              "Which is better for home solar storage: lithium or lead-acid batteries?",
+            answer:
+              "Lithium iron phosphate and lead-acid batteries have different costs, usable capacities, maintenance requirements, and expected service lives. Compare the specifications and warranty of the actual products available to you before choosing.",
+          },
+          {
+            question: "Does a solar battery increase electricity bill savings?",
+            answer:
+              "Not necessarily. A battery can increase self-consumption, but the additional financial benefit depends on the value of stored electricity compared with the credits available for exporting surplus solar energy. Include battery cost and energy losses in your calculation.",
+          },
+          {
+            question:
+              "Is there a government subsidy for solar batteries under PM Surya Ghar?",
+            answer:
+              "Do not assume that a separate residential battery subsidy is available. The applicable central and Tamil Nadu residential solar subsidy rules may have specific eligibility and equipment conditions. Check the official scheme portals for current benefits and any announced storage incentives.",
+          },
         ],
-        [
-          "3 kW rooftop solar with 5 kWh battery",
-          "Higher total investment; modelled total before subsidy was ₹2,27,000",
-          "About 9 years",
+      },
+    ],
+  },
+  // 21
+  {
+    id: 21,
+
+    metaTitle:
+      "Tamil Nadu Records 8,818 MW Solar Power: What It Means for Homes",
+
+    metaDescription:
+      "Tamil Nadu reached a record 8,818 MW of peak solar generation in October 2026. Discover what this means for rooftop solar, homeowners, and electricity savings.",
+
+    title:
+      "Tamil Nadu Records Its Highest October Solar Power Generation: What Does This Mean for Homeowners?",
+
+    url: "tamil-nadu-record-solar-power-generation-october-2026",
+
+    summary:
+      "Tamil Nadu recently achieved a record peak solar power generation of 8,818 MW in October 2026. Discover what this milestone means for renewable energy, rooftop solar installations, electricity generation, and homeowners considering solar power.",
+
+    image: "/images/tamil-nadu-record-solar-power-generation.webp",
+
+    alt: "Large-scale solar panels generating electricity under clear sunlight in Tamil Nadu",
+
+    category: "Solar Energy",
+
+    date: "November 4, 2026",
+
+    fullContent: [
+      {
+        type: "paragraph",
+        text: (
+          <>
+            Tamil Nadu is continuing to strengthen its position in India's
+            renewable energy sector, and a recent solar generation milestone
+            highlights just how much progress the state is making.
+            <br />
+            <br />
+            On October 30, 2026, Tamil Nadu recorded a peak solar power
+            generation of <strong>8,818 MW</strong>, setting a new record for
+            the month of October. The state also generated 63.97 million units
+            of solar electricity on that day.
+            <br />
+            <br />
+            This achievement came after a period of widespread Northeast monsoon
+            rainfall, when cloudy skies and reduced sunlight affected solar
+            generation across the state. As rainfall activity eased and clearer
+            skies returned, solar electricity generation increased
+            significantly.
+            <br />
+            <br />
+            But what does this record actually mean for ordinary households?
+            <br />
+            <br />
+            Does it mean solar panels are becoming more effective? Can
+            homeowners generate enough electricity for their daily needs? And is
+            this a good time to consider installing rooftop solar?
+            <br />
+            <br />
+            Let's understand the recent development and what it means for
+            homeowners in Tamil Nadu.
+          </>
+        ),
+      },
+
+      {
+        type: "heading",
+        level: 2,
+        text: "Tamil Nadu Achieves a New Solar Power Generation Record",
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            According to figures reported by Tamil Nadu Power Distribution
+            Corporation Limited (TNPDCL), the state achieved a peak solar
+            generation of 8,818 MW on October 30, 2026.
+            <br />
+            <br />
+            The achievement surpassed the previous peak of 8,779 MW recorded on
+            September 29, 2026.
+            <br />
+            <br />
+            At the time, Tamil Nadu had an installed solar generation capacity
+            of approximately 12,946 MW. The state also generated 63.97 million
+            units of solar electricity during the day.
+            <br />
+            <br />
+            One important factor behind this increase was the improvement in
+            weather conditions. Heavy rainfall associated with the Northeast
+            monsoon had temporarily affected solar generation. Once the skies
+            became clearer, solar output recovered and reached a new peak.
+            <br />
+            <br />
+            This milestone demonstrates two important things: Tamil Nadu has
+            developed substantial solar generation capacity, and actual
+            electricity generation is closely connected to the availability of
+            sunlight.
+          </>
+        ),
+      },
+
+      {
+        type: "table",
+        headers: ["Solar Generation Detail", "Recorded Figure"],
+        rows: [
+          ["Date of record", "October 30, 2026"],
+          ["Peak solar generation", "8,818 MW"],
+          ["Previous peak", "8,779 MW"],
+          ["Installed solar capacity", "12,946 MW"],
+          ["Solar electricity generated during the day", "63.97 million units"],
         ],
-      ],
-    },
+      },
 
-    {
-      type: "paragraph",
-      text: (
-        <>
-          In this example, the battery increases the overall investment and extends the estimated payback period. The reason is that the model's existing net-metering arrangement gives households limited additional financial value for storing electricity that can otherwise be exported and credited.
-          <br />
-          <br />
-          Ember also examined a hypothetical scenario in which a subsidy covered 50% of the battery's capital cost. Under its assumptions, the estimated payback period for the solar-plus-battery system fell to approximately 6.3 years.
-          <br />
-          <br />
-          <strong>Important:</strong> The 50% battery subsidy in this example is a proposed policy scenario discussed in the analysis. It should not be interpreted as confirmation that a general 50% residential battery subsidy is currently available under PM Surya Ghar.
-        </>
-      ),
-    },
+      {
+        type: "paragraph",
+        text: (
+          <>
+            It is important to understand that 8,818 MW represents the peak
+            generation level, not the amount of electricity generated throughout
+            the entire day. The daily energy figure is measured separately in
+            million units (MU).
+          </>
+        ),
+      },
 
-    {
-      type: "heading",
-      level: 2,
-      text: "How Much Battery Capacity Does Your Home Need?",
-    },
+      {
+        type: "heading",
+        level: 2,
+        text: "Why Is Tamil Nadu Generating More Solar Electricity?",
+      },
 
-    {
-      type: "paragraph",
-      text: (
-        <>
-          Choosing the right battery size is just as important as deciding whether to buy one.
-          <br />
-          <br />
-          A small battery may be sufficient for essential lighting, fans, and communication equipment. A larger battery may be required if you want to run more appliances or extend backup time.
-          <br />
-          <br />
-          Instead of selecting a battery based only on the size of your solar panels, first identify the appliances you want to run and how long you need to run them.
-        </>
-      ),
-    },
+      {
+        type: "paragraph",
+        text: (
+          <>
+            Solar electricity generation depends on several factors, including
+            sunlight availability, installed capacity, weather conditions, and
+            the performance of solar equipment.
+            <br />
+            <br />
+            Tamil Nadu has favourable conditions for solar energy across many
+            parts of the state. However, generation can change significantly
+            from one day to another.
+            <br />
+            <br />
+            Here are some of the important factors influencing solar power
+            generation.
+          </>
+        ),
+      },
 
-    {
-      type: "heading",
-      level: 3,
-      text: "Calculate Your Approximate Backup Requirement",
-    },
+      {
+        type: "heading",
+        level: 3,
+        text: "1. Availability of Sunlight",
+      },
 
-    {
-      type: "paragraph",
-      text: (
-        <>
-          Start by estimating the total power consumption of the appliances you expect to use during a power cut.
-          <br />
-          <br />
-          For example, suppose the essential appliances you want to run have a combined average load of 500 watts. If you need to operate them for four hours, the approximate energy requirement is 2 kWh before accounting for conversion losses and other system limitations.
-          <br />
-          <br />
-          This is a simplified illustration. Your actual requirement depends on appliance duty cycles, starting power, inverter efficiency, battery limits, and the amount of reserve you want to keep.
-        </>
-      ),
-    },
+      {
+        type: "paragraph",
+        text: (
+          <>
+            Sunlight is the primary energy source for solar panels. When
+            sunlight reaches photovoltaic cells, they convert a portion of that
+            energy into electricity.
+            <br />
+            <br />
+            During clear weather, solar panels generally receive more usable
+            sunlight than during heavily overcast conditions.
+            <br />
+            <br />
+            This is one reason solar generation can increase after a period of
+            rainfall when clearer skies return.
+            <br />
+            <br />
+            However, more intense heat does not always mean more electricity.
+            Solar panel output can decrease as cell temperature rises, so both
+            sunlight and temperature influence performance.
+          </>
+        ),
+      },
 
-    {
-      type: "table",
-      headers: [
-        "Example Backup Load",
-        "Approximate Running Time",
-        "Energy Used",
-      ],
-      rows: [
-        [
-          "250 W",
-          "4 hours",
-          "1 kWh",
+      {
+        type: "heading",
+        level: 3,
+        text: "2. Increasing Installed Solar Capacity",
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            Another important factor is the growing number of solar
+            installations across the state.
+            <br />
+            <br />
+            Tamil Nadu has developed a substantial solar generation base through
+            utility-scale solar projects and other installations.
+            <br />
+            <br />
+            As more solar capacity becomes operational, the state has greater
+            potential to generate electricity from sunlight.
+            <br />
+            <br />
+            Installed capacity represents the maximum rated power of the
+            connected solar equipment under specified conditions. Actual
+            generation depends on sunlight, equipment performance, and grid
+            operating conditions.
+          </>
+        ),
+      },
+
+      {
+        type: "heading",
+        level: 3,
+        text: "3. Changing Weather Conditions",
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            Weather has a direct influence on solar generation.
+            <br />
+            <br />
+            During the Northeast monsoon, Tamil Nadu experiences periods of
+            cloud cover and rainfall. These conditions can reduce the sunlight
+            reaching solar panels.
+            <br />
+            <br />
+            When the weather improves, solar installations can generate more
+            electricity again.
+            <br />
+            <br />
+            The October 30 generation record followed a break in widespread
+            rainfall, showing how quickly solar output can recover when sunlight
+            becomes more available.
+          </>
+        ),
+      },
+
+      {
+        type: "image",
+        path: "/images/tamil-nadu-solar-panels-clear-sky.webp",
+        alt: "Large solar power installation in Tamil Nadu receiving strong sunlight under a clear blue sky",
+      },
+
+      {
+        type: "heading",
+        level: 2,
+        text: "What Does This Solar Generation Record Mean for Homeowners?",
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            A record in statewide solar generation is encouraging news, but its
+            importance goes beyond a single electricity generation figure.
+            <br />
+            <br />
+            It highlights the growing role of solar energy in Tamil Nadu's
+            electricity system and creates an opportunity for homeowners to
+            understand how they can benefit from generating electricity at their
+            own properties.
+            <br />
+            <br />
+            You do not need to own a large solar farm to participate in this
+            transition. A properly designed rooftop solar system can help your
+            household generate electricity from sunlight and reduce its
+            dependence on grid electricity.
+          </>
+        ),
+      },
+
+      {
+        type: "heading",
+        level: 3,
+        text: "1. You Can Generate Your Own Electricity",
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            One of the biggest advantages of residential rooftop solar is the
+            ability to generate electricity directly at your home.
+            <br />
+            <br />
+            Instead of depending entirely on electricity supplied through the
+            grid, you can install solar panels on a suitable rooftop and use the
+            electricity they produce during the day.
+            <br />
+            <br />
+            Your actual electricity generation depends on system capacity, roof
+            orientation, shading, weather conditions, equipment quality, and
+            installation.
+            <br />
+            <br />
+            For households with suitable rooftops and electricity consumption,
+            rooftop solar can become a practical way to manage long-term
+            electricity expenses.
+          </>
+        ),
+      },
+
+      {
+        type: "heading",
+        level: 3,
+        text: "2. You Can Reduce Your Electricity Bill",
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            When your solar panels generate electricity, your household can use
+            that electricity to operate appliances such as fans, lights,
+            refrigerators, televisions, and other electrical equipment.
+            <br />
+            <br />
+            This reduces the amount of electricity your home needs to draw from
+            the grid at that moment.
+            <br />
+            <br />
+            If your system generates more electricity than your household
+            consumes, surplus electricity may be exported to the grid under an
+            eligible net-metering or other applicable arrangement.
+            <br />
+            <br />
+            The actual bill savings depend on your consumption pattern, system
+            size, applicable tariff, billing arrangement, and solar generation.
+          </>
+        ),
+      },
+
+      {
+        type: "heading",
+        level: 3,
+        text: "3. You Can Make Better Use of Tamil Nadu's Solar Potential",
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            Tamil Nadu receives useful solar radiation across many locations,
+            making rooftop solar an option worth evaluating for residential and
+            commercial properties.
+            <br />
+            <br />
+            A suitable rooftop can turn otherwise unused space into an
+            electricity-generating area.
+            <br />
+            <br />
+            However, not every roof is equally suitable. Nearby buildings,
+            trees, rooftop structures, orientation, and available installation
+            space can influence the amount of electricity your system generates.
+            <br />
+            <br />A professional site assessment can help determine the
+            appropriate system capacity and expected performance.
+          </>
+        ),
+      },
+
+      {
+        type: "heading",
+        level: 3,
+        text: "4. Government Support Can Make Rooftop Solar More Accessible",
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            Eligible residential consumers in Tamil Nadu may benefit from
+            financial assistance through the central PM Surya Ghar Muft Bijli
+            Yojana and the additional state subsidy.
+            <br />
+            <br />
+            Under the published Tamil Nadu residential rooftop solar subsidy
+            structure, the combined assistance can reach up to ₹1,00,000 for
+            eligible installations.
+            <br />
+            <br />
+            The applicable amount depends on system capacity and scheme
+            conditions. Homeowners should also check vendor eligibility,
+            equipment requirements, installation procedures, and the latest
+            application guidelines before proceeding.
+            <br />
+            <br />
+            The subsidy is separate from the statewide solar generation record
+            discussed in this article. The generation milestone does not itself
+            change subsidy eligibility or payment rules.
+          </>
+        ),
+      },
+
+      {
+        type: "heading",
+        level: 2,
+        text: "How Much Electricity Can Rooftop Solar Generate in Tamil Nadu?",
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            One of the most common questions homeowners ask is how many
+            electricity units a rooftop solar system can generate.
+            <br />
+            <br />
+            The answer depends on the system capacity and the conditions at the
+            installation site.
+            <br />
+            <br />
+            As a broad planning illustration, a properly installed rooftop solar
+            system in Tamil Nadu may generate approximately 4 to 5 units per day
+            for each kilowatt of installed capacity under favourable average
+            conditions.
+            <br />
+            <br />
+            This is an approximate planning range, not a guaranteed daily
+            output. Actual generation can be lower or higher depending on
+            location, season, weather, shading, panel orientation, temperature,
+            and system losses.
+          </>
+        ),
+      },
+
+      {
+        type: "table",
+        headers: [
+          "System Capacity",
+          "Illustrative Daily Generation",
+          "Illustrative Monthly Generation",
         ],
-        [
-          "500 W",
-          "4 hours",
-          "2 kWh",
+        rows: [
+          ["1 kW", "4–5 units", "120–150 units"],
+          ["2 kW", "8–10 units", "240–300 units"],
+          ["3 kW", "12–15 units", "360–450 units"],
+          ["5 kW", "20–25 units", "600–750 units"],
+          ["10 kW", "40–50 units", "1,200–1,500 units"],
         ],
-        [
-          "1,000 W",
-          "4 hours",
-          "4 kWh",
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            These figures are illustrative estimates based on an assumed average
+            of 4–5 units per kW per day. They should not be interpreted as
+            guaranteed output or used as a substitute for a site-specific
+            generation assessment.
+            <br />
+            <br />
+            For example, a 3 kW system may be suitable for a household that
+            consumes a moderate amount of electricity, but the right capacity
+            should be determined using actual electricity bills and rooftop
+            conditions.
+          </>
+        ),
+      },
+
+      {
+        type: "heading",
+        level: 2,
+        text: "Does Solar Power Generation Change During Different Seasons?",
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            Yes. Solar electricity generation changes throughout the year
+            because sunlight availability, cloud cover, rainfall, and
+            temperature are not constant.
+            <br />
+            <br />
+            Tamil Nadu experiences different seasonal weather patterns, and
+            these conditions can influence rooftop solar performance.
+            <br />
+            <br />
+            Understanding these seasonal changes helps homeowners set realistic
+            expectations about electricity generation.
+          </>
+        ),
+      },
+
+      {
+        type: "heading",
+        level: 3,
+        text: "Summer Season",
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            During periods of clearer skies and longer sunshine availability,
+            solar panels can receive more sunlight and generate substantial
+            electricity.
+            <br />
+            <br />
+            However, high panel temperatures can reduce electrical output. This
+            means that the hottest day is not necessarily the day with the
+            highest possible solar generation.
+            <br />
+            <br />
+            Proper panel selection, mounting, ventilation, and system design can
+            help support reliable performance.
+          </>
+        ),
+      },
+
+      {
+        type: "heading",
+        level: 3,
+        text: "Monsoon Season",
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            During the Northeast and Southwest monsoons, cloud cover and
+            rainfall can reduce the sunlight reaching solar panels.
+            <br />
+            <br />
+            As a result, electricity generation may be lower on heavily overcast
+            or rainy days.
+            <br />
+            <br />
+            However, solar panels continue to generate electricity from
+            available daylight, including diffuse sunlight. Output simply varies
+            with the intensity of the available sunlight.
+            <br />
+            <br />
+            Rain can also help wash away some loose dust, but it should not be
+            considered a replacement for appropriate panel maintenance.
+          </>
+        ),
+      },
+
+      {
+        type: "heading",
+        level: 3,
+        text: "Winter and Clear Weather Periods",
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            During periods of clearer weather, panels can receive more
+            consistent sunlight than during heavily cloudy conditions.
+            <br />
+            <br />
+            Lower ambient temperatures can also be favourable for panel
+            efficiency, although the overall generation still depends on the
+            duration and intensity of sunlight.
+            <br />
+            <br />
+            This is why solar performance should be evaluated over longer
+            periods rather than judged using a single day's output.
+          </>
+        ),
+      },
+
+      {
+        type: "heading",
+        level: 2,
+        text: "What Factors Affect the Electricity Generation of Your Rooftop Solar System?",
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            Even when two homes install solar systems with the same capacity,
+            their electricity generation may differ.
+            <br />
+            <br />
+            The reason is that several site-specific factors influence how
+            effectively the panels receive sunlight and convert it into
+            electricity.
+          </>
+        ),
+      },
+
+      {
+        type: "list",
+        items: [
+          "Roof orientation and panel tilt",
+          "Shading from nearby buildings, trees, or rooftop structures",
+          "Solar panel efficiency and temperature characteristics",
+          "Dust, dirt, and other surface obstructions",
+          "Cloud cover, rainfall, and seasonal sunlight availability",
+          "Inverter efficiency and electrical system losses",
+          "Quality of installation and system maintenance",
         ],
-      ],
-    },
+      },
 
-    {
-      type: "paragraph",
-      text: (
-        <>
-          These examples show the energy consumed by the stated average loads. They do not represent guaranteed backup times for a particular battery.
-          <br />
-          <br />
-          When choosing a battery, compare its usable capacity in kilowatt-hours (kWh) and its continuous and peak power ratings in kilowatts (kW). Capacity indicates how much energy it can store, while power ratings help determine which appliances it can operate simultaneously.
-          <br />
-          <br />
-          Ask your installer to calculate the expected backup time using your actual appliance list and the proposed battery and inverter specifications.
-        </>
-      ),
-    },
+      {
+        type: "paragraph",
+        text: (
+          <>
+            Before installation, a proper site assessment should identify
+            shading issues, available roof area, electrical requirements, and
+            the most suitable panel arrangement.
+            <br />
+            <br />A correctly designed system is more important than simply
+            choosing the highest-capacity option available.
+          </>
+        ),
+      },
 
-    {
-      type: "heading",
-      level: 2,
-      text: "Lithium vs Lead-Acid Solar Batteries: Which Should You Choose?",
-    },
+      {
+        type: "heading",
+        level: 2,
+        text: "On-Grid vs Hybrid Solar: Which Is Suitable for Your Home?",
+      },
 
-    {
-      type: "paragraph",
-      text: (
-        <>
-          Home solar storage systems are available with different battery chemistries. Lithium iron phosphate (LFP) and lead-acid batteries are two options you may encounter.
-          <br />
-          <br />
-          They differ in upfront cost, usable capacity, charging behaviour, maintenance requirements, and expected service life. The most suitable option depends on your budget, intended use, and the specifications of the complete system.
-        </>
-      ),
-    },
+      {
+        type: "paragraph",
+        text: (
+          <>
+            Once you decide to explore rooftop solar, the next question is which
+            type of system to install.
+            <br />
+            <br />
+            Two common options are on-grid solar and hybrid solar. Both use
+            solar panels to generate electricity, but they differ in how they
+            interact with the grid and whether they include battery storage.
+          </>
+        ),
+      },
 
-    {
-      type: "table",
-      headers: [
-        "Feature",
-        "Lithium Iron Phosphate (LFP)",
-        "Lead-Acid",
-      ],
-      rows: [
-        [
-          "Initial cost",
-          "Generally higher",
-          "Generally lower",
+      {
+        type: "table",
+        headers: ["Feature", "On-Grid Solar", "Hybrid Solar"],
+        rows: [
+          [
+            "Grid connection",
+            "Connected to the electricity grid",
+            "Can operate with the grid and battery storage",
+          ],
+          [
+            "Battery",
+            "Usually does not include a battery",
+            "Includes compatible battery storage",
+          ],
+          [
+            "Daytime electricity",
+            "Solar powers household loads",
+            "Solar powers loads and can charge the battery",
+          ],
+          [
+            "Surplus electricity",
+            "Can be exported under the applicable arrangement",
+            "Can charge the battery or be exported, depending on configuration",
+          ],
+          [
+            "Power-cut backup",
+            "A conventional grid-tied system generally shuts down during an outage",
+            "Can provide backup if designed and configured for it",
+          ],
+          ["Initial investment", "Generally lower", "Generally higher"],
+          [
+            "Suitable for",
+            "Households primarily looking to reduce electricity bills",
+            "Households needing backup power and energy storage",
+          ],
         ],
-        [
-          "Usable capacity",
-          "Often supports a greater usable share of rated capacity, depending on the product",
-          "Usable capacity depends on battery type and discharge limits",
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            If your main objective is reducing your electricity bill and your
+            grid supply is reliable, an on-grid system may be a suitable option.
+            <br />
+            <br />
+            If you need backup electricity during power cuts, a properly
+            designed hybrid system may be worth considering.
+            <br />
+            <br />
+            Remember that a conventional on-grid inverter normally shuts down
+            during a grid outage for safety reasons. Simply installing solar
+            panels does not guarantee backup power.
+          </>
+        ),
+      },
+
+      {
+        type: "heading",
+        level: 2,
+        text: "Is Now a Good Time to Install Rooftop Solar in Tamil Nadu?",
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            Tamil Nadu's recent solar generation milestone highlights the
+            growing contribution of renewable energy to the state's electricity
+            supply.
+            <br />
+            <br />
+            For homeowners, the decision to install rooftop solar should be
+            based on their own electricity consumption, available roof space,
+            budget, and long-term energy requirements rather than a statewide
+            generation record alone.
+            <br />
+            <br />
+            Before choosing a system, consider the following:
+          </>
+        ),
+      },
+
+      {
+        type: "list",
+        items: [
+          "Review your recent electricity bills to understand your monthly consumption.",
+          "Check whether your rooftop receives sufficient sunlight.",
+          "Identify shading from trees, buildings, and other structures.",
+          "Choose a system capacity that matches your household's requirements.",
+          "Compare detailed installation quotations.",
+          "Check equipment specifications and warranty coverage.",
+          "Understand net-metering and applicable electricity billing rules.",
+          "Verify subsidy eligibility and installer requirements if you plan to apply.",
         ],
-        [
-          "Charging and discharging",
-          "Often supports efficient operation and higher cycle use",
-          "Performance depends on the battery type and charging conditions",
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            Taking these steps can help you select a rooftop solar system that
+            is appropriate for your home rather than investing in a system that
+            is unnecessarily large or unsuitable.
+          </>
+        ),
+      },
+
+      {
+        type: "heading",
+        level: 2,
+        text: "Final Thoughts",
+      },
+
+      {
+        type: "paragraph",
+        text: (
+          <>
+            Tamil Nadu's record peak solar generation of 8,818 MW is an
+            encouraging milestone for the state's renewable energy sector.
+            <br />
+            <br />
+            It highlights the progress made in expanding solar generation
+            capacity and demonstrates how favourable weather conditions can
+            increase electricity production.
+            <br />
+            <br />
+            For homeowners, this development is a useful reminder that solar
+            energy is becoming an increasingly important part of Tamil Nadu's
+            electricity landscape.
+            <br />
+            <br />
+            With a suitable rooftop, properly selected equipment, and
+            professional installation, households can generate their own
+            electricity and potentially reduce their dependence on grid power.
+            <br />
+            <br />
+            However, the right system depends on your actual electricity
+            consumption, roof conditions, budget, and energy requirements. A
+            statewide generation record cannot guarantee the same output from
+            every residential installation.
+            <br />
+            <br />
+            <strong>
+              Thinking about installing rooftop solar for your home?
+            </strong>{" "}
+            Start by understanding your electricity usage and getting a
+            professional assessment of your rooftop. Choosing the right system
+            today can help you make better use of solar energy for years to
+            come.
+          </>
+        ),
+      },
+
+      {
+        type: "heading",
+        level: 2,
+        text: "Frequently Asked Questions",
+      },
+
+      {
+        type: "faq",
+        content: [
+          {
+            question:
+              "What is Tamil Nadu's highest solar power generation record in October 2026?",
+            answer:
+              "Tamil Nadu recorded a peak solar generation of 8,818 MW on October 30, 2026. The state also generated 63.97 million units of solar electricity during that day.",
+          },
+          {
+            question: "How much solar power capacity does Tamil Nadu have?",
+            answer:
+              "The installed solar generation capacity reported around the October 30, 2026 milestone was approximately 12,946 MW. Installed capacity represents rated generation potential, while actual output depends on sunlight, weather, equipment performance, and grid conditions.",
+          },
+          {
+            question:
+              "Why did Tamil Nadu's solar generation increase in October 2026?",
+            answer:
+              "Solar generation increased after widespread Northeast monsoon rainfall eased and clearer skies returned. Better sunlight availability helped solar installations generate more electricity and achieve a new peak.",
+          },
+          {
+            question:
+              "How many units can a 1 kW solar system generate per day in Tamil Nadu?",
+            answer:
+              "As a broad planning estimate, a properly installed 1 kW rooftop solar system may generate around 4 to 5 units per day under favourable average conditions. Actual generation depends on location, weather, shading, panel orientation, temperature, and system losses.",
+          },
+          {
+            question:
+              "How much electricity can a 3 kW solar system generate in Tamil Nadu?",
+            answer:
+              "A 3 kW rooftop solar system may generate approximately 12 to 15 units per day under favourable average conditions. Monthly generation can vary with weather, season, shading, and installation quality.",
+          },
+          {
+            question:
+              "Do solar panels generate electricity during the monsoon?",
+            answer:
+              "Yes. Solar panels can generate electricity during the monsoon because daylight and diffuse sunlight are still available. However, output may decrease during heavily cloudy or rainy conditions.",
+          },
+          {
+            question:
+              "Does higher temperature always increase solar panel generation?",
+            answer:
+              "No. Solar panels need sunlight to generate electricity, but high cell temperatures can reduce their power output. Both sunlight availability and operating temperature influence actual generation.",
+          },
+          {
+            question:
+              "Can homeowners benefit from Tamil Nadu's growing solar generation capacity?",
+            answer:
+              "Homeowners can participate by installing suitable rooftop solar systems. A properly designed installation can generate electricity for household use and may reduce grid consumption, depending on the household's usage and applicable billing arrangements.",
+          },
+          {
+            question:
+              "Which is better for homes in Tamil Nadu: on-grid or hybrid solar?",
+            answer:
+              "On-grid solar may suit households primarily looking to reduce electricity bills, while hybrid solar may be more suitable for households that also need battery backup. The right choice depends on budget, grid reliability, electricity usage, and backup requirements.",
+          },
+          {
+            question:
+              "Can I receive a government subsidy for rooftop solar in Tamil Nadu?",
+            answer:
+              "Eligible residential consumers may qualify for central and Tamil Nadu state financial assistance under the applicable rooftop solar schemes. Subsidy amounts, eligibility, vendor requirements, and installation conditions should be verified through the official scheme portals before applying.",
+          },
         ],
-        [
-          "Maintenance",
-          "Many products require relatively little routine maintenance",
-          "Requirements vary; some types require specific maintenance",
-        ],
-        [
-          "Space and weight",
-          "Often more compact for comparable usable energy",
-          "Can be heavier or bulkier for comparable usable energy",
-        ],
-        [
-          "Expected service life",
-          "Depends on cell quality, temperature, operating conditions, and warranty",
-          "Depends on battery type, discharge depth, maintenance, and operating conditions",
-        ],
-      ],
-    },
-
-    {
-      type: "paragraph",
-      text: (
-        <>
-          Avoid choosing a battery based only on its chemistry. Compare the manufacturer's specifications, usable capacity, warranty, cycle or energy-throughput commitments, safety features, and compatibility with the inverter.
-          <br />
-          <br />
-          Ask the installer to explain the expected maintenance and replacement requirements for the specific product being offered.
-        </>
-      ),
-    },
-
-    {
-      type: "image",
-      path: "/images/home-solar-battery-backup-system.webp",
-      alt:
-        "Residential solar battery storage equipment installed in a suitable location to provide backup electricity for essential household appliances",
-    },
-
-    {
-      type: "heading",
-      level: 2,
-      text: "Will a Solar Battery Keep Your Home Running During a Power Cut?",
-    },
-
-    {
-      type: "paragraph",
-      text: (
-        <>
-          Yes, a solar battery can provide backup power during an outage if the solar installation has been designed and configured to operate safely when the grid is unavailable.
-          <br />
-          <br />
-          However, not every solar installation provides this capability.
-          <br />
-          <br />
-          A conventional grid-connected solar system normally shuts down during a grid outage to prevent electricity from being fed into lines that utility workers may be repairing.
-          <br />
-          <br />
-          To receive backup power, your system generally needs a compatible hybrid inverter or another approved backup arrangement, a suitable battery, and the required transfer and protection equipment.
-          <br />
-          <br />
-          Some installations provide backup only to selected essential circuits. Others may support a larger portion of the home if the system is appropriately sized and configured.
-        </>
-      ),
-    },
-
-    {
-      type: "heading",
-      level: 3,
-      text: "What Should You Confirm Before Buying?",
-    },
-
-    {
-      type: "list",
-      items: [
-        "Whether the inverter supports battery storage and backup operation",
-        "Whether the system can operate safely during a grid outage",
-        "Which household circuits will receive backup power",
-        "The battery's usable capacity and continuous output rating",
-        "The expected backup duration for your appliances",
-        "Whether solar panels can recharge the battery during a daytime outage",
-        "The warranty, installation requirements, and service arrangements",
-      ],
-    },
-
-    {
-      type: "paragraph",
-      text: (
-        <>
-          A qualified installer should explain exactly how the system behaves during an outage, including what happens when the battery becomes depleted or solar generation is insufficient.
-        </>
-      ),
-    },
-
-    {
-      type: "heading",
-      level: 2,
-      text: "Is a Solar Battery Worth It for Homes in Tamil Nadu?",
-    },
-
-    {
-      type: "paragraph",
-      text: (
-        <>
-          The answer depends on what you want your solar system to achieve.
-          <br />
-          <br />
-          Tamil Nadu receives substantial sunlight across much of the year, making rooftop solar attractive for many homes. However, the value of adding a battery depends on local power reliability, household consumption patterns, system cost, and the electricity billing arrangement that applies to your property.
-          <br />
-          <br />
-          Consider a few common situations.
-        </>
-      ),
-    },
-
-    {
-      type: "heading",
-      level: 3,
-      text: "A Battery May Make Sense If...",
-    },
-
-    {
-      type: "list",
-      items: [
-        "Your home experiences frequent power cuts and backup electricity is important.",
-        "You need essential appliances to keep running when the grid is unavailable.",
-        "You have substantial surplus solar generation during the day and meaningful evening demand.",
-        "Your electricity tariff or export settlement rules make stored electricity more valuable than exporting it.",
-        "You understand the extra upfront cost and are comfortable with the expected financial return.",
-      ],
-    },
-
-    {
-      type: "heading",
-      level: 3,
-      text: "A Battery May Not Be Necessary If...",
-    },
-
-    {
-      type: "list",
-      items: [
-        "Your main goal is to reduce electricity bills at the lowest reasonable upfront cost.",
-        "Your grid supply is reliable and backup power is not a priority.",
-        "Your existing net-metering arrangement provides useful credits for surplus electricity.",
-        "You use much of your solar electricity during the day already.",
-        "The extra battery cost would place too much pressure on your budget.",
-      ],
-    },
-
-    {
-      type: "paragraph",
-      text: (
-        <>
-          If your priority is simply reducing your electricity bill, start by evaluating the cost and expected generation of a suitably sized rooftop solar system without a battery.
-          <br />
-          <br />
-          You can then request a separate quotation for adding storage and compare the incremental cost against the backup capability and potential savings it offers.
-          <br />
-          <br />
-          If backup power is essential to your household, a battery may provide value even when the additional financial return is modest. In that case, consider both the financial cost and the practical importance of maintaining power during outages.
-        </>
-      ),
-    },
-
-    {
-      type: "heading",
-      level: 2,
-      text: "Questions to Ask Before Installing a Solar Battery",
-    },
-
-    {
-      type: "paragraph",
-      text: (
-        <>
-          Before committing to a battery system, ask the installer for clear answers to the following questions.
-        </>
-      ),
-    },
-
-    {
-      type: "list",
-      items: [
-        "What is the total installed price of the battery system?",
-        "What is the battery's rated capacity and usable capacity?",
-        "How much continuous and peak power can the battery deliver?",
-        "Which appliances can run together during a power cut?",
-        "What backup duration should I expect for my actual load?",
-        "Is the proposed battery compatible with the inverter?",
-        "What are the battery's warranty conditions and expected service life?",
-        "What happens if the battery needs replacement?",
-        "Can the system be monitored through an app?",
-        "How will the battery affect my electricity bill under the applicable net-metering arrangement?",
-        "Are there any additional installation, protection, or maintenance costs?",
-      ],
-    },
-
-    {
-      type: "heading",
-      level: 2,
-      text: "Final Thoughts",
-    },
-
-    {
-      type: "paragraph",
-      text: (
-        <>
-          Solar battery storage offers a practical way to save surplus daytime solar electricity for later use. It can help households use more of their own solar generation and provide backup power when the system is designed for that purpose.
-          <br />
-          <br />
-          However, a battery is not automatically the most economical choice for every rooftop solar installation. The additional upfront investment, battery lifespan, energy losses, and local electricity billing arrangements all affect its value.
-          <br />
-          <br />
-          For many homeowners, a grid-connected solar system without a battery may be the more affordable starting point when the main goal is reducing electricity bills. For households that need reliable backup power, a properly designed hybrid solar system with storage may be worth the additional investment.
-          <br />
-          <br />
-          Before deciding, compare quotations for both options, calculate your backup requirements, and understand how surplus electricity is credited under your applicable billing arrangement.
-          <br />
-          <br />
-          <strong>The best solar battery system is not necessarily the biggest or most expensive one. It is the system that matches your household's electricity needs, backup expectations, and budget.</strong>
-          <br />
-          <br />
-          If you are planning a rooftop solar installation, start by understanding your electricity consumption and the purpose of adding storage. This will help you make a more informed decision about whether a battery belongs in your solar investment.
-        </>
-      ),
-    },
-
-    {
-      type: "faq",
-      content: [
-        {
-          question:
-            "Is solar battery storage worth it in India in 2026?",
-          answer:
-            "It depends on your electricity usage, backup requirements, battery cost, and electricity billing arrangement. Batteries can provide backup and shift daytime solar generation to the evening, but the additional investment may extend the payback period when net metering already credits surplus electricity.",
-        },
-        {
-          question:
-            "How much does a solar battery cost in India?",
-          answer:
-            "The price depends on usable capacity, battery chemistry, brand, inverter compatibility, warranty, power output, and installation requirements. Request a detailed quotation for your required capacity instead of relying on a single general price.",
-        },
-        {
-          question:
-            "Can solar batteries provide electricity during a power cut?",
-          answer:
-            "Yes, if the system is designed for backup operation and includes compatible battery, inverter, transfer, and protection equipment. A conventional grid-connected solar system generally shuts down during a grid outage unless suitable backup functionality is provided.",
-        },
-        {
-          question:
-            "What size solar battery does a home need?",
-          answer:
-            "The right capacity depends on which appliances you want to run and for how long. Estimate your essential load in watts and the required operating time, then ask an installer to calculate the usable battery capacity and inverter output you need.",
-        },
-        {
-          question:
-            "Can I add a battery to my existing rooftop solar system?",
-          answer:
-            "In many cases, storage can be added, but compatibility depends on your existing inverter, system configuration, and electrical setup. A qualified installer should inspect your installation and determine whether a compatible battery, hybrid inverter, or additional equipment is required.",
-        },
-        {
-          question:
-            "Which is better: a solar system with a battery or without one?",
-          answer:
-            "A system without a battery generally costs less upfront and may suit homes focused on electricity bill savings under favourable net-metering arrangements. A battery system may suit homes that need backup power or want to shift surplus solar electricity to later use. The better option depends on your priorities.",
-        },
-        {
-          question:
-            "How long can a solar battery power a home?",
-          answer:
-            "Backup time depends on usable battery capacity, appliance consumption, inverter efficiency, and system limits. A battery powering a small set of essential appliances may last longer than the same battery supplying air conditioning or other high-power equipment.",
-        },
-        {
-          question:
-            "Which is better for home solar storage: lithium or lead-acid batteries?",
-          answer:
-            "Lithium iron phosphate and lead-acid batteries have different costs, usable capacities, maintenance requirements, and expected service lives. Compare the specifications and warranty of the actual products available to you before choosing.",
-        },
-        {
-          question:
-            "Does a solar battery increase electricity bill savings?",
-          answer:
-            "Not necessarily. A battery can increase self-consumption, but the additional financial benefit depends on the value of stored electricity compared with the credits available for exporting surplus solar energy. Include battery cost and energy losses in your calculation.",
-        },
-        {
-          question:
-            "Is there a government subsidy for solar batteries under PM Surya Ghar?",
-          answer:
-            "Do not assume that a separate residential battery subsidy is available. The applicable central and Tamil Nadu residential solar subsidy rules may have specific eligibility and equipment conditions. Check the official scheme portals for current benefits and any announced storage incentives.",
-        },
-      ],
-    },
-  ],
-}
+      },
+    ],
+  },
 ];
 
 // use 16th blog for reference
