@@ -13031,6 +13031,911 @@ const blogData = [
       },
     ],
   },
+  // 23
+  {
+    id: 23,
+    metaTitle:
+      "Tamil Nadu Gets 35,000 Solar Applications in One Month: Subsidy & Benefits",
+
+    metaDescription:
+      "Tamil Nadu receives 35,000 rooftop solar applications in one month. Explore the ₹1 lakh subsidy, eligibility, application process and benefits for homeowners.",
+
+    title:
+      "Tamil Nadu Receives 35,000 Rooftop Solar Applications in One Month: What Does This Mean for Homeowners?",
+
+    url: "tamil-nadu-35000-rooftop-solar-applications",
+
+    summary:
+      "Tamil Nadu has received around 35,000 rooftop solar applications in just one month following the introduction of additional state subsidies. With a target of installing solar systems in one lakh households by March 2027, discover what this development means for homeowners, how the subsidy works and how you can get started with rooftop solar.",
+
+    image: "/images/tamil-nadu-rooftop-solar-35000-applications.webp",
+
+    alt: "Modern South Indian home with rooftop solar panels under bright sunlight",
+
+    category: "Solar Energy",
+
+    date: "November 18, 2026",
+
+    fullContent: [
+      {
+        type: "paragraph",
+        text: (
+          <>
+            Rooftop solar energy is gaining momentum across Tamil Nadu. More
+            homeowners are exploring solar power as electricity costs, awareness
+            about renewable energy and government incentives encourage people to
+            consider alternative energy solutions.
+          </>
+        ),
+      },
+      {
+        type: "paragraph",
+        text: (
+          <>
+            In a recent announcement, Tamil Nadu's Electricity Resources
+            Minister revealed that the state had received around{" "}
+            <strong>35,000 rooftop solar applications in just one month</strong>
+            . This increase follows the introduction of additional financial
+            incentives by the state government and a simplified application
+            process.
+          </>
+        ),
+      },
+      {
+        type: "paragraph",
+        text: (
+          <>
+            The government has also set a target of installing rooftop solar
+            systems in one lakh households by March 2027. This is an important
+            development for residential solar adoption in Tamil Nadu.
+          </>
+        ),
+      },
+      {
+        type: "paragraph",
+        text: (
+          <>
+            But what does this announcement actually mean for homeowners? How
+            much subsidy can you receive? Is rooftop solar worth considering
+            now? Let's understand everything step by step.
+          </>
+        ),
+      },
+
+      {
+        type: "heading",
+        level: 2,
+        text: "1. Tamil Nadu Receives 35,000 Rooftop Solar Applications in One Month",
+      },
+      {
+        type: "paragraph",
+        text: (
+          <>
+            According to the recent announcement, approximately 35,000
+            applications were received under the rooftop solar programme during
+            the previous month.
+          </>
+        ),
+      },
+      {
+        type: "paragraph",
+        text: (
+          <>
+            Earlier, Tamil Nadu had around 87,000 households with rooftop solar
+            installations as of April 2026. The government is now working to
+            increase this number through additional subsidies and a more
+            accessible application process.
+          </>
+        ),
+      },
+      {
+        type: "paragraph",
+        text: (
+          <>
+            The state has introduced an integrated online portal to make it
+            easier for residential consumers to apply for rooftop solar
+            installations and access the available incentives.
+          </>
+        ),
+      },
+      {
+        type: "table",
+        headers: ["Key Development", "Details"],
+        rows: [
+          ["New applications received", "Around 35,000 in one month"],
+          [
+            "Earlier rooftop solar base",
+            "Around 87,000 households as of April 2026",
+          ],
+          ["Government target", "One lakh households by March 2027"],
+          ["Central subsidy", "Up to ₹78,000"],
+          ["Additional Tamil Nadu subsidy", "Up to ₹22,000"],
+          ["Maximum combined subsidy", "Up to ₹1,00,000"],
+        ],
+      },
+      {
+        type: "paragraph",
+        text: (
+          <>
+            One important point: the 35,000 applications are currently being
+            processed. They should not be confused with completed installations.
+            The next step is converting these applications into successfully
+            installed and commissioned solar systems.
+          </>
+        ),
+      },
+
+      {
+        type: "heading",
+        level: 2,
+        text: "2. Why Are More Homeowners Choosing Rooftop Solar?",
+      },
+      {
+        type: "paragraph",
+        text: (
+          <>
+            Electricity is an essential part of every household. From air
+            conditioners and refrigerators to washing machines and water pumps,
+            our dependence on electricity continues to grow.
+          </>
+        ),
+      },
+      {
+        type: "paragraph",
+        text: (
+          <>
+            For many families, monthly electricity bills can become a
+            significant household expense. Rooftop solar offers an opportunity
+            to generate electricity directly from sunlight and reduce dependence
+            on electricity purchased from the grid.
+          </>
+        ),
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Reduce Your Monthly Electricity Expenses",
+      },
+      {
+        type: "paragraph",
+        text: (
+          <>
+            A properly designed rooftop solar system can generate a significant
+            portion of your household's electricity requirements. The amount of
+            savings depends on your system capacity, electricity consumption,
+            sunlight availability and applicable billing arrangements.
+          </>
+        ),
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Generate Your Own Electricity",
+      },
+      {
+        type: "paragraph",
+        text: (
+          <>
+            Instead of depending entirely on electricity supplied by the
+            utility, homeowners can generate electricity using solar panels
+            installed on their rooftops.
+          </>
+        ),
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Make Use of Available Government Subsidies",
+      },
+      {
+        type: "paragraph",
+        text: (
+          <>
+            The combination of central government assistance under PM Surya Ghar
+            and the additional Tamil Nadu state subsidy can reduce the initial
+            investment required for eligible residential rooftop solar
+            installations.
+          </>
+        ),
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Use Your Rooftop Productively",
+      },
+      {
+        type: "paragraph",
+        text: (
+          <>
+            Your rooftop receives sunlight every day. Installing solar panels
+            allows you to use that available space to generate electricity for
+            your household.
+          </>
+        ),
+      },
+
+      {
+        type: "heading",
+        level: 2,
+        text: "3. Tamil Nadu's Additional Solar Subsidy: How Much Can You Receive?",
+      },
+      {
+        type: "paragraph",
+        text: (
+          <>
+            One of the major reasons behind the recent increase in applications
+            is the additional subsidy announced by the Tamil Nadu government.
+          </>
+        ),
+      },
+      {
+        type: "paragraph",
+        text: (
+          <>
+            Under the combined central and state assistance structure, eligible
+            residential consumers can receive financial assistance of up to ₹1
+            lakh for a rooftop solar system.
+          </>
+        ),
+      },
+      {
+        type: "table",
+        headers: [
+          "Solar System Capacity",
+          "Central Subsidy",
+          "Tamil Nadu Subsidy",
+          "Total Subsidy",
+        ],
+        rows: [
+          ["1 kW", "₹30,000", "₹5,000", "₹35,000"],
+          ["2 kW", "₹60,000", "₹10,000", "₹70,000"],
+          ["3 kW", "₹78,000", "₹22,000", "₹1,00,000"],
+          ["Above 3 kW", "₹78,000 (maximum)", "₹22,000 (maximum)", "₹1,00,000"],
+        ],
+      },
+      {
+        type: "paragraph",
+        text: (
+          <>
+            For systems above 3 kW, the combined subsidy remains capped at ₹1
+            lakh under the current published structure. Installing a larger
+            system does not automatically increase the subsidy.
+          </>
+        ),
+      },
+      {
+        type: "paragraph",
+        text: (
+          <>
+            The additional state subsidy is intended to be transferred directly
+            to the eligible consumer's bank account after the required
+            installation, net-metering, commissioning and central subsidy
+            procedures are completed.
+          </>
+        ),
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Example: 3 kW Rooftop Solar System",
+      },
+      {
+        type: "paragraph",
+        text: (
+          <>
+            Let's consider a homeowner planning to install a 3 kW rooftop solar
+            system.
+          </>
+        ),
+      },
+      {
+        type: "table",
+        headers: ["Description", "Amount"],
+        rows: [
+          ["Illustrative system price", "₹2,00,000"],
+          ["Central government subsidy", "₹78,000"],
+          ["Tamil Nadu state subsidy", "₹22,000"],
+          ["Total subsidy", "₹1,00,000"],
+          ["Illustrative amount after subsidy", "₹1,00,000"],
+        ],
+      },
+      {
+        type: "paragraph",
+        text: (
+          <>
+            In this example, the homeowner's contribution would be approximately
+            ₹1 lakh after receiving the full eligible subsidy.
+          </>
+        ),
+      },
+      {
+        type: "paragraph",
+        text: (
+          <>
+            However, actual installation prices vary depending on the equipment,
+            roof structure, installation requirements and vendor quotation. This
+            example is an illustration, not a fixed market price.
+          </>
+        ),
+      },
+
+      {
+        type: "heading",
+        level: 2,
+        text: "4. Who Is Eligible for the Rooftop Solar Subsidy?",
+      },
+      {
+        type: "paragraph",
+        text: (
+          <>
+            Before applying, homeowners should understand the basic requirements
+            of the rooftop solar subsidy programme. The central PM Surya Ghar
+            scheme and Tamil Nadu's additional subsidy have specific eligibility
+            and technical conditions.
+          </>
+        ),
+      },
+      {
+        type: "list",
+        items: [
+          "The applicant should have an eligible residential electricity connection.",
+          "The solar installation must comply with the applicable scheme requirements.",
+          "The installation should use eligible domestic-content-compliant solar modules.",
+          "The modules must meet the applicable ALMM requirements.",
+          "The installation should be completed through an eligible TEDA-empanelled vendor.",
+          "The required inspection, commissioning and net-metering procedures must be completed.",
+          "The applicant must provide the required bank and consumer details for subsidy processing.",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: (
+          <>
+            Subsidy eligibility should always be confirmed through the official
+            scheme portal before placing an installation order. Not every solar
+            installation or electricity connection automatically qualifies for
+            the residential subsidy.
+          </>
+        ),
+      },
+
+      {
+        type: "heading",
+        level: 2,
+        text: "5. How to Apply for Rooftop Solar in Tamil Nadu",
+      },
+      {
+        type: "paragraph",
+        text: (
+          <>
+            The application process has been made easier through the dedicated
+            Tamil Nadu rooftop solar portal. The central PM Surya Ghar
+            application process is completed first, followed by the required
+            installation and verification steps.
+          </>
+        ),
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Step 1: Register on the PM Surya Ghar Portal",
+      },
+      {
+        type: "paragraph",
+        text: (
+          <>
+            Visit the official PM Surya Ghar portal and register using your
+            mobile number and electricity consumer details.
+          </>
+        ),
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Step 2: Get Feasibility Approval",
+      },
+      {
+        type: "paragraph",
+        text: (
+          <>
+            Submit your application and wait for the distribution company to
+            assess the feasibility of connecting your proposed rooftop solar
+            system to the electricity grid.
+          </>
+        ),
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Step 3: Select an Empanelled Solar Vendor",
+      },
+      {
+        type: "paragraph",
+        text: (
+          <>
+            After receiving the required approval, select an eligible vendor
+            from the empanelled vendor list. Discuss your electricity
+            requirements, system capacity, equipment specifications and
+            installation cost before proceeding.
+          </>
+        ),
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Step 4: Complete the Solar Installation",
+      },
+      {
+        type: "paragraph",
+        text: (
+          <>
+            The selected vendor installs the solar panels, inverter and other
+            required components according to the approved system specifications.
+          </>
+        ),
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Step 5: Inspection and Net Meter Installation",
+      },
+      {
+        type: "paragraph",
+        text: (
+          <>
+            After installation, the distribution company completes the required
+            inspection, commissioning and net-metering procedures.
+          </>
+        ),
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Step 6: Receive the Central Subsidy",
+      },
+      {
+        type: "paragraph",
+        text: (
+          <>
+            Once the required verification is completed and the application is
+            approved, the eligible central subsidy is transferred to the
+            applicant's bank account through Direct Benefit Transfer.
+          </>
+        ),
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Step 7: Receive the Additional Tamil Nadu Subsidy",
+      },
+      {
+        type: "paragraph",
+        text: (
+          <>
+            The Tamil Nadu portal receives the central subsidy disbursement
+            information. The state agency then verifies the eligibility,
+            commissioning details and bank information before processing the
+            additional state subsidy.
+          </>
+        ),
+      },
+      {
+        type: "paragraph",
+        text: (
+          <>
+            According to the state portal, the additional subsidy is processed
+            through the integrated system without requiring a separate
+            application for the state top-up after the central subsidy process
+            is completed.
+          </>
+        ),
+      },
+      {
+        type: "paragraph",
+        text: (
+          <>
+            You can check the latest application instructions and status through
+            the official Tamil Nadu rooftop solar portal.
+          </>
+        ),
+      },
+      {
+        type: "image",
+        path: "/images/rooftop-solar-installation-tamil-nadu.webp",
+        alt: "Professional solar technicians installing rooftop solar panels on a South Indian home",
+      },
+
+      {
+        type: "heading",
+        level: 2,
+        text: "6. How Much Electricity Can a Rooftop Solar System Generate?",
+      },
+      {
+        type: "paragraph",
+        text: (
+          <>
+            One of the first questions homeowners ask before installing solar is
+            how much electricity the panels can actually generate.
+          </>
+        ),
+      },
+      {
+        type: "paragraph",
+        text: (
+          <>
+            In Tamil Nadu, a properly installed rooftop solar system may
+            generate approximately 4 to 5 units of electricity per kW per day
+            under favourable conditions. Actual generation depends on sunlight,
+            weather, panel orientation, shading, equipment and system
+            performance.
+          </>
+        ),
+      },
+      {
+        type: "table",
+        headers: [
+          "Solar System Capacity",
+          "Estimated Daily Generation",
+          "Estimated Monthly Generation",
+        ],
+        rows: [
+          ["1 kW", "4–5 units", "120–150 units"],
+          ["2 kW", "8–10 units", "240–300 units"],
+          ["3 kW", "12–15 units", "360–450 units"],
+          ["5 kW", "20–25 units", "600–750 units"],
+          ["10 kW", "40–50 units", "1,200–1,500 units"],
+        ],
+      },
+      {
+        type: "paragraph",
+        text: (
+          <>
+            These are indicative estimates based on approximately 30 days of
+            generation. They are not guaranteed output figures. Seasonal
+            weather, roof direction, shading and maintenance can affect actual
+            electricity generation.
+          </>
+        ),
+      },
+      {
+        type: "paragraph",
+        text: (
+          <>
+            This is why it is important to choose a system based on your actual
+            electricity consumption instead of simply installing the largest
+            possible capacity.
+          </>
+        ),
+      },
+
+      {
+        type: "heading",
+        level: 2,
+        text: "7. Is a 3 kW Solar System Enough for Your Home?",
+      },
+      {
+        type: "paragraph",
+        text: (
+          <>
+            A 3 kW rooftop solar system is a common option for residential
+            properties, but whether it is suitable depends on your household's
+            electricity consumption.
+          </>
+        ),
+      },
+      {
+        type: "paragraph",
+        text: (
+          <>Consider the electrical appliances used in your home, including:</>
+        ),
+      },
+      {
+        type: "list",
+        items: [
+          "Air conditioners",
+          "Refrigerators",
+          "Washing machines",
+          "Water pumps",
+          "Televisions",
+          "Lighting and ceiling fans",
+          "Other regularly used electrical appliances",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: (
+          <>
+            If your household consumes around 350 to 450 units per month, a 3 kW
+            system may be worth evaluating. However, the final system size
+            should be selected after reviewing your electricity bills and daily
+            consumption pattern.
+          </>
+        ),
+      },
+      {
+        type: "paragraph",
+        text: (
+          <>
+            Remember that the available subsidy is not the only factor to
+            consider. Your roof space, electrical connection, consumption
+            requirements and future electricity usage should also influence the
+            decision.
+          </>
+        ),
+      },
+
+      {
+        type: "heading",
+        level: 2,
+        text: "8. What Happens to Excess Solar Electricity?",
+      },
+      {
+        type: "paragraph",
+        text: (
+          <>
+            Your solar panels may generate more electricity during sunny daytime
+            hours than your household needs at that moment.
+          </>
+        ),
+      },
+      {
+        type: "paragraph",
+        text: (
+          <>
+            In an approved grid-connected installation, surplus electricity can
+            be exported to the electricity grid through the net-metering
+            arrangement.
+          </>
+        ),
+      },
+      {
+        type: "paragraph",
+        text: (
+          <>
+            Your bidirectional meter records electricity imported from and
+            exported to the grid. The applicable billing arrangement determines
+            how these units are accounted for in your electricity bill.
+          </>
+        ),
+      },
+      {
+        type: "paragraph",
+        text: (
+          <>
+            If you want to understand this process in more detail, read our
+            guide on{" "}
+            <strong>
+              what happens to excess solar electricity generated during the day.
+            </strong>
+          </>
+        ),
+      },
+
+      {
+        type: "heading",
+        level: 2,
+        text: "9. Things to Check Before Installing Rooftop Solar",
+      },
+      {
+        type: "paragraph",
+        text: (
+          <>
+            Government subsidies can make rooftop solar more affordable, but
+            choosing the right installation partner and equipment is equally
+            important.
+          </>
+        ),
+      },
+      {
+        type: "list",
+        items: [
+          "Check your average monthly electricity consumption.",
+          "Choose the correct solar system capacity.",
+          "Check the quality and specifications of the solar panels.",
+          "Understand the inverter type and warranty.",
+          "Confirm the product and performance warranties.",
+          "Check whether the vendor is eligible under the subsidy programme.",
+          "Confirm the total installation cost and what it includes.",
+          "Understand the net-metering and commissioning process.",
+          "Ask about after-sales service and maintenance support.",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: (
+          <>
+            Do not choose an installer based only on the lowest quotation. A
+            properly designed system with quality components and reliable
+            installation support can make a significant difference to long-term
+            performance.
+          </>
+        ),
+      },
+
+      {
+        type: "heading",
+        level: 2,
+        text: "10. What Does This Growth Mean for the Future of Solar Energy in Tamil Nadu?",
+      },
+      {
+        type: "paragraph",
+        text: (
+          <>
+            Receiving 35,000 rooftop solar applications in one month is an
+            encouraging sign of growing interest in residential solar energy.
+          </>
+        ),
+      },
+      {
+        type: "paragraph",
+        text: (
+          <>
+            As more households adopt rooftop solar, electricity generation will
+            become more distributed. Instead of depending entirely on large
+            power stations, individual homes can contribute to electricity
+            generation through their own rooftop installations.
+          </>
+        ),
+      },
+      {
+        type: "paragraph",
+        text: (
+          <>
+            However, achieving large-scale adoption also requires reliable grid
+            infrastructure, efficient application processing, timely
+            inspections, quality installations and proper consumer awareness.
+          </>
+        ),
+      },
+      {
+        type: "paragraph",
+        text: (
+          <>
+            The government's target of one lakh households by March 2027 is an
+            important milestone. The actual impact will depend on how
+            successfully applications move through approval, installation and
+            commissioning.
+          </>
+        ),
+      },
+      {
+        type: "paragraph",
+        text: (
+          <>
+            For homeowners, this is a good opportunity to understand the
+            available incentives, evaluate their electricity requirements and
+            explore whether rooftop solar is suitable for their property.
+          </>
+        ),
+      },
+
+      {
+        type: "heading",
+        level: 2,
+        text: "Frequently Asked Questions",
+      },
+      {
+        type: "faq",
+        content: [
+          {
+            question:
+              "1. How many rooftop solar applications has Tamil Nadu received recently?",
+            answer:
+              "Tamil Nadu received around 35,000 rooftop solar applications in one month, according to the Electricity Resources Minister's November 2026 announcement. These applications were being processed.",
+          },
+          {
+            question:
+              "2. What is Tamil Nadu's rooftop solar installation target?",
+            answer:
+              "The state government has set a target of installing rooftop solar systems in one lakh households by March 2027.",
+          },
+          {
+            question:
+              "3. How much subsidy can I get for rooftop solar in Tamil Nadu?",
+            answer:
+              "Eligible residential consumers can receive combined central and state financial assistance of ₹35,000 for 1 kW, ₹70,000 for 2 kW and up to ₹1 lakh for 3 kW or larger eligible systems.",
+          },
+          {
+            question:
+              "4. Is the Tamil Nadu subsidy available for a 5 kW solar system?",
+            answer:
+              "Eligible residential systems above 3 kW can receive the maximum combined subsidy of ₹1 lakh under the published subsidy structure. The subsidy does not increase beyond this amount.",
+          },
+          {
+            question:
+              "5. Do I need to apply separately for the Tamil Nadu state subsidy?",
+            answer:
+              "According to the Tamil Nadu rooftop solar portal, the state subsidy process is integrated with the central PM Surya Ghar process. The state top-up is processed after central subsidy disbursement and the required verification, without a separate state subsidy application.",
+          },
+          {
+            question:
+              "6. Can I install solar panels without using an empanelled vendor?",
+            answer:
+              "For installations claiming benefits under the applicable subsidy programme, consumers must follow the scheme's vendor and technical requirements. The Tamil Nadu portal specifies the use of eligible TEDA-empanelled vendors.",
+          },
+          {
+            question:
+              "7. How much electricity does a 3 kW solar system generate?",
+            answer:
+              "A 3 kW system may generate approximately 12 to 15 units per day under favourable conditions in Tamil Nadu. Actual generation varies with sunlight, weather, shading, orientation and equipment performance.",
+          },
+          {
+            question: "8. Where can I apply for rooftop solar in Tamil Nadu?",
+            answer:
+              "You can begin through the official PM Surya Ghar portal and follow the Tamil Nadu rooftop solar portal's application and verification process.",
+          },
+          {
+            question:
+              "9. Does installing rooftop solar guarantee a zero electricity bill?",
+            answer:
+              "No. Solar can significantly reduce electricity expenses, but the final bill depends on consumption, solar generation, net-metering rules, fixed charges and other applicable billing components.",
+          },
+          {
+            question: "10. Is rooftop solar worth considering in Tamil Nadu?",
+            answer:
+              "Rooftop solar can be a worthwhile investment for properties with suitable roof space and regular electricity consumption. The benefits depend on installation cost, available subsidy, system performance and electricity usage.",
+          },
+        ],
+      },
+
+      {
+        type: "heading",
+        level: 2,
+        text: "Final Thoughts: Is This the Right Time to Consider Rooftop Solar?",
+      },
+      {
+        type: "paragraph",
+        text: (
+          <>
+            Tamil Nadu's recent announcement of 35,000 rooftop solar
+            applications in one month highlights the growing interest in
+            residential solar energy.
+          </>
+        ),
+      },
+      {
+        type: "paragraph",
+        text: (
+          <>
+            With additional state financial assistance, the central PM Surya
+            Ghar subsidy and a dedicated application portal, eligible homeowners
+            have more support when considering rooftop solar.
+          </>
+        ),
+      },
+      {
+        type: "paragraph",
+        text: (
+          <>
+            But before installing a system, take time to understand your
+            electricity consumption, choose the right capacity and compare the
+            quality of the equipment and installation services.
+          </>
+        ),
+      },
+      {
+        type: "paragraph",
+        text: (
+          <>
+            At <strong>Fuji Solar</strong>, we believe every solar installation
+            should begin with understanding the customer's actual electricity
+            requirements. Our goal is to help homeowners explore suitable solar
+            solutions and make informed decisions about their energy needs.
+          </>
+        ),
+      },
+      {
+        type: "paragraph",
+        text: (
+          <>
+            Thinking about installing rooftop solar for your home? Connect with
+            Fuji Solar to understand your requirements and explore a suitable
+            solar solution.
+          </>
+        ),
+      },
+    ],
+  },
 ];
 
 // use 16th blog for reference
