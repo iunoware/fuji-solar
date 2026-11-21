@@ -13936,6 +13936,1043 @@ const blogData = [
       },
     ],
   },
+  // 24
+  {
+    id: 24,
+    metaTitle:
+      "Solar Panel Installation Cost in Tamil Nadu 2026: Complete Price Guide",
+
+    metaDescription:
+      "How much does rooftop solar installation cost in Tamil Nadu? Explore 1kW, 2kW and 3kW prices, subsidy benefits and a complete cost breakdown for homeowners.",
+
+    title:
+      "Solar Panel Installation Cost in Tamil Nadu: What Are You Actually Paying For?",
+
+    url: "solar-panel-installation-cost-tamil-nadu",
+
+    summary:
+      "Planning to install rooftop solar in Tamil Nadu? Understand the actual cost of solar panels, inverters, mounting structures, installation and other components. Explore indicative prices for different system capacities, available government subsidies and what homeowners should check before choosing a solar installation.",
+
+    image: "/images/solar-panel-installation-cost-tamil-nadu.webp",
+
+    alt: "Modern South Indian house with rooftop solar panels under bright sunlight",
+
+    category: "Solar Energy",
+
+    date: "November 21, 2026",
+
+    fullContent: [
+      {
+        type: "paragraph",
+        text: (
+          <>
+            Thinking about installing solar panels on your home? One of the
+            first questions that probably comes to mind is: How much will it
+            actually cost?
+          </>
+        ),
+      },
+      {
+        type: "paragraph",
+        text: (
+          <>
+            With electricity expenses becoming an important part of household
+            budgets, more families across Tamil Nadu are exploring rooftop solar
+            as a way to generate their own electricity. Government subsidies
+            have also made residential solar installations more accessible.
+          </>
+        ),
+      },
+      {
+        type: "paragraph",
+        text: (
+          <>
+            But when you start comparing quotations, you may notice that
+            different companies offer different prices for the same system
+            capacity. Why does a 3kW solar system cost one amount from one
+            installer and something different from another?
+          </>
+        ),
+      },
+      {
+        type: "paragraph",
+        text: (
+          <>
+            The reason is simple: installing solar panels involves more than
+            just purchasing panels. The inverter, mounting structure, electrical
+            components, wiring, installation work and other requirements all
+            contribute to the final price.
+          </>
+        ),
+      },
+      {
+        type: "paragraph",
+        text: (
+          <>
+            In this guide, we'll break down the rooftop solar installation cost
+            in Tamil Nadu, explain what you're paying for and show how available
+            government subsidies can reduce your initial investment.
+          </>
+        ),
+      },
+
+      {
+        type: "heading",
+        level: 2,
+        text: "1. What Is the Cost of Installing Solar Panels in Tamil Nadu?",
+      },
+      {
+        type: "paragraph",
+        text: (
+          <>
+            The cost of a residential rooftop solar system depends mainly on its
+            capacity, equipment quality, installation requirements and system
+            configuration.
+          </>
+        ),
+      },
+      {
+        type: "paragraph",
+        text: (
+          <>
+            According to the indicative market prices published on Tamil Nadu's
+            official rooftop solar portal, residential on-grid systems have the
+            following approximate price ranges:
+          </>
+        ),
+      },
+      {
+        type: "table",
+        headers: ["Solar System Capacity", "Indicative Installation Cost"],
+        rows: [
+          ["1 kW", "₹70,000 – ₹85,000"],
+          ["2 kW", "₹1,30,000 – ₹1,55,000"],
+          ["3 kW", "₹1,80,000 – ₹2,20,000"],
+        ],
+      },
+      {
+        type: "paragraph",
+        text: (
+          <>
+            These figures represent indicative market prices for residential
+            rooftop installations. Your actual quotation may vary depending on
+            the selected equipment, roof conditions, installation requirements
+            and vendor pricing.
+          </>
+        ),
+      },
+      {
+        type: "paragraph",
+        text: (
+          <>
+            The official portal provides indicative prices for these system
+            capacities. For larger systems, such as 4kW, 5kW or 10kW, request a
+            detailed quotation based on the actual equipment and site
+            requirements.
+          </>
+        ),
+      },
+
+      {
+        type: "heading",
+        level: 2,
+        text: "2. What Are You Actually Paying For in a Solar Installation?",
+      },
+      {
+        type: "paragraph",
+        text: (
+          <>
+            A rooftop solar system consists of several components that work
+            together to generate and supply electricity to your home.
+            Understanding these components helps you compare quotations more
+            effectively.
+          </>
+        ),
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Solar Panels",
+      },
+      {
+        type: "paragraph",
+        text: (
+          <>
+            Solar panels are the most visible part of your installation. They
+            capture sunlight and convert it into DC electricity.
+          </>
+        ),
+      },
+      {
+        type: "paragraph",
+        text: (
+          <>
+            The number of panels required depends on the total system capacity
+            and the wattage of each panel. For example, a 3kW system requires
+            more panel capacity than a 1kW system.
+          </>
+        ),
+      },
+      {
+        type: "paragraph",
+        text: (
+          <>
+            Panel prices can vary depending on technology, efficiency,
+            manufacturer, warranty and applicable domestic-content requirements.
+          </>
+        ),
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Solar Inverter",
+      },
+      {
+        type: "paragraph",
+        text: (
+          <>
+            Solar panels generate DC electricity, but most household appliances
+            operate using AC electricity. The inverter converts the generated DC
+            power into usable AC power.
+          </>
+        ),
+      },
+      {
+        type: "paragraph",
+        text: (
+          <>
+            The inverter is an important component because its capacity,
+            efficiency, features and compatibility influence the overall system
+            performance and cost.
+          </>
+        ),
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Mounting Structure",
+      },
+      {
+        type: "paragraph",
+        text: (
+          <>
+            Solar panels need a strong mounting structure to keep them securely
+            positioned on the rooftop.
+          </>
+        ),
+      },
+      {
+        type: "paragraph",
+        text: (
+          <>
+            The structure is designed according to the roof type, panel
+            arrangement, required tilt angle and local weather conditions. The
+            material and height of the structure can influence the installation
+            price.
+          </>
+        ),
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Electrical Cables and Protection Equipment",
+      },
+      {
+        type: "paragraph",
+        text: (
+          <>
+            A solar installation also requires suitable cables, connectors,
+            protection devices and electrical accessories.
+          </>
+        ),
+      },
+      {
+        type: "list",
+        items: [
+          "DC and AC cables",
+          "Solar connectors",
+          "DC and AC distribution boxes",
+          "Circuit breakers",
+          "Surge protection devices",
+          "Earthing arrangements",
+          "Lightning protection where required",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: (
+          <>
+            These components help connect the system safely and protect the
+            installation against electrical faults and certain surge conditions.
+          </>
+        ),
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Installation and Labour Charges",
+      },
+      {
+        type: "paragraph",
+        text: (
+          <>
+            Professional installation involves transporting equipment,
+            assembling the mounting structure, installing panels, connecting
+            electrical components and testing the system.
+          </>
+        ),
+      },
+      {
+        type: "paragraph",
+        text: (
+          <>
+            Labour costs can vary depending on the complexity of the rooftop,
+            accessibility, installation height and additional work required at
+            the property.
+          </>
+        ),
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Metering and Grid Connection Requirements",
+      },
+      {
+        type: "paragraph",
+        text: (
+          <>
+            For an on-grid installation, the system must be connected to the
+            electricity network according to the applicable distribution company
+            requirements.
+          </>
+        ),
+      },
+      {
+        type: "paragraph",
+        text: (
+          <>
+            This may involve application processing, technical approval,
+            inspection, commissioning and bidirectional meter-related
+            procedures. Ask your installer which of these costs are included in
+            the quotation and which may be charged separately.
+          </>
+        ),
+      },
+
+      {
+        type: "heading",
+        level: 2,
+        text: "3. How Much Can You Save with the Tamil Nadu Solar Subsidy?",
+      },
+      {
+        type: "paragraph",
+        text: (
+          <>
+            One of the biggest advantages for eligible residential consumers in
+            Tamil Nadu is the availability of financial assistance through the
+            central PM Surya Ghar Muft Bijli Yojana and the additional Tamil
+            Nadu state subsidy.
+          </>
+        ),
+      },
+      {
+        type: "paragraph",
+        text: (
+          <>
+            Under the currently published subsidy structure, eligible homeowners
+            can receive up to ₹1,00,000 in combined central and state
+            assistance.
+          </>
+        ),
+      },
+      {
+        type: "table",
+        headers: [
+          "System Capacity",
+          "Central Subsidy",
+          "Tamil Nadu Subsidy",
+          "Total Assistance",
+        ],
+        rows: [
+          ["1 kW", "₹30,000", "₹5,000", "₹35,000"],
+          ["2 kW", "₹60,000", "₹10,000", "₹70,000"],
+          ["3 kW", "₹78,000", "₹22,000", "₹1,00,000"],
+          ["Above 3 kW", "₹78,000 maximum", "₹22,000 maximum", "₹1,00,000"],
+        ],
+      },
+      {
+        type: "paragraph",
+        text: (
+          <>
+            The subsidy is capped at the 3kW level. Installing a larger system
+            does not increase the maximum combined residential subsidy beyond ₹1
+            lakh under this structure.
+          </>
+        ),
+      },
+      {
+        type: "paragraph",
+        text: (
+          <>
+            The additional Tamil Nadu subsidy is processed after the required
+            central subsidy disbursement and verification procedures. It is not
+            an instant discount automatically deducted from the installer's
+            quotation.
+          </>
+        ),
+      },
+      {
+        type: "paragraph",
+        text: (
+          <>
+            This distinction is important when planning your budget: homeowners
+            may need to arrange the installation payment first and receive the
+            eligible subsidy later through Direct Benefit Transfer.
+          </>
+        ),
+      },
+
+      {
+        type: "heading",
+        level: 2,
+        text: "4. What Is the Actual Cost After Subsidy?",
+      },
+      {
+        type: "paragraph",
+        text: (
+          <>
+            Let's understand how the subsidy changes the initial cost of a
+            rooftop solar installation.
+          </>
+        ),
+      },
+      {
+        type: "table",
+        headers: [
+          "System Capacity",
+          "Indicative Price",
+          "Total Subsidy",
+          "Estimated Contribution After Subsidy",
+        ],
+        rows: [
+          ["1 kW", "₹70,000 – ₹85,000", "₹35,000", "₹35,000 – ₹50,000"],
+          ["2 kW", "₹1,30,000 – ₹1,55,000", "₹70,000", "₹60,000 – ₹85,000"],
+          ["3 kW", "₹1,80,000 – ₹2,20,000", "₹1,00,000", "₹80,000 – ₹1,20,000"],
+        ],
+      },
+      {
+        type: "paragraph",
+        text: (
+          <>
+            For example, consider a homeowner installing a 3kW rooftop solar
+            system at an illustrative price of ₹2,00,000. If the homeowner
+            qualifies for the full ₹1,00,000 combined subsidy, the effective
+            contribution after receiving the subsidy would be approximately
+            ₹1,00,000.
+          </>
+        ),
+      },
+      {
+        type: "paragraph",
+        text: (
+          <>
+            These figures are based on the official portal's indicative price
+            ranges and published subsidy amounts. They are not guaranteed
+            quotations. Actual prices and eligibility should be confirmed before
+            installation.
+          </>
+        ),
+      },
+      {
+        type: "paragraph",
+        text: (
+          <>
+            Subsidy eligibility also depends on meeting the scheme's technical,
+            vendor and application requirements.
+          </>
+        ),
+      },
+
+      {
+        type: "image",
+        path: "/images/solar-installation-cost-breakdown-tamil-nadu.webp",
+        alt: "Professional solar technicians installing rooftop solar panels on a modern Tamil Nadu home",
+      },
+
+      {
+        type: "heading",
+        level: 2,
+        text: "5. Why Do Solar Installation Prices Differ Between Companies?",
+      },
+      {
+        type: "paragraph",
+        text: (
+          <>
+            You may receive two quotations for the same 3kW system capacity and
+            notice a considerable price difference. This does not necessarily
+            mean that one company is overcharging or the other is offering a
+            better deal.
+          </>
+        ),
+      },
+      {
+        type: "paragraph",
+        text: (
+          <>
+            The difference may come from the equipment specifications,
+            installation scope and quality of materials included.
+          </>
+        ),
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Different Solar Panel Brands",
+      },
+      {
+        type: "paragraph",
+        text: (
+          <>
+            Different manufacturers offer panels with varying technologies,
+            efficiency ratings, warranties and performance characteristics.
+            These differences can influence the total system price.
+          </>
+        ),
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Different Inverter Specifications",
+      },
+      {
+        type: "paragraph",
+        text: (
+          <>
+            Inverter brands and models differ in efficiency, monitoring
+            features, protection functions, warranty coverage and compatibility.
+          </>
+        ),
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Roof Structure and Installation Complexity",
+      },
+      {
+        type: "paragraph",
+        text: (
+          <>
+            A simple concrete rooftop may require a different installation
+            arrangement compared with a sloping roof, elevated structure or
+            property with difficult access.
+          </>
+        ),
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Different Installation Packages",
+      },
+      {
+        type: "paragraph",
+        text: (
+          <>
+            One quotation may include all electrical protection equipment,
+            earthing and installation work, while another may list certain items
+            separately.
+          </>
+        ),
+      },
+      {
+        type: "paragraph",
+        text: (
+          <>
+            This is why comparing only the final price can be misleading. Always
+            compare the complete equipment specifications and scope of work.
+          </>
+        ),
+      },
+
+      {
+        type: "heading",
+        level: 2,
+        text: "6. Does the Type of Solar System Affect the Installation Cost?",
+      },
+      {
+        type: "paragraph",
+        text: (
+          <>
+            Yes. The type of solar system you choose can significantly influence
+            the total investment.
+          </>
+        ),
+      },
+      {
+        type: "table",
+        headers: ["Feature", "On-Grid Solar", "Off-Grid Solar", "Hybrid Solar"],
+        rows: [
+          ["Grid connection", "Yes", "Usually no", "Yes"],
+          [
+            "Battery storage",
+            "Usually not included",
+            "Required for typical standalone operation",
+            "Can be included",
+          ],
+          [
+            "Uses grid electricity",
+            "Yes",
+            "Not in a typical standalone system",
+            "Yes",
+          ],
+          [
+            "Backup during power cuts",
+            "Normally unavailable",
+            "Available with suitable battery capacity",
+            "Available with suitable backup configuration",
+          ],
+          [
+            "Initial investment",
+            "Generally lower",
+            "Depends on battery and system size",
+            "Generally higher when battery storage is included",
+          ],
+        ],
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "On-Grid Solar System",
+      },
+      {
+        type: "paragraph",
+        text: (
+          <>
+            An on-grid system connects directly to the electricity distribution
+            network. It can supply your home with solar electricity during the
+            day and export surplus electricity through an approved net-metering
+            arrangement.
+          </>
+        ),
+      },
+      {
+        type: "paragraph",
+        text: (
+          <>
+            Since a conventional on-grid system generally does not include
+            batteries, its initial installation cost is usually lower than a
+            comparable battery-based system.
+          </>
+        ),
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Off-Grid Solar System",
+      },
+      {
+        type: "paragraph",
+        text: (
+          <>
+            An off-grid system operates independently of the utility grid and
+            typically requires battery storage to supply electricity when
+            sunlight is unavailable.
+          </>
+        ),
+      },
+      {
+        type: "paragraph",
+        text: (
+          <>
+            The additional battery investment and system design requirements can
+            increase the overall installation cost.
+          </>
+        ),
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Hybrid Solar System",
+      },
+      {
+        type: "paragraph",
+        text: (
+          <>
+            A hybrid system combines grid connectivity with battery storage.
+            Depending on its configuration, it can export surplus solar
+            electricity and store some of the available generation for later
+            use.
+          </>
+        ),
+      },
+      {
+        type: "paragraph",
+        text: (
+          <>
+            Hybrid systems generally require additional equipment and battery
+            investment, so their final price depends heavily on the storage
+            capacity selected.
+          </>
+        ),
+      },
+      {
+        type: "paragraph",
+        text: (
+          <>
+            Remember that a standard on-grid inverter normally shuts down during
+            a grid outage for safety reasons. Backup functionality requires
+            compatible equipment and an appropriate electrical configuration.
+          </>
+        ),
+      },
+
+      {
+        type: "heading",
+        level: 2,
+        text: "7. What Additional Charges Should You Check Before Installation?",
+      },
+      {
+        type: "paragraph",
+        text: (
+          <>
+            Apart from the main solar equipment, certain properties may require
+            additional work before the installation can be completed.
+          </>
+        ),
+      },
+      {
+        type: "list",
+        items: [
+          "Additional mounting structure height.",
+          "Roof reinforcement or civil modifications, if required.",
+          "Long-distance cable routing.",
+          "Electrical panel or wiring upgrades.",
+          "Additional earthing arrangements.",
+          "Lightning protection, where required.",
+          "Difficult rooftop access or material handling.",
+          "Battery storage and compatible hybrid inverter, if selected.",
+          "Applicable meter, inspection or connection-related charges.",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: (
+          <>
+            Not every property requires all these additional items. Ask your
+            installer to inspect the site and clearly identify any extra work
+            before finalising the quotation.
+          </>
+        ),
+      },
+      {
+        type: "paragraph",
+        text: (
+          <>
+            A transparent quotation should clearly mention what is included,
+            what is optional and what could attract additional charges.
+          </>
+        ),
+      },
+
+      {
+        type: "heading",
+        level: 2,
+        text: "8. How Much Electricity Can You Generate with Different Solar System Sizes?",
+      },
+      {
+        type: "paragraph",
+        text: (
+          <>
+            The right system capacity depends on how much electricity your
+            household consumes and how much suitable rooftop space is available.
+          </>
+        ),
+      },
+      {
+        type: "paragraph",
+        text: (
+          <>
+            As a broad planning estimate, rooftop solar systems in Tamil Nadu
+            may generate around 4 to 5 units per kW per day under favourable
+            conditions.
+          </>
+        ),
+      },
+      {
+        type: "table",
+        headers: [
+          "System Capacity",
+          "Estimated Daily Generation",
+          "Estimated Monthly Generation",
+        ],
+        rows: [
+          ["1 kW", "4–5 units", "120–150 units"],
+          ["2 kW", "8–10 units", "240–300 units"],
+          ["3 kW", "12–15 units", "360–450 units"],
+          ["5 kW", "20–25 units", "600–750 units"],
+          ["10 kW", "40–50 units", "1,200–1,500 units"],
+        ],
+      },
+      {
+        type: "paragraph",
+        text: (
+          <>
+            These are indicative estimates, not guaranteed generation figures.
+            Actual output depends on your location, sunlight, panel direction,
+            tilt, shading, temperature and system performance.
+          </>
+        ),
+      },
+      {
+        type: "paragraph",
+        text: (
+          <>
+            For example, a household consuming approximately 350 to 450 units
+            per month may consider evaluating a 3kW system. However, the final
+            capacity should be determined using actual electricity bills and
+            consumption patterns.
+          </>
+        ),
+      },
+
+      {
+        type: "heading",
+        level: 2,
+        text: "9. How to Choose the Right Solar System Without Overspending",
+      },
+      {
+        type: "paragraph",
+        text: (
+          <>
+            A common mistake homeowners make is choosing a solar system based
+            only on the advertised price or available subsidy.
+          </>
+        ),
+      },
+      {
+        type: "paragraph",
+        text: (
+          <>
+            Instead, start with your actual electricity requirements and select
+            a system that makes sense for your property.
+          </>
+        ),
+      },
+      {
+        type: "list",
+        items: [
+          "Check your electricity consumption over the previous 6 to 12 months.",
+          "Choose a system capacity that matches your household requirements.",
+          "Inspect the available rooftop space and possible shading.",
+          "Compare panel specifications and manufacturer warranties.",
+          "Check inverter specifications and warranty coverage.",
+          "Ask for a complete breakdown of installation charges.",
+          "Confirm whether the vendor is eligible under the applicable subsidy programme.",
+          "Understand the subsidy application and payment process.",
+          "Check after-sales service and maintenance support.",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: (
+          <>
+            A slightly cheaper quotation may not always be the better option if
+            it excludes important electrical protection equipment or uses
+            components with different specifications.
+          </>
+        ),
+      },
+      {
+        type: "paragraph",
+        text: (
+          <>
+            Focus on the complete installation value rather than choosing a
+            system based on price alone.
+          </>
+        ),
+      },
+
+      {
+        type: "heading",
+        level: 2,
+        text: "10. Is Rooftop Solar Worth the Investment in Tamil Nadu?",
+      },
+      {
+        type: "paragraph",
+        text: (
+          <>
+            Tamil Nadu receives substantial sunlight throughout the year, making
+            rooftop solar a practical option for many residential properties.
+          </>
+        ),
+      },
+      {
+        type: "paragraph",
+        text: (
+          <>
+            A properly designed system can reduce the amount of electricity
+            purchased from the grid and help households manage their long-term
+            electricity expenses.
+          </>
+        ),
+      },
+      {
+        type: "paragraph",
+        text: (
+          <>
+            Government subsidies can further reduce the effective investment for
+            eligible homeowners. However, the financial benefit depends on
+            installation cost, electricity consumption, generation, billing
+            rules and system maintenance.
+          </>
+        ),
+      },
+      {
+        type: "paragraph",
+        text: (
+          <>
+            Instead of looking for a fixed savings or payback guarantee, ask
+            your solar installer to calculate expected generation and savings
+            using your actual electricity consumption and applicable tariff.
+          </>
+        ),
+      },
+
+      {
+        type: "heading",
+        level: 2,
+        text: "Frequently Asked Questions",
+      },
+      {
+        type: "faq",
+        content: [
+          {
+            question:
+              "1. What is the cost of a 1kW solar system in Tamil Nadu?",
+            answer:
+              "According to the Tamil Nadu rooftop solar portal, the indicative market price for a residential 1kW system is approximately ₹70,000 to ₹85,000 before subsidy. Eligible homeowners may receive ₹35,000 in combined central and state assistance.",
+          },
+          {
+            question: "2. How much does a 2kW solar system cost in Tamil Nadu?",
+            answer:
+              "The official Tamil Nadu portal lists an indicative price range of ₹1,30,000 to ₹1,55,000 for a residential 2kW system. The combined eligible subsidy is ₹70,000.",
+          },
+          {
+            question:
+              "3. What is the price of a 3kW solar system in Tamil Nadu?",
+            answer:
+              "The indicative market price for a 3kW residential rooftop solar system is ₹1,80,000 to ₹2,20,000. Eligible homeowners can receive up to ₹1,00,000 in combined central and state subsidy.",
+          },
+          {
+            question:
+              "4. How much subsidy is available for rooftop solar in Tamil Nadu?",
+            answer:
+              "Eligible residential consumers can receive ₹35,000 for 1kW, ₹70,000 for 2kW and up to ₹1,00,000 for 3kW or larger eligible systems under the published central and Tamil Nadu subsidy structure.",
+          },
+          {
+            question:
+              "5. Does the solar installation price include the inverter?",
+            answer:
+              "A complete rooftop solar installation quotation generally includes a compatible inverter, but the exact scope varies between vendors. Always confirm the inverter model, capacity and warranty in writing.",
+          },
+          {
+            question:
+              "6. Does the subsidy apply to commercial solar installations?",
+            answer:
+              "The PM Surya Ghar residential subsidy is intended for eligible residential electricity connections. Commercial and industrial consumers should check the applicable schemes and incentives separately.",
+          },
+          {
+            question:
+              "7. Is battery storage included in the normal rooftop solar installation price?",
+            answer:
+              "Not necessarily. Standard on-grid rooftop solar packages generally do not include battery storage. Batteries and compatible hybrid or off-grid equipment are usually quoted separately.",
+          },
+          {
+            question: "8. How much rooftop space is required for solar panels?",
+            answer:
+              "The space requirement depends on panel wattage, dimensions, layout and maintenance access. Ask your installer to assess the shadow-free rooftop area before finalising the system capacity.",
+          },
+          {
+            question:
+              "9. Will I receive the subsidy immediately after installation?",
+            answer:
+              "No. The subsidy is processed after the required installation, inspection, commissioning and verification procedures. Eligible amounts are transferred through Direct Benefit Transfer to the applicant's bank account.",
+          },
+          {
+            question: "10. How do I compare two solar installation quotations?",
+            answer:
+              "Compare the panel manufacturer and specifications, inverter model, mounting structure, electrical protection equipment, warranties, installation scope, additional charges and after-sales support. Do not compare only the final price.",
+          },
+        ],
+      },
+
+      {
+        type: "heading",
+        level: 2,
+        text: "Final Thoughts: Understand the Cost Before Investing in Solar",
+      },
+      {
+        type: "paragraph",
+        text: (
+          <>
+            Installing rooftop solar is a long-term decision, and understanding
+            the complete installation cost is an important first step.
+          </>
+        ),
+      },
+      {
+        type: "paragraph",
+        text: (
+          <>
+            From solar panels and inverters to mounting structures, electrical
+            protection and installation work, every component contributes to the
+            final system price.
+          </>
+        ),
+      },
+      {
+        type: "paragraph",
+        text: (
+          <>
+            With the central PM Surya Ghar subsidy and additional Tamil Nadu
+            state assistance, eligible homeowners can reduce their initial
+            investment significantly.
+          </>
+        ),
+      },
+      {
+        type: "paragraph",
+        text: (
+          <>
+            But remember, the best solar system is not necessarily the cheapest
+            one. It is the system that matches your electricity requirements,
+            uses reliable equipment and is installed correctly.
+          </>
+        ),
+      },
+      {
+        type: "paragraph",
+        text: (
+          <>
+            At <strong>Fuji Solar</strong>, we believe every solar installation
+            should begin with understanding the customer's actual electricity
+            needs. Our goal is to help homeowners explore suitable solar
+            solutions with clarity about the equipment, installation and
+            investment involved.
+          </>
+        ),
+      },
+      {
+        type: "paragraph",
+        text: (
+          <>
+            Planning to install rooftop solar for your home or business? Connect
+            with Fuji Solar to understand your requirements and explore the
+            right solar solution for your property.
+          </>
+        ),
+      },
+    ],
+  },
 ];
 
 // use 16th blog for reference
